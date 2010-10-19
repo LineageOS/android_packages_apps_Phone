@@ -640,4 +640,14 @@
     <string name="per_change_mobile_network_desc">Les applications possédant cette permission peuvent à chaque instant changer entre les technologies 2G et 3G. La 3G est plus radide, consomme plus de batterie, et peut également vous coûter plus.</string>
     <string name="phone_number_label">Mon numéro de téléphone</string>
     <string name="phone_number_summary">Régler le numéro d\'appel de ce téléphone</string>
+
+
+    <!-- Phone goggles -->
+    <string name="toast_phone_goggles">Vous n\'êtes pas autorisé a effectuer d\'appels pour le moment. Veuillez réitérer votre demande plus tard.</string>
+    <string name="dialog_phone_goggles_title">Appel bloqué</string>
+    <string name="dialog_phone_goggles_title_unlocked">Appel autorisé</string>
+    <string name="dialog_phone_goggles_content">Effectuer un appel n\'est pas recommandé pour le moment. Etes vous sûr de vouloir continuer ?</string>
+    <string name="dialog_phone_goggles_unauthorized">Effectuer un appel n\'est pas recommandé pour le moment.</string>
+    <string name="dialog_phone_goggles_ok">Appeler</string>
+    <string name="dialog_phone_goggles_cancel">Annuler</string>
 </resources>

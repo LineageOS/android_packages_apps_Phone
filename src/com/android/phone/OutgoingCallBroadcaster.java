@@ -16,6 +16,8 @@
 
 package com.android.phone;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,9 +26,11 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemProperties;
+import android.provider.Settings;
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 import android.util.Log;
+import android.util.PhoneGoggles;
 
 import com.android.internal.telephony.Phone;
 
@@ -300,6 +304,39 @@ public class OutgoingCallBroadcaster extends Activity {
             if (DBG) Log.v(TAG, "onCreate(): callNow case, calling startActivity: " + intent);
             startActivity(intent);
         }
+
+        /* We can't use a BroadcastReceiver has we need to display an AlertDialog, which is not
+         * allowed with a BroadcastReceiver */
+        final ArrayList<String> numbers = new ArrayList<String>();
+        numbers.add(number);
+        final Intent finalIntent = intent;
+        final boolean finalCallNow = callNow;
+        final String finalNumber = number;
+        PhoneGoggles.processCommunication(this, numbers,
+                new Runnable() {
+                    @Override
+                    public void run() {
+                        createAndBroadcastIntent(finalIntent, finalCallNow,
+                                finalNumber);
+                    }
+                },
+                new Runnable() {
+                    public void run() {
+                        createAndBroadcastIntent(finalIntent, finalCallNow,
+                                null);
+                    }
+                }, Settings.System.PHONE_GOGGLES_PHONE_ENABLED,
+                R.string.dialog_phone_goggles_title,
+                R.string.dialog_phone_goggles_title_unlocked,
+                R.string.dialog_phone_goggles_content,
+                R.string.dialog_phone_goggles_unauthorized,
+                R.string.dialog_phone_goggles_ok,
+                R.string.dialog_phone_goggles_cancel);
+    }
+    /**
+     *  Actually broadcast the intent
+     */
+    private void createAndBroadcastIntent(Intent intent, boolean callNow, String number) {
 
         Intent broadcastIntent = new Intent(Intent.ACTION_NEW_OUTGOING_CALL);
         if (number != null) {
