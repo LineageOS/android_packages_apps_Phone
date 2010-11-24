@@ -60,6 +60,7 @@ public class Settings extends PreferenceActivity implements DialogInterface.OnCl
     private static final String BUTTON_PREFERED_NETWORK_MODE = "preferred_network_mode_key";
 
     private static final String BUTTON_ROAMING_KEY = "button_roaming_key";
+    private static final String BUTTON_MVNO_ROAMING_KEY = "button_mvno_roaming_key";
 
     static final int preferredNetworkMode = Phone.PREFERRED_NT_MODE;
 
@@ -69,6 +70,7 @@ public class Settings extends PreferenceActivity implements DialogInterface.OnCl
     private CheckBoxPreference mButtonDataRoam;
 
     private CheckBoxPreference mButtonDataEnabled;
+    private CheckBoxPreference mButtonMvnoDataRoam;
 
     private Preference mButtonDataUsage;
 
@@ -155,6 +157,30 @@ public class Settings extends PreferenceActivity implements DialogInterface.OnCl
                 mPhone.setDataRoamingEnabled(false);
             }
             return true;
+        } else if (preference == mButtonMvnoDataRoam) {
+            if (mButtonMvnoDataRoam.isChecked()) {
+                new AlertDialog.Builder(this).setMessage(
+                    getResources().getString(R.string.mvno_roaming_warning))
+                    .setTitle(android.R.string.dialog_alert_title)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            android.provider.Settings.System.putInt(getContentResolver(),
+                                    android.provider.Settings.Secure.MVNO_ROAMING, 1);
+                        }
+                     })
+                    .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            android.provider.Settings.System.putInt(getContentResolver(),
+                                    android.provider.Settings.Secure.MVNO_ROAMING, 0);
+                            mButtonMvnoDataRoam.setChecked(false);
+                        }
+                     })
+                    .show();
+            }
+            android.provider.Settings.System.putInt(getContentResolver(),
+                        android.provider.Settings.Secure.MVNO_ROAMING, 0);
+            return true;
         } else if (preference == mButtonDataEnabled) {
             if (DBG)
                 log("onPreferenceTreeClick: preference == mButtonDataEnabled.");
@@ -190,6 +216,11 @@ public class Settings extends PreferenceActivity implements DialogInterface.OnCl
 
         mButtonDataEnabled = (CheckBoxPreference) prefSet.findPreference(BUTTON_DATA_ENABLED_KEY);
         mButtonDataRoam = (CheckBoxPreference) prefSet.findPreference(BUTTON_ROAMING_KEY);
+        mButtonMvnoDataRoam = (CheckBoxPreference) prefSet
+                .findPreference(BUTTON_MVNO_ROAMING_KEY);
+        mButtonMvnoDataRoam.setChecked(android.provider.Settings.System
+                .getInt(getContentResolver(),
+                android.provider.Settings.Secure.MVNO_ROAMING, 0) == 1);
         mButtonPreferredNetworkMode = (ListPreference) prefSet
                 .findPreference(BUTTON_PREFERED_NETWORK_MODE);
         mButtonDataUsage = prefSet.findPreference(BUTTON_DATA_USAGE_KEY);
