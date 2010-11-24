@@ -431,6 +431,10 @@
     <string name="roaming_reenable_message">You have lost data connectivity because you left your home network with data roaming turned off.</string>
     <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
     <string name="roaming_warning">Allow data roaming? You may incur significant roaming charges!</string>
+
+    <string name="mvno_roaming">MVNO roaming fix</string>
+    <string name="mvno_roaming_summary">Enable MVNO fix to get a working data connection without data roaming enabled.</string>
+
     <string name="gsm_umts_options">GSM/UMTS Options</string>
     <string name="cdma_options">CDMA Options</string>
 
