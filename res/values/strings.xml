@@ -420,7 +420,7 @@
     <!-- Mobile network settings screen, setting summary text when check box is not selected (explains what selecting it would do) -->
     <string name="data_enable_summary">Enable data access over Mobile network</string>
     <!-- Mobile network settings screen, setting check box name -->
-    <string name="roaming">Data roaming</string>
+    <string name="roaming">International data roaming</string>
     <!-- Mobile network settings screen, setting summary text when check box is selected -->
     <string name="roaming_enable">Connect to data services when roaming</string>
     <!-- Mobile network settings screen, setting summary text when check box is clear -->
@@ -432,8 +432,9 @@
     <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
     <string name="roaming_warning">Allow data roaming? You may incur significant roaming charges!</string>
 
-    <string name="mvno_roaming">MVNO roaming fix</string>
-    <string name="mvno_roaming_summary">Enable MVNO fix to get a working data connection without data roaming enabled.</string>
+    <string name="mvno_roaming">National data roaming</string>
+    <string name="mvno_roaming_summary">This will allow you to use a different network provider in your country.</string>
+    <string name="mvno_roaming_warning">Allow in-country data roaming? This could fix the roaming problem with virtual network providers. Don\'t enable if you are not sure that it\'s needed by your provider. You may incur significant roaming charges! To aplly this setting switch to Flightmode and back or restart your phone.</string>
 
     <string name="gsm_umts_options">GSM/UMTS Options</string>
     <string name="cdma_options">CDMA Options</string>

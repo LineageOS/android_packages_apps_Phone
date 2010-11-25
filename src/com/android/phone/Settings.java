@@ -109,7 +109,6 @@ public class Settings extends PreferenceActivity implements DialogInterface.OnCl
      */
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        final boolean value;
         if (gsmumtsOptions != null &&
                 gsmumtsOptions.onPreferenceTreeClick(preferenceScreen, preference) == true) {
             return true;
@@ -152,9 +151,28 @@ public class Settings extends PreferenceActivity implements DialogInterface.OnCl
             }
             return true;
         } else if (preference == mButtonMvnoDataRoam) {
-            value = mButtonMvnoDataRoam.isChecked();
+            if (mButtonMvnoDataRoam.isChecked()) {
+                new AlertDialog.Builder(this).setMessage(
+                    getResources().getString(R.string.mvno_roaming_warning))
+                    .setTitle(android.R.string.dialog_alert_title)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            android.provider.Settings.System.putInt(getContentResolver(),
+                                    android.provider.Settings.System.BUTTON_MVNO_ROAMING_KEY, 1);
+                        }
+                     })
+                    .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            android.provider.Settings.System.putInt(getContentResolver(),
+                                    android.provider.Settings.System.BUTTON_MVNO_ROAMING_KEY, 0);
+                            mButtonMvnoDataRoam.setChecked(false);
+                        }
+                     })
+                    .show();
+            }
             android.provider.Settings.System.putInt(getContentResolver(),
-                    android.provider.Settings.System.BUTTON_MVNO_ROAMING_KEY, value ? 1 : 0);
+                        android.provider.Settings.System.BUTTON_MVNO_ROAMING_KEY, 0);
             return true;
         } else if (preference == mButtonDataEnabled) {
             if (DBG) log("onPreferenceTreeClick: preference == mButtonDataEnabled.");
