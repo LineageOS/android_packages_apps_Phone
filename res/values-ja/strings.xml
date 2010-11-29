@@ -626,6 +626,8 @@
     <string name="vibrate_hangup_sum">通話を終了した時にバイブレーションする</string>
     <string name="screen_awake">スクリーン維持</string>
     <string name="screen_awake_sum">着信中は通常時より長くスクリーンオンを維持する</string>
+    <string name="always_proximity">常に近接センサを有効にする</string>
+    <string name="always_proximity_sum">端末が水平であっても近接センサによりスクリーンをロックさせる</string>
     <string name="led_notify_call">不在着信をLEDで通知</string>
     <string name="led_notify_call_sum">不在着信がある場合にLEDを点滅して通知する</string>
     <string name="led_show_organ">会社名表示</string>
