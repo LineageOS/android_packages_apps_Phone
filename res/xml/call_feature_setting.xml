@@ -116,6 +116,10 @@
         android:title="@string/set_force_touch"
         android:persistent="false"
         android:summary="@string/set_force_touch_sum"/>
+    <!-- Trackball Answer - Added by Nushio -->
+	<CheckBoxPreference android:key="button_trackball_answer"
+		android:title="@string/trackball_answer" android:summary="@string/trackball_answer_sum" />
+	<!-- end Trackball Answer -->
     <CheckBoxPreference
         android:key="button_turn_silence"
         android:title="@string/turn_silence"
