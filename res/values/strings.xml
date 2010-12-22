@@ -1186,4 +1186,20 @@
     <string name="per_change_mobile_network_desc">Application with this permission can, at any time, change between 2G Data and 3G data. 3G is faster, consumes more batery, and can also cost you more money.</string>
     <string name="phone_number_label">My phone number</string>
     <string name="phone_number_summary">Set the phone number for this device</string>
-</resources>
+    
+    <!-- TrackBall Answer - Added by Nushio -->
+ 	<string name="trackball_answer">Trackball Answer</string>	
+	<string name="trackball_answer_sum">Press the Trackball to Answer the incoming phone call.</string>
+	<string-array name="trackballLabels">
+		<item>Disabled</item>  
+        <item>Tap to Answer</item>  
+        <item>Hold half a second to Answer</item>  
+        <item>Hold one second to Answer</item>    
+    </string-array>  
+    <string-array name="trackballValues">  
+        <item>-1</item>
+        <item>0</item>
+        <item>300</item>
+        <item>800</item> 
+    </string-array>  
+	</resources>

@@ -597,4 +597,18 @@
     <string name="slide_to_answer_and_end_onhold" msgid="638748048960663506">"Arrastrar a la derecha para responder y"\n"finalizar una llamada en espera"</string>
     <string name="slide_to_answer_hint" msgid="4901042355463593903">"Responder"</string>
     <string name="slide_to_decline_hint" msgid="4484576372463030324">"Rechazar"</string>
+    <string name="trackball_answer">"Contestar con Trackball"</string>	
+	<string name="trackball_answer_sum">"Presiona el Trackball para contestar la llamada"</string>
+	<string-array name="trackballLabels">
+		<item>Desactivado</item>  
+        <item>Presiona para Contestar</item>  
+        <item>Presiona medio segundo para Contestar</item>  
+        <item>Presiona un segundo para Contestar</item>    
+    </string-array>  
+    <string-array name="trackballValues">  
+        <item>-1</item>
+        <item>0</item>
+        <item>300</item>
+        <item>800</item> 
+    </string-array>  
 </resources>

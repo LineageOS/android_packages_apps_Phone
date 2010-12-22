@@ -408,6 +408,9 @@ static boolean mForceTouch;
 private static final String BUTTON_VIBRATE_CALL_WAITING = "button_vibrate_call_waiting";
 private CheckBoxPreference mButtonVibCallWaiting;
 static boolean mVibCallWaiting;
+private static final String BUTTON_TRACKBALL_ANSWER = "button_trackball_answer_timed";
+private ListPreference mTrackballAnswer;
+static String mTrackAnswer;
 static boolean mTurnSilence;
 private static final String BUTTON_TURN_SILENCE     = "button_turn_silence";
 private CheckBoxPreference mButtonTurnSilence;
@@ -1509,6 +1512,8 @@ mButtonLeftHand    = (CheckBoxPreference) prefSet.findPreference(BUTTON_LEFT_HAN
 mButtonLeftHand.setChecked(mLeftHand);
 mButtonVibCallWaiting = (CheckBoxPreference) prefSet.findPreference(BUTTON_VIBRATE_CALL_WAITING);
 mButtonVibCallWaiting.setChecked(mVibCallWaiting);
+mTrackballAnswer   = (ListPreference) prefSet.findPreference(BUTTON_TRACKBALL_ANSWER);
+mTrackballAnswer.setValue(mTrackAnswer);
 mButtonForceTouch  = (CheckBoxPreference) prefSet.findPreference(BUTTON_FORCE_TOUCH);
 if (getResources().getBoolean(R.bool.allow_in_call_touch_ui)) {
     ((PreferenceCategory) prefSet.findPreference(CATEGORY_ADVANCED)).
@@ -1870,6 +1875,7 @@ private void init(SharedPreferences pref) {
     mLeftHand = pref.getBoolean(BUTTON_LEFT_HAND, false);
     mVibCallWaiting = pref.getBoolean(BUTTON_VIBRATE_CALL_WAITING, false);
     mForceTouch  = pref.getBoolean(BUTTON_FORCE_TOUCH, PhoneUtils.isProximitySensorAvailable(PhoneApp.getInstance()));
+    mTrackAnswer = pref.getString(BUTTON_TRACKBALL_ANSWER, "-1");
     ObjectInputStream ois = null;
     boolean correctVer = false;
     try {
@@ -1984,6 +1990,7 @@ protected void onStop() {
     outState.putBoolean(BUTTON_TURN_SILENCE, mButtonTurnSilence.isChecked());
     outState.putBoolean(BUTTON_LEFT_HAND, mButtonLeftHand.isChecked());
     outState.putBoolean(BUTTON_VIBRATE_CALL_WAITING, mButtonVibCallWaiting.isChecked());
+    outState.putString(BUTTON_TRACKBALL_ANSWER,mTrackballAnswer.getValue());
     outState.putBoolean(BUTTON_FORCE_TOUCH, mButtonForceTouch == null || mButtonForceTouch.isChecked());
     outState.commit();
     init(pref);
