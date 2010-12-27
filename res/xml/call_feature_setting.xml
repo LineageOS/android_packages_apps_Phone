@@ -63,7 +63,15 @@
                 android:autoText="false" />
       </PreferenceScreen>
   </PreferenceCategory>
-
+  <!-- Advanced Settings, by Cytown and Nushio -->
+  <PreferenceCategory android:key="pref_advanced_settings" android:title="@string/advanced_setting">
+	<!-- Trackball Answer - Added by Nushio -->
+	<ListPreference android:key="button_trackball_answer_timed"
+		android:title="@string/trackball_answer" android:summary="@string/trackball_answer_sum" 
+    	android:entries="@array/trackballLabels" android:entryValues="@array/trackballValues"
+    	android:dialogTitle="@string/trackball_answer" android:persistent="false" />
+	<!-- end Trackball Answer -->
+  </PreferenceCategory>
   <PreferenceCategory android:key="button_misc_category_key"
         android:title="@string/other_settings"
         android:persistent="false" />

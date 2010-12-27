@@ -314,6 +314,9 @@ public class InCallScreen extends Activity
     private Connection.DisconnectCause mLastDisconnectCause;
 
 
+    //Trackball Answer
+    Long mTrackballHitTime;
+
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -5079,4 +5082,43 @@ public class InCallScreen extends Activity
     private void log(String msg) {
         Log.d(LOG_TAG, msg);
     }
+
+        /* 
+	 * Adding Trackball Answer -- Nushio
+	 */
+	@Override
+	public boolean onTrackballEvent(MotionEvent event) {
+		mSettings = CallFeaturesSetting.getInstance(android.preference.PreferenceManager.getDefaultSharedPreferences(this));
+		long realTime = android.os.SystemClock.elapsedRealtime();
+		long downTime = event.getDownTime();
+		if(event.getAction() == MotionEvent.ACTION_DOWN){
+			if(mSettings.mTrackAnswer.equals("dt")){
+				//Double Tap Code taken from MetalHead's Double-Tap-to-skip-song. 
+				long timeBetweenHits;
+				if (mTrackballHitTime == null)
+					mTrackballHitTime = realTime;
+				else{
+					if (realTime > mTrackballHitTime)
+						timeBetweenHits = realTime - mTrackballHitTime; // System clock rolled over
+					else
+						timeBetweenHits = realTime + (Long.MAX_VALUE - mTrackballHitTime); // Time to Answer Call
+
+					if (timeBetweenHits < 400) { //400 being double-tap duration distance
+						internalAnswerCall();
+					}
+					mTrackballHitTime = null;
+				}
+			}
+		}else if(event.getAction() == MotionEvent.ACTION_UP){
+			int delay = -1;
+			try{
+				delay = Integer.parseInt(mSettings.mTrackAnswer);
+			}catch(Exception e){}
+			if(delay > -1){
+				if(realTime > (downTime + delay))
+					internalAnswerCall();
+			}
+		}
+		return super.onTrackballEvent(event);
+	}
 }
