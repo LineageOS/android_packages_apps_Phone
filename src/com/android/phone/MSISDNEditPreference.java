@@ -44,7 +44,7 @@ public class MSISDNEditPreference extends EditTextPreference {
                 // No tag, set it.
                 alphaTag = "Voice Line 1";
             }
-            
+
             mPhone.setLine1Number(alphaTag, getText(),
                     mHandler.obtainMessage(MyHandler.MESSAGE_SET_MSISDN));
             if (tcpListener != null) {
@@ -82,7 +82,7 @@ public class MSISDNEditPreference extends EditTextPreference {
             }
             if (DBG)
                 Log.d(LOG_TAG, "handleSetMSISDNResponse: re get");
-            
+
             tcpListener.onFinished(MSISDNEditPreference.this, false);
         }
     }
