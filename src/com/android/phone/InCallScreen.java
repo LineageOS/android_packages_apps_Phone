@@ -41,6 +41,7 @@ import android.os.Message;
 import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.provider.Settings;
+import android.preference.PreferenceManager;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.ServiceState;
 import android.text.TextUtils;
@@ -313,6 +314,11 @@ public class InCallScreen extends Activity
     // delayedCleanupAfterDisconnect().)
     private Connection.DisconnectCause mLastDisconnectCause;
 
+    //Advanced Settings
+    private CallFeaturesSetting mSettings;
+
+    //Trackball Answer
+    Long mTrackballHitTime;
 
     private Handler mHandler = new Handler() {
         @Override
@@ -629,6 +635,9 @@ public class InCallScreen extends Activity
         } else {
             mInCallInitialStatus = InCallInitStatus.SUCCESS;
         }
+
+        //Advanced Settings
+        mSettings = CallFeaturesSetting.getInstance(PreferenceManager.getDefaultSharedPreferences(this));
 
         // The "touch lock overlay" feature is used only on devices that
         // *don't* use a proximity sensor to turn the screen off while in-call.
@@ -5078,5 +5087,44 @@ public class InCallScreen extends Activity
 
     private void log(String msg) {
         Log.d(LOG_TAG, msg);
+    }
+
+    /* 
+     * Trackball Answer
+     */
+    @Override
+    public boolean onTrackballEvent(MotionEvent event) {
+        mSettings = CallFeaturesSetting.getInstance(PreferenceManager.getDefaultSharedPreferences(this));
+        long realTime = android.os.SystemClock.elapsedRealtime();
+        long downTime = event.getDownTime();
+        if(event.getAction() == MotionEvent.ACTION_DOWN){
+            if(mSettings.mTrackAnswer.equals("dt")){
+                //Double Tap Code taken from MetalHead's Double-Tap-to-skip-song. 
+                long timeBetweenHits;
+                if (mTrackballHitTime == null)
+                    mTrackballHitTime = realTime;
+                else{
+                    if (realTime > mTrackballHitTime)
+                        timeBetweenHits = realTime - mTrackballHitTime; // System clock rolled over
+                    else
+                        timeBetweenHits = realTime + (Long.MAX_VALUE - mTrackballHitTime); // Time to Answer Call
+
+                    if (timeBetweenHits < 400) { //400 being double-tap duration distance
+                        internalAnswerCall();
+                    }
+                    mTrackballHitTime = null;
+                }
+            }
+        }else if(event.getAction() == MotionEvent.ACTION_UP){
+            int delay = -1;
+            try{
+                delay = Integer.parseInt(mSettings.mTrackAnswer);
+            }catch(Exception e){}
+            if(delay > -1){
+                if(realTime > (downTime + delay))
+                    internalAnswerCall();
+            }
+        }
+        return super.onTrackballEvent(event);
     }
 }

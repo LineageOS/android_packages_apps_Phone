@@ -689,4 +689,16 @@
     <string name="no_internet_available" msgid="1100564991026313234">"Überprüfen Sie zunächst Ihre Internetverbindung, bevor Sie einen Internetanruf tätigen."</string>
     <string name="no_wifi_available" msgid="3389743006886634541">"Für Internetanrufe ist eine aktive WLAN-Verbindung notwendig. Wählen Sie die entsprechenden Einstellungen unter \"Drahtlos &amp; Netzwerke\"."</string>
     <string name="no_voip" msgid="8901474054537199865">"Internetanrufe werden nicht unterstützt."</string>
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Erweiterte Einstellungen</string>
+    <!-- TrackBall Answer -->
+    <string name="trackball_answer">Trackball Annahme</string>
+    <string name="trackball_answer_sum">Drücke auf den Trackball um den eingehenden Anruf anzunehmen</string>
+    <string-array name="trackballLabels">
+        <item>Ausgeschaltet</item>
+        <item>Doppelt zum annehmen</item>
+        <item>Halten zum annehmen</item>
+        <item>Doppelt drücken zum annehmen</item>    
+    </string-array>
+    <!-- End TrackBall Answer -->
 </resources>
