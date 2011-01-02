@@ -47,7 +47,7 @@ public class GsmUmtsAdditionalCallOptions extends
             mCLIRButton.init(this, true);
             mCWButton.init(this, true);
             mMSISDNButton.init(this, true);
- 
+
             int[] clirArray = icicle.getIntArray(mCLIRButton.getKey());
             if (clirArray != null) {
                 if (DBG) Log.d(LOG_TAG, "onCreate:  clirArray[0]="
