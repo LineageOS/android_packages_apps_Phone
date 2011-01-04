@@ -844,7 +844,8 @@ public class NotificationMgr implements CallerInfoAsyncQuery.OnQueryCompleteList
                     pendingIntent  // contentIntent
                     );
             notification.defaults |= Notification.DEFAULT_SOUND;
-            notification.flags |= Notification.FLAG_NO_CLEAR;
+            // Allow the voicemail notification to be cleared
+            // notification.flags |= Notification.FLAG_NO_CLEAR;
             configureLedNotification(notification);
             mNotificationMgr.notify(VOICEMAIL_NOTIFICATION, notification);
         } else {
