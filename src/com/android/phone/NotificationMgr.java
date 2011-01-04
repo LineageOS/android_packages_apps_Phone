@@ -751,7 +751,15 @@ public class NotificationMgr implements CallerInfoAsyncQuery.OnQueryCompleteList
      */
     /* package */ void updateMwi(boolean visible) {
         if (DBG) log("updateMwi(): " + visible);
-        if (visible) {
+
+        // TODO there's probably a better way to share this preference
+        // (particularly the preference key) between this and CallFeaturesSetting.java
+        // for now we'll just handle it like this
+        boolean notificationEnabled =
+            PreferenceManager.getDefaultSharedPreferences(mContext)
+              .getBoolean(CallFeaturesSetting.getVoicemailNotificationKey(), true);
+
+        if (visible && notificationEnabled) {
             int resId = android.R.drawable.stat_notify_voicemail;
 
             // This Notification can get a lot fancier once we have more
