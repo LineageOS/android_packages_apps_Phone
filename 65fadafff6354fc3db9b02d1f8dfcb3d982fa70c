@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAB3///1I\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2011-01-07T07:32:05Z",
+      "side": 1,
+      "message": "Just make this public and add an @hide javadoc and you can get rid of the accessor below.",
+      "revId": "65fadafff6354fc3db9b02d1f8dfcb3d982fa70c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
