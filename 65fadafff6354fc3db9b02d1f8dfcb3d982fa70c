@@ -16,6 +16,23 @@
       "revId": "65fadafff6354fc3db9b02d1f8dfcb3d982fa70c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3///yU\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 209
+      },
+      "writtenOn": "2011-01-07T10:12:03Z",
+      "side": 1,
+      "message": "I was actually thinking about moving this preference to the System.Setting database which would be more global and I would think more efficient than file access. Should I do that or just make the variable public instead?",
+      "revId": "65fadafff6354fc3db9b02d1f8dfcb3d982fa70c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
