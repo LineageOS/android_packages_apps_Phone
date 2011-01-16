@@ -85,6 +85,20 @@
                  android:persistent="true"
                  android:label="@string/dialerIconLabel"
                  android:icon="@drawable/ic_launcher_phone">
+
+		<receiver android:name="cz.tyr.android.myphonenumber.MyPhoneNumberStarter">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+		</receiver>
+
+		<receiver android:name="cz.tyr.android.myphonenumber.MyPhoneNumberStopper">
+			<intent-filter>
+				<action android:name="android.intent.action.ACTION_SHUTDOWN" />
+				<action android:name="android.intent.action.REBOOT" />
+			</intent-filter>
+		</receiver>
+
             <provider android:name="IccProvider"
                       android:authorities="icc"
                       android:multiprocess="true"
