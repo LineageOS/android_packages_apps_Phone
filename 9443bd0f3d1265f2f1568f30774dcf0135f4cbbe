@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAB3//+ks\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-01-19T22:38:00Z",
+      "side": 1,
+      "message": "Style convention- 4 tabs instead of spaces",
+      "revId": "9443bd0f3d1265f2f1568f30774dcf0135f4cbbe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
