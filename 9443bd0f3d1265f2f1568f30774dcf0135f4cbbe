@@ -16,6 +16,24 @@
       "revId": "9443bd0f3d1265f2f1568f30774dcf0135f4cbbe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAB3//+jU\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 369
+      },
+      "writtenOn": "2011-01-20T00:26:01Z",
+      "side": 1,
+      "message": "You want spaces instead of tabs?  I just did that but how do I update this instead of making a new issue?",
+      "parentUuid": "AAAAB3//+ks\u003d",
+      "revId": "9443bd0f3d1265f2f1568f30774dcf0135f4cbbe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
