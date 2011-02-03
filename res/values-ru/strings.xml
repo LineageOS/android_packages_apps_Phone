@@ -524,7 +524,7 @@
     <string name="onscreenSpeakerText" msgid="9013795366801657948">"Динамик"</string>
     <string name="onscreenMuteText" msgid="5011369181754261374">"Откл. звук"</string>
     <string name="onscreenBluetoothText" msgid="2479639597725504499">"Bluetooth"</string>
-    <string name="onscreenAddCallText" msgid="5140385634712287403">"+ вызов"</string>
+    <string name="onscreenAddCallText" msgid="5140385634712287403">"Добавить вызов"</string>
     <string name="onscreenMergeCallsText" msgid="6640195098064538950">"Соединить"</string>
     <string name="onscreenSwapCallsText" msgid="1602990689244030047">"Перевод звонка"</string>
     <string name="onscreenManageCallsText" msgid="5473231160123254154">"Управление вызовами"</string>
@@ -720,4 +720,36 @@
     <string name="left_hand_sum">Используйте телефон левой рукой, необходима перезагрузка.</string>
     <string name="phone_number_label">Мой номер телефона</string>
     <string name="phone_number_summary">Установите номер телефона для этого устройства</string>
+
+    <!-- TrackBall Answer - Added by Nushio -->
+    <string name="trackball_answer">Ответ по trackball</string>  
+    <string name="trackball_answer_sum">Ответить на звонок нажатием на trackball.</string>
+    <string-array name="trackballLabels">
+       <item>Отключено</item> 
+       <item>Нажать для ответа</item>
+       <item>Двойное нажатие для ответа</item>    
+    </string-array>  
+    <string-array name="trackballValues">  
+       <item>-1</item>
+       <item>350</item>
+       <item>dt</item> 
+    </string-array>
+    <!-- TrackBall Hangup - Added by Nushio -->
+    <string name="trackball_hangup">Отбой по trackball</string>  
+    <string name="trackball_hangup_sum">Сбросить звонок нажатие на trackball.</string>
+    <string-array name="trackballHangupLabels">
+       <item>Отключено</item> 
+       <item>Нажать для отбоя</item>
+       <item>Двойное нажатие для отбоя</item>    
+    </string-array> 
+
+    <!-- Phone goggles -->
+    <string name="toast_phone_goggles">Сейчас вы не сможете позвонить по телефону. Пожалуйста, повторите попытку позже.</string>
+    <string name="dialog_phone_goggles_title">Звонок заблокирован</string>
+    <string name="dialog_phone_goggles_title_unlocked">Звонок разрешен</string>
+    <string name="dialog_phone_goggles_content">Совершение звонка может быть неуместно в это время. Вы уверены, что хотите продолжить?</string>
+    <string name="dialog_phone_goggles_unauthorized">Совершение звонка может быть неуместно в это время.</string>
+    <string name="dialog_phone_goggles_ok">Позвонить</string>
+    <string name="dialog_phone_goggles_cancel">Отменить</string>
+
 </resources>
