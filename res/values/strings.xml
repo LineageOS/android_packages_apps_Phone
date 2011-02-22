@@ -1511,4 +1511,8 @@
     <string name="dialog_phone_goggles_unauthorized">Making a phone call may not be wise at this time.</string>
     <string name="dialog_phone_goggles_ok">Call</string>
     <string name="dialog_phone_goggles_cancel">Cancel</string>
+
+    <!--  Bluetooth Sync -->
+    <string name="bluetooth_sync_group">Bluetooth Contacts</string>
+    <string name="bluetooth_sync_group_summary">Filter contacts synchronized with bluetooth device to members of a group</string>
 </resources>

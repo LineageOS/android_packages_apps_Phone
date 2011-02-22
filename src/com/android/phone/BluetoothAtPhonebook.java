@@ -20,12 +20,17 @@ import android.bluetooth.AtCommandHandler;
 import android.bluetooth.AtCommandResult;
 import android.bluetooth.AtParser;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
+import android.preference.PreferenceManager;
+import android.provider.BaseColumns;
 import android.provider.ContactsContract;
 import android.provider.CallLog.Calls;
+import android.provider.ContactsContract.Groups;
 import android.provider.ContactsContract.PhoneLookup;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
+import android.provider.ContactsContract.Intents.Insert;
 import android.telephony.PhoneNumberUtils;
 import android.util.Log;
 
@@ -373,6 +378,32 @@ public class BluetoothAtPhonebook {
             pbr.typeColumn = -1;
             pbr.nameColumn = -1;
         } else {
+            CallFeaturesSetting.getInstance(PreferenceManager.getDefaultSharedPreferences(mContext));
+            String syncGroup = CallFeaturesSetting.mBluetoothSyncGroup;
+            if ( syncGroup != null && !CallFeaturesSetting.BLUETOOTH_SYNC_GROUP_DEFAULT.equals(syncGroup)) {
+                Uri membershipUri = Uri.parse("content://contacts/groups/name/" + syncGroup
+                        + "/members");
+                Cursor memberCursor = mContext.getContentResolver().query(membershipUri, new String[] {
+                    BaseColumns._ID
+                }, null, null, null);
+
+                int memberCount = memberCursor.getCount();
+                log("Found " + memberCount + " members for the group");
+                if (memberCount > 0) {
+                    memberCursor.moveToFirst();
+                    StringBuffer whereBuffer = new StringBuffer();
+                    whereBuffer.append(Phone.RAW_CONTACT_ID + " IN (").append(memberCursor.getInt(0));
+                    while (memberCursor.moveToNext()) {
+                        whereBuffer.append(", ").append(memberCursor.getInt(0));
+                    }
+                    whereBuffer.append(")");
+                    if (where != null) {
+                        whereBuffer.append(" AND ").append(where);
+                    }
+                    where = whereBuffer.toString();
+                }
+                memberCursor.close();
+            }
             // Pass in the package name of the Bluetooth PBAB support so that this
             // AT phonebook support uses the same access rights as the PBAB code.
             Uri uri = Phone.CONTENT_URI.buildUpon()
