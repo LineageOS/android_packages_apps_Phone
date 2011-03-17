@@ -699,7 +699,11 @@
     <string name="vibrate_outgoing_sum">Vibrar quando uma chamada é atendida</string>
     <string name="vibrate_45">Vibrar sempre 45 segundos</string>
     <string name="vibrate_45_sum">Vibrar sempre 45 segundos durante recebimento de chamadas</string>
+<<<<<<< HEAD
+    <string name="vibrate_hangup">Vibrar ao terminar</string>
+=======
     <string name="vibrate_hangup">Vibrar ao desligar</string>
+>>>>>>> PT-BR: fix word not translated
     <string name="vibrate_hangup_sum">Vibrar ao terminar uma chamada</string>
     <string name="screen_awake">Manter tela acesa</string>
     <string name="screen_awake_sum">Tela ficará acesa por mais tempo do que o normal durante a chamada</string>
