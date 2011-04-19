@@ -693,7 +693,7 @@ public class CallNotifier extends Handler
         // TODO: also, we should probably *not* do any of this if the
         // screen is already on(!)
 
-        mApplication.preventScreenOn(true);
+        mApplication.preventScreenOn(false);
         mApplication.requestWakeState(PhoneApp.WakeState.FULL);
 
         // Post the "incoming call" notification.  This will usually take
