@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAFH///ng\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 687,
+      "author": {
+        "id": 62
+      },
+      "writtenOn": "2011-05-15T22:39:40Z",
+      "side": 1,
+      "message": "Fix this whitespace error. There shouldnt be any tabs here.",
+      "revId": "f5bc42c5ac6d90da5a18ede9ec07588c63d79e8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
