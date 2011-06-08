@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
@@ -410,25 +411,27 @@ public class PhoneUtils {
 
     static class PhoneSettings {
         static boolean vibOn45Secs(Context context) {
-            return PreferenceManager.getDefaultSharedPreferences(context)
-                    .getBoolean("button_vibrate_45", false);
+            return getPrefs(context).getBoolean("button_vibrate_45", false);
         }
         static boolean vibHangup(Context context) {
-            return PreferenceManager.getDefaultSharedPreferences(context)
-                    .getBoolean("button_vibrate_hangup", false);
+            return getPrefs(context).getBoolean("button_vibrate_hangup", false);
         }
         static boolean vibOutgoing(Context context) {
-            return PreferenceManager.getDefaultSharedPreferences(context)
-                    .getBoolean("button_vibrate_outgoing", false);
+            return getPrefs(context).getBoolean("button_vibrate_outgoing", false);
         }
 
         static boolean vibCallWaiting(Context context) {
-            return PreferenceManager.getDefaultSharedPreferences(context)
-                    .getBoolean("button_vibrate_call_waiting", false);
+            return getPrefs(context).getBoolean("button_vibrate_call_waiting", false);
         }
         static boolean keepProximitySensorOn(Context context) {
-            return PreferenceManager.getDefaultSharedPreferences(context)
-                    .getBoolean("keep_proximity_sensor_on", false);
+            return getPrefs(context).getBoolean("keep_proximity_sensor_on", false);
+        }
+        static boolean showInCallEvents(Context context) {
+            return getPrefs(context).getBoolean("button_show_ssn_key", false);
+        }
+
+        private static SharedPreferences getPrefs(Context context) {
+            return PreferenceManager.getDefaultSharedPreferences(context);
         }
     };
 
@@ -2612,6 +2615,15 @@ public class PhoneUtils {
             if (phone != null) return phone;
         }
         return cm.getDefaultPhone();
+    }
+
+    public static Phone getGsmPhone(CallManager cm) {
+        for (Phone phone: cm.getAllPhones()) {
+            if (phone.getPhoneType() == Phone.PHONE_TYPE_GSM) {
+                return phone;
+            }
+        }
+        return null;
     }
 
     public static Phone getSipPhoneFromUri(CallManager cm, String target) {
