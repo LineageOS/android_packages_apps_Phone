@@ -755,6 +755,10 @@
        <item>Двойное нажатие для отбоя</item>
     </string-array>
 
+    <!-- Hide Hold button - Added by leinardi -->
+    <string name="hide_hold_button">Скрыть кнопку удержания</string>  
+    <string name="hide_hold_button_sum">Скрыть кнопку, которая ставит текущий вызов на удержание.</string>
+
     <!-- Phone goggles -->
     <string name="toast_phone_goggles">Сейчас вы не сможете позвонить по телефону. Пожалуйста, повторите попытку позже.</string>
     <string name="dialog_phone_goggles_title">Звонок заблокирован</string>
