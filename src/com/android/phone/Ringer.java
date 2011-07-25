@@ -269,7 +269,12 @@ public class Ringer {
      */
     void setCustomRingtoneUri (Uri uri) {
         if (uri != null) {
-            mCustomRingtoneUri = uri;
+            synchronized (Ringer.this) {
+                mCustomRingtoneUri = uri;
+                // Make sure to invalidate the ringtone, otherwise
+                // we'll be stuck with the previous ringtone.
+                mRingtone = null;
+            }
         }
     }
 
@@ -283,11 +288,11 @@ public class Ringer {
                     switch (msg.what) {
                         case PLAY_RING_ONCE:
                             if (DBG) log("mRingHandler: PLAY_RING_ONCE...");
-                            if (mRingtone == null && !hasMessages(STOP_RING)) {
-                                // create the ringtone with the uri
-                                if (DBG) log("creating ringtone: " + mCustomRingtoneUri);
-                                r = RingtoneManager.getRingtone(mContext, mCustomRingtoneUri);
-                                synchronized (Ringer.this) {
+                            synchronized (Ringer.this) {
+                                if (mRingtone == null && !hasMessages(STOP_RING)) {
+                                    // create the ringtone with the uri
+                                    if (DBG) log("creating ringtone: " + mCustomRingtoneUri);
+                                    r = RingtoneManager.getRingtone(mContext, mCustomRingtoneUri);
                                     if (!hasMessages(STOP_RING)) {
                                         mRingtone = r;
                                     }

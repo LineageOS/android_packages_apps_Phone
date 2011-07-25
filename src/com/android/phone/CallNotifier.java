@@ -236,6 +236,15 @@ public class CallNotifier extends Handler
                 break;
 
             case PHONE_INCOMING_RING:
+                // Don't ring if we're still looking for the ringtone
+                // If we do this we'll probably lose the race, and
+                // always fall back on the system default tone
+                synchronized (mCallerInfoQueryStateGuard) {
+                    if (mCallerInfoQueryState == CALLERINFO_QUERYING) {
+                        break;
+                    }
+                }
+
                 // repeat the ring when requested by the RIL, and when the user has NOT
                 // specifically requested silence.
                 if (msg.obj != null && ((AsyncResult) msg.obj).result != null) {
