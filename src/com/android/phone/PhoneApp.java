@@ -30,6 +30,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Configuration;
 import android.media.AudioManager;
+import android.media.AudioSystem;
 import android.net.Uri;
 import android.os.AsyncResult;
 import android.os.Binder;
@@ -1261,6 +1262,10 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
      */
     /* package */ void updatePhoneState(Phone.State state) {
         if (state != mLastPhoneState) {
+            String voiceQualSetting = mSettings.getVoiceQuality();
+            if (voiceQualSetting != null) {
+                AudioSystem.setParameters("motoVoiceQualityConfig=" + voiceQualSetting);
+            }
             mLastPhoneState = state;
             updateProximitySensorMode(state);
             if (mAccelerometerListener != null) {
