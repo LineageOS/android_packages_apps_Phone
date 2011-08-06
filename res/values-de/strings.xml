@@ -743,6 +743,11 @@
     <string name="left_hand_sum">Gerät als Linkshänder nutzen. (Neustart erforderlich)</string>
     <string name="set_force_touch">Touch Tastatur</string>
     <string name="set_force_touch_sum">Erzwinge die Bildschirmtastatur.</string>
+    <string name="rotate_incall">Sensorbasierte Drehung</string>
+    <string name="rotate_incall_sum">Erlaube Bildschirmdrehung durch Lageänderung während eines Gesprächs.</string>
+    <string name="bg_incall">Eingeh. Anruf im Hintergrund</string>
+    <string name="bg_incall_sum">Telefon im Hintergrund lassen wenn Bilschirm aktiv ist. Zeige nur Benachrichtigung und spiele Klingelton.</string>
+
 
     <string name="per_change_mobile_network">Mobilfunkstandard wechseln (2G/3G)</string>
     <string name="per_change_mobile_network_desc">Anwendungen mit dieser Berechtigung können jederzeit zwischen 2G- und 3G-Netz wechslen. 3G ist schneller, verbraucht mehr Batterieladung und kann teurer sein.</string>
@@ -769,6 +774,10 @@
 
     <string name="voicemail_notification_title">Mailbox-Benachrichtigungen</string>
     <string name="voicemail_notification_summary">Benachrichtigungen für (neue) Mailbox-Nachrichten einschalten.</string>
+
+    <!-- Hide Hold button - Added by leinardi -->
+    <string name="hide_hold_button">Verstecke Halten-Button</string>
+    <string name="hide_hold_button_sum">Verstecke den Button der den aktuellen Anruf hält.</string>
 
     <!-- Phone goggles -->
     <string name="toast_phone_goggles">Du darfst zur Zeit keine Anrufe tätigen. Bitte später erneut versuchen.</string>
