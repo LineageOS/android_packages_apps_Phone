@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+qU\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 749,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-07T15:19:43Z",
+      "side": 1,
+      "message": "Vor wenn fehlt ein Komma ;-)",
+      "revId": "b473ba978e7e46885c3f909dfba04d8ff4efac2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
