@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+eE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 718,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "Hier fehlt wieder ein Komma.\nJa, ich weiß, dass das vorher schon so war ;-)",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+ds\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 722,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "Vor wenn fehlt ein Komma",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+d8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 724,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "Satzbau komisch: Bildschirm wird bei eingehendem Anruf länger angelassen als normal",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+eA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 726,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "Komma fehlt nach \u0027Einschalten\u0027",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+d4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "...wird auf Anrufanzeige angezeigt",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+do\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "An Stelle von Black List könnte man auch \u0027Negativliste\u0027 oder \u0027Schwarze Liste\u0027 verwenden. D.h.:\nZur schwarzen Liste hinzufügen\nSchwarze Liste\nAnruf von Eintrag in schwarzer Liste wird abgelehnt\n\nSelbst wenn wir das nicht wollen, sollte es \u0027Black List-Eintrag\u0027 heißen.",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+d0\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 780,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "Vor \u0027der\u0027 fehlt ein Komma.",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+dw\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 787,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-08T20:59:02Z",
+      "side": 1,
+      "message": "Vor wäre fehlt ein Komma.",
+      "revId": "85e80d57e88c2609aec4a9d520c775b489f66a8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
