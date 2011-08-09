@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+aE\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-09T12:05:03Z",
+      "side": 1,
+      "message": "Das \u0027auf\u0027 ist doppelt. Ich würde auch eher \u0027in Anrufanzeige\u0027 schreiben.",
+      "revId": "e25cd00ade88225ca47fff07d79c146142dd653c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHn//+aA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 735,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-09T12:05:03Z",
+      "side": 1,
+      "message": "\u0027Sperrliste\u0027 ist gut, müsste aber hier noch eingesetzt werden.",
+      "revId": "e25cd00ade88225ca47fff07d79c146142dd653c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
