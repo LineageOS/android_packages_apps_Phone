@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//+V4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 1119
+      },
+      "writtenOn": "2011-08-10T01:07:33Z",
+      "side": 1,
+      "message": "Bin auch eher für \"in der Anrufanzeige\"",
+      "revId": "016923fceaef9c9c292080cfc1f0b5db8e698bc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
