@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn//95E\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 740,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-13T17:43:28Z",
+      "side": 1,
+      "message": "For dem \u0027die mit\u0027 fehlt jeweils ein Komma. Da das Beispiel ein kompletter Satz ist, würde ich auch mit einem Punkt abschließen.",
+      "revId": "72bca987dd08ebf8a0458c34865ba7f10f610506",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
