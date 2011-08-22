@@ -31,6 +31,7 @@ import android.database.Cursor;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.media.AudioManager;
+import android.net.Uri;
 import android.net.sip.SipManager;
 import android.net.sip.SipProfile;
 import android.os.AsyncResult;
@@ -43,6 +44,7 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
+import android.provider.ContactsContract.Groups;
 import android.provider.Settings;
 import android.provider.ContactsContract.CommonDataKinds;
 import android.telephony.PhoneNumberUtils;
@@ -482,6 +484,12 @@ public class CallFeaturesSetting extends PreferenceActivity
     private static final String BUTTON_HIDE_HOLD_BUTTON = "button_hide_hold_button";
     private CheckBoxPreference mButtonHideHoldButton;
     static boolean mHideHoldButton;
+
+    //Bluetooth sync
+    private static final String BLUETOOTH_SYNC_GROUP = "bluetooth_sync_group";
+    private ListPreference mBluetoothSyncGroupList;
+    static String mBluetoothSyncGroup;
+    static final String BLUETOOTH_SYNC_GROUP_DEFAULT = "No Filtering";
 
     private boolean mForeground;
 
@@ -1689,6 +1697,12 @@ public class CallFeaturesSetting extends PreferenceActivity
         mTrackballHangup = (ListPreference) prefSet.findPreference(BUTTON_TRACKBALL_HANGUP);
         mTrackballHangup.setValue(mTrackHangup);
 
+        mBluetoothSyncGroupList = (ListPreference) prefSet.findPreference(BLUETOOTH_SYNC_GROUP);
+        String[] groups = getContactGroups();
+        mBluetoothSyncGroupList.setEntries(groups);
+        mBluetoothSyncGroupList.setEntryValues(groups);
+        mBluetoothSyncGroupList.setValue(mBluetoothSyncGroup);
+
         // No reason to show Trackball Answer & Hangup if it doesn't have a
         // Trackball.
         if (getResources().getConfiguration().navigation != 3) {
@@ -1706,6 +1720,24 @@ public class CallFeaturesSetting extends PreferenceActivity
 //====
         mButtonHideHoldButton = (CheckBoxPreference) prefSet.findPreference(BUTTON_HIDE_HOLD_BUTTON);
         mButtonHideHoldButton.setChecked(mHideHoldButton);
+    }
+
+    private String[] getContactGroups()
+    {
+        Uri uri = Groups.CONTENT_URI.buildUpon().build();
+        Cursor cursor = getContentResolver().query(uri, new String[]{Groups.TITLE}, null, null, null);
+        ArrayList<String> list = new ArrayList<String>();
+        while ( cursor.moveToNext() ) {
+            String title = cursor.getString(0);
+            if( !list.contains(title) )
+            {
+                list.add(title);
+            }
+        }
+        list.add(0, BLUETOOTH_SYNC_GROUP_DEFAULT);
+        String[] groups = new String[list.size()];
+        list.toArray(groups);
+        return groups;
     }
 
     private void createSipCallSettings() {
@@ -2118,6 +2150,9 @@ public class CallFeaturesSetting extends PreferenceActivity
         mTrackHangup = pref.getString(BUTTON_TRACKBALL_HANGUP, "-1");
         mHideHoldButton = pref.getBoolean(BUTTON_HIDE_HOLD_BUTTON, false);
         mBlackRegex = pref.getBoolean(BUTTON_BLACK_REGEX, false);
+
+        mBluetoothSyncGroup = pref.getString(BLUETOOTH_SYNC_GROUP, BLUETOOTH_SYNC_GROUP_DEFAULT);
+        log("mBluetoothSyncGroup initialized to " + mBluetoothSyncGroup);
 
         ObjectInputStream ois = null;
         boolean correctVer = false;
