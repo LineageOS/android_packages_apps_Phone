@@ -28,7 +28,7 @@ public class MyPhoneNumber extends BroadcastReceiver {
             if (DBG)
                 Log.d(LOG_TAG, "Airplane Mode On.  No modification to phone number.");
         }
-        else if (phoneNum == null) {
+        else if (phoneNum == null || phoneNum.isEmpty()) {
             if (DBG)
                 Log.d(LOG_TAG, "Trying to read the phone number from file");
 
