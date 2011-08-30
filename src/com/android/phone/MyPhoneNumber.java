@@ -22,17 +22,14 @@ public class MyPhoneNumber extends BroadcastReceiver {
 
         String phoneNum = mTelephonyMgr.getLine1Number();
         String savedNum = prefs.getString(MSISDNEditPreference.PHONE_NUMBER, null);
-        boolean airplaneModeOn = intent.getBooleanExtra("state", false);
-        int simState = intent.getIntExtra("ss", -1);
+        String simState = intent.getStringExtra("ss");
 
-        if (airplaneModeOn) {
+        if ("READY".equals(simState)) {
+            /* If we were triggered by a SIM_STATE change, it has to "READY" */
             if (DBG)
-                Log.d(LOG_TAG, "Airplane Mode On.  No modification to phone number.");
+                Log.d(LOG_TAG, "simState not correct. No modification to phone number.");
         }
-        else if (phoneNum == null && 
-                         (simState == 4 || simState == 6 || simState < 0) ) {
-            /* If we were triggered by a SIM_STATE change, it has to be
-             * 4 (SIM_READY) or 6 (RUIM_READY) */
+        else if (phoneNum == null || phoneNum.isEmpty()) {
             if (DBG)
                 Log.d(LOG_TAG, "Trying to read the phone number from file");
 
