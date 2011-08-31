@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+wo\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T19:36:59Z",
+      "side": 1,
+      "message": "The IccCard class in com.android.internal.telephony has nice constants for those ;)\nINTENT_KEY_ICC_STATE\nINTENT_VALUE_ICC_READY\n\nAlso, TextUtils.equals(simState, IccCard.INTENT_VALUE_ICC_READY) would be a bit easier to read.",
+      "revId": "80ed844816425aa9ef630392813fd2973acf056f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+wk\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T19:36:59Z",
+      "side": 1,
+      "message": "Suggestion: TextUtils.isEmpty()",
+      "revId": "80ed844816425aa9ef630392813fd2973acf056f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+wg\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T19:36:59Z",
+      "side": 1,
+      "message": "Hmm, Google doesn\u0027t seem to consistently use their classes (in that case: TextUtils.isEmpty()) either :(",
+      "revId": "80ed844816425aa9ef630392813fd2973acf056f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
