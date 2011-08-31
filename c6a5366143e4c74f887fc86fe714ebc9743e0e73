@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAH3//+v4\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T19:59:45Z",
+      "side": 1,
+      "message": "\"ss\" should be INTENT_KEY_ICC_STATE",
+      "revId": "c6a5366143e4c74f887fc86fe714ebc9743e0e73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+v0\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T19:59:45Z",
+      "side": 1,
+      "message": "Is a \u0027be\u0027 missing here? Also, doesn\u0027t the if condition need to check whether the state is _not_ READY? At least the comment is implying that.",
+      "revId": "c6a5366143e4c74f887fc86fe714ebc9743e0e73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAH3//+vw\u003d",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-08-31T19:59:45Z",
+      "side": 1,
+      "message": "This line can probably be merged into line 33, now that it\u0027s short.",
+      "revId": "c6a5366143e4c74f887fc86fe714ebc9743e0e73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
