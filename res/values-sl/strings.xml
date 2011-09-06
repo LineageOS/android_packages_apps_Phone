@@ -16,18 +16,14 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="contactsIconLabel" msgid="9129800048701196916">"Stiki"</string>
-    <string name="contactsFavoritesLabel" msgid="5360050972935451505">"Priljubljene"</string>
     <string name="dialerIconLabel" msgid="1761864493312440268">"Telefonski pomočnik"</string>
     <string name="emergencyDialerIconLabel" msgid="7812140032168171053">"Klicalnik za nujne primere"</string>
     <string name="phoneIconLabel" msgid="2331230813161304895">"Telefon"</string>
-    <string name="recentCallsIconLabel" msgid="8717350893637245164">"Dnevnik klicev"</string>
     <string name="fdnListLabel" msgid="8630418672279521003">"Seznam FDN"</string>
     <string name="unknown" msgid="6878797917991465859">"Neznano"</string>
     <string name="private_num" msgid="6713286113000232309">"Zasebna številka"</string>
     <string name="payphone" msgid="1931775086311769314">"Telefonska govorilnica"</string>
     <string name="onHold" msgid="9035493194749959955">"Zadržano"</string>
-    <string name="ongoing" msgid="8300874342848721367">"Trenutni klic"</string>
     <string name="callFailed_userBusy" msgid="8851106999809294904">"Linija je zasedena"</string>
     <string name="callFailed_congestion" msgid="8737761615702718375">"Omrežje je zasedeno"</string>
     <string name="callFailed_timedOut" msgid="7590961703135543346">"Ni odziva, časovna omejitev je potekla"</string>
@@ -46,20 +42,9 @@
     <string name="callFailed_dsac_restricted" msgid="2180223622768522345">"Vsi klici so omejeni z nadzorom dostopa."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="4353654268813314466">"Klici v sili so omejeni z nadzorom dostopa."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="2680774510252408620">"Navadni klici so omejeni z nadzorom dostopa."</string>
-    <string name="callFailed_cdma_lockedUntilPowerCycle" msgid="775483211928061084">"CDMA: Telefon je zaklenjen, dokler ga ne izklopite in ponovno vklopite."</string>
-    <string name="callFailed_cdma_drop" msgid="6030084920001082496">"CDMA: Klic izpuščen."</string>
-    <string name="callFailed_cdma_intercept" msgid="8402269373120277330">"CDMA: Klic prestrežen."</string>
-    <string name="callFailed_cdma_reorder" msgid="5605791471418711552">"CDMA: ponovno naročilo."</string>
-    <string name="callFailed_cdma_SO_reject" msgid="8969174256492763555">"CDMA: Možnost storitve zavrnjena."</string>
-    <string name="callFailed_cdma_retryOrder" msgid="5848488692485148804">"CDMA: ponoven poskus naročila."</string>
-    <string name="callFailed_cdma_accessFailure" msgid="2844306027616452215">"CDMA: Dostop neuspešen."</string>
-    <string name="callFailed_cdma_preempted" msgid="1097095321180029879">"CDMA: Izvedeno prej."</string>
-    <string name="callFailed_cdma_notEmergency" msgid="2347377816822720761">"Mogoči so samo klici v sili."</string>
     <string name="callFailed_unobtainable_number" msgid="7886274717456712105">"Neveljavna številka"</string>
     <string name="confCall" msgid="1904840547188336828">"Konferenčni klic"</string>
     <string name="call_lost" msgid="317670617901479594">"Klic je bil izgubljen."</string>
-    <string name="retry" msgid="8462986804300767852">"Poskusi znova"</string>
-    <string name="call_lost_title" msgid="6696949678847938515">"Izgubljeni klic"</string>
     <string name="mmiStarted" msgid="6347869857061147003">"Koda MMI zagnana"</string>
     <string name="ussdRunning" msgid="485588686340541690">"Koda USSD se izvaja ..."</string>
     <string name="mmiCancelled" msgid="2771923949751842276">"Koda MMI preklicana"</string>
@@ -79,7 +64,6 @@
     <string name="menu_answerAndEnd" msgid="2071708281281611854">"Končaj trenutni klic"\n"in odgovori"</string>
     <string name="ok" msgid="3811371167865772377">"V redu"</string>
     <string name="menuButtonHint" msgid="4853215496220101699">"Pritisnite meni za možnosti klica."</string>
-    <string name="menuButtonKeyboardDialHint" msgid="2869270434715312458">"Za možnosti klica pritisnite Meni  •  Za klicanje uporabite tipkovnico"</string>
     <string name="menu_answer" msgid="116686205042231098">"Odgovor"</string>
     <string name="menu_ignore" msgid="2112030835852537344">"Prezri"</string>
     <string name="wait_prompt_str" msgid="7601815427707856238">"Ali želite poslati naslednje tone?"\n</string>
@@ -91,15 +75,6 @@
     <string name="no_vm_number" msgid="4164780423805688336">"Manjkajoča številka glasovne pošte"</string>
     <string name="no_vm_number_msg" msgid="1300729501030053828">"Na kartici SIM ni shranjena številka glasovne pošte."</string>
     <string name="add_vm_number_str" msgid="4676479471644687453">"Dodaj številko"</string>
-    <string name="dialer_emptyListWorking" msgid="6022498519770859790">"Nalaganje …"</string>
-    <string name="enterPin" msgid="4753300834213388397">"Vnesite kodo PIN, da odklenete kartico SIM."</string>
-    <string name="pinUnlocked" msgid="3260617001055506794">"Kartica SIM odklenjena"</string>
-    <string name="enterNewPin" msgid="5311243769004752401">"Nova koda PIN kartice SIM"</string>
-    <string name="verifyNewPin" msgid="2593629913010458867">"Za potrditev ponovno vnesite novo kodo PIN kartice SIM"</string>
-    <string name="verifyFailed" msgid="3875778795754857903">"Vneseni kodi PIN kartice SIM se ne ujemata. Poskusite znova."</string>
-    <string name="enterPuk" msgid="6144749655582862324">"Vnesite kodo PUK, da odklenete kartico SIM."</string>
-    <string name="badPuk" msgid="3213017898690275965">"Nepravilna koda PUK."</string>
-    <string name="buttonTxtContinue" msgid="863271214384739936">"Naprej"</string>
     <string name="puk_unlocked" msgid="2284912838477558454">"Kartica SIM je bila deblokirana. Telefon se odklepa ..."</string>
     <string name="label_ndp" msgid="780479633159517250">"PIN za odklep omrežja kartice SIM"</string>
     <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Odkleni"</string>
@@ -121,7 +96,6 @@
     <string name="sum_gsm_call_settings" msgid="4076647190996778012">"Dodatne nastavitve klicev samo za GSM"</string>
     <string name="additional_cdma_call_settings" msgid="8628958775721886909">"Dodatne nastavitve klicev CDMA"</string>
     <string name="sum_cdma_call_settings" msgid="284753265979035549">"Dodatne nastavitve klicev samo za CDMA"</string>
-    <string name="labelNwService" msgid="4699970172021870983">"Omrežne nastavitve"</string>
     <string name="labelCallerId" msgid="3888899447379069198">"ID klicatelja"</string>
     <string name="sum_hide_caller_id" msgid="1071407020290873782">"Skrita številka pri odhodnih klicih"</string>
     <string name="sum_show_caller_id" msgid="6768534125447290401">"Prikaz številke pri odhodnih klicih"</string>
@@ -170,7 +144,6 @@
     <item msgid="7876195870037833661">"Skrij številko"</item>
     <item msgid="1108394741608734023">"Prikaz številke"</item>
   </string-array>
-    <string name="vm_save_number" msgid="4579969432544566719">"Shrani številko glasovne pošte"</string>
     <string name="vm_changed" msgid="380744030726254139">"Številka glasovne pošte je spremenjena."</string>
     <string name="vm_change_failed" msgid="6912718596496220653">"Sprememba številke glasovne pošte neuspešna."\n"Če se težava ponovi, se obrnite na operaterja."</string>
     <string name="fw_change_failed" msgid="4437005899675054038">"Sprememba številke za preusmeritev neuspešna."\n"Če se težava ponovi, se obrnite na svojega operaterja."</string>
@@ -226,7 +199,6 @@
     <string name="gsm_umts_options" msgid="6538311689850981686">"Možnosti GSM/UMTS"</string>
     <string name="cdma_options" msgid="4016822858172249884">"Možnosti CDMA"</string>
     <string name="throttle_data_usage" msgid="3715677828160555808">"Uporaba podatkov"</string>
-    <string name="throttle_settings_title" msgid="2761975408383706589">"Podatkovni pravilnik operaterja"</string>
     <string name="throttle_current_usage" msgid="8762280193043815361">"Poraba podatkov v trenutnem obdobju"</string>
     <string name="throttle_time_frame" msgid="1915198770363734685">"Obdobje uporabe podatkov"</string>
     <string name="throttle_rate" msgid="4710388992676803508">"Pravilnik podatkovne hitrosti"</string>
@@ -237,7 +209,6 @@
     <string name="throttle_time_frame_subtext" msgid="7732763021560399960">"<xliff:g id="USED_0">%1$d</xliff:g>٪ cikla potečenega"\n"Naslednje obdobje se začne čez <xliff:g id="USED_1">%2$d</xliff:g> dni (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
     <string name="throttle_rate_subtext" msgid="2149102656120726855">"Če je presežena omejitev porabe podatkov, se podatkovna hitrost zmanjša na <xliff:g id="USED">%1$d</xliff:g> Kb/s."</string>
     <string name="throttle_help_subtext" msgid="5217706521499010816">"Več informacij o pravilniku o uporabi podatkov v mobilnem omrežju vašega operaterja"</string>
-    <string name="cdma_cell_broadcast_sms" msgid="7898475142527341808">"Oddajni vmesnik SMS"</string>
     <string name="cell_broadcast_sms" msgid="5584192824053625842">"Oddajni vmesnik SMS"</string>
     <string name="enable_disable_cell_bc_sms" msgid="4851147873691392255">"Oddajni vmesnik SMS"</string>
     <string name="cell_bc_sms_enable" msgid="6441688565738921084">"Oddajni vmesnik SMS omogočen"</string>
@@ -325,9 +296,6 @@
     <string name="enable_disable_multi_category" msgid="626771003122899280">"Več kategorij"</string>
     <string name="multi_category_enable" msgid="1179299804641721768">"Omogočenih več kategorij"</string>
     <string name="multi_category_disable" msgid="880104702904139505">"Več kategorij onemogočenih"</string>
-    <string name="gsm_umts_network_preferences_title" msgid="4834419333547382436">"Prednostne nastavitve omrežja GSM/UMTS"</string>
-    <string name="gsm_umts_network_preferneces_summary" msgid="1905018644156819521">"Ni še uveljavljeno."</string>
-    <string name="gsm_umts_network_preferences_dialogtitle" msgid="6356332580813229898">"Prednostne nastavitve omrežja GSM/UMTS"</string>
   <string-array name="gsm_umts_network_preferences_choices">
     <item msgid="935612021902787683">"GSM//WCDMA (samodejni način)"</item>
     <item msgid="8912042051809329533">"Samo WCDMA"</item>
@@ -349,9 +317,6 @@
     <item msgid="176474317493999285">"Samo domov"</item>
     <item msgid="1205664026446156265">"Samodejno"</item>
   </string-array>
-    <string name="cdma_roaming_mode_title" msgid="6366737033053855198">"Način gostovanja CDMA"</string>
-    <string name="cdma_roaming_mode_summary" msgid="8604713111805562261">"Spremeni način gostovanja cdma"</string>
-    <string name="cdma_roaming_mode_dialogtitle" msgid="1802896889172094947">"Način gostovanja CDMA"</string>
   <string-array name="cdma_roaming_mode_choices">
     <item msgid="6024072766548865002">"Samo domača omrežja"</item>
     <item msgid="8174642753290624634">"Povezana omrežja"</item>
@@ -362,9 +327,6 @@
     <item msgid="6007798728227141997">"1"</item>
     <item msgid="4039511109802141047">"2"</item>
   </string-array>
-    <string name="cdma_network_preferences_title" msgid="41193174429510391">"Prednostne nastavitve omrežja CDMA"</string>
-    <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"Ni še uveljavljeno."</string>
-    <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"Prednostne nastavitve omrežja CDMA"</string>
   <string-array name="cdma_network_preferences_choices">
     <item msgid="3711054371631487248">"CDMA/EvDo"</item>
     <item msgid="6143696847467859795">"Samo CDMA"</item>
@@ -401,8 +363,6 @@
     <string name="sum_fdn_manage_list" msgid="8431088265332628316">"Upravljanje seznama telefonskih številk"</string>
     <string name="voice_privacy" msgid="7803023024169078619">"Zasebnost glasovne pošte"</string>
     <string name="voice_privacy_summary" msgid="3159383389833516214">"Omogoči izboljšane nastavitve zasebnosti"</string>
-    <string name="tty_mode_title" msgid="3171521903490559138">"Način TTY"</string>
-    <string name="tty_mode_summary" msgid="5057244302665817977">"Omogoči način TTY"</string>
     <string name="tty_mode_option_title" msgid="9033098925144434669">"Način TTY"</string>
     <string name="tty_mode_option_summary" msgid="1073835131534808732">"Nastavitev načina TTY"</string>
     <string name="auto_retry_mode_title" msgid="1478311108889330757">"Samodejen ponovni poskus"</string>
@@ -472,7 +432,6 @@
     <string name="card_title_in_progress" msgid="8603765629781648862">"Trenutni klic"</string>
     <string name="card_title_conf_call" msgid="1162980346189744501">"Konferenčni klic"</string>
     <string name="card_title_incoming_call" msgid="7364539451234646909">"Dohodni klic"</string>
-    <string name="card_title_cdma_call_waiting" msgid="4532445524811272644">"Čakajoči klic CDMA"</string>
     <string name="card_title_call_ended" msgid="5544730338889702298">"Klic je bil končan"</string>
     <string name="card_title_on_hold" msgid="821463117892339942">"Zadržano"</string>
     <string name="card_title_hanging_up" msgid="3999101620995182450">"Prekinitev"</string>
@@ -497,7 +456,6 @@
     <string name="incall_error_no_phone_number_supplied" msgid="4197432103471807739">"Klic ni bil poslan, veljavna številka ni vnesena."</string>
     <string name="incall_error_call_failed" msgid="4313552620858880999">"Klic ni bil poslan."</string>
     <string name="incall_status_dialed_mmi" msgid="3672498861336189563">"Začetek zaporedja MMI ..."</string>
-    <string name="incall_status_dialed_fc" msgid="1632879988662225263">"Zagon zaporedja kod funkcije..."</string>
     <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Nepodprta storitev."</string>
     <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Preklop klicev ni mogoč."</string>
     <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Klica ni mogoče ločiti."</string>
@@ -512,11 +470,8 @@
     <string name="dial_emergency_error" msgid="8362624131726575194">"Klic ni bil poslan, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> ni številka za nujne primere."</string>
     <string name="dial_emergency_empty_error" msgid="5048645338094088229">"Klic ni bil poslan, pokličite številko za nujne primere!"</string>
     <string name="dialerKeyboardHintText" msgid="9192914825413747792">"Za klicanje uporabite tipkovnico"</string>
-    <string name="dtmfDialpadHintText" msgid="2153335217920679451">"Tonska tipkovnica"</string>
     <string name="dtmfDialpadHandleLabel" msgid="6077872154488117962">"Številčnica"</string>
     <string name="touchLockText" msgid="566824588267376287">"Dvakrat tapnite,"\n"da odklenete"</string>
-    <string name="onscreenAnswerText" msgid="3000799558804019765">"Za odgovor"\n"dvakrat tapnite"</string>
-    <string name="onscreenRejectText" msgid="1456649473993020449">"Za zavrnitev"\n"dvakrat tapnite"</string>
     <string name="onscreenHoldText" msgid="2285258239691145872">"Zadrži"</string>
     <string name="onscreenUnholdText" msgid="5033582269005230794">"Ne zadrži"</string>
     <string name="onscreenEndCallText" msgid="4403855834875398585">"Konec"</string>
@@ -542,7 +497,6 @@
     <item msgid="1937509904407445684">"TTY HCO"</item>
     <item msgid="5644925873488772224">"TTY VCO"</item>
   </string-array>
-    <string name="eri_text_label" msgid="4326942349915331461">"Besedilo ERI"</string>
     <string name="dtmf_tones_title" msgid="3866923093113274152">"Toni DTMF"</string>
     <string name="dtmf_tones_summary" msgid="3351820372864020331">"Nastavitev dolžine tonov DTMF"</string>
   <string-array name="dtmf_tone_entries">
@@ -552,7 +506,6 @@
     <string name="network_message" msgid="5673682885938122239">"Sporočilo omrežja"</string>
     <string name="ota_title_activate" msgid="8616918561356194398">"Aktivirajte telefon"</string>
     <string name="ota_touch_activate" msgid="6553212803262586244">"Izvesti morate poseben klic, da aktivirate telefonsko storitev. "\n\n"Po pritisku »Aktiviranje« poslušajte navodila za aktiviranje telefona."</string>
-    <string name="ota_touch_activate_new" msgid="4508197891732183852">"Dotaknite se možnosti »Aktiviranje«, da izvedete poseben klic, s katerim boste aktivirali telefon v mobilnem omrežju svojega operaterja, da boste lahko klicali in vzpostavili povezavo z mobilnimi podatkovnimi omrežji."</string>
     <string name="ota_skip_activation_dialog_title" msgid="2943366608272261306">"Želite preskočiti aktiviranje?"</string>
     <string name="ota_skip_activation_dialog_message" msgid="2440770373498870550">"Če preskočite aktiviranje, ne morete klicati oziroma vzpostaviti stika z mobilnimi podatkovnimi omrežji (lahko pa se povežete v brezžična omrežja). Dokler telefona ne aktivirate, boste k aktiviranju pozvani ob vsakem vklopu telefona."</string>
     <string name="ota_skip_activation_dialog_skip_label" msgid="3458532775091563208">"Preskoči"</string>
@@ -561,7 +514,6 @@
     <string name="ota_title_activate_success" msgid="3344632328991980578">"Telefon je aktiviran."</string>
     <string name="ota_title_problem_with_activation" msgid="7095824491970084367">"Težava pri aktiviranju"</string>
     <string name="ota_listen" msgid="162923839877584937">"Sledite govorjenim navodilom, dokler ne zaslišite, da je aktiviranje končano."</string>
-    <string name="ota_dialpad" msgid="3530900997110658409">"Tipkovnica"</string>
     <string name="ota_speaker" msgid="6904589278542719647">"Zvočnik"</string>
     <string name="ota_progress" msgid="4644512049143969504">"Počakajte trenutek, telefon se programira."</string>
     <string name="ota_failure" msgid="8600027551822478181">"Programiranje neuspešno"</string>
@@ -571,7 +523,6 @@
     <string name="ota_call_end" msgid="4537279738134612388">"Nazaj"</string>
     <string name="ota_try_again" msgid="7685477206465902290">"Poskusite znova"</string>
     <string name="ota_next" msgid="3904945374358235910">"Naprej"</string>
-    <string name="ota_back" msgid="2190038043403850052">"Nazaj"</string>
     <string name="ecm_exit_dialog" msgid="4448531867763097533">"EcmExitDialog"</string>
     <string name="phone_entered_ecm_text" msgid="6266424252578731203">"Vnesen način za povratni klic v sili"</string>
     <string name="phone_in_ecm_notification_title" msgid="3226896828951687085">"Način povratnega klica v sili"</string>
@@ -598,14 +549,9 @@
     <string name="voicemail_provider" msgid="6299679757491942924">"Storitev glasovne pošte"</string>
     <string name="voicemail_settings_for" msgid="9018656268027893088">"Nastavitve za <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
     <string name="other_settings" msgid="3672912580359716394">"Druge nastavitve klicev"</string>
-    <string name="dial_button_label" msgid="5551611636419190229">"Kliči"</string>
     <string name="calling_via_template" msgid="7374498518104190489">"Klic prek ^1"\n<b>"^2"</b></string>
     <string name="slide_to_answer" msgid="255903188611244476">"Povlecite v desno za odgovor"</string>
-    <string name="slide_to_silence" msgid="2224982696981131553">"Povlecite v levo, da utišate zvonjenje"</string>
     <string name="slide_to_decline" msgid="7342094219435077069">"Povlecite v levo za zavrnitev"</string>
-    <string name="slide_to_answer_and_hold" msgid="9212596323067601245">"Povlecite v desno za odgovor in"\n"zadržite aktivni klic"</string>
-    <string name="slide_to_answer_and_end_active" msgid="6473719408670133380">"Povlecite v desno za odgovor in"\n"zaključite aktivni klic"</string>
-    <string name="slide_to_answer_and_end_onhold" msgid="638748048960663506">"Povlecite v desno za odgovor in "\n" končanje zadržanega klica"</string>
     <string name="slide_to_answer_hint" msgid="4901042355463593903">"Odgovor"</string>
     <string name="slide_to_decline_hint" msgid="4484576372463030324">"Zavrni"</string>
     <string name="contactPhoto" msgid="4713193418046639466">"fotografija stika"</string>
@@ -614,18 +560,14 @@
     <string name="sip_settings" msgid="6699045718560859691">"Nastavitve internetnega klicanja"</string>
     <string name="sip_accounts" msgid="2097054001288457163">"Računi za internetno klicanje (SIP)"</string>
     <string name="sip_accounts_title" msgid="1212889069281054570">"Računi"</string>
-    <string name="sip_accounts_summary" msgid="6812629993146552527">"Upravljanje računov in stanja za internetno klicanje (SIP)"</string>
     <string name="sip_receive_calls" msgid="5635685570889971559">"Sprejmi dohodne klice"</string>
     <string name="sip_receive_calls_summary" msgid="8403613238633679184">"Skrajša delovanje baterije"</string>
-    <string name="sip_call_options" msgid="7128315120104066133">"Konfiguriraj klicne možnosti"</string>
     <string name="sip_call_options_title" msgid="27433718808839672">"Uporaba internetnega klicanja"</string>
     <string name="sip_call_options_wifi_only_title" msgid="145572394529090811">"Uporaba internetnega klicanja (samo brezžični dostop)"</string>
     <string name="sip_call_options_entry_1" msgid="6556668894178520760">"Za vse klice, ko podatkovno omrežje ni na voljo"</string>
     <string name="sip_call_options_entry_2" msgid="6789764029719494361">"Samo za internetne klice"</string>
     <string name="sip_call_options_entry_3" msgid="7474809001402649185">"Vprašaj za vsak klic"</string>
     <string name="sip_call_options_wifi_only_entry_1" msgid="7423523864471650069">"Za vse klice"</string>
-    <string name="auto_reg" msgid="8150163311655081599">"Samodejna registracija"</string>
-    <string name="call_priority" msgid="8374917577270504387">"Odhodni klic prek SIP"</string>
     <string name="pick_outgoing_call_phone_type" msgid="5622916534828338675">"Klicanje"</string>
     <string name="pick_outgoing_sip_phone" msgid="7012322118236208875">"Uporaba računa za internetno klicanje"</string>
     <string name="remember_my_choice" msgid="7058059586169290705">"Vedno uporabi za internetno klicanje"</string>
@@ -645,10 +587,6 @@
     <string name="alert_dialog_close" msgid="7759635137627626235">"Zapiranje profila"</string>
     <string name="alert_dialog_ok" msgid="3580379406983564080">"V redu"</string>
     <string name="close_profile" msgid="6886968271423155284">"Zapri"</string>
-    <string name="primary_account" msgid="2229538308291934245">"Primarni"</string>
-    <string name="primary_account_title" msgid="5694267218020951531">"Naj bo moj primarni račun"</string>
-    <string name="primary_account_summary" msgid="7339564526372623187">"Za odhodne klice"</string>
-    <string name="advanced_settings_title" msgid="8846648727128452293">"Dodatne nastavitve"</string>
     <string name="primary_account_summary_with" msgid="1633960536212343187">"Primarni račun. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
     <string name="registration_status_checking_status" msgid="3381868307694056727">"Preverjanje stanja ..."</string>
     <string name="registration_status_registering" msgid="7115694971025999516">"Registriranje ..."</string>
@@ -672,9 +610,6 @@
     <string name="port_title" msgid="5952939408078626657">"Številka vrat"</string>
     <string name="transport_title" msgid="8253139511847746640">"Vrsta prevoza"</string>
     <string name="send_keepalive_title" msgid="7533342573918645113">"Pošlji ohranjanje povezave"</string>
-    <string name="send_keepalive_summary" msgid="9038969409950960640">"Pošiljaj sporočila za ohranjanje povezave SIP"</string>
-    <string name="auto_registration_title" msgid="3586777375420122154">"Samodejna registracija"</string>
-    <string name="auto_registration_summary" msgid="2522794041206619280">"Samodejno registriraj profil"</string>
     <string name="set_primary_title" msgid="5351892327447571451">"Nastavi kot primarni račun"</string>
     <string name="set_primary_summary" msgid="2219064654523258577">"Za odhodne klice"</string>
     <string name="advanced_settings" msgid="8350631795335495338">"Izbirne nastavitve"</string>

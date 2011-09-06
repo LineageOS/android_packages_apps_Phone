@@ -16,18 +16,14 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="contactsIconLabel" msgid="9129800048701196916">"Contactes"</string>
-    <string name="contactsFavoritesLabel" msgid="5360050972935451505">"Preferits"</string>
     <string name="dialerIconLabel" msgid="1761864493312440268">"Dialer"</string>
     <string name="emergencyDialerIconLabel" msgid="7812140032168171053">"Marcador d\'emergència"</string>
     <string name="phoneIconLabel" msgid="2331230813161304895">"Telèfon"</string>
-    <string name="recentCallsIconLabel" msgid="8717350893637245164">"Registre de trucades"</string>
     <string name="fdnListLabel" msgid="8630418672279521003">"Llista FDN"</string>
     <string name="unknown" msgid="6878797917991465859">"Desconegut"</string>
     <string name="private_num" msgid="6713286113000232309">"Número privat"</string>
     <string name="payphone" msgid="1931775086311769314">"Telèfon de monedes"</string>
     <string name="onHold" msgid="9035493194749959955">"En espera"</string>
-    <string name="ongoing" msgid="8300874342848721367">"Trucada actual"</string>
     <string name="callFailed_userBusy" msgid="8851106999809294904">"Línia ocupada"</string>
     <string name="callFailed_congestion" msgid="8737761615702718375">"Xarxa ocupada"</string>
     <string name="callFailed_timedOut" msgid="7590961703135543346">"No hi ha resposta, s\'ha esgotat el temps d\'espera"</string>
@@ -46,20 +42,9 @@
     <string name="callFailed_dsac_restricted" msgid="2180223622768522345">"Totes les trucades estan restringides pel control d\'accés."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="4353654268813314466">"Les trucades d\'emergència estan restringides pel control d\'accés."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="2680774510252408620">"Les trucades normals estan restringides pel control d\'accés."</string>
-    <string name="callFailed_cdma_lockedUntilPowerCycle" msgid="775483211928061084">"CDMA: telèfon bloquejat fins el següent cicle d\'energia."</string>
-    <string name="callFailed_cdma_drop" msgid="6030084920001082496">"CDMA: trucada descartada."</string>
-    <string name="callFailed_cdma_intercept" msgid="8402269373120277330">"CDMA: trucada interceptada."</string>
-    <string name="callFailed_cdma_reorder" msgid="5605791471418711552">"CDMA: torna a ordenar."</string>
-    <string name="callFailed_cdma_SO_reject" msgid="8969174256492763555">"CDMA: rebuig d\'opció de servei."</string>
-    <string name="callFailed_cdma_retryOrder" msgid="5848488692485148804">"CDMA: ordre de reintents."</string>
-    <string name="callFailed_cdma_accessFailure" msgid="2844306027616452215">"CDMA: error d\'accés."</string>
-    <string name="callFailed_cdma_preempted" msgid="1097095321180029879">"CDMA: invalidat."</string>
-    <string name="callFailed_cdma_notEmergency" msgid="2347377816822720761">"Només es poden fer trucades d\'emergència."</string>
     <string name="callFailed_unobtainable_number" msgid="7886274717456712105">"Número no vàlid"</string>
     <string name="confCall" msgid="1904840547188336828">"Trucada de conferència"</string>
     <string name="call_lost" msgid="317670617901479594">"S\'ha perdut la trucada."</string>
-    <string name="retry" msgid="8462986804300767852">"Torna-ho a provar"</string>
-    <string name="call_lost_title" msgid="6696949678847938515">"Trucada perduda"</string>
     <string name="mmiStarted" msgid="6347869857061147003">"Codi MMI iniciat"</string>
     <string name="ussdRunning" msgid="485588686340541690">"S\'està executant el codi USSD..."</string>
     <string name="mmiCancelled" msgid="2771923949751842276">"Codi MMI cancel·lat"</string>
@@ -79,7 +64,6 @@
     <string name="menu_answerAndEnd" msgid="2071708281281611854">"Finalitza la trucada actual"\n"i respon"</string>
     <string name="ok" msgid="3811371167865772377">"D\'acord"</string>
     <string name="menuButtonHint" msgid="4853215496220101699">"Premeu Menú per veure les opcions de trucada."</string>
-    <string name="menuButtonKeyboardDialHint" msgid="2869270434715312458">"Premeu Menú per veure les opcions de trucada  •  Utilitzeu el teclat per marcar"</string>
     <string name="menu_answer" msgid="116686205042231098">"Respon"</string>
     <string name="menu_ignore" msgid="2112030835852537344">"Ignora"</string>
     <string name="wait_prompt_str" msgid="7601815427707856238">"Voleu enviar els codis següents?"\n</string>
@@ -91,15 +75,6 @@
     <string name="no_vm_number" msgid="4164780423805688336">"Falta el número de correu de veu"</string>
     <string name="no_vm_number_msg" msgid="1300729501030053828">"No hi ha cap número de correu de veu emmagatzemat a la targeta SIM."</string>
     <string name="add_vm_number_str" msgid="4676479471644687453">"Afegeix número"</string>
-    <string name="dialer_emptyListWorking" msgid="6022498519770859790">"S\'està carregant…"</string>
-    <string name="enterPin" msgid="4753300834213388397">"Escriviu el codi PIN per desbloquejar la targeta SIM."</string>
-    <string name="pinUnlocked" msgid="3260617001055506794">"SIM desbloquejada"</string>
-    <string name="enterNewPin" msgid="5311243769004752401">"Codi PIN de la SIM nou"</string>
-    <string name="verifyNewPin" msgid="2593629913010458867">"Torneu a escriure el codi PIN de la SIM per confirmar-lo"</string>
-    <string name="verifyFailed" msgid="3875778795754857903">"Els PIN de la SIM que heu escrit no coincideixen. Torneu-ho a provar."</string>
-    <string name="enterPuk" msgid="6144749655582862324">"Escriviu el codi PUK per desbloquejar la targeta SIM"</string>
-    <string name="badPuk" msgid="3213017898690275965">"Codi PUK incorrecte"</string>
-    <string name="buttonTxtContinue" msgid="863271214384739936">"Continua"</string>
     <string name="puk_unlocked" msgid="2284912838477558454">"La targeta SIM s\'ha desbloquejat. El telèfon s\'està desbloquejant..."</string>
     <string name="label_ndp" msgid="780479633159517250">"PIN de desbloqueig de xarxa SIM"</string>
     <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Desbloqueja"</string>
@@ -121,7 +96,6 @@
     <string name="sum_gsm_call_settings" msgid="4076647190996778012">"Configuració addicional de trucades només GSM"</string>
     <string name="additional_cdma_call_settings" msgid="8628958775721886909">"Configuració addicional de trucades CDMA"</string>
     <string name="sum_cdma_call_settings" msgid="284753265979035549">"Configuració addicional de trucades només CDMA"</string>
-    <string name="labelNwService" msgid="4699970172021870983">"Configuració del servei de xarxa"</string>
     <string name="labelCallerId" msgid="3888899447379069198">"Identificació de trucada"</string>
     <string name="sum_hide_caller_id" msgid="1071407020290873782">"Número amagat en trucades sortints"</string>
     <string name="sum_show_caller_id" msgid="6768534125447290401">"Número mostrat a les trucades de sortida"</string>
@@ -170,7 +144,6 @@
     <item msgid="7876195870037833661">"Amaga el número"</item>
     <item msgid="1108394741608734023">"Mostra el número"</item>
   </string-array>
-    <string name="vm_save_number" msgid="4579969432544566719">"Desa el número del correu de veu"</string>
     <string name="vm_changed" msgid="380744030726254139">"Número del correu de veu canviat."</string>
     <string name="vm_change_failed" msgid="6912718596496220653">"No s\'ha pogut canviar el número del correu de veu."\n"Contacteu amb l\'operador si el problema continua."</string>
     <string name="fw_change_failed" msgid="4437005899675054038">"No s\'ha pogut canviar el número de desviament de trucades."\n"Contacteu amb l\'operador si el problema continua."</string>
@@ -226,7 +199,6 @@
     <string name="gsm_umts_options" msgid="6538311689850981686">"Opcions de GSM/UMTS"</string>
     <string name="cdma_options" msgid="4016822858172249884">"Opcions de CDMA"</string>
     <string name="throttle_data_usage" msgid="3715677828160555808">"Ús de dades"</string>
-    <string name="throttle_settings_title" msgid="2761975408383706589">"Política de dades de l\'operador"</string>
     <string name="throttle_current_usage" msgid="8762280193043815361">"Dades utilitzades al període actual"</string>
     <string name="throttle_time_frame" msgid="1915198770363734685">"Període d\'ús de dades"</string>
     <string name="throttle_rate" msgid="4710388992676803508">"Política de velocitat de dades"</string>
@@ -237,7 +209,6 @@
     <string name="throttle_time_frame_subtext" msgid="7732763021560399960">"<xliff:g id="USED_0">%1$d</xliff:g>٪ del cicle transcorregut"\n"El període següent comença d\'aquí a <xliff:g id="USED_1">%2$d</xliff:g> dies (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
     <string name="throttle_rate_subtext" msgid="2149102656120726855">"La velocitat de dades es redueix a <xliff:g id="USED">%1$d</xliff:g> kbps si se supera el límit d\'ús de dades"</string>
     <string name="throttle_help_subtext" msgid="5217706521499010816">"Més informació sobre la política d\'us de dades de la xarxa mòbil de l\'operador"</string>
-    <string name="cdma_cell_broadcast_sms" msgid="7898475142527341808">"SMS de difusió de cel·la"</string>
     <string name="cell_broadcast_sms" msgid="5584192824053625842">"SMS de difusió de cel·la"</string>
     <string name="enable_disable_cell_bc_sms" msgid="4851147873691392255">"SMS de difusió de cel·la"</string>
     <string name="cell_bc_sms_enable" msgid="6441688565738921084">"SMS de difusió de cel·la activat"</string>
@@ -325,9 +296,6 @@
     <string name="enable_disable_multi_category" msgid="626771003122899280">"Multicategoria"</string>
     <string name="multi_category_enable" msgid="1179299804641721768">"Multicategoria activada"</string>
     <string name="multi_category_disable" msgid="880104702904139505">"Multicategoria desactivada"</string>
-    <string name="gsm_umts_network_preferences_title" msgid="4834419333547382436">"Preferències de xarxa GSM/UMTS"</string>
-    <string name="gsm_umts_network_preferneces_summary" msgid="1905018644156819521">"Encara no s\'ha implementat."</string>
-    <string name="gsm_umts_network_preferences_dialogtitle" msgid="6356332580813229898">"Preferències de xarxa GSM/UMTS"</string>
   <string-array name="gsm_umts_network_preferences_choices">
     <item msgid="935612021902787683">"GSM/WCDMA (mode automàtic)"</item>
     <item msgid="8912042051809329533">"Només WCDMA"</item>
@@ -349,9 +317,6 @@
     <item msgid="176474317493999285">"Només local"</item>
     <item msgid="1205664026446156265">"Automàtic"</item>
   </string-array>
-    <string name="cdma_roaming_mode_title" msgid="6366737033053855198">"Mode d\'itinerància CDMA"</string>
-    <string name="cdma_roaming_mode_summary" msgid="8604713111805562261">"Canvia el mode d\'itinerància cdma"</string>
-    <string name="cdma_roaming_mode_dialogtitle" msgid="1802896889172094947">"Mode d\'itinerància CDMA"</string>
   <string-array name="cdma_roaming_mode_choices">
     <item msgid="6024072766548865002">"Només xarxes locals"</item>
     <item msgid="8174642753290624634">"Xarxes afiliades"</item>
@@ -362,9 +327,6 @@
     <item msgid="6007798728227141997">"1"</item>
     <item msgid="4039511109802141047">"2"</item>
   </string-array>
-    <string name="cdma_network_preferences_title" msgid="41193174429510391">"Preferències de xarxa CDMA"</string>
-    <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"Encara no s\'ha implementat."</string>
-    <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"Preferències de xarxa CDMA"</string>
   <string-array name="cdma_network_preferences_choices">
     <item msgid="3711054371631487248">"CDMA/EvDo"</item>
     <item msgid="6143696847467859795">"Només CDMA"</item>
@@ -401,8 +363,6 @@
     <string name="sum_fdn_manage_list" msgid="8431088265332628316">"Gestiona la llista de números de telèfon"</string>
     <string name="voice_privacy" msgid="7803023024169078619">"Privadesa de veu"</string>
     <string name="voice_privacy_summary" msgid="3159383389833516214">"Activa el mode de privadesa millorat"</string>
-    <string name="tty_mode_title" msgid="3171521903490559138">"Mode TTY"</string>
-    <string name="tty_mode_summary" msgid="5057244302665817977">"Activa el mode TTY"</string>
     <string name="tty_mode_option_title" msgid="9033098925144434669">"Mode TTY"</string>
     <string name="tty_mode_option_summary" msgid="1073835131534808732">"Defineix el mode TTY"</string>
     <string name="auto_retry_mode_title" msgid="1478311108889330757">"Reintent automàtic"</string>
@@ -472,7 +432,6 @@
     <string name="card_title_in_progress" msgid="8603765629781648862">"Trucada actual"</string>
     <string name="card_title_conf_call" msgid="1162980346189744501">"Trucada de conferència"</string>
     <string name="card_title_incoming_call" msgid="7364539451234646909">"Trucada entrant"</string>
-    <string name="card_title_cdma_call_waiting" msgid="4532445524811272644">"Trucada en espera CDMA"</string>
     <string name="card_title_call_ended" msgid="5544730338889702298">"Trucada finalitzada"</string>
     <string name="card_title_on_hold" msgid="821463117892339942">"En espera"</string>
     <string name="card_title_hanging_up" msgid="3999101620995182450">"S\'està penjant"</string>
@@ -497,7 +456,6 @@
     <string name="incall_error_no_phone_number_supplied" msgid="4197432103471807739">"No s\'ha enviat la trucada perquè no s\'ha introduït cap número vàlid."</string>
     <string name="incall_error_call_failed" msgid="4313552620858880999">"No s\'ha enviat la trucada."</string>
     <string name="incall_status_dialed_mmi" msgid="3672498861336189563">"S\'està iniciant la seqüència MMI..."</string>
-    <string name="incall_status_dialed_fc" msgid="1632879988662225263">"S\'està iniciant la seqüència de codis de funció..."</string>
     <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Servei no compatible."</string>
     <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"No es poden canviar les trucades."</string>
     <string name="incall_error_supp_service_separate" msgid="914362338192301746">"No es pot separar la trucada."</string>
@@ -512,11 +470,8 @@
     <string name="dial_emergency_error" msgid="8362624131726575194">"No s\'ha enviat la trucada, perquè <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> no és un número d\'emergència."</string>
     <string name="dial_emergency_empty_error" msgid="5048645338094088229">"Trucada no enviada. Marqueu un número d\'emergència."</string>
     <string name="dialerKeyboardHintText" msgid="9192914825413747792">"Utilitzeu el teclat per marcar"</string>
-    <string name="dtmfDialpadHintText" msgid="2153335217920679451">"Teclat de tons"</string>
     <string name="dtmfDialpadHandleLabel" msgid="6077872154488117962">"Teclat"</string>
     <string name="touchLockText" msgid="566824588267376287">"Piqueu dos cops"\n"per desbloquejar-la"</string>
-    <string name="onscreenAnswerText" msgid="3000799558804019765">"Piqueu dos cops"\n"per respondre"</string>
-    <string name="onscreenRejectText" msgid="1456649473993020449">"Piqueu dos cops"\n"per rebutjar"</string>
     <string name="onscreenHoldText" msgid="2285258239691145872">"Posa en espera"</string>
     <string name="onscreenUnholdText" msgid="5033582269005230794">"Allibera"</string>
     <string name="onscreenEndCallText" msgid="4403855834875398585">"Final"</string>
@@ -542,7 +497,6 @@
     <item msgid="1937509904407445684">"TTY HCO"</item>
     <item msgid="5644925873488772224">"TTY VCO"</item>
   </string-array>
-    <string name="eri_text_label" msgid="4326942349915331461">"Text ERI"</string>
     <string name="dtmf_tones_title" msgid="3866923093113274152">"Tons DTMF"</string>
     <string name="dtmf_tones_summary" msgid="3351820372864020331">"Defineix la durada dels tons DTMF"</string>
   <string-array name="dtmf_tone_entries">
@@ -552,7 +506,6 @@
     <string name="network_message" msgid="5673682885938122239">"Missatge de xarxa"</string>
     <string name="ota_title_activate" msgid="8616918561356194398">"Activació del telèfon"</string>
     <string name="ota_touch_activate" msgid="6553212803262586244">"Cal fer una trucada especial per activar el servei del telèfon. "\n\n"Després de prémer \"Activa\", escolteu les instruccions proporcionades per activar el telèfon."</string>
-    <string name="ota_touch_activate_new" msgid="4508197891732183852">"Toqueu \"Activa\" per fer una trucada especial que activa el telèfon a la xarxa mòbil de l\'operador per tal que pugueu fer trucades i connectar-vos a les xarxes de dades mòbils."</string>
     <string name="ota_skip_activation_dialog_title" msgid="2943366608272261306">"Voleu ometre l\'activació?"</string>
     <string name="ota_skip_activation_dialog_message" msgid="2440770373498870550">"Si ometeu l\'activació, no podreu fer trucades ni connectar-vos a xarxes de dades mòbils (tot i que podreu connectar-vos a xarxes Wi-fi). Fins que activeu el telèfon, se us demanarà que ho feu cada cop que l\'engegueu."</string>
     <string name="ota_skip_activation_dialog_skip_label" msgid="3458532775091563208">"Omet"</string>
@@ -561,7 +514,6 @@
     <string name="ota_title_activate_success" msgid="3344632328991980578">"El telèfon s\'ha activat."</string>
     <string name="ota_title_problem_with_activation" msgid="7095824491970084367">"Problema d\'activació"</string>
     <string name="ota_listen" msgid="162923839877584937">"Seguiu les instruccions parlades fins que escolteu que s\'ha completat l\'activació."</string>
-    <string name="ota_dialpad" msgid="3530900997110658409">"Teclat"</string>
     <string name="ota_speaker" msgid="6904589278542719647">"Altaveu"</string>
     <string name="ota_progress" msgid="4644512049143969504">"Espereu-vos mentre es programa el telèfon."</string>
     <string name="ota_failure" msgid="8600027551822478181">"Programació incorrecta"</string>
@@ -571,7 +523,6 @@
     <string name="ota_call_end" msgid="4537279738134612388">"Enrere"</string>
     <string name="ota_try_again" msgid="7685477206465902290">"Torna-ho a provar"</string>
     <string name="ota_next" msgid="3904945374358235910">"Següent"</string>
-    <string name="ota_back" msgid="2190038043403850052">"Enrere"</string>
     <string name="ecm_exit_dialog" msgid="4448531867763097533">"EcmExitDialog"</string>
     <string name="phone_entered_ecm_text" msgid="6266424252578731203">"S\'ha entrat al mode de crida de retorn d\'emergència"</string>
     <string name="phone_in_ecm_notification_title" msgid="3226896828951687085">"Mode de crida de retorn d\'emergència"</string>
@@ -598,14 +549,9 @@
     <string name="voicemail_provider" msgid="6299679757491942924">"Servei de correu de veu"</string>
     <string name="voicemail_settings_for" msgid="9018656268027893088">"Configuració de <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
     <string name="other_settings" msgid="3672912580359716394">"Altres opcions de configuració de trucades"</string>
-    <string name="dial_button_label" msgid="5551611636419190229">"Marca"</string>
     <string name="calling_via_template" msgid="7374498518104190489">"S\'està trucant mitjançant ^1"\n<b>"^2"</b></string>
     <string name="slide_to_answer" msgid="255903188611244476">"Arrossegueu-ho cap a la dreta per respondre"</string>
-    <string name="slide_to_silence" msgid="2224982696981131553">"Arrossegueu-ho cap a l\'esquerra per silenciar el timbre"</string>
     <string name="slide_to_decline" msgid="7342094219435077069">"Arrossegueu-ho cap a l\'esquerra per rebutjar-la"</string>
-    <string name="slide_to_answer_and_hold" msgid="9212596323067601245">"Arrossegueu-ho cap a la dreta per respondre i"\n"posar en espera la trucada activa"</string>
-    <string name="slide_to_answer_and_end_active" msgid="6473719408670133380">"Arrossegueu-ho cap a la dreta per respondre i"\n"finalitzar la trucada activa"</string>
-    <string name="slide_to_answer_and_end_onhold" msgid="638748048960663506">"Arrossegueu-ho cap a la dreta per respondre i"\n"finalitzar la trucada en espera"</string>
     <string name="slide_to_answer_hint" msgid="4901042355463593903">"Respon"</string>
     <string name="slide_to_decline_hint" msgid="4484576372463030324">"Rebutja"</string>
     <string name="contactPhoto" msgid="4713193418046639466">"foto de contacte"</string>
@@ -614,18 +560,14 @@
     <string name="sip_settings" msgid="6699045718560859691">"Configuració de les trucades per Internet"</string>
     <string name="sip_accounts" msgid="2097054001288457163">"Comptes per a trucades per Internet (SIP)"</string>
     <string name="sip_accounts_title" msgid="1212889069281054570">"Comptes"</string>
-    <string name="sip_accounts_summary" msgid="6812629993146552527">"Gestió dels comptes i estats de les trucades per Internet (SIP)"</string>
     <string name="sip_receive_calls" msgid="5635685570889971559">"Recepció de trucades entrants"</string>
     <string name="sip_receive_calls_summary" msgid="8403613238633679184">"Redueix la durada de la bateria"</string>
-    <string name="sip_call_options" msgid="7128315120104066133">"Configura les opcions de trucada"</string>
     <string name="sip_call_options_title" msgid="27433718808839672">"Utilitza la trucada per Internet"</string>
     <string name="sip_call_options_wifi_only_title" msgid="145572394529090811">"Utilitza la trucada per Internet (només Wi-Fi)"</string>
     <string name="sip_call_options_entry_1" msgid="6556668894178520760">"Per a totes les trucades quan hi hagi disponible una xarxa de dades"</string>
     <string name="sip_call_options_entry_2" msgid="6789764029719494361">"Només per a trucades per Internet"</string>
     <string name="sip_call_options_entry_3" msgid="7474809001402649185">"Pregunta-ho per a cada trucada"</string>
     <string name="sip_call_options_wifi_only_entry_1" msgid="7423523864471650069">"Per a totes les trucades"</string>
-    <string name="auto_reg" msgid="8150163311655081599">"Registre automàtic"</string>
-    <string name="call_priority" msgid="8374917577270504387">"Trucada sortint per SIP"</string>
     <string name="pick_outgoing_call_phone_type" msgid="5622916534828338675">"Fes una trucada"</string>
     <string name="pick_outgoing_sip_phone" msgid="7012322118236208875">"Utilitza el compte per a trucades per Internet:"</string>
     <string name="remember_my_choice" msgid="7058059586169290705">"Utilitza-ho sempre per fer trucades per Internet"</string>
@@ -645,10 +587,6 @@
     <string name="alert_dialog_close" msgid="7759635137627626235">"Tanca el perfil"</string>
     <string name="alert_dialog_ok" msgid="3580379406983564080">"D\'acord"</string>
     <string name="close_profile" msgid="6886968271423155284">"Tanca"</string>
-    <string name="primary_account" msgid="2229538308291934245">"Principal"</string>
-    <string name="primary_account_title" msgid="5694267218020951531">"Defineix-lo com el meu compte principal"</string>
-    <string name="primary_account_summary" msgid="7339564526372623187">"Utilitzat per a trucades sortints"</string>
-    <string name="advanced_settings_title" msgid="8846648727128452293">"Configuració avançada"</string>
     <string name="primary_account_summary_with" msgid="1633960536212343187">"Compte principal. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
     <string name="registration_status_checking_status" msgid="3381868307694056727">"S\'està comprovant l\'estat..."</string>
     <string name="registration_status_registering" msgid="7115694971025999516">"S\'està registrant..."</string>
@@ -672,9 +610,6 @@
     <string name="port_title" msgid="5952939408078626657">"Número de port"</string>
     <string name="transport_title" msgid="8253139511847746640">"Tipus de transport"</string>
     <string name="send_keepalive_title" msgid="7533342573918645113">"Envia mantenir en línia"</string>
-    <string name="send_keepalive_summary" msgid="9038969409950960640">"Envia missatges SIP de manteniment"</string>
-    <string name="auto_registration_title" msgid="3586777375420122154">"Registre automàtic"</string>
-    <string name="auto_registration_summary" msgid="2522794041206619280">"Registra automàticament el perfil"</string>
     <string name="set_primary_title" msgid="5351892327447571451">"Defineix com a compte principal"</string>
     <string name="set_primary_summary" msgid="2219064654523258577">"Utilitzat per a trucades sortints"</string>
     <string name="advanced_settings" msgid="8350631795335495338">"Configuració opcional"</string>
