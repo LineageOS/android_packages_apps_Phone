@@ -16,18 +16,14 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="contactsIconLabel" msgid="9129800048701196916">"Contacts"</string>
-    <string name="contactsFavoritesLabel" msgid="5360050972935451505">"Favourites"</string>
     <string name="dialerIconLabel" msgid="1761864493312440268">"Dialler"</string>
     <string name="emergencyDialerIconLabel" msgid="7812140032168171053">"Emergency Dialler"</string>
     <string name="phoneIconLabel" msgid="2331230813161304895">"Phone"</string>
-    <string name="recentCallsIconLabel" msgid="8717350893637245164">"Call log"</string>
     <string name="fdnListLabel" msgid="8630418672279521003">"FDN list"</string>
     <string name="unknown" msgid="6878797917991465859">"Unknown"</string>
     <string name="private_num" msgid="6713286113000232309">"Private number"</string>
     <string name="payphone" msgid="1931775086311769314">"Phonebox"</string>
     <string name="onHold" msgid="9035493194749959955">"On hold"</string>
-    <string name="ongoing" msgid="8300874342848721367">"Current call"</string>
     <string name="callFailed_userBusy" msgid="8851106999809294904">"Line busy"</string>
     <string name="callFailed_congestion" msgid="8737761615702718375">"Network busy"</string>
     <string name="callFailed_timedOut" msgid="7590961703135543346">"No response; timed out"</string>
@@ -46,20 +42,9 @@
     <string name="callFailed_dsac_restricted" msgid="2180223622768522345">"All calls are restricted by access control."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="4353654268813314466">"Emergency calls are restricted by access control."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="2680774510252408620">"Normal calls are restricted by access control."</string>
-    <string name="callFailed_cdma_lockedUntilPowerCycle" msgid="775483211928061084">"CDMA: Phone locked until power cycle."</string>
-    <string name="callFailed_cdma_drop" msgid="6030084920001082496">"CDMA: Call dropped."</string>
-    <string name="callFailed_cdma_intercept" msgid="8402269373120277330">"CDMA: Call intercepted."</string>
-    <string name="callFailed_cdma_reorder" msgid="5605791471418711552">"CDMA: reorder."</string>
-    <string name="callFailed_cdma_SO_reject" msgid="8969174256492763555">"CDMA: Service Option Reject."</string>
-    <string name="callFailed_cdma_retryOrder" msgid="5848488692485148804">"CDMA: retry order."</string>
-    <string name="callFailed_cdma_accessFailure" msgid="2844306027616452215">"CDMA: Access failure."</string>
-    <string name="callFailed_cdma_preempted" msgid="1097095321180029879">"CDMA: Pre-empted."</string>
-    <string name="callFailed_cdma_notEmergency" msgid="2347377816822720761">"Only Emergency calls are possible."</string>
     <string name="callFailed_unobtainable_number" msgid="7886274717456712105">"Invalid Number"</string>
     <string name="confCall" msgid="1904840547188336828">"Conference call"</string>
     <string name="call_lost" msgid="317670617901479594">"Call has been lost."</string>
-    <string name="retry" msgid="8462986804300767852">"Retry"</string>
-    <string name="call_lost_title" msgid="6696949678847938515">"Call Lost"</string>
     <string name="mmiStarted" msgid="6347869857061147003">"MMI code started"</string>
     <string name="ussdRunning" msgid="485588686340541690">"USSD code running…"</string>
     <string name="mmiCancelled" msgid="2771923949751842276">"MMI code cancelled"</string>
@@ -79,7 +64,6 @@
     <string name="menu_answerAndEnd" msgid="2071708281281611854">"End current call"\n"&amp; answer"</string>
     <string name="ok" msgid="3811371167865772377">"OK"</string>
     <string name="menuButtonHint" msgid="4853215496220101699">"Press Menu for call options."</string>
-    <string name="menuButtonKeyboardDialHint" msgid="2869270434715312458">"Press Menu for call options  •  Use keyboard to dial"</string>
     <string name="menu_answer" msgid="116686205042231098">"Answer"</string>
     <string name="menu_ignore" msgid="2112030835852537344">"Ignore"</string>
     <string name="wait_prompt_str" msgid="7601815427707856238">"Send the following tones?"\n</string>
@@ -91,15 +75,6 @@
     <string name="no_vm_number" msgid="4164780423805688336">"Missing voicemail number"</string>
     <string name="no_vm_number_msg" msgid="1300729501030053828">"No voicemail number is stored on the SIM card."</string>
     <string name="add_vm_number_str" msgid="4676479471644687453">"Add number"</string>
-    <string name="dialer_emptyListWorking" msgid="6022498519770859790">"Loading…"</string>
-    <string name="enterPin" msgid="4753300834213388397">"Type PIN code to unlock SIM card."</string>
-    <string name="pinUnlocked" msgid="3260617001055506794">"SIM unlocked"</string>
-    <string name="enterNewPin" msgid="5311243769004752401">"New SIM PIN code"</string>
-    <string name="verifyNewPin" msgid="2593629913010458867">"Type new SIM PIN code again to confirm"</string>
-    <string name="verifyFailed" msgid="3875778795754857903">"The SIM PINs that you typed do not match. Please try again."</string>
-    <string name="enterPuk" msgid="6144749655582862324">"Type PUK code to unlock SIM card"</string>
-    <string name="badPuk" msgid="3213017898690275965">"Incorrect PUK code!"</string>
-    <string name="buttonTxtContinue" msgid="863271214384739936">"Continue"</string>
     <string name="puk_unlocked" msgid="2284912838477558454">"Your SIM card has been unblocked. Your phone is unlocking…"</string>
     <string name="label_ndp" msgid="780479633159517250">"SIM network unlock PIN"</string>
     <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Unlock"</string>
@@ -121,7 +96,6 @@
     <string name="sum_gsm_call_settings" msgid="4076647190996778012">"Additional GSM-only call settings"</string>
     <string name="additional_cdma_call_settings" msgid="8628958775721886909">"Additional CDMA call settings"</string>
     <string name="sum_cdma_call_settings" msgid="284753265979035549">"Additional CDMA-only call settings"</string>
-    <string name="labelNwService" msgid="4699970172021870983">"Network service settings"</string>
     <string name="labelCallerId" msgid="3888899447379069198">"Caller ID"</string>
     <string name="sum_hide_caller_id" msgid="1071407020290873782">"Number hidden in outgoing calls"</string>
     <string name="sum_show_caller_id" msgid="6768534125447290401">"Number displayed in outgoing calls"</string>
@@ -170,7 +144,6 @@
     <item msgid="7876195870037833661">"Hide number"</item>
     <item msgid="1108394741608734023">"Show number"</item>
   </string-array>
-    <string name="vm_save_number" msgid="4579969432544566719">"Save voicemail number"</string>
     <string name="vm_changed" msgid="380744030726254139">"Voicemail number changed."</string>
     <string name="vm_change_failed" msgid="6912718596496220653">"Voicemail number change unsuccessful."\n"Please contact your operator if this problem persists."</string>
     <string name="fw_change_failed" msgid="4437005899675054038">"Forwarding number change unsuccessful."\n"Please contact your operator if this problem persists."</string>
@@ -226,7 +199,6 @@
     <string name="gsm_umts_options" msgid="6538311689850981686">"GSM/UMTS Options"</string>
     <string name="cdma_options" msgid="4016822858172249884">"CDMA Options"</string>
     <string name="throttle_data_usage" msgid="3715677828160555808">"Data usage"</string>
-    <string name="throttle_settings_title" msgid="2761975408383706589">"Operator data policy"</string>
     <string name="throttle_current_usage" msgid="8762280193043815361">"Data used in current period"</string>
     <string name="throttle_time_frame" msgid="1915198770363734685">"Data usage period"</string>
     <string name="throttle_rate" msgid="4710388992676803508">"Data rate policy"</string>
@@ -237,7 +209,6 @@
     <string name="throttle_time_frame_subtext" msgid="7732763021560399960">"<xliff:g id="USED_0">%1$d</xliff:g>٪ of cycle elapsed"\n"Next period starts in <xliff:g id="USED_1">%2$d</xliff:g> days (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
     <string name="throttle_rate_subtext" msgid="2149102656120726855">"Data rate reduced to <xliff:g id="USED">%1$d</xliff:g> Kb/s if data usage limit is exceeded"</string>
     <string name="throttle_help_subtext" msgid="5217706521499010816">"More information about your operator\'s mobile network data usage policy"</string>
-    <string name="cdma_cell_broadcast_sms" msgid="7898475142527341808">"Mobile Broadcast SMS"</string>
     <string name="cell_broadcast_sms" msgid="5584192824053625842">"Mobile Broadcast SMS"</string>
     <string name="enable_disable_cell_bc_sms" msgid="4851147873691392255">"Mobile Broadcast SMS"</string>
     <string name="cell_bc_sms_enable" msgid="6441688565738921084">"Mobile Broadcast SMS enabled"</string>
@@ -325,9 +296,6 @@
     <string name="enable_disable_multi_category" msgid="626771003122899280">"Multi-category"</string>
     <string name="multi_category_enable" msgid="1179299804641721768">"Multi-category enabled"</string>
     <string name="multi_category_disable" msgid="880104702904139505">"Multi-category disabled"</string>
-    <string name="gsm_umts_network_preferences_title" msgid="4834419333547382436">"GSM/UMTS Network Preferences"</string>
-    <string name="gsm_umts_network_preferneces_summary" msgid="1905018644156819521">"Not implemented yet!"</string>
-    <string name="gsm_umts_network_preferences_dialogtitle" msgid="6356332580813229898">"GSM/UMTS network preferences"</string>
   <string-array name="gsm_umts_network_preferences_choices">
     <item msgid="935612021902787683">"GSM/WCDMA (auto-mode)"</item>
     <item msgid="8912042051809329533">"WCDMA only"</item>
@@ -349,9 +317,6 @@
     <item msgid="176474317493999285">"Home only"</item>
     <item msgid="1205664026446156265">"Automatic"</item>
   </string-array>
-    <string name="cdma_roaming_mode_title" msgid="6366737033053855198">"CDMA Roaming Mode"</string>
-    <string name="cdma_roaming_mode_summary" msgid="8604713111805562261">"Change the CDMA roaming mode"</string>
-    <string name="cdma_roaming_mode_dialogtitle" msgid="1802896889172094947">"CDMA roaming mode"</string>
   <string-array name="cdma_roaming_mode_choices">
     <item msgid="6024072766548865002">"Home Networks only"</item>
     <item msgid="8174642753290624634">"Affiliated Networks"</item>
@@ -362,9 +327,6 @@
     <item msgid="6007798728227141997">"1"</item>
     <item msgid="4039511109802141047">"2"</item>
   </string-array>
-    <string name="cdma_network_preferences_title" msgid="41193174429510391">"CDMA Network Preferences"</string>
-    <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"Not implemented yet!"</string>
-    <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"CDMA network preferences"</string>
   <string-array name="cdma_network_preferences_choices">
     <item msgid="3711054371631487248">"CDMA/EvDo"</item>
     <item msgid="6143696847467859795">"CDMA only"</item>
@@ -401,8 +363,6 @@
     <string name="sum_fdn_manage_list" msgid="8431088265332628316">"Manage phone number list"</string>
     <string name="voice_privacy" msgid="7803023024169078619">"Voice Privacy"</string>
     <string name="voice_privacy_summary" msgid="3159383389833516214">"Enable enhanced privacy mode"</string>
-    <string name="tty_mode_title" msgid="3171521903490559138">"TTY mode"</string>
-    <string name="tty_mode_summary" msgid="5057244302665817977">"Enable TTY mode"</string>
     <string name="tty_mode_option_title" msgid="9033098925144434669">"TTY mode"</string>
     <string name="tty_mode_option_summary" msgid="1073835131534808732">"Set TTY mode"</string>
     <string name="auto_retry_mode_title" msgid="1478311108889330757">"Auto-Retry"</string>
@@ -472,7 +432,6 @@
     <string name="card_title_in_progress" msgid="8603765629781648862">"Current call"</string>
     <string name="card_title_conf_call" msgid="1162980346189744501">"Conference call"</string>
     <string name="card_title_incoming_call" msgid="7364539451234646909">"Incoming call"</string>
-    <string name="card_title_cdma_call_waiting" msgid="4532445524811272644">"CDMA call waiting"</string>
     <string name="card_title_call_ended" msgid="5544730338889702298">"Call ended"</string>
     <string name="card_title_on_hold" msgid="821463117892339942">"On hold"</string>
     <string name="card_title_hanging_up" msgid="3999101620995182450">"Hanging up"</string>
@@ -497,7 +456,6 @@
     <string name="incall_error_no_phone_number_supplied" msgid="4197432103471807739">"Call not sent. No valid number entered."</string>
     <string name="incall_error_call_failed" msgid="4313552620858880999">"Call not sent."</string>
     <string name="incall_status_dialed_mmi" msgid="3672498861336189563">"Starting MMI sequence…"</string>
-    <string name="incall_status_dialed_fc" msgid="1632879988662225263">"Starting feature code sequence…"</string>
     <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Unsupported service."</string>
     <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Unable to switch calls."</string>
     <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Unable to separate call."</string>
@@ -512,11 +470,8 @@
     <string name="dial_emergency_error" msgid="8362624131726575194">"Call not sent. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> is not an emergency number!"</string>
     <string name="dial_emergency_empty_error" msgid="5048645338094088229">"Call not sent. Please dial an emergency number!"</string>
     <string name="dialerKeyboardHintText" msgid="9192914825413747792">"Use keyboard to dial"</string>
-    <string name="dtmfDialpadHintText" msgid="2153335217920679451">"Touch-tone keypad"</string>
     <string name="dtmfDialpadHandleLabel" msgid="6077872154488117962">"Dialling Pad"</string>
     <string name="touchLockText" msgid="566824588267376287">"Double-tap"\n"to unlock"</string>
-    <string name="onscreenAnswerText" msgid="3000799558804019765">"Double-tap"\n"to answer"</string>
-    <string name="onscreenRejectText" msgid="1456649473993020449">"Double-tap"\n"to decline"</string>
     <string name="onscreenHoldText" msgid="2285258239691145872">"Hold"</string>
     <string name="onscreenUnholdText" msgid="5033582269005230794">"Unhold"</string>
     <string name="onscreenEndCallText" msgid="4403855834875398585">"End"</string>
@@ -542,7 +497,6 @@
     <item msgid="1937509904407445684">"TTY HCO"</item>
     <item msgid="5644925873488772224">"TTY VCO"</item>
   </string-array>
-    <string name="eri_text_label" msgid="4326942349915331461">"ERI text"</string>
     <string name="dtmf_tones_title" msgid="3866923093113274152">"DTMF Tones"</string>
     <string name="dtmf_tones_summary" msgid="3351820372864020331">"Set the length of DTMF tones"</string>
   <string-array name="dtmf_tone_entries">
@@ -552,7 +506,6 @@
     <string name="network_message" msgid="5673682885938122239">"Network Message"</string>
     <string name="ota_title_activate" msgid="8616918561356194398">"Activate your phone"</string>
     <string name="ota_touch_activate" msgid="6553212803262586244">"A special call needs to be made to activate your phone service. "\n\n"After pressing “Activate”, listen to the instructions provided to activate your phone."</string>
-    <string name="ota_touch_activate_new" msgid="4508197891732183852">"Touch “Activate” to place a special call that activates your phone on your operator\'s mobile network, so that you can place calls and connect to mobile data networks."</string>
     <string name="ota_skip_activation_dialog_title" msgid="2943366608272261306">"Skip activation?"</string>
     <string name="ota_skip_activation_dialog_message" msgid="2440770373498870550">"If you skip activation, you can\'t place calls or connect to mobile data networks (though you can connect to Wi-Fi networks). Until you activate your phone, you are asked to activate it each time that you turn it on."</string>
     <string name="ota_skip_activation_dialog_skip_label" msgid="3458532775091563208">"Skip"</string>
@@ -561,7 +514,6 @@
     <string name="ota_title_activate_success" msgid="3344632328991980578">"Phone is activated!"</string>
     <string name="ota_title_problem_with_activation" msgid="7095824491970084367">"Problem with activation"</string>
     <string name="ota_listen" msgid="162923839877584937">"Follow the spoken instructions until you hear that activation is complete."</string>
-    <string name="ota_dialpad" msgid="3530900997110658409">"Keypad"</string>
     <string name="ota_speaker" msgid="6904589278542719647">"Speaker"</string>
     <string name="ota_progress" msgid="4644512049143969504">"Please wait while your phone is being programmed."</string>
     <string name="ota_failure" msgid="8600027551822478181">"Programming Unsuccessful"</string>
@@ -571,7 +523,6 @@
     <string name="ota_call_end" msgid="4537279738134612388">"Back"</string>
     <string name="ota_try_again" msgid="7685477206465902290">"Try again"</string>
     <string name="ota_next" msgid="3904945374358235910">"Next"</string>
-    <string name="ota_back" msgid="2190038043403850052">"Back"</string>
     <string name="ecm_exit_dialog" msgid="4448531867763097533">"EcmExitDialog"</string>
     <string name="phone_entered_ecm_text" msgid="6266424252578731203">"Entered Emergency Callback Mode"</string>
     <string name="phone_in_ecm_notification_title" msgid="3226896828951687085">"Emergency Callback Mode"</string>
@@ -598,14 +549,9 @@
     <string name="voicemail_provider" msgid="6299679757491942924">"Voicemail service"</string>
     <string name="voicemail_settings_for" msgid="9018656268027893088">"Settings for <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
     <string name="other_settings" msgid="3672912580359716394">"Other call settings"</string>
-    <string name="dial_button_label" msgid="5551611636419190229">"Dial"</string>
     <string name="calling_via_template" msgid="7374498518104190489">"Calling via ^1"\n<b>"^2"</b></string>
     <string name="slide_to_answer" msgid="255903188611244476">"Drag right to answer"</string>
-    <string name="slide_to_silence" msgid="2224982696981131553">"Drag left to silence ringer"</string>
     <string name="slide_to_decline" msgid="7342094219435077069">"Drag left to decline"</string>
-    <string name="slide_to_answer_and_hold" msgid="9212596323067601245">"Drag right to answer and"\n"hold active call"</string>
-    <string name="slide_to_answer_and_end_active" msgid="6473719408670133380">"Drag right to answer and"\n"end active call"</string>
-    <string name="slide_to_answer_and_end_onhold" msgid="638748048960663506">"Drag right to answer and"\n"end call on hold"</string>
     <string name="slide_to_answer_hint" msgid="4901042355463593903">"Answer"</string>
     <string name="slide_to_decline_hint" msgid="4484576372463030324">"Decline"</string>
     <string name="contactPhoto" msgid="4713193418046639466">"contact photo"</string>
@@ -614,18 +560,14 @@
     <string name="sip_settings" msgid="6699045718560859691">"Internet call settings"</string>
     <string name="sip_accounts" msgid="2097054001288457163">"Internet calling (SIP) accounts"</string>
     <string name="sip_accounts_title" msgid="1212889069281054570">"Accounts"</string>
-    <string name="sip_accounts_summary" msgid="6812629993146552527">"Manage Internet calling (SIP) accounts and status"</string>
     <string name="sip_receive_calls" msgid="5635685570889971559">"Receive incoming calls"</string>
     <string name="sip_receive_calls_summary" msgid="8403613238633679184">"Reduces battery life"</string>
-    <string name="sip_call_options" msgid="7128315120104066133">"Configure call options"</string>
     <string name="sip_call_options_title" msgid="27433718808839672">"Use Internet calling"</string>
     <string name="sip_call_options_wifi_only_title" msgid="145572394529090811">"Use Internet calling (Wi-Fi only)"</string>
     <string name="sip_call_options_entry_1" msgid="6556668894178520760">"For all calls when data network is available"</string>
     <string name="sip_call_options_entry_2" msgid="6789764029719494361">"Only for Internet calls"</string>
     <string name="sip_call_options_entry_3" msgid="7474809001402649185">"Ask for each call"</string>
     <string name="sip_call_options_wifi_only_entry_1" msgid="7423523864471650069">"For all calls"</string>
-    <string name="auto_reg" msgid="8150163311655081599">"Auto-registration"</string>
-    <string name="call_priority" msgid="8374917577270504387">"Outgoing call via SIP"</string>
     <string name="pick_outgoing_call_phone_type" msgid="5622916534828338675">"Place call"</string>
     <string name="pick_outgoing_sip_phone" msgid="7012322118236208875">"Use Internet calling account:"</string>
     <string name="remember_my_choice" msgid="7058059586169290705">"Always use to place Internet calls"</string>
@@ -645,10 +587,6 @@
     <string name="alert_dialog_close" msgid="7759635137627626235">"Close the profile"</string>
     <string name="alert_dialog_ok" msgid="3580379406983564080">"OK"</string>
     <string name="close_profile" msgid="6886968271423155284">"Close"</string>
-    <string name="primary_account" msgid="2229538308291934245">"Primary"</string>
-    <string name="primary_account_title" msgid="5694267218020951531">"Make this my primary account"</string>
-    <string name="primary_account_summary" msgid="7339564526372623187">"Used for outgoing calls"</string>
-    <string name="advanced_settings_title" msgid="8846648727128452293">"Advanced settings"</string>
     <string name="primary_account_summary_with" msgid="1633960536212343187">"Primary account. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
     <string name="registration_status_checking_status" msgid="3381868307694056727">"Checking status..."</string>
     <string name="registration_status_registering" msgid="7115694971025999516">"Registering..."</string>
@@ -672,11 +610,8 @@
     <string name="port_title" msgid="5952939408078626657">"Port number"</string>
     <string name="transport_title" msgid="8253139511847746640">"Transport type"</string>
     <string name="send_keepalive_title" msgid="7533342573918645113">"Send keep-alive"</string>
-    <string name="send_keepalive_summary" msgid="9038969409950960640">"Send SIP keep-alive messages"</string>
     <string name="keepalive_interval_title" msgid="7533342573918645114">"Keep-alive interval"</string>
     <string name="keepalive_interval_summary" msgid="9038969409950960641">"SIP keep-alive interval in seconds"</string>
-    <string name="auto_registration_title" msgid="3586777375420122154">"Auto-registration"</string>
-    <string name="auto_registration_summary" msgid="2522794041206619280">"Register the profile automatically"</string>
     <string name="set_primary_title" msgid="5351892327447571451">"Set as primary account"</string>
     <string name="set_primary_summary" msgid="2219064654523258577">"Used for outgoing calls"</string>
     <string name="advanced_settings" msgid="8350631795335495338">"Optional settings"</string>

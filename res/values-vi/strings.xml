@@ -16,18 +16,14 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="contactsIconLabel" msgid="9129800048701196916">"Danh bạ"</string>
-    <string name="contactsFavoritesLabel" msgid="5360050972935451505">"Mục ưa thích"</string>
     <string name="dialerIconLabel" msgid="1761864493312440268">"Trình quay số"</string>
     <string name="emergencyDialerIconLabel" msgid="7812140032168171053">"Trình quay số Khẩn cấp"</string>
     <string name="phoneIconLabel" msgid="2331230813161304895">"Điện thoại"</string>
-    <string name="recentCallsIconLabel" msgid="8717350893637245164">"Nhật ký cuộc gọi"</string>
     <string name="fdnListLabel" msgid="8630418672279521003">"Danh sách FDN"</string>
     <string name="unknown" msgid="6878797917991465859">"Không xác định"</string>
     <string name="private_num" msgid="6713286113000232309">"Số cá nhân"</string>
     <string name="payphone" msgid="1931775086311769314">"Điện thoại tự động"</string>
     <string name="onHold" msgid="9035493194749959955">"Đang chờ"</string>
-    <string name="ongoing" msgid="8300874342848721367">"Cuộc gọi hiện tại"</string>
     <string name="callFailed_userBusy" msgid="8851106999809294904">"Đường dây bận"</string>
     <string name="callFailed_congestion" msgid="8737761615702718375">"Mạng bận"</string>
     <string name="callFailed_timedOut" msgid="7590961703135543346">"Không có phản hồi, đã hết thời gian chờ"</string>
@@ -46,20 +42,9 @@
     <string name="callFailed_dsac_restricted" msgid="2180223622768522345">"Tất cả cuộc gọi bị hạn chế bởi kiểm soát truy cập."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="4353654268813314466">"Cuộc gọi khẩn cấp bị hạn chế bằng kiểm soát truy cập."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="2680774510252408620">"Cuộc gọi thông thường bị hạn chế bởi kiểm soát truy cập."</string>
-    <string name="callFailed_cdma_lockedUntilPowerCycle" msgid="775483211928061084">"CDMA: Điện thoại bị khoá cho tới khi bật nguồn."</string>
-    <string name="callFailed_cdma_drop" msgid="6030084920001082496">"CDMA: Cuộc gọi bị gián đoạn."</string>
-    <string name="callFailed_cdma_intercept" msgid="8402269373120277330">"CDMA: Cuộc gọi bị chặn."</string>
-    <string name="callFailed_cdma_reorder" msgid="5605791471418711552">"CDMA: sắp xếp lại."</string>
-    <string name="callFailed_cdma_SO_reject" msgid="8969174256492763555">"CDMA: Từ chối Tuỳ chọn Dịch vụ."</string>
-    <string name="callFailed_cdma_retryOrder" msgid="5848488692485148804">"CDMA: thử sắp xếp lại."</string>
-    <string name="callFailed_cdma_accessFailure" msgid="2844306027616452215">"CDMA: Lỗi truy cập."</string>
-    <string name="callFailed_cdma_preempted" msgid="1097095321180029879">"CDMA: Bị chặn trước."</string>
-    <string name="callFailed_cdma_notEmergency" msgid="2347377816822720761">"Chỉ có thể thực hiện cuộc gọi Khẩn cấp."</string>
     <string name="callFailed_unobtainable_number" msgid="7886274717456712105">"Số không hợp lệ"</string>
     <string name="confCall" msgid="1904840547188336828">"Cuộc gọi hội nghị"</string>
     <string name="call_lost" msgid="317670617901479594">"Cuộc gọi đã bị mất."</string>
-    <string name="retry" msgid="8462986804300767852">"Thử lại"</string>
-    <string name="call_lost_title" msgid="6696949678847938515">"Cuộc gọi bị Mất"</string>
     <string name="mmiStarted" msgid="6347869857061147003">"Đã bắt đầu mã MMI"</string>
     <string name="ussdRunning" msgid="485588686340541690">"Mã USSD đang chạy…"</string>
     <string name="mmiCancelled" msgid="2771923949751842276">"Mã MMI đã bị huỷ"</string>
@@ -79,7 +64,6 @@
     <string name="menu_answerAndEnd" msgid="2071708281281611854">"Kết thúc cuộc gọi hiện tại"\n"&amp; trả lời"</string>
     <string name="ok" msgid="3811371167865772377">"OK"</string>
     <string name="menuButtonHint" msgid="4853215496220101699">"Nhấn vào Trình đơn cho tuỳ chọn cuộc gọi."</string>
-    <string name="menuButtonKeyboardDialHint" msgid="2869270434715312458">"Nhấn vào Trình đơn cho tuỳ chọn cuộc gọi  •  Sử dụng bàn phím để quay số"</string>
     <string name="menu_answer" msgid="116686205042231098">"Trả lời"</string>
     <string name="menu_ignore" msgid="2112030835852537344">"Bỏ qua"</string>
     <string name="wait_prompt_str" msgid="7601815427707856238">"Gửi các âm sau?"\n</string>
@@ -91,15 +75,6 @@
     <string name="no_vm_number" msgid="4164780423805688336">"Thiếu số thư thoại"</string>
     <string name="no_vm_number_msg" msgid="1300729501030053828">"Không có số thư thoại nào được lưu trữ trên thẻ SIM."</string>
     <string name="add_vm_number_str" msgid="4676479471644687453">"Thêm số điện thoại"</string>
-    <string name="dialer_emptyListWorking" msgid="6022498519770859790">"Đang tải…"</string>
-    <string name="enterPin" msgid="4753300834213388397">"Nhập mã PIN để mở khoá thẻ SIM."</string>
-    <string name="pinUnlocked" msgid="3260617001055506794">"Đã mở khoá SIM"</string>
-    <string name="enterNewPin" msgid="5311243769004752401">"Mã PIN mới của SIM"</string>
-    <string name="verifyNewPin" msgid="2593629913010458867">"Nhập lại mã PIN mới của SIM để xác nhận"</string>
-    <string name="verifyFailed" msgid="3875778795754857903">"Mã PIN của SIM bạn đã nhập không khớp. Vui lòng thử lại."</string>
-    <string name="enterPuk" msgid="6144749655582862324">"Nhập mã PUK để mở khoá thẻ SIM."</string>
-    <string name="badPuk" msgid="3213017898690275965">"Mã PUK không chính xác!"</string>
-    <string name="buttonTxtContinue" msgid="863271214384739936">"Tiếp tục"</string>
     <string name="puk_unlocked" msgid="2284912838477558454">"Thẻ SIM của bạn đã được bỏ chặn. Điện thoại của bạn đang mở khoá…"</string>
     <string name="label_ndp" msgid="780479633159517250">"Mã PIM mở khoá mạng SIM"</string>
     <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Mở khoá"</string>
@@ -121,7 +96,6 @@
     <string name="sum_gsm_call_settings" msgid="4076647190996778012">"Cài đặt cuộc gọi chỉ GSM bổ sung"</string>
     <string name="additional_cdma_call_settings" msgid="8628958775721886909">"Cài đặt cuộc gọi CDMA bổ sung"</string>
     <string name="sum_cdma_call_settings" msgid="284753265979035549">"Cài đặt cuộc gọi chỉ CDMA bổ sung"</string>
-    <string name="labelNwService" msgid="4699970172021870983">"Cài đặt dịch vụ mạng"</string>
     <string name="labelCallerId" msgid="3888899447379069198">"Số gọi đến"</string>
     <string name="sum_hide_caller_id" msgid="1071407020290873782">"Số bị ẩn trong cuộc gọi đi"</string>
     <string name="sum_show_caller_id" msgid="6768534125447290401">"Số được hiển thị trong cuộc gọi đi"</string>
@@ -170,7 +144,6 @@
     <item msgid="7876195870037833661">"Ẩn số"</item>
     <item msgid="1108394741608734023">"Hiển thị số"</item>
   </string-array>
-    <string name="vm_save_number" msgid="4579969432544566719">"Lưu số thư thoại"</string>
     <string name="vm_changed" msgid="380744030726254139">"Số thư thoại đã thay đổi."</string>
     <string name="vm_change_failed" msgid="6912718596496220653">"Thay đổi số thư thoại không thành công."\n"Hãy liên hệ với nhà cung cấp dịch vụ của bạn nếu sự cố vẫn tiếp diễn."</string>
     <string name="fw_change_failed" msgid="4437005899675054038">"Thay đổi số chuyển tiếp không thành công."\n"Hãy liên hệ với nhà cung cấp dịch vụ của bạn nếu sự cố này vẫn tiếp diễn."</string>
@@ -226,7 +199,6 @@
     <string name="gsm_umts_options" msgid="6538311689850981686">"Tuỳ chọn GSM/UMTS"</string>
     <string name="cdma_options" msgid="4016822858172249884">"Tuỳ chọn CDMA"</string>
     <string name="throttle_data_usage" msgid="3715677828160555808">"Sử dụng dữ liệu"</string>
-    <string name="throttle_settings_title" msgid="2761975408383706589">"Chính sách dữ liệu của nhà cung cấp dịch vụ"</string>
     <string name="throttle_current_usage" msgid="8762280193043815361">"Dữ liệu được sử dụng trong thời gian hiện tại"</string>
     <string name="throttle_time_frame" msgid="1915198770363734685">"Thời gian sử dụng dữ liệu"</string>
     <string name="throttle_rate" msgid="4710388992676803508">"Chính sách tốc độ dữ liệu"</string>
@@ -237,7 +209,6 @@
     <string name="throttle_time_frame_subtext" msgid="7732763021560399960">"<xliff:g id="USED_0">%1$d</xliff:g>٪ của chu kỳ đã qua"\n"Thời gian tiếp theo sẽ bắt đầu trong <xliff:g id="USED_1">%2$d</xliff:g> ngày (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
     <string name="throttle_rate_subtext" msgid="2149102656120726855">"Tốc độ dữ liệu bị giảm xuống <xliff:g id="USED">%1$d</xliff:g> Kb/s nếu vượt quá giới hạn sử dụng dữ liệu"</string>
     <string name="throttle_help_subtext" msgid="5217706521499010816">"Thêm thông tin về chính sách sử dụng dữ liệu mạng dành cho điện thoại di động của nhà cung cấp dịch vụ của bạn"</string>
-    <string name="cdma_cell_broadcast_sms" msgid="7898475142527341808">"SMS Phát trên Di động"</string>
     <string name="cell_broadcast_sms" msgid="5584192824053625842">"SMS Phát trên Di động"</string>
     <string name="enable_disable_cell_bc_sms" msgid="4851147873691392255">"SMS Phát trên Di động"</string>
     <string name="cell_bc_sms_enable" msgid="6441688565738921084">"Đã bật SMS Phát trên Di động"</string>
@@ -325,9 +296,6 @@
     <string name="enable_disable_multi_category" msgid="626771003122899280">"Nhiều danh mục"</string>
     <string name="multi_category_enable" msgid="1179299804641721768">"Đã bật nhiều danh mục"</string>
     <string name="multi_category_disable" msgid="880104702904139505">"Đã vô hiệu hoá nhiều danh mục"</string>
-    <string name="gsm_umts_network_preferences_title" msgid="4834419333547382436">"Tuỳ chọn Mạng GSM/UMTS"</string>
-    <string name="gsm_umts_network_preferneces_summary" msgid="1905018644156819521">"Chưa triển khai!"</string>
-    <string name="gsm_umts_network_preferences_dialogtitle" msgid="6356332580813229898">"Tuỳ chọn mạng GSM/UMTS"</string>
   <string-array name="gsm_umts_network_preferences_choices">
     <item msgid="935612021902787683">"GSM/WCDMA (chế độ tự động)"</item>
     <item msgid="8912042051809329533">"Chỉ WCDMA"</item>
@@ -349,9 +317,6 @@
     <item msgid="176474317493999285">"Chỉ nhà riêng"</item>
     <item msgid="1205664026446156265">"Tự động"</item>
   </string-array>
-    <string name="cdma_roaming_mode_title" msgid="6366737033053855198">"Chế độ Chuyển vùng CDMA"</string>
-    <string name="cdma_roaming_mode_summary" msgid="8604713111805562261">"Thay đổi chế độ chuyển vùng cdma"</string>
-    <string name="cdma_roaming_mode_dialogtitle" msgid="1802896889172094947">"Chế độ chuyển vùng CDMA"</string>
   <string-array name="cdma_roaming_mode_choices">
     <item msgid="6024072766548865002">"Chỉ Mạng gia đình"</item>
     <item msgid="8174642753290624634">"Mạng Liên kết"</item>
@@ -362,9 +327,6 @@
     <item msgid="6007798728227141997">"1"</item>
     <item msgid="4039511109802141047">"2"</item>
   </string-array>
-    <string name="cdma_network_preferences_title" msgid="41193174429510391">"Tuỳ chọn Mạng CDMA"</string>
-    <string name="cdma_network_preferneces_summary" msgid="3524451924935793338">"Chưa triển khai!"</string>
-    <string name="cdma_network_preferences_dialogtitle" msgid="4548860809290455653">"Tuỳ chọn mạng CDMA"</string>
   <string-array name="cdma_network_preferences_choices">
     <item msgid="3711054371631487248">"CDMA/EvDo"</item>
     <item msgid="6143696847467859795">"Chỉ CDMA"</item>
@@ -401,8 +363,6 @@
     <string name="sum_fdn_manage_list" msgid="8431088265332628316">"Quản lý danh sách số điện thoại"</string>
     <string name="voice_privacy" msgid="7803023024169078619">"Bảo mật của Voice"</string>
     <string name="voice_privacy_summary" msgid="3159383389833516214">"Bật chế độ bảo mật tăng cường"</string>
-    <string name="tty_mode_title" msgid="3171521903490559138">"Chế độ TTY"</string>
-    <string name="tty_mode_summary" msgid="5057244302665817977">"Bật chế độ TTY"</string>
     <string name="tty_mode_option_title" msgid="9033098925144434669">"Chế độ TTY"</string>
     <string name="tty_mode_option_summary" msgid="1073835131534808732">"Đặt chế độ TTY"</string>
     <string name="auto_retry_mode_title" msgid="1478311108889330757">"Tự động Thử lại"</string>
@@ -472,7 +432,6 @@
     <string name="card_title_in_progress" msgid="8603765629781648862">"Cuộc gọi hiện tại"</string>
     <string name="card_title_conf_call" msgid="1162980346189744501">"Cuộc gọi hội nghị"</string>
     <string name="card_title_incoming_call" msgid="7364539451234646909">"Cuộc gọi đến"</string>
-    <string name="card_title_cdma_call_waiting" msgid="4532445524811272644">"Chờ cuộc gọi cdma"</string>
     <string name="card_title_call_ended" msgid="5544730338889702298">"Cuộc gọi đã kết thúc"</string>
     <string name="card_title_on_hold" msgid="821463117892339942">"Đang chờ"</string>
     <string name="card_title_hanging_up" msgid="3999101620995182450">"Kết thúc cuộc gọi"</string>
@@ -497,7 +456,6 @@
     <string name="incall_error_no_phone_number_supplied" msgid="4197432103471807739">"Cuộc gọi không được gửi đi, bạn đã nhập số không hợp lệ."</string>
     <string name="incall_error_call_failed" msgid="4313552620858880999">"Cuộc gọi không được gửi đi."</string>
     <string name="incall_status_dialed_mmi" msgid="3672498861336189563">"Khởi động chuỗi MMI…"</string>
-    <string name="incall_status_dialed_fc" msgid="1632879988662225263">"Đang khởi động chuỗi mã tính năng…"</string>
     <string name="incall_error_supp_service_unknown" msgid="2991054870745666038">"Dịch vụ không được hỗ trợ."</string>
     <string name="incall_error_supp_service_switch" msgid="3503552565745872241">"Không thể chuyển đổi cuộc gọi."</string>
     <string name="incall_error_supp_service_separate" msgid="914362338192301746">"Không thể tách cuộc gọi."</string>
@@ -512,11 +470,8 @@
     <string name="dial_emergency_error" msgid="8362624131726575194">"Cuộc gọi không được gửi đi, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> không phải là số khẩn cấp!"</string>
     <string name="dial_emergency_empty_error" msgid="5048645338094088229">"Cuộc gọi không được gửi đi, hãy quay số số khẩn cấp!"</string>
     <string name="dialerKeyboardHintText" msgid="9192914825413747792">"Sử dụng bàn phím để quay số"</string>
-    <string name="dtmfDialpadHintText" msgid="2153335217920679451">"Bộ tạo xung từ bàn phím"</string>
     <string name="dtmfDialpadHandleLabel" msgid="6077872154488117962">"Bàn phím số"</string>
     <string name="touchLockText" msgid="566824588267376287">"Nhấn đúp"\n"để mở khoá"</string>
-    <string name="onscreenAnswerText" msgid="3000799558804019765">"Nhấn đúp"\n"để trả lời"</string>
-    <string name="onscreenRejectText" msgid="1456649473993020449">"Nhấn đúp"\n"để từ chối"</string>
     <string name="onscreenHoldText" msgid="2285258239691145872">"Giữ"</string>
     <string name="onscreenUnholdText" msgid="5033582269005230794">"Bỏ giữ"</string>
     <string name="onscreenEndCallText" msgid="4403855834875398585">"Kết thúc"</string>
@@ -542,7 +497,6 @@
     <item msgid="1937509904407445684">"TTY HCO"</item>
     <item msgid="5644925873488772224">"TTY VCO"</item>
   </string-array>
-    <string name="eri_text_label" msgid="4326942349915331461">"Văn bản ERI"</string>
     <string name="dtmf_tones_title" msgid="3866923093113274152">"Âm DTMF"</string>
     <string name="dtmf_tones_summary" msgid="3351820372864020331">"Đặt độ dài âm DTMF"</string>
   <string-array name="dtmf_tone_entries">
@@ -552,7 +506,6 @@
     <string name="network_message" msgid="5673682885938122239">"Thông báo của Mạng"</string>
     <string name="ota_title_activate" msgid="8616918561356194398">"Kích hoạt điện thoại của bạn"</string>
     <string name="ota_touch_activate" msgid="6553212803262586244">"Bạn cần phải thực hiện cuộc gọi đặc biệt để kích hoạt dịch vụ điện thoại của mình. "\n\n"Sau khi nhấn “Kích hoạt”, nghe hướng dẫn được cung cấp để kích hoạt điện thoại của bạn."</string>
-    <string name="ota_touch_activate_new" msgid="4508197891732183852">"Chạm vào “Kích hoạt” để thực hiện cuộc gọi đặc biệt sẽ kích hoạt điện thoại của bạn trên mạng di động của nhà cung cấp dịch vụ. Vì vậy, bạn có thể thực hiện cuộc gọi và kết nối với mạng dữ liệu dành cho điện thoại di động."</string>
     <string name="ota_skip_activation_dialog_title" msgid="2943366608272261306">"Bỏ qua kích hoạt?"</string>
     <string name="ota_skip_activation_dialog_message" msgid="2440770373498870550">"Nếu bạn bỏ qua kích hoạt, bạn không thể thực hiện cuộc gọi hoặc kết nối với mạng dữ liệu dành cho điện thoại di động (mặc dù bạn có thể kết nối với mạng Wi-Fi). Cho tới khi bạn kích hoạt điện thoại của mình, bạn được yêu cầu kích hoạt điện thoại mỗi lần bạn bật điện thoại."</string>
     <string name="ota_skip_activation_dialog_skip_label" msgid="3458532775091563208">"Bỏ qua"</string>
@@ -561,7 +514,6 @@
     <string name="ota_title_activate_success" msgid="3344632328991980578">"Điện thoại đã được kích hoạt!"</string>
     <string name="ota_title_problem_with_activation" msgid="7095824491970084367">"Sự cố với kích hoạt"</string>
     <string name="ota_listen" msgid="162923839877584937">"Làm theo hướng dẫn bằng lời cho tới khi bạn nghe thấy kích hoạt đã hoàn tất."</string>
-    <string name="ota_dialpad" msgid="3530900997110658409">"Bàn phím"</string>
     <string name="ota_speaker" msgid="6904589278542719647">"Loa"</string>
     <string name="ota_progress" msgid="4644512049143969504">"Vui lòng đợi trong khi điện thoại của bạn được lập trình."</string>
     <string name="ota_failure" msgid="8600027551822478181">"Lập trình Không thành công"</string>
@@ -571,7 +523,6 @@
     <string name="ota_call_end" msgid="4537279738134612388">"Quay lại"</string>
     <string name="ota_try_again" msgid="7685477206465902290">"Thử lại"</string>
     <string name="ota_next" msgid="3904945374358235910">"Tiếp theo"</string>
-    <string name="ota_back" msgid="2190038043403850052">"Quay lại"</string>
     <string name="ecm_exit_dialog" msgid="4448531867763097533">"EcmExitDialog"</string>
     <string name="phone_entered_ecm_text" msgid="6266424252578731203">"Đã vào Chế độ Gọi lại Khẩn cấp"</string>
     <string name="phone_in_ecm_notification_title" msgid="3226896828951687085">"Chế độ Gọi lại Khẩn cấp"</string>
@@ -598,14 +549,9 @@
     <string name="voicemail_provider" msgid="6299679757491942924">"Dịch vụ thư thoại"</string>
     <string name="voicemail_settings_for" msgid="9018656268027893088">"Cài đặt cho <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
     <string name="other_settings" msgid="3672912580359716394">"Cài đặt cuộc gọi khác"</string>
-    <string name="dial_button_label" msgid="5551611636419190229">"Quay số"</string>
     <string name="calling_via_template" msgid="7374498518104190489">"Gọi điện qua ^1"\n<b>"^2"</b></string>
     <string name="slide_to_answer" msgid="255903188611244476">"Kéo sang phải để trả lời"</string>
-    <string name="slide_to_silence" msgid="2224982696981131553">"Kéo sang trái để tắt chuông"</string>
     <string name="slide_to_decline" msgid="7342094219435077069">"Kéo sang trái để từ chối"</string>
-    <string name="slide_to_answer_and_hold" msgid="9212596323067601245">"Kéo sang phải để trả lời và"\n"giữ cuộc gọi hiện hoạt"</string>
-    <string name="slide_to_answer_and_end_active" msgid="6473719408670133380">"Kéo sang phải để trả lời và"\n"kết thúc cuộc gọi hiện hoạt"</string>
-    <string name="slide_to_answer_and_end_onhold" msgid="638748048960663506">"Kéo sang phải để trả lời và"\n"kết thúc cuộc gọi đang chờ"</string>
     <string name="slide_to_answer_hint" msgid="4901042355463593903">"Trả lời"</string>
     <string name="slide_to_decline_hint" msgid="4484576372463030324">"Từ chối"</string>
     <string name="contactPhoto" msgid="4713193418046639466">"ảnh liên hệ"</string>
@@ -614,18 +560,14 @@
     <string name="sip_settings" msgid="6699045718560859691">"Cài đặt cuộc gọi qua Internet"</string>
     <string name="sip_accounts" msgid="2097054001288457163">"Tài khoản gọi qua Internet (SIP)"</string>
     <string name="sip_accounts_title" msgid="1212889069281054570">"Tài khoản"</string>
-    <string name="sip_accounts_summary" msgid="6812629993146552527">"Quản lý tài khoản và trạng thái gọi qua Internet (SIP)"</string>
     <string name="sip_receive_calls" msgid="5635685570889971559">"Nhận cuộc gọi đến"</string>
     <string name="sip_receive_calls_summary" msgid="8403613238633679184">"Giảm tuổi thọ pin"</string>
-    <string name="sip_call_options" msgid="7128315120104066133">"Định cấu hình tùy chọn cuộc gọi"</string>
     <string name="sip_call_options_title" msgid="27433718808839672">"Sử dụng tính năng gọi qua Internet"</string>
     <string name="sip_call_options_wifi_only_title" msgid="145572394529090811">"Sử dụng tính năng gọi qua Internet (chỉ Wi-Fi)"</string>
     <string name="sip_call_options_entry_1" msgid="6556668894178520760">"Dành cho tất cả các cuộc gọi khi mạng dữ liệu sẵn có"</string>
     <string name="sip_call_options_entry_2" msgid="6789764029719494361">"Chỉ dành cho các cuộc gọi qua Internet"</string>
     <string name="sip_call_options_entry_3" msgid="7474809001402649185">"Yêu cầu cho mỗi cuộc gọi"</string>
     <string name="sip_call_options_wifi_only_entry_1" msgid="7423523864471650069">"Dành cho tất cả các cuộc gọi"</string>
-    <string name="auto_reg" msgid="8150163311655081599">"Tự động đăng ký"</string>
-    <string name="call_priority" msgid="8374917577270504387">"Cuộc gọi đi qua SIP"</string>
     <string name="pick_outgoing_call_phone_type" msgid="5622916534828338675">"Thực hiện cuộc gọi"</string>
     <string name="pick_outgoing_sip_phone" msgid="7012322118236208875">"Sử dụng tài khoản gọi qua Internet:"</string>
     <string name="remember_my_choice" msgid="7058059586169290705">"Luôn sử dụng để thực hiện cuộc gọi qua Internet"</string>
@@ -645,10 +587,6 @@
     <string name="alert_dialog_close" msgid="7759635137627626235">"Đóng tiểu sử"</string>
     <string name="alert_dialog_ok" msgid="3580379406983564080">"OK"</string>
     <string name="close_profile" msgid="6886968271423155284">"Đóng"</string>
-    <string name="primary_account" msgid="2229538308291934245">"Chính"</string>
-    <string name="primary_account_title" msgid="5694267218020951531">"Đặt tài khoản này làm tài khoản chính của tôi"</string>
-    <string name="primary_account_summary" msgid="7339564526372623187">"Được sử dụng cho các cuộc gọi đi"</string>
-    <string name="advanced_settings_title" msgid="8846648727128452293">"Cài đặt nâng cao"</string>
     <string name="primary_account_summary_with" msgid="1633960536212343187">"Tài khoản chính. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
     <string name="registration_status_checking_status" msgid="3381868307694056727">"Đang kiểm tra trạng thái..."</string>
     <string name="registration_status_registering" msgid="7115694971025999516">"Đang đăng ký..."</string>
@@ -672,9 +610,6 @@
     <string name="port_title" msgid="5952939408078626657">"Số cổng"</string>
     <string name="transport_title" msgid="8253139511847746640">"Loại truyền tải"</string>
     <string name="send_keepalive_title" msgid="7533342573918645113">"Gửi giữ kết nối"</string>
-    <string name="send_keepalive_summary" msgid="9038969409950960640">"Gửi thông báo giữ kết nối SIP"</string>
-    <string name="auto_registration_title" msgid="3586777375420122154">"Tự động đăng ký"</string>
-    <string name="auto_registration_summary" msgid="2522794041206619280">"Tự động đăng ký tiểu sử"</string>
     <string name="set_primary_title" msgid="5351892327447571451">"Đặt làm tài khoản chính"</string>
     <string name="set_primary_summary" msgid="2219064654523258577">"Được sử dụng cho các cuộc gọi đi"</string>
     <string name="advanced_settings" msgid="8350631795335495338">"Cài đặt tùy chọn"</string>
