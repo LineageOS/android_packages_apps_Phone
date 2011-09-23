@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAIX///6k\u003d",
+        "filename": "src/com/android/phone/InCallTouchUi.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-23T11:52:35Z",
+      "side": 1,
+      "message": "Same as in framework - please remove the trailing whitespace.",
+      "revId": "b7d3f2090a252459a2d7f82120a77f8530a0a917",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAIX///6g\u003d",
+        "filename": "src/com/android/phone/InCallTouchUi.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 670,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-23T11:52:35Z",
+      "side": 1,
+      "message": "The stuff here should go into a helper function (e.g. acceptCallTriggered() ) instead of being duplicated.",
+      "revId": "b7d3f2090a252459a2d7f82120a77f8530a0a917",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAIX///6c\u003d",
+        "filename": "src/com/android/phone/InCallTouchUi.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 687,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2011-09-23T11:52:35Z",
+      "side": 1,
+      "message": "Same here (suggestion: rejectCallTriggered() ).",
+      "revId": "b7d3f2090a252459a2d7f82120a77f8530a0a917",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
