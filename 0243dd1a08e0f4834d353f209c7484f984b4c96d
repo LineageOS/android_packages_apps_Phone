@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAKn///6Y\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 291
+      },
+      "writtenOn": "2011-10-26T00:38:45Z",
+      "side": 1,
+      "message": "Typo on the closing tag, should be \u003c/item\u003e",
+      "revId": "0243dd1a08e0f4834d353f209c7484f984b4c96d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
