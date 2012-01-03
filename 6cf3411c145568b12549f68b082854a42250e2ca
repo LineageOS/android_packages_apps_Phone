@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAO3///xQ\u003d",
+        "filename": "src/com/android/phone/PhoneInterfaceManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2012-01-03T02:23:48Z",
+      "side": 1,
+      "message": "Redundant this",
+      "revId": "6cf3411c145568b12549f68b082854a42250e2ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAO3///xM\u003d",
+        "filename": "src/com/android/phone/PhoneInterfaceManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2012-01-03T02:23:48Z",
+      "side": 1,
+      "message": "What\u0027s 99?",
+      "revId": "6cf3411c145568b12549f68b082854a42250e2ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
