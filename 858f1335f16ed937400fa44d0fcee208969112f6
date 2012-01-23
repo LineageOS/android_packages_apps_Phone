@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPn///74\u003d",
+        "filename": "src/com/android/phone/PhoneApp.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1226,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-23T15:05:02Z",
+      "side": 1,
+      "message": "(mIsHardKeyboardOpen \u0026\u0026 !mIsKeyboardAlwaysOpen) would have been easier to read IMO.",
+      "revId": "858f1335f16ed937400fa44d0fcee208969112f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
