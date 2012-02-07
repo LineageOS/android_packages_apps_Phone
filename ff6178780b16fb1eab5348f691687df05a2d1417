@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX///5U\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 319,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-02-07T16:43:46Z",
+      "side": 1,
+      "message": "Shouldn\u0027t it be \u0027automatisch\u0027?",
+      "revId": "ff6178780b16fb1eab5348f691687df05a2d1417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX///5Q\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-02-07T16:43:46Z",
+      "side": 1,
+      "message": "Perhaps you could add \u0027anzeigen\u0027.",
+      "revId": "ff6178780b16fb1eab5348f691687df05a2d1417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
