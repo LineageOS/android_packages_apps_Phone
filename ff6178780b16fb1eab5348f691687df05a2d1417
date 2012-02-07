@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX///5E\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 319,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-02-07T17:08:38Z",
+      "side": 1,
+      "message": "Yep, typo.",
+      "parentUuid": "AAAAQX///5U\u003d",
+      "revId": "ff6178780b16fb1eab5348f691687df05a2d1417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX///5Q\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-02-07T16:43:46Z",
       "side": 1,
       "message": "Perhaps you could add \u0027anzeigen\u0027.",
+      "revId": "ff6178780b16fb1eab5348f691687df05a2d1417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX///5A\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-02-07T17:08:38Z",
+      "side": 1,
+      "message": "It\u0027s a checkbox title, not a summary ;)\nIt\u0027s already a little too wide as-is (the \u0027h\u0027 is already displayed a little shaded), so there\u0027s no space for displaying anything additionally.",
+      "parentUuid": "AAAAQX///5Q\u003d",
       "revId": "ff6178780b16fb1eab5348f691687df05a2d1417",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
