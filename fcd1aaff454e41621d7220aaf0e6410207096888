@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX///WU\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 687,
+      "author": {
+        "id": 2602
+      },
+      "writtenOn": "2012-02-12T19:03:07Z",
+      "side": 1,
+      "message": "C\u0027est joker pas jocker...",
+      "revId": "fcd1aaff454e41621d7220aaf0e6410207096888",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
