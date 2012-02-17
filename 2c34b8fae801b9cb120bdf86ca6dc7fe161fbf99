@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//+0Q\u003d",
+        "filename": "src/com/android/phone/PhoneInterfaceManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2012-02-17T01:52:25Z",
+      "side": 1,
+      "message": "Why CDMA? This will break GSM-LTE phones.",
+      "revId": "2c34b8fae801b9cb120bdf86ca6dc7fe161fbf99",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
