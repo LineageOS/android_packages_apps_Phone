@@ -16,6 +16,24 @@
       "revId": "2c34b8fae801b9cb120bdf86ca6dc7fe161fbf99",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+zE\u003d",
+        "filename": "src/com/android/phone/PhoneInterfaceManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 354
+      },
+      "writtenOn": "2012-02-17T09:10:56Z",
+      "side": 1,
+      "message": "I will add in the settings app only enable for CDMA. I cannot tell what the network modes for GSM are without a GSM phone. So I guess someone else can submit a patch for GSM after this has been merged.",
+      "parentUuid": "AAAAQX//+0Q\u003d",
+      "revId": "2c34b8fae801b9cb120bdf86ca6dc7fe161fbf99",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
