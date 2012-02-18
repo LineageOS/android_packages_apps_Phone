@@ -1,0 +1,9 @@
+Change-Id: Ic55a0593c601a7f17335283eab7a099ff487078d
+Code-Review+2: Steve Kondik <shade@chemlab.org>
+Verified+1: Steve Kondik <shade@chemlab.org>
+Code-Review+1: Christof Quiter <christof.quiter@googlemail.com>
+Submitted-by: Steve Kondik <shade@chemlab.org>
+Submitted-at: Sat, 18 Feb 2012 22:53:10 +0300
+Reviewed-on: http://review.cyanogenmod.com/12558
+Project: CyanogenMod/android_packages_apps_Phone
+Branch: refs/heads/ics
