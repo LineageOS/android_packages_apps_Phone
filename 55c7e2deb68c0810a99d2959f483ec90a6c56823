@@ -16,6 +16,24 @@
       "revId": "55c7e2deb68c0810a99d2959f483ec90a6c56823",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//+ns\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 724,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-02-18T21:27:22Z",
+      "side": 1,
+      "message": "Yep, foutje met spaties. Patchset 2 zal dit oplossen :)",
+      "parentUuid": "AAAAQX//+n0\u003d",
+      "revId": "55c7e2deb68c0810a99d2959f483ec90a6c56823",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
