@@ -713,4 +713,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Odpovedať"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Odoslať SMS"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Odmietnuť"</string>
+    <string name="per_change_mobile_network">Zmeniť sieť (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Aplikácia s týmito povoleniami môže kedykoľvek zmeniť sieť medzi 2G a 3G. 3G je rýchlejšie, viac využíva batériu, a taktiež Vás môže stáť viac peňazí.</string>
 </resources>
