@@ -713,4 +713,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"電話に出る"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"SMSを送信"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"着信拒否"</string>
+    <string name="per_change_mobile_network">ネットワークを変更(2G/3G)</string>
+    <string name="per_change_mobile_network_desc">この権限を許可されたアプリケーションは、いつでも2G/3Gデータの切り替えが可能です。3Gは高速ですが、バッテリ消費が増加します。また、キャリアの課金も増加することがあります。</string>
 </resources>

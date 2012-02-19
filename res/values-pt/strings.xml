@@ -713,4 +713,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Responder"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Enviar SMS"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Recusar"</string>
+    <string name="per_change_mobile_network">Alternar rede de dados (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Aplicação com está permissão pode a qualquer momento, alterar entre dados 2G and 3G. 3G é mais rápido, consome mais bateria, e também pode gastar mais seu dinheiro.</string>
 </resources>
