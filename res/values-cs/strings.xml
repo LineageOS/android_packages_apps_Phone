@@ -713,4 +713,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Odpověď"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Odeslat SMS"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Odmítnout"</string>
+    <string name="per_change_mobile_network">Změnit typ sítě (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Aplikace s tímto oprávněním může kdykoliv změnit mezi 2G data a 3G data. 3G je rychlejší, ale náročnější na využití baterie a také může stát více peněz.</string>
 </resources>

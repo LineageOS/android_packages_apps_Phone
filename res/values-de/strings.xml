@@ -725,4 +725,6 @@
     <!-- Set Phone Number Settings #CM-->
     <string name="phone_number_label">Meine Nummer</string>
     <string name="phone_number_summary">Die Telefonnummer für dieses Gerät einstellen</string>
+    <string name="per_change_mobile_network">Mobilfunkstandard wechseln (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Anwendungen mit dieser Berechtigung können jederzeit zwischen 2G- und 3G-Netz wechslen. 3G ist schneller, verbraucht mehr Batterieladung und kann teurer sein</string>
 </resources>

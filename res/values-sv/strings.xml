@@ -719,4 +719,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Svara"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Skicka SMS"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Avvisa"</string>
+    <string name="per_change_mobile_network">Byt nätverk (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">En applikation med denna tillåtelse kan, när som helst, byta mellan 2G data och 3G data. 3G är snabbare, förbrukar mer batteri och kan också kosta dig mer pengar.</string>
 </resources>
