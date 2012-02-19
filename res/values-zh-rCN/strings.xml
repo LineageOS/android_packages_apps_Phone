@@ -718,4 +718,6 @@
 
     <string name="phone_number_label">我的电话号码</string>
     <string name="phone_number_summary">为该设备设置电话号码</string>
+    <string name="per_change_mobile_network">2G／3G移动网络切换</string>
+    <string name="per_change_mobile_network_desc">获得该权限的应用程序可以在任何时候在2G/3G移动网络之间切换。使用3G网络存取资料的速度会比较快，但是也会相应消耗比较多的电量并消耗您更多金钱。</string>
 </resources>
