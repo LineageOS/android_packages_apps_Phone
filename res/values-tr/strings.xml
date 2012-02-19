@@ -713,4 +713,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Yanıtla"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"SMS gönder"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Reddet"</string>
+    <string name="per_change_mobile_network">Şebeke değiştir (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Bu ayar istediğiniz zaman 2G ve 3G arasında geçiş yapmanızı sağlar. 3G daha hızlıdır ama daha fazla pil tüketir ve ek olarak daha fazla ücret ödemenize sebep olabilir.</string>
 </resources>

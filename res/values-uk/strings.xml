@@ -713,4 +713,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Відповісти"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Надіслати SMS"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Відхилити"</string>
+    <string name="per_change_mobile_network">Змінення режиму мережі (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Програма з цими правами може в будь-який момент змінити режим мережі. 3G швидше, але споживає більше енергії, а також може тарифікуватися дорожче.</string>
 </resources>
