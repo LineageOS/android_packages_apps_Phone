@@ -724,4 +724,7 @@
     <string name="absent_num">AFWEZIGE NUMMER</string>
     <string name="dialer_ui_settings_title">Toetsenblokinstellingen</string>
     <string name="dialer_ui_settings_summary">Instellingen voor het numerieke toetsenblok</string>
+
+    <string name="perm_change_mobile_network">Verander netwerk (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Applicatie met deze toegang kan op elk moment wisselen tussen 2G en 3G. 3G is sneller, verbruikt meer stroom en kan duurder zijn.</string>
 </resources>
