@@ -717,4 +717,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Responder"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Enviar SMS"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Rechazar"</string>
+    <string name="per_change_mobile_network">Cambiar red (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Aplicaciones con este permisio pueden, en cualquier momento, cambiar entre datos 2G y 3G. 3G es rapido, consume mas bateria, y puede costarte mas dinero.</string>
 </resources>

@@ -713,4 +713,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Antwoord"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Sms verzenden"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Weigeren"</string>
+    <string name="per_change_mobile_network">Verander netwerk (2G/3G)</string>
+    <string name="per_change_mobile_network_desc">Applicatie met deze toegang kan op elk moment wisselen tussen 2G en 3G. 3G is sneller, verbruikt meer stroom en kan duurder zijn.</string>
 </resources>
