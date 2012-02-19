@@ -720,4 +720,6 @@
     <item msgid="1595097872875714252">"Iba v tichom režime"</item>
     <item msgid="1458182414036878616">"Nikdy"</item>
   </string-array>
+    <string name="perm_change_mobile_network">Zmeniť sieť (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Aplikácia s týmito povoleniami môže kedykoľvek zmeniť sieť medzi 2G a 3G. 3G je rýchlejšie, viac využíva batériu, a taktiež Vás môže stáť viac peňazí.</string>
 </resources>
