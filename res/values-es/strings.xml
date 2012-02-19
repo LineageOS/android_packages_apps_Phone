@@ -724,4 +724,6 @@
     <item msgid="1595097872875714252">"Solo en modo silencio"</item>
     <item msgid="1458182414036878616">"Nunca"</item>
   </string-array>
+    <string name="perm_change_mobile_network">Cambiar red (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Aplicaciones con este permisio pueden, en cualquier momento, cambiar entre datos 2G y 3G. 3G es rapido, consume mas bateria, y puede costarte mas dinero.</string>
 </resources>
