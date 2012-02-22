@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//+HY\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 717,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-02-22T00:17:38Z",
+      "side": 1,
+      "message": "there is a small typo there : s/radide/rapide :p",
+      "revId": "0c0b2e6949fb1085b9f9df52e8d25a9210defccd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
