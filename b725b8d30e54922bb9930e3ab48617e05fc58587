@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//90A\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 729,
+      "author": {
+        "id": 2804
+      },
+      "writtenOn": "2012-02-24T04:19:48Z",
+      "side": 1,
+      "message": "Typo wechslen -\u003e wechseln",
+      "revId": "b725b8d30e54922bb9930e3ab48617e05fc58587",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
