@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//9hs\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 1603,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-02-25T21:06:10Z",
+      "side": 1,
+      "message": "\"perm_\" instead of \"per_\" (to avoid any confusion)",
+      "revId": "6db1b7f89926f7942c6089fe51b71328a3cf84be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//9hw\u003d",
+        "filename": "src/com/android/phone/PhoneToggler.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-02-25T21:06:10Z",
+      "side": 1,
+      "message": "Wouldn\u0027t it be easier to put \"if (DBG)\" here?",
+      "revId": "6db1b7f89926f7942c6089fe51b71328a3cf84be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
