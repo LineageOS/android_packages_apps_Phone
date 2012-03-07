@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAQX//7qE\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 1603,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2012-03-07T22:34:13Z",
+      "side": 1,
+      "message": "I will change this. tks.",
+      "parentUuid": "AAAAQX//7qY\u003d",
+      "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAQX//7qU\u003d",
         "filename": "src/com/android/phone/Settings.java",
         "patchSetId": 9
@@ -30,6 +48,24 @@
       "writtenOn": "2012-03-07T21:13:45Z",
       "side": 1,
       "message": "This will force all devices to set world_phone manually?",
+      "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7p8\u003d",
+        "filename": "src/com/android/phone/Settings.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2012-03-07T22:34:13Z",
+      "side": 1,
+      "message": "Maybe this is causing the bug on toro ? This double checks the value received from modemNetworkMode comparing with the world_phone bool (is false as default). world_phone needs to be configured in device overlay.",
+      "parentUuid": "AAAAQX//7qU\u003d",
       "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
