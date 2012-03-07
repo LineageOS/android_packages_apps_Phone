@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//7qY\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 1603,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-07T21:13:45Z",
+      "side": 1,
+      "message": "Can you please change this to \"perm_...\" to avoid confusion?",
+      "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7qU\u003d",
+        "filename": "src/com/android/phone/Settings.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-07T21:13:45Z",
+      "side": 1,
+      "message": "This will force all devices to set world_phone manually?",
+      "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
