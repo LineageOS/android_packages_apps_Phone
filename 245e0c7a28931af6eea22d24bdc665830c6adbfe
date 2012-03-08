@@ -87,6 +87,24 @@
       "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7aQ\u003d",
+        "filename": "src/com/android/phone/Settings.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2012-03-08T18:54:09Z",
+      "side": 1,
+      "message": "The toro it\u0027s an affected phone, I think\n\nIn the atrix, this patch works flawless without any overlay needed, since the default is \"false\".",
+      "parentUuid": "AAAAQX//7dw\u003d",
+      "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
