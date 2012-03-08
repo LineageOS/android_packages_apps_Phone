@@ -69,6 +69,24 @@
       "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7dw\u003d",
+        "filename": "src/com/android/phone/Settings.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-08T14:52:48Z",
+      "side": 1,
+      "message": "How about having override_world_phone and world_phone so that the devices that aren\u0027t affected don\u0027t need to make an overlay.",
+      "parentUuid": "AAAAQX//7p8\u003d",
+      "revId": "245e0c7a28931af6eea22d24bdc665830c6adbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
