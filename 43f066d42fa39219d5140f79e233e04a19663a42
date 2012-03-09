@@ -16,6 +16,24 @@
       "revId": "43f066d42fa39219d5140f79e233e04a19663a42",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///6c\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 724,
+      "author": {
+        "id": 2783
+      },
+      "writtenOn": "2012-03-09T17:49:13Z",
+      "side": 1,
+      "message": "Done - there\u0027s a fix by Zang MingJie in http://review.cyanogenmod.com/#change,13400",
+      "parentUuid": "AAAARH///6o\u003d",
+      "revId": "43f066d42fa39219d5140f79e233e04a19663a42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
