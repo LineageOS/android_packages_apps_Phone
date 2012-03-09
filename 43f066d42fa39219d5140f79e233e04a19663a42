@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARH///6o\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 724,
+      "author": {
+        "id": 2783
+      },
+      "writtenOn": "2012-03-09T17:39:54Z",
+      "side": 1,
+      "message": "This line gives me build failure:\n\npackages/apps/Phone/res/values-nl/strings.xml:728: error: Error parsing XML: mismatched tag\n\nIn values/strings.xml that string-array is explicitly marked Do not translate. Removing that line from values-nl/strings.xml fixes the build.",
+      "revId": "43f066d42fa39219d5140f79e233e04a19663a42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
