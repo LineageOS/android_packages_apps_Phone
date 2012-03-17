@@ -116,4 +116,7 @@
     <!-- True if the device has a fixed keyboard (as oposite to a sliding one) so keyboard is
          always open. Will modify proximity checking behaviour. -->
     <bool name="config_device_has_fixed_keyboard">false</bool>
+
+    <!-- If true, enables the message wait indicator option in Call Settings -->
+    <bool name="enable_mwinotif_option">false</bool>
 </resources>
