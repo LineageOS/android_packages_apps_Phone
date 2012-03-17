@@ -46,6 +46,7 @@ import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.provider.ContactsContract.CommonDataKinds;
@@ -126,6 +127,9 @@ public class CallFeaturesSetting extends PreferenceActivity
     // Key identifying the default vocie mail provider
     public static final String DEFAULT_VM_PROVIDER_KEY = "";
 
+    // Key identifying the voicemail notifiction setting
+    public static final String ENABLE_VOICEMAIL_NOTIFICATION = "enable_voicemail_notification";
+
     // Extra put into ACTION_ADD_VOICEMAIL call to indicate which provider
     // to remove from the list of providers presented to the user
     public static final String IGNORE_PROVIDER_EXTRA = "com.android.phone.ProviderToIgnore";
@@ -140,6 +144,8 @@ public class CallFeaturesSetting extends PreferenceActivity
     // String keys for preference lookup
     // TODO: Naming these "BUTTON_*" is confusing since they're not actually buttons(!)
     private static final String BUTTON_VOICEMAIL_KEY = "button_voicemail_key";
+    private static final String BUTTON_VOICEMAIL_CATEGORY_KEY = "button_voicemail_category_key";
+    private static final String BUTTON_VOICEMAIL_NOTIFICATION_KEY = "button_voicemail_notification_key";
     private static final String BUTTON_VOICEMAIL_PROVIDER_KEY = "button_voicemail_provider_key";
     private static final String BUTTON_VOICEMAIL_SETTING_KEY = "button_voicemail_setting_key";
     private static final String BUTTON_FDN_KEY   = "button_fdn_key";
@@ -219,6 +225,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private ListPreference mButtonDTMF;
     private ListPreference mButtonTTY;
     private ListPreference mButtonSipCallOptions;
+    private CheckBoxPreference mVoicemailNotification;
     private ListPreference mVoicemailProviders;
     private PreferenceScreen mVoicemailSettings;
     private SipSharedPreferences mSipSharedPreferences;
@@ -467,6 +474,10 @@ public class CallFeaturesSetting extends PreferenceActivity
                     Settings.System.DTMF_TONE_TYPE_WHEN_DIALING, index);
         } else if (preference == mButtonTTY) {
             handleTTYChange(preference, objValue);
+        } else if (preference == mVoicemailNotification) {
+            int checked = mVoicemailNotification.isChecked() ? 1 : 0;
+            Settings.System.putInt(mPhone.getContext().getContentResolver(),
+                    ENABLE_VOICEMAIL_NOTIFICATION, checked);
         } else if (preference == mVoicemailProviders) {
             final String currentProviderKey = getCurrentVoicemailProviderKey();
             final String newProviderKey = (String)objValue;
@@ -1380,6 +1391,14 @@ public class CallFeaturesSetting extends PreferenceActivity
             mSubMenuVoicemailSettings.setParentActivity(this, VOICEMAIL_PREF_ID, this);
             mSubMenuVoicemailSettings.setDialogOnClosedListener(this);
             mSubMenuVoicemailSettings.setDialogTitle(R.string.voicemail_settings_number_label);
+        }
+
+        if (!getResources().getBoolean(R.bool.enable_vmnotif_option)) {
+            PreferenceCategory voicemailCategory = (PreferenceCategory) findPreference(BUTTON_VOICEMAIL_CATEGORY_KEY);
+            // If enable_vmnotif_option is false (default), hide the preference
+            mVoicemailNotification = (CheckBoxPreference) findPreference(BUTTON_VOICEMAIL_NOTIFICATION_KEY);
+            if (mVoicemailNotification != null)
+                voicemailCategory.removePreference(mVoicemailNotification);
         }
 
         mButtonDTMF = (ListPreference) findPreference(BUTTON_DTMF_KEY);
