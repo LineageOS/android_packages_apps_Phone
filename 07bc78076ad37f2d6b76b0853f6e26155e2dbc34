@@ -101,6 +101,40 @@
       "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///NQ\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 1308,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T15:31:42Z",
+      "side": 1,
+      "message": "boolean notifProp",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///NU\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 1309,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T15:31:42Z",
+      "side": 1,
+      "message": "boolean notifOption\n\nSettings.System.ENABLE_... after that other comment",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
