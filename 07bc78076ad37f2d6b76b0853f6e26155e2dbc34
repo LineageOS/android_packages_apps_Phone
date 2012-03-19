@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX///P0\u003d",
+        "filename": "res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T06:54:20Z",
+      "side": 1,
+      "message": "Can this be changed to \"enable_voicemail_notification_preference\"..",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///Pw\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T06:54:20Z",
+      "side": 1,
+      "message": "\"Show a notification when a voicemail message is received\" is more descriptive.",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///Ps\u003d",
+        "filename": "res/xml/call_feature_setting.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T06:54:20Z",
+      "side": 1,
+      "message": "persistent\u003d\"false\"",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///Po\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T06:54:20Z",
+      "side": 1,
+      "message": "This should be put inside Settings.System.",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///Pk\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 439,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T06:54:20Z",
+      "side": 1,
+      "message": "After first comment this should be \"Settings.System.ENABLE_...\"",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARX///Pg\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 1078
+      },
+      "writtenOn": "2012-03-19T06:54:20Z",
+      "side": 1,
+      "message": "After first comment this should be \"Settings.System.ENABLE_...\"",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
