@@ -725,4 +725,10 @@
     <!-- Set Phone Number Settings #CM-->
     <string name="phone_number_label">Meine Nummer</string>
     <string name="phone_number_summary">Die Telefonnummer für dieses Gerät einstellen</string>
+
+    <!-- Mobile network settings screen, setting check box name #CM-->
+    <string name="national_roaming">Nationales Daten-Roaming</string>
+    <string name="national_roaming_enable">Bei nationalem Roaming mit Datendienst verbinden</string>
+    <string name="national_roaming_disable">Bei nationalem Roaming mit Datendienst verbinden</string>
+
 </resources>
