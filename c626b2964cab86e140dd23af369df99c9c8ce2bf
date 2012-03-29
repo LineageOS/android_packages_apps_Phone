@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARn///r8\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 1610,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-03-29T16:46:22Z",
+      "side": 1,
+      "message": "batery -\u003e battery\n2G Data -\u003e 2G data",
+      "revId": "c626b2964cab86e140dd23af369df99c9c8ce2bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
