@@ -47,6 +47,11 @@ import android.text.TextUtils;
 import android.util.EventLog;
 import android.util.Log;
 
+import android.preference.PreferenceManager;
+import android.hardware.SensorManager;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorEvent;
+import android.hardware.Sensor;
 
 /**
  * Phone app module that listens for phone state changes and various other
@@ -177,6 +182,9 @@ public class CallNotifier extends Handler
     // Cached AudioManager
     private AudioManager mAudioManager;
 
+    // Phone Plus Settings
+    private CallFeaturesSetting mSettings;
+
     /**
      * Initialize the singleton CallNotifier instance.
      * This is only done once, at startup, from PhoneApp.onCreate().
@@ -196,6 +204,7 @@ public class CallNotifier extends Handler
     /** Private constructor; @see init() */
     private CallNotifier(PhoneApp app, Phone phone, Ringer ringer,
                          BluetoothHandsfree btMgr, CallLogAsync callLog) {
+        mSettings = CallFeaturesSetting.getInstance(app);
         mApplication = app;
         mCM = app.mCM;
         mCallLog = callLog;
@@ -459,6 +468,9 @@ public class CallNotifier extends Handler
         if (PhoneUtils.isRealIncomingCall(state)) {
             startIncomingCallQuery(c);
         } else {
+            if (mSettings.mVibCallWaiting) {
+                mApplication.vibrate(200,300,500);
+            }
             if (VDBG) log("- starting call waiting tone...");
             if (mCallWaitingTonePlayer == null) {
                 mCallWaitingTonePlayer = new InCallTonePlayer(InCallTonePlayer.TONE_CALL_WAITING);
@@ -804,6 +816,23 @@ public class CallNotifier extends Handler
             }
 
             if (VDBG) log("onPhoneStateChanged: OFF HOOK");
+
+            Call call = PhoneUtils.getCurrentCall(fgPhone);
+            Connection c = PhoneUtils.getConnection(fgPhone, call);
+            if (VDBG) PhoneUtils.dumpCallState(fgPhone);
+            Call.State cstate = call.getState();
+            if (cstate == Call.State.ACTIVE && !c.isIncoming()) {
+                long callDurationMsec = c.getDurationMillis();
+                if (VDBG) Log.i(LOG_TAG, "duration is " + callDurationMsec);
+                if (mSettings.mVibOutgoing && callDurationMsec < 200) {
+                    mApplication.vibrate(100,0,0);
+                }
+                if (mSettings.mVib45) {
+                    callDurationMsec = callDurationMsec % 60000;
+                    mApplication.startVib45(callDurationMsec);
+                }
+            }
+
             // make sure audio is in in-call mode now
             PhoneUtils.setAudioMode(mCM);
 
@@ -1015,7 +1044,14 @@ public class CallNotifier extends Handler
             removeMessages(CALLWAITING_CALLERINFO_DISPLAY_DONE);
             removeMessages(CALLWAITING_ADDCALL_DISABLE_TIMEOUT);
         }
-
+        if (c != null) {
+            if (c.getDurationMillis() > 0 && mSettings.mVibHangup) {
+                mApplication.vibrate(50, 100, 50);
+            }
+            if (!c.isIncoming()) {
+                mApplication.stopVib45();
+            }
+        }
         // Stop the ringer if it was ringing (for an incoming call that
         // either disconnected by itself, or was rejected by the user.)
         //

@@ -64,6 +64,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import android.preference.PreferenceManager;
+import android.preference.PreferenceCategory;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
+
 /**
  * Top level "Call settings" UI; see res/xml/call_feature_setting.xml
  *
@@ -403,6 +408,35 @@ public class CallFeaturesSetting extends PreferenceActivity
     // query the existing forwarding settings.
     private CallForwardInfo[] mNewFwdSettings;
     String mNewVMNumber;
+
+    // Phone Plus Settings originally written by cytown
+    private static final String CATEGORY_ADVANCED = "pref_advanced_settings";
+    private static CallFeaturesSetting mInstance = null;
+
+    private static final String BUTTON_VIBRATE_OUTGOING = "button_vibrate_outgoing";
+    private CheckBoxPreference mButtonVibOutgoing;
+    static boolean mVibOutgoing;
+
+    private static final String BUTTON_VIBRATE_45       = "button_vibrate_45";
+    private CheckBoxPreference mButtonVib45;
+    static boolean mVib45;
+
+    private static final String BUTTON_VIBRATE_HANGUP   = "button_vibrate_hangup";
+    private CheckBoxPreference mButtonVibHangup;
+    static boolean mVibHangup;
+
+    private static final String BUTTON_VIBRATE_CALL_WAITING = "button_vibrate_call_waiting";
+    private CheckBoxPreference mButtonVibCallWaiting;
+    static boolean mVibCallWaiting;
+
+    //Trackball Answer
+    private static final String BUTTON_TRACKBALL_ANSWER = "button_trackball_answer_timed";
+    private ListPreference mTrackballAnswer;
+    static String mTrackAnswer;
+
+    private static final String BUTTON_SCREEN_AWAKE = "button_screen_awake";
+    private CheckBoxPreference mButtonScreenAwake;
+    static boolean mScreenAwake;
 
     private boolean mForeground;
 
@@ -1488,6 +1522,29 @@ public class CallFeaturesSetting extends PreferenceActivity
         mVMProviderSettingsForced = false;
         createSipCallSettings();
 
+        // Phone Plus Settings
+        init(getApplicationContext(), PreferenceManager.getDefaultSharedPreferences(getApplicationContext()));
+        mButtonVibOutgoing = (CheckBoxPreference) prefSet.findPreference(BUTTON_VIBRATE_OUTGOING);
+        mButtonVibOutgoing.setChecked(mVibOutgoing);
+        mButtonVib45 = (CheckBoxPreference) prefSet.findPreference(BUTTON_VIBRATE_45);
+        mButtonVib45.setChecked(mVib45);
+        mButtonVibHangup = (CheckBoxPreference) prefSet.findPreference(BUTTON_VIBRATE_HANGUP);
+        mButtonVibHangup.setChecked(mVibHangup);
+        mButtonScreenAwake = (CheckBoxPreference) prefSet.findPreference(BUTTON_SCREEN_AWAKE);
+        mButtonScreenAwake.setChecked(mScreenAwake);
+        mButtonVibCallWaiting = (CheckBoxPreference) prefSet
+                .findPreference(BUTTON_VIBRATE_CALL_WAITING);
+        mButtonVibCallWaiting.setChecked(mVibCallWaiting);
+        mTrackballAnswer = (ListPreference) prefSet.findPreference(BUTTON_TRACKBALL_ANSWER);
+        mTrackballAnswer.setValue(mTrackAnswer);
+
+        // No reason to show Trackball Answer if it doesn't have a
+        // Trackball.
+        if (getResources().getConfiguration().navigation != 3) {
+            ((PreferenceCategory) prefSet.findPreference(CATEGORY_ADVANCED))
+                    .removePreference(mTrackballAnswer);
+        }
+
         ActionBar actionBar = getActionBar();
         if (actionBar != null) {
             // android.R.id.home will be triggered in onOptionsItemSelected()
@@ -1875,6 +1932,43 @@ public class CallFeaturesSetting extends PreferenceActivity
         return (key != null) ? key : DEFAULT_VM_PROVIDER_KEY;
     }
 
+    // Phone Plus Settings originally written by cytown
+    public static CallFeaturesSetting getInstance(Context context) {
+        if (mInstance == null) {
+            SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(context);
+            mInstance = new CallFeaturesSetting();
+            mInstance.init(context, pref);
+        }
+        return mInstance;
+    }
+
+    private void init(Context context, SharedPreferences pref) {
+        mVibOutgoing = pref.getBoolean(BUTTON_VIBRATE_OUTGOING, true);
+        mVib45 = pref.getBoolean(BUTTON_VIBRATE_45, false);
+        mVibHangup = pref.getBoolean(BUTTON_VIBRATE_HANGUP, true);
+        mScreenAwake = pref.getBoolean(BUTTON_SCREEN_AWAKE, false);
+        mVibCallWaiting = pref.getBoolean(BUTTON_VIBRATE_CALL_WAITING, false);
+        mTrackAnswer = pref.getString(BUTTON_TRACKBALL_ANSWER, "-1");
+    }
+
+    @Override
+    protected void onStop() {
+        Context context = getApplicationContext();
+        // System.out.println("save please!");
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(context);
+        Editor outState = pref.edit();
+        outState.putBoolean(BUTTON_VIBRATE_OUTGOING, mButtonVibOutgoing.isChecked());
+        outState.putBoolean(BUTTON_VIBRATE_45, mButtonVib45.isChecked());
+        outState.putBoolean(BUTTON_VIBRATE_HANGUP, mButtonVibHangup.isChecked());
+        outState.putBoolean(BUTTON_SCREEN_AWAKE, mButtonScreenAwake.isChecked());
+        outState.putBoolean(BUTTON_VIBRATE_CALL_WAITING, mButtonVibCallWaiting.isChecked());
+
+        // Trackball Answer
+        outState.putString(BUTTON_TRACKBALL_ANSWER, mTrackballAnswer.getValue());
+        outState.commit();
+        init(context, pref);
+        super.onStop();
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         final int itemId = item.getItemId();

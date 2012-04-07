@@ -65,6 +65,9 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
 
+import android.hardware.SensorManager;
+import android.hardware.Sensor;
+
 /**
  * Misc utilities for the Phone app.
  */
@@ -113,6 +116,9 @@ public class PhoneUtils {
 
     /** Noise suppression status as selected by user */
     private static boolean sIsNoiseSuppressionEnabled = true;
+
+/** Proximity Sensor available or not, 0 not initial, 1 available, -1 unavailable */
+    private static int sProximitySensorAvailable = 0;
 
     /**
      * Handler that tracks the connections and updates the value of the
@@ -350,6 +356,34 @@ public class PhoneUtils {
         if (DBG) log("==> hungup = " + hungup);
 
         return hungup;
+    }
+
+    static Call getCurrentCall(Phone phone) {
+        Call ringing = phone.getRingingCall();
+        Call fg = phone.getForegroundCall();
+        Call bg = phone.getBackgroundCall();
+        return (!ringing.isIdle()) ? ringing : ((!fg.isIdle()) ? fg : ((!bg.isIdle()) ? bg : fg));
+    }
+
+    static Connection getConnection(Phone phone, Call call) {
+        if (call == null) return null;
+        Connection conn = null;
+        if (phone.getPhoneName().equals("CDMA")) {
+            conn = call.getLatestConnection();
+        } else {
+            conn = call.getEarliestConnection();
+        }
+        return conn;
+    }
+
+    static boolean isProximitySensorAvailable(Context ctx) {
+        if (sProximitySensorAvailable != 0) {
+            return sProximitySensorAvailable == 1;
+        }
+        SensorManager sm = (SensorManager) ctx.getSystemService(Context.SENSOR_SERVICE);
+        Sensor sensor = sm.getDefaultSensor(Sensor.TYPE_PROXIMITY);
+        sProximitySensorAvailable = (sensor != null) ? 1 : -1;
+        return isProximitySensorAvailable(ctx);
     }
 
     static boolean hangupRingingCall(Call ringing) {
