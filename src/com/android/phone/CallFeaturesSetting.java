@@ -434,10 +434,6 @@ public class CallFeaturesSetting extends PreferenceActivity
     private ListPreference mTrackballAnswer;
     static String mTrackAnswer;
 
-    private static final String BUTTON_SCREEN_AWAKE = "button_screen_awake";
-    private CheckBoxPreference mButtonScreenAwake;
-    static boolean mScreenAwake;
-
     private boolean mForeground;
 
     @Override
@@ -1530,8 +1526,6 @@ public class CallFeaturesSetting extends PreferenceActivity
         mButtonVib45.setChecked(mVib45);
         mButtonVibHangup = (CheckBoxPreference) prefSet.findPreference(BUTTON_VIBRATE_HANGUP);
         mButtonVibHangup.setChecked(mVibHangup);
-        mButtonScreenAwake = (CheckBoxPreference) prefSet.findPreference(BUTTON_SCREEN_AWAKE);
-        mButtonScreenAwake.setChecked(mScreenAwake);
         mButtonVibCallWaiting = (CheckBoxPreference) prefSet
                 .findPreference(BUTTON_VIBRATE_CALL_WAITING);
         mButtonVibCallWaiting.setChecked(mVibCallWaiting);
@@ -1946,7 +1940,6 @@ public class CallFeaturesSetting extends PreferenceActivity
         mVibOutgoing = pref.getBoolean(BUTTON_VIBRATE_OUTGOING, true);
         mVib45 = pref.getBoolean(BUTTON_VIBRATE_45, false);
         mVibHangup = pref.getBoolean(BUTTON_VIBRATE_HANGUP, true);
-        mScreenAwake = pref.getBoolean(BUTTON_SCREEN_AWAKE, false);
         mVibCallWaiting = pref.getBoolean(BUTTON_VIBRATE_CALL_WAITING, false);
         mTrackAnswer = pref.getString(BUTTON_TRACKBALL_ANSWER, "-1");
     }
@@ -1960,7 +1953,6 @@ public class CallFeaturesSetting extends PreferenceActivity
         outState.putBoolean(BUTTON_VIBRATE_OUTGOING, mButtonVibOutgoing.isChecked());
         outState.putBoolean(BUTTON_VIBRATE_45, mButtonVib45.isChecked());
         outState.putBoolean(BUTTON_VIBRATE_HANGUP, mButtonVibHangup.isChecked());
-        outState.putBoolean(BUTTON_SCREEN_AWAKE, mButtonScreenAwake.isChecked());
         outState.putBoolean(BUTTON_VIBRATE_CALL_WAITING, mButtonVibCallWaiting.isChecked());
 
         // Trackball Answer

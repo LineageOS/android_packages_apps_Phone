@@ -953,8 +953,7 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
                 // timeout (5s). This ensures that the screen goes to sleep
                 // as soon as acceptably possible after we the wake lock
                 // has been released.
-                // Phone Plus Settings, Keep Screen Awake
-                pokeLockSetting |= mSettings.mScreenAwake ? LocalPowerManager.POKE_LOCK_MEDIUM_TIMEOUT : LocalPowerManager.POKE_LOCK_SHORT_TIMEOUT;
+                pokeLockSetting |= LocalPowerManager.POKE_LOCK_SHORT_TIMEOUT;
                 break;
 
             case MEDIUM:

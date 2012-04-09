@@ -104,11 +104,6 @@
         android:title="@string/vibrate_call_waiting"
         android:persistent="false"
         android:summary="@string/vibrate_call_waiting_sum"/>
-    <CheckBoxPreference
-        android:key="button_screen_awake"
-        android:title="@string/screen_awake"
-        android:persistent="false"
-        android:summary="@string/screen_awake_sum"/>
     <ListPreference android:key="button_trackball_answer_timed"
         android:title="@string/trackball_answer"
         android:summary="@string/trackball_answer_sum"
