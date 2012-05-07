@@ -36,7 +36,7 @@
     <string name="callFailed_server_error" msgid="5717915213586193217">"Помилка сервера. Спроб. пізніше."</string>
     <string name="callFailed_noSignal" msgid="1889803273616031933">"Немає сигналу"</string>
     <string name="callFailed_limitExceeded" msgid="4958065157970101491">"Перевищено ліміт ACM"</string>
-    <string name="callFailed_powerOff" msgid="2766035859391549713">"Вимк. радіо"</string>
+    <string name="callFailed_powerOff" msgid="2766035859391549713">"Вимкнути радіо"</string>
     <string name="callFailed_simError" msgid="5652345589458834655">"Нема SIM або помилка SIM"</string>
     <string name="callFailed_outOfService" msgid="4825791466557236225">"Поза межами дії служби"</string>
     <string name="callFailed_fdn_only" msgid="2850204579765430641">"Вихідні дзвінки обмежено FDN."</string>
@@ -57,10 +57,10 @@
     <string name="confCall" msgid="1904840547188336828">"Конференц-виклик"</string>
     <string name="call_lost" msgid="317670617901479594">"Виклик утрачено."</string>
     <string name="retry" msgid="8462986804300767852">"Повтор."</string>
-    <string name="call_lost_title" msgid="6696949678847938515">"Викл. пропущ."</string>
+    <string name="call_lost_title" msgid="6696949678847938515">"Викликати пропущений"</string>
     <string name="ok" msgid="3811371167865772377">"OK"</string>
     <string name="mmiStarted" msgid="6347869857061147003">"Код MMI запущено"</string>
-    <string name="ussdRunning" msgid="485588686340541690">"Запуск. код USSD..."</string>
+    <string name="ussdRunning" msgid="485588686340541690">"Виконується код USSD..."</string>
     <string name="mmiCancelled" msgid="2771923949751842276">"Код MMI скасовано"</string>
     <string name="cancel" msgid="5044513931633602634">"Скасувати"</string>
     <string name="manageConferenceLabel" msgid="4691922394301969053">"Керувати конференц-викликом"</string>
@@ -70,7 +70,7 @@
     <string name="audio_mode_bluetooth" msgid="3047641300848211128">"Bluetooth"</string>
     <string name="wait_prompt_str" msgid="7601815427707856238">"Надісл. наступні сигнали?"\n</string>
     <string name="pause_prompt_str" msgid="341477243019906241">"Надсил. сигналів"\n</string>
-    <string name="send_button" msgid="4106860097497818751">"Надісл."</string>
+    <string name="send_button" msgid="4106860097497818751">"Надіслати"</string>
     <string name="pause_prompt_yes" msgid="3564467212025151797">"Так"</string>
     <string name="pause_prompt_no" msgid="6686238803236884877">"Ні"</string>
     <string name="wild_prompt_str" msgid="1585989144582892543">"Замінити символ-джокер на"</string>
@@ -78,17 +78,17 @@
     <string name="no_vm_number_msg" msgid="1300729501030053828">"На SIM-карті немає збереж. номерів голос. пошти."</string>
     <string name="add_vm_number_str" msgid="4676479471644687453">"Додати номер"</string>
     <string name="dialer_emptyListWorking" msgid="6022498519770859790">"Завант-ня…"</string>
-    <string name="enterPin" msgid="4753300834213388397">"Введ. PIN -код, щоб розбл. SIM-карту."</string>
-    <string name="pinUnlocked" msgid="3260617001055506794">"SIM-карту розбл."</string>
-    <string name="enterNewPin" msgid="5311243769004752401">"Нов. PIN-код SIM"</string>
+    <string name="enterPin" msgid="4753300834213388397">"Введіть PIN-код, щоб розблокувати SIM-карту."</string>
+    <string name="pinUnlocked" msgid="3260617001055506794">"SIM-карту розблоковано"</string>
+    <string name="enterNewPin" msgid="5311243769004752401">"Новий PIN-код SIM"</string>
     <string name="verifyNewPin" msgid="2593629913010458867">"Знову введ. новий PIN-код SIM, щоб підтв."</string>
     <string name="verifyFailed" msgid="3875778795754857903">"Введені PIN-коди SIM не збігаються. Спробуйте ще."</string>
-    <string name="enterPuk" msgid="6144749655582862324">"Введ. PUK-код, щоб розбл. SIM-карту"</string>
+    <string name="enterPuk" msgid="6144749655582862324">"Введіть PUK-код, щоб розблокувати SIM-карту"</string>
     <string name="badPuk" msgid="3213017898690275965">"Неправильний PUK-код!"</string>
     <string name="buttonTxtContinue" msgid="863271214384739936">"Продовжити"</string>
     <string name="puk_unlocked" msgid="2284912838477558454">"Вашу SIM-карту розблоковано. Ваш телефон розблоковується..."</string>
-    <string name="label_ndp" msgid="780479633159517250">"Розбл. PIN-код мережі SIM"</string>
-    <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Розблок."</string>
+    <string name="label_ndp" msgid="780479633159517250">"Розблокувати PIN-код мережі SIM"</string>
+    <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Розблокувати"</string>
     <string name="sim_ndp_dismiss_text" msgid="1604823375752456947">"Відхилити"</string>
     <string name="requesting_unlock" msgid="6412629401033249351">"Запитув. розблок. мережі..."</string>
     <string name="unlock_failed" msgid="6490531697031504225">"Не здійсн. запит розблокування мережі"</string>
@@ -210,6 +210,11 @@
     <string name="roaming" msgid="8871412572928323707">"Роумінг даних"</string>
     <string name="roaming_enable" msgid="7331106985174381987">"Підключ. до служб даних під час роумінгу"</string>
     <string name="roaming_disable" msgid="1843417228755568110">"Підключ. до служб даних під час роумінгу"</string>
+    <string name="national_roaming">Національний роумінг</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Підключення до служб даних під час національного роумінгу</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Не встановлювати підключючення до служб даних під час національного роумінгу</string>
     <string name="roaming_reenable_message" msgid="6973894869473170666">"Доступ до даних утрачено, оскільки ви залишили домашню мережу з вимкненим роумінгом даних."</string>
     <string name="roaming_warning" msgid="7820963598559553967">"Дозвол. роумінг даних? З вас можуть стягн. значну плату за нього!"</string>
     <string name="gsm_umts_options" msgid="6538311689850981686">"Параметри GSM/UMTS"</string>
@@ -715,6 +720,11 @@
     <string name="description_target_decline" msgid="4789834364389731957">"Відхилити"</string>
     <string name="voicemail_notification_vibrate_when_title" msgid="8361970092063604886">"Вібросигнал"</string>
     <string name="voicemail_notification_vibarte_when_dialog_title" msgid="5739583146522136440">"Вібросигнал"</string>
+	
+    <!-- Dialer UI Settings -->
+    <string name="dialer_ui_settings_title">Налаштування кнопок</string>
+    <string name="dialer_ui_settings_summary">Налаштування номеронабирача</string>
+
   <string-array name="voicemail_notification_vibrate_when_entries">
     <item msgid="468237575962916558">"Завжди"</item>
     <item msgid="1595097872875714252">"Лише в беззвуч. реж."</item>
