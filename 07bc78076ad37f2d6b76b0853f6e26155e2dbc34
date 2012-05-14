@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAS3//+Ss\u003d",
+        "filename": "res/xml/call_feature_setting.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-05-14T11:41:13Z",
+      "side": 1,
+      "message": "It prevents the value being written to the shared prefs XML when it\u0027s changed. Useful for values kept in the system settings DB, because otherwise you have two sources for one setting, which might cause conflicts (persistent prefs are automatically restored from the XML).",
+      "parentUuid": "AAAAS3//+ZU\u003d",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX///Po\u003d",
         "filename": "src/com/android/phone/CallFeaturesSetting.java",
         "patchSetId": 6
@@ -169,6 +187,24 @@
       "writtenOn": "2012-03-19T15:31:42Z",
       "side": 1,
       "message": "boolean notifProp",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//+So\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 1308,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-05-14T11:41:13Z",
+      "side": 1,
+      "message": "Why \u0027...Prop\u0027 at all? The variable isn\u0027t related to any property.",
+      "parentUuid": "AAAARX///NQ\u003d",
       "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
