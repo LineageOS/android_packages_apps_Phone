@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAS3//+Zc\u003d",
+        "filename": "res/values/config.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-05-14T01:21:55Z",
+      "side": 1,
+      "message": "Might be better with something like:\n\"show_message_wait_indicator_preference\"\n\n\"enable\" is confusing, because if you set this to true, it really disables it by default, allowing a manual override to get it back if the user so desires.\n\nAlso \"voicemail\" is misleading, because this option is often confused with hiding Google Voice voicemail, when it really is about hiding the \"message wait indicator\" for non-visual voicemail.",
+      "parentUuid": "AAAARX///P0\u003d",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX///Pw\u003d",
         "filename": "res/values/strings.xml",
         "patchSetId": 6
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAS3//+ZY\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-05-14T01:21:55Z",
+      "side": 1,
+      "message": "Something like this would be more accurate:\n\"Show a notification when a non-visual voicemail message is waiting\"",
+      "parentUuid": "AAAARX///Pw\u003d",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAARX///Ps\u003d",
         "filename": "res/xml/call_feature_setting.xml",
         "patchSetId": 6
@@ -47,6 +83,24 @@
       "writtenOn": "2012-03-19T06:54:20Z",
       "side": 1,
       "message": "persistent\u003d\"false\"",
+      "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//+ZU\u003d",
+        "filename": "res/xml/call_feature_setting.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-05-14T01:21:55Z",
+      "side": 1,
+      "message": "What does this do?",
+      "parentUuid": "AAAARX///Ps\u003d",
       "revId": "07bc78076ad37f2d6b76b0853f6e26155e2dbc34",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
