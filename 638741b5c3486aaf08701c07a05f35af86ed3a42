@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3///2g\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 129
+      },
+      "writtenOn": "2012-06-01T16:15:48Z",
+      "side": 1,
+      "message": "typos in \u0027zmeskany\u0027 (e) and \u0027presmerovany\u0027 (missing s)",
+      "revId": "638741b5c3486aaf08701c07a05f35af86ed3a42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
