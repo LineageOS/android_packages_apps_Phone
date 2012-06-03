@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3///J4\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 730,
+      "author": {
+        "id": 3136
+      },
+      "writtenOn": "2012-06-03T11:10:22Z",
+      "side": 1,
+      "message": "What about: Wibracje przy odebraniu po??czenia wychodz?cego  ?",
+      "revId": "9c75bea48aa7ed03e07105062ef4f262983f0635",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAT3///J0\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 3136
+      },
+      "writtenOn": "2012-06-03T11:10:22Z",
+      "side": 1,
+      "message": "Wibracje przy zako?czeniu po??czenia ?",
+      "revId": "9c75bea48aa7ed03e07105062ef4f262983f0635",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAT3///Jw\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 736,
+      "author": {
+        "id": 3136
+      },
+      "writtenOn": "2012-06-03T11:10:22Z",
+      "side": 1,
+      "message": "Wibracje przy oczekuj?cym po??czeniu w trakcie innego po??czenia  (without gdy)",
+      "revId": "9c75bea48aa7ed03e07105062ef4f262983f0635",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
