@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3///Ng\u003d",
+        "filename": "res/values/config.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-06-03T07:57:31Z",
+      "side": 1,
+      "message": "MORE VERBOSE:\nIf true, enable the message wait indicator option.  On this device, mwi\u0027s are hidden unless the user enables it in Call Settings.  This quirk is necessary for the \"Phantom Voicemail\" notifications that are impossible to dismiss on the Sprint network.",
+      "revId": "563e8f7ad1608bc45ae16e629471a38caf8014bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAT3///Nc\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-06-03T07:57:31Z",
+      "side": 1,
+      "message": "s/voicemail notification/message wait indicator/",
+      "revId": "563e8f7ad1608bc45ae16e629471a38caf8014bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAT3///NQ\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-06-03T07:57:31Z",
+      "side": 1,
+      "message": "burnsra rightly points out that \"Voicemail Notifications\" is confusing, because the user can easily confuse this for voicemail from Google Voice.\nFor lack of a more obvious, non-clashing name, perhaps we should use the official name?\n\"Message Wait Indicator\"\n\nAny other ideas?",
+      "revId": "563e8f7ad1608bc45ae16e629471a38caf8014bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
