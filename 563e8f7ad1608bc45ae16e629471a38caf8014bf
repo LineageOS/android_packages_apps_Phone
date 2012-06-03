@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "AAAAT3///M0\u003d",
+        "filename": "res/values/config.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-06-03T08:13:02Z",
+      "side": 1,
+      "message": "I am not liking this name.  Even with a more verbose description, this config.xml option name is misleading to other CM device maintainers.  Perhaps we should name it something true to its purpose, like:\n\nsprint_mwi_quirk_option",
+      "revId": "563e8f7ad1608bc45ae16e629471a38caf8014bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAT3///Nc\u003d",
         "filename": "res/values/strings.xml",
         "patchSetId": 8
