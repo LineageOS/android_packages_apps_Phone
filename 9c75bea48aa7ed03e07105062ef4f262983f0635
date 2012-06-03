@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAT3///FQ\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 2930
+      },
+      "writtenOn": "2012-06-03T17:16:55Z",
+      "side": 1,
+      "message": "I agree on the rest, but this one seems actually fine for me.",
+      "parentUuid": "AAAAT3///J0\u003d",
+      "revId": "9c75bea48aa7ed03e07105062ef4f262983f0635",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAT3///Jw\u003d",
         "filename": "res/values-pl/strings.xml",
         "patchSetId": 1
