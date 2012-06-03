@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3///GQ\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 426,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-06-03T16:02:36Z",
+      "side": 1,
+      "message": "Tabs -\u003e spaces.",
+      "revId": "b9d2f5afb3b0d3a27292ac2a84e1ad7469d9cae1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAT3///GM\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 455,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-06-03T16:02:36Z",
+      "side": 1,
+      "message": "Tab -\u003e spaces",
+      "revId": "b9d2f5afb3b0d3a27292ac2a84e1ad7469d9cae1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
