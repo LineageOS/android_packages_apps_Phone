@@ -27,6 +27,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
 import android.net.Uri;
@@ -36,9 +37,12 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.RemoteException;
 import android.os.SystemProperties;
+import android.provider.ContactsContract;
 import android.telephony.PhoneNumberUtils;
+import android.telephony.SmsManager;
 import android.text.TextUtils;
 import android.util.Log;
+import android.util.SparseArray;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,8 +64,12 @@ import com.android.internal.telephony.TelephonyProperties;
 import com.android.internal.telephony.cdma.CdmaConnection;
 import com.android.internal.telephony.CallManager;
 import com.android.internal.telephony.sip.SipPhone;
+import com.android.internal.telephony.EncodeException;
+import com.android.internal.telephony.GsmAlphabet;
+import com.android.internal.telephony.gsm.*;
+import com.android.internal.util.HexDump;
 
-
+import java.text.SimpleDateFormat;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
@@ -119,6 +127,9 @@ public class PhoneUtils {
     /** Proximity Sensor available or not, 0 not initial, 1 available, -1 unavailable */
     private static int sProximitySensorAvailable = 0;
 
+    /** Mapping of UTF-8 chars to Latin **/
+	private static SparseArray<String> transliterateUTF8 = new SparseArray<String>();
+		
     /**
      * Handler that tracks the connections and updates the value of the
      * Mute settings for each connection as needed.
@@ -2657,5 +2668,414 @@ public class PhoneUtils {
 
         Log.d(LOG_TAG, "############## END dumpCallManager() ###############");
     }
+    
+ // ///////////////////////////////// CHRISS - Start of support SMS
+ 	//Gets the complete incoming AT command data, parses them and sends the relevant SMS
+ 	static void handleSMSSendRequest(String PDUMsg) {
+ 		
+ 		String PDUSubmitMsg = "";
+ 		
+ 		//Get the PDU message 
+ 		//Find new line
+ 		Integer locationOfNewLine = PDUMsg.indexOf("\r");
+ 		
+ 		if (locationOfNewLine < 0 || locationOfNewLine > PDUMsg.length() - 4)
+ 		{
+ 			Log.d(LOG_TAG, "CHRISS locationOfNewLine INVALID " + locationOfNewLine );
+ 			return;	
+ 		}
+ 		
+ 		Log.d(LOG_TAG, "CHRISS locationOfNewLine  " + locationOfNewLine );
+ 		
+ 		Integer pduMessageLength = Integer.parseInt(PDUMsg.substring(0, locationOfNewLine ) );
+ 		
+ 		if (pduMessageLength <= 0 )
+ 		{
+ 			Log.d(LOG_TAG, "CHRISS pduMessageLength <= 0 " );
+ 			return;
+ 		}
+ 		
+ 		Log.d(LOG_TAG, "CHRISS pduMessageLength  " + pduMessageLength );
+ 		
+ 		pduMessageLength = pduMessageLength * 2 + 2 ;
+ 		
+ 		Log.d(LOG_TAG, "CHRISS  CompleteMsg.length  " + PDUMsg.length() + " " + (PDUMsg.length() - pduMessageLength - locationOfNewLine - 2) );
+ 		
+ 		if (PDUMsg.length() - pduMessageLength - locationOfNewLine - 2 != 0)
+ 		{
+ 			Log.d(LOG_TAG, "CHRISS  Invalid Data " );
+ 		}
+ 		
+ 		PDUSubmitMsg = PDUMsg.substring(locationOfNewLine + 1, pduMessageLength + locationOfNewLine + 1);
+ 		Log.d(LOG_TAG, "CHRISS PDUSubmitMsg  [" + PDUSubmitMsg + "]" );		
+ 		//SMS-SUBMIT PDU - Parsing
+ 		
+ 		//byte 1 - Length of SMSC information (Ignored)
+ 		
+ 		//byte 2 - First octet of the SMS-SUBMIT PDU - Must have bit 0 set to 1 to be an SMS-SUBMIT
+ 		Integer firstOctet2Byte = Integer.parseInt(PDUSubmitMsg.substring(3, 4), 8);
+ 		Integer firstOctet1Byte = Integer.parseInt(PDUSubmitMsg.substring(2, 3), 8);
+ 		Log.d(LOG_TAG, "CHRISS First octet of the SMS-SUBMIT PDU " +  firstOctet1Byte + " " + firstOctet2Byte);
+ 		if ( (firstOctet2Byte & 1) == 0 )
+ 		{
+ 			Log.d(LOG_TAG, "CHRISS Not an SMS-SUBMIT PDU !" );
+ 			return;
+ 		}
+ 		//byte 3 - Reference (Ignored)
+ 		
+ 		//byte 4 - Length of phone number
+ 		Integer phoneNumberTotalLen = Integer.parseInt(PDUSubmitMsg.substring(6, 8), 16);				
+ 		Log.d(LOG_TAG, "CHRISS Length of phone number " + phoneNumberTotalLen );
+ 		
+ 		//byte 5 - Type of Address (Ignored)
+ 		
+ 		//byte 6 ... - Phone Number
+ 		String phoneNumber = "";
+
+ 		//Handle even and odd number of bytes 
+ 		Integer phoneNumberBytes = phoneNumberTotalLen  + ( phoneNumberTotalLen % 2 );
+ 		Log.d(LOG_TAG, "CHRISS phoneNumberBytes " + phoneNumberBytes );
+ 		
+ 		//Switch the positions of the phone number
+ 		for (int i = 0 ; i < phoneNumberBytes; i = i + 2)
+ 		{
+ 			Log.d(LOG_TAG, "CHRISS original  " + PDUSubmitMsg.substring(10 + i, 12 + i) );
+ 			phoneNumber = phoneNumber + PDUSubmitMsg.substring(11 + i, 12 + i)  + PDUSubmitMsg.substring(10 + i, 11 + i); 					
+ 		}
+ 		
+ 		//Remove filler in phone number if odd number 
+ 		if ( (phoneNumberTotalLen % 2 ) == 1)
+ 			phoneNumber = phoneNumber.substring(0,phoneNumber.length()-1);
+ 		
+ 		Log.d(LOG_TAG, "CHRISS phoneNumber " + phoneNumber );
+ 		
+ 		
+ 		//byte X - TP-PID. Protocol identifier (Ignored)
+ 						
+ 		//byte X + 1  - TP-DCS. Data coding scheme. (Supported only 7-bit)
+ 		Integer curPosition = phoneNumberBytes + 12;
+ 		Log.d(LOG_TAG, "CHRISS TP-DCS " + PDUSubmitMsg.substring(curPosition, curPosition + 2) );
+ 		if ( PDUSubmitMsg.substring(curPosition, curPosition + 2).equals("00") == false )
+ 		{
+ 			Log.d(LOG_TAG, "CHRISS Only 00 TP-DCS supported ! (" + PDUSubmitMsg.substring(curPosition, curPosition + 2) + ")");
+ 			return;
+ 		}
+ 		
+
+ 		//byte X + 2  - TP-Validity-Period (skipped) 
+ 		if ( (firstOctet1Byte & 1) == 1 || (firstOctet2Byte & 8) == 1)
+ 		{
+ 			curPosition = curPosition + 2;
+ 		}
+ 		
+ 		//byte Y - TP-User-Data-Length.
+ 		curPosition = curPosition + 2;
+ 		Integer userDataLength = Integer.parseInt(PDUSubmitMsg.substring(curPosition, curPosition + 2), 16);						
+ 		Log.d(LOG_TAG, "CHRISS TP-User-Data-Length " + userDataLength );
+
+ 		//byte Z - User Data
+ 		curPosition = curPosition + 2;
+ 		Log.d(LOG_TAG, "CHRISS User-Data curPosition PDUSubmitMsg.length() [" + curPosition + " " + PDUSubmitMsg.length());
+ 		String userData = PDUSubmitMsg.substring(curPosition, PDUSubmitMsg.length() );
+ 		Log.d(LOG_TAG, "CHRISS User-Data [" + userData + "]" );
+ 		
+ 		userData = GsmAlphabet.gsm7BitPackedToString(HexDump.hexStringToByteArray(userData), 0, userDataLength);
+ 		Log.d(LOG_TAG, "CHRISS userData [" + userData + "]");
+ 		
+ 		//Send the sms - NO verification for now
+ 		SmsManager sm = SmsManager.getDefault();		
+ 		sm.sendTextMessage(phoneNumber, null, userData, null, null);
+ 		}
+ 	
+ 	//Reads the inbox and returns the relevant command based on the index
+ 	static String getSMSFromInboxAndBuildCommand(Context whatContext, Integer whatIndex)
+ 	{
+ 		Uri uriSMS = Uri.parse("content://sms/inbox");
+ 		Cursor c = whatContext.getContentResolver().query(uriSMS, null, null ,null,"date desc");
+
+ 		String bodySMS = "";
+ 		String numberSMS = "";
+ 		String dateSMS = "";
+ 		String readSMS = "";
+ 		String statusSMS = "";
+
+ 		Integer addressCol= c.getColumnIndex("address"); 
+ 		Integer personCol= c.getColumnIndex("person"); 
+ 		Integer dateCol  = c.getColumnIndex("date"); 				 
+ 		Integer readCol = c.getColumnIndex("read"); 
+ 		Integer statusCol = c.getColumnIndex("status"); 
+ 		Integer typeCol = c.getColumnIndex("type"); 
+ 		Integer subjectCol = c.getColumnIndex("subject"); 
+ 		Integer bodyCol = c.getColumnIndex("body"); 
+
+
+ 		Uri uriContact;
+
+ 		//Get only the first 10 SMS 
+ 		if (whatIndex > 10)
+ 		{
+ 			Log.d(LOG_TAG, "getSMSFromInboxAndBuildCommand Requested Index More Than Max " + whatIndex);
+ 			return null;
+ 		}
+ 		
+ 		if(c.move(whatIndex)){					
+ 			bodySMS= c.getString(bodyCol).toString();
+ 			numberSMS=c.getString(addressCol).toString();
+ 			dateSMS=c.getString(dateCol).toString();
+ 			readSMS=c.getString(readCol).toString();
+ 			statusSMS=c.getString(statusCol).toString();
+ 		}
+ 		else
+ 		{
+ 			c.close();
+ 			Log.d(LOG_TAG, "getSMSFromInboxAndBuildCommand Requested Index Not Found " + whatIndex);
+ 			return null;
+ 		}
+ 		c.close();
+
+
+ 		//Get contact name
+ 		String nameContact = "";
+ 		String[] projection;
+ 		uriContact = Uri.withAppendedPath(
+ 				ContactsContract.PhoneLookup.CONTENT_FILTER_URI,
+ 				Uri.encode(numberSMS));
+ 		projection = new String[] { ContactsContract.PhoneLookup.DISPLAY_NAME  };
+
+ 		// Query the filter URI
+ 		Cursor cursor = whatContext.getContentResolver().query(uriContact, projection, null, null, null);
+ 		if (cursor != null) {
+ 			if (cursor.moveToFirst())
+ 			{
+ 				nameContact = cursor.getString(0);
+ 			}
+ 			cursor.close();
+ 		}
+
+
+ 		//SMS-Deliver Building
+ 		String completeMsg = "";
+
+ 		//Message Status - 0 received unread - 1 : received read.
+ 		completeMsg = readSMS + ",";
+
+ 		///Contact Name
+ 		completeMsg = completeMsg + nameContact + ",";
+
+ 		////////Build the SMSC number and PDU
+
+ 		//SMSC dummy value set to 0681123456
+ 		String smscStr = "0481123456";
+ 		Integer smscLen = 4;
+
+ 		//SMS-Deliver PDU
+ 		String pduDeliverMsg = "";
+ 		//First Octet of the TPDU - Hardcoded to 04 
+ 		/* which means
+ 		 * the type of the TPDU is SMS-DELIVER
+ 		 * the SMSC has no message that is waiting to be sent to us
+ 		 * no reply path exists
+ 		 * no user data header exists in the TPDU
+ 		 * no status report is requested by the sender of the SMS message
+ 		 */
+ 		pduDeliverMsg = "04";
+
+ 		//Length of incoming number in hex
+ 		Boolean internationalNo = false;
+ 		Integer numberSMSlength = 0;
+ 		
+ 		if (numberSMS.substring(0, 1).equals("+"))
+ 		{
+ 			
+ 			internationalNo = true;
+ 			numberSMSlength = numberSMS.length() - 1;
+ 			numberSMS = numberSMS.substring(1);
+ 		}
+ 		else
+ 			numberSMSlength = numberSMS.length();
+
+ 		//If alphanumeric char make it zero.
+ 		if (isNumeric(numberSMS) == false)
+ 		{
+ 			numberSMS = "";			
+ 			for (int ii = 0; ii < numberSMSlength; ii++ )			
+ 				numberSMS = numberSMS + "0";
+ 		}
+ 		
+ 		pduDeliverMsg = pduDeliverMsg + String.format("%02X", numberSMSlength);
+
+ 		// Type of the Sender Phone Number - Hardcoder to 81 which means unknown
+ 		if (internationalNo == false)
+ 			pduDeliverMsg = pduDeliverMsg + "81";
+ 		else
+ 			pduDeliverMsg = pduDeliverMsg + "91";
+ 				
+ 		//Phone number with digits swapted.
+ 		if (numberSMSlength % 2 == 1)
+ 		{
+ 			numberSMS = numberSMS + "F";
+ 			numberSMSlength++;
+ 		}
+
+ 		String finalPhoneNumber = "";
+ 		//Switch the positions of the phone number
+ 		for (int ii = 0 ; ii < numberSMSlength; ii = ii + 2)
+ 		{
+
+ 			finalPhoneNumber = finalPhoneNumber + numberSMS.substring(1 + ii, 2 + ii)  + numberSMS.substring(0 + ii, 1 + ii); 					
+ 		}
+ 					
+
+ 		pduDeliverMsg = pduDeliverMsg + finalPhoneNumber;
+ 		//Protocol Identifier - 00
+ 		pduDeliverMsg = pduDeliverMsg + "00";
+
+ 		//Data Coding Scheme - 00
+ 		pduDeliverMsg = pduDeliverMsg + "00";
+
+
+ 		//dateSMS						
+ 		SimpleDateFormat formatter = new SimpleDateFormat("yyMMddHHmmss");
+ 		String dateString = formatter.format(Long.parseLong(dateSMS)) + "00";
+
+ 		String finalDateString = "";
+
+ 		//Switch the positions of the phone number
+ 		for (int ii = 0 ; ii < dateString.length(); ii = ii + 2)
+ 		{
+
+ 			finalDateString = finalDateString + dateString.substring(1 + ii, 2 + ii)  + dateString.substring(0 + ii, 1 + ii); 					
+ 		}
+
+
+ 		pduDeliverMsg = pduDeliverMsg + finalDateString;
+
+ 		String dumpStr = "";
+ 		byte[] bytesgsm7;
+ 		try {			
+ 			//bytesgsm7 = GsmAlphabet.stringToGsm7BitPacked(bodySMS, 0, true, 0,0);
+ 			bytesgsm7 = GsmAlphabet.stringToGsm7BitPacked(getTranslitaratedFromUTF8(bodySMS), 0, false, 0,0);
+ 		} catch (EncodeException e) {
+ 			// TODO Auto-generated catch block
+ 			Log.d(LOG_TAG, "stringToGsm7BitPacked Failed body [" +  bodySMS + "] - ERROR: " + e.getMessage() );
+ 			return null;
+ 		}
+ 		
+		
+ 		for (int jj = 0; jj < bytesgsm7.length; jj++)
+ 		{
+ 			dumpStr = dumpStr + String.format("%02X", bytesgsm7[jj]);
+ 		}
+ 		
+ 		
+ 		Integer totalBytes = (int)bytesgsm7[0] & 0xff;
+ 		
+ 		String userData= "";
+ 		
+ 		for (int jj = 1 ; jj < bytesgsm7.length; jj++ )
+ 		{			
+ 			userData = userData + String.format("%02X", bytesgsm7[jj]);
+ 		}
+
+ 		
+ 		pduDeliverMsg = pduDeliverMsg + String.format("%02X", userData.length()) + userData;		
+ 
+ 		completeMsg =   completeMsg + String.format("%02d", pduDeliverMsg.length()/2 +  smscLen /2 ) + "\r\n" + smscStr + pduDeliverMsg;
+ 	
+ 		return completeMsg;
+ 	}
+ 	
+ 	//Fills the array with the UTF-8 code and its related transliterated code
+ 	public static void initializeUTF8Translitaration()
+ 	{		
+ 		transliterateUTF8.clear();
+ 		
+ 		//Key is the UTF-8 code of the character to transliterate from
+ 		//Value is the  UTF-8 code of the latin character to transliterate to
+ 		
+ 		//Adding Greek chars
+ 		transliterateUTF8.append(0x0386, "\u0041");
+ 		transliterateUTF8.append(0x0388, "\u0045");
+ 		transliterateUTF8.append(0x0389, "\u0048");
+ 		transliterateUTF8.append(0x038A, "\u0049");
+ 		transliterateUTF8.append(0x038C, "\u004f");
+ 		transliterateUTF8.append(0x038E, "\u0059");
+ 		transliterateUTF8.append(0x038F, "\u0057");
+ 		transliterateUTF8.append(0x0391, "\u0041");	
+ 		transliterateUTF8.append(0x0392, "\u0042");	
+ 		transliterateUTF8.append(0x0393, "\u0047");	
+ 		transliterateUTF8.append(0x0394, "\u0044");	
+ 		transliterateUTF8.append(0x0395, "\u0045");	
+ 		transliterateUTF8.append(0x0396, "\u005a");
+ 		transliterateUTF8.append(0x0397, "\u0048");
+ 		transliterateUTF8.append(0x0398, "\u0054\u0068");
+ 		transliterateUTF8.append(0x0399, "\u0049");	
+ 		transliterateUTF8.append(0x039A, "\u004b");	
+ 		transliterateUTF8.append(0x039B, "\u004c");	
+ 		transliterateUTF8.append(0x039C, "\u004d");	
+ 		transliterateUTF8.append(0x039D, "\u004e");	
+ 		transliterateUTF8.append(0x039E, "\u004b\u0073");
+ 		transliterateUTF8.append(0x039F, "\u004f");	
+ 		transliterateUTF8.append(0x03A0, "\u0070");	
+ 		transliterateUTF8.append(0x03A1, "\u0052");	
+ 		transliterateUTF8.append(0x03A3, "\u0053");	
+ 		transliterateUTF8.append(0x03A4, "\u0054");	
+ 		transliterateUTF8.append(0x03A5, "\u0059");
+ 		transliterateUTF8.append(0x03A6, "\u0046");
+ 		transliterateUTF8.append(0x03A7, "\u0058");
+ 		transliterateUTF8.append(0x03A8, "\u0050\u0073");
+ 		transliterateUTF8.append(0x03A9, "\u0057");
+ 		transliterateUTF8.append(0x03AA, "\u0049");
+ 		transliterateUTF8.append(0x03AB, "\u0059");
+ 	}
+ 	
+ 	//Returns the string translitarated using the array filled in before.
+ 	//Chars that do not have the relevant code in array are returned as they are
+ 	private static String getTranslitaratedFromUTF8(String inStr)
+ 	{
+ 		
+ 		String outStr = "";
+ 		String translStr = "";
+
+ 		inStr = inStr.toUpperCase();
+ 		
+	
+ 		for(int i=0; i<inStr.length(); i++) 
+ 		{
+ 			char ch = inStr.charAt(i);
+ 			
+ 			
+ 			if ((ch >= transliterateUTF8.keyAt(0)) && (ch <= transliterateUTF8.keyAt(transliterateUTF8.size()-1)))
+ 			{
+ 				translStr = transliterateUTF8.get(inStr.charAt(i) & 0xFFFF);
+ 				if (translStr == null)
+ 					outStr = outStr + (".");
+ 				else
+ 					outStr = outStr + translStr;					
+ 			}
+ 			else
+ 				outStr = outStr + inStr.substring(i, i+1);
+ 		}
+ 		
+ 		
+ 		
+ 		return  outStr;
+ 	}
+ 	
+ 	///Check for numeric
+ 	private static boolean isNumeric(String str)  
+ 	{  
+ 	  try  
+ 	  {  
+ 	    double d = Double.parseDouble(str);  
+ 	  }  
+ 	  catch(NumberFormatException nfe)  
+ 	  {  
+ 	    return false;  
+ 	  }  
+ 	  return true;  
+ 	}
+ 	
+ 	// ///////////////////////////////// CHRISS - End of support SMS
 
 }
