@@ -2669,7 +2669,6 @@ public class PhoneUtils {
         Log.d(LOG_TAG, "############## END dumpCallManager() ###############");
     }
     
- // ///////////////////////////////// CHRISS - Start of support SMS
  	//Gets the complete incoming AT command data, parses them and sends the relevant SMS
  	static void handleSMSSendRequest(String PDUMsg) {
  		
@@ -2681,33 +2680,22 @@ public class PhoneUtils {
  		
  		if (locationOfNewLine < 0 || locationOfNewLine > PDUMsg.length() - 4)
  		{
- 			Log.d(LOG_TAG, "CHRISS locationOfNewLine INVALID " + locationOfNewLine );
+ 			Log.d(LOG_TAG, "locationOfNewLine INVALID " + locationOfNewLine );
  			return;	
  		}
- 		
- 		Log.d(LOG_TAG, "CHRISS locationOfNewLine  " + locationOfNewLine );
  		
  		Integer pduMessageLength = Integer.parseInt(PDUMsg.substring(0, locationOfNewLine ) );
  		
  		if (pduMessageLength <= 0 )
  		{
- 			Log.d(LOG_TAG, "CHRISS pduMessageLength <= 0 " );
+ 			Log.d(LOG_TAG, "pduMessageLength <= 0 " );
  			return;
  		}
  		
- 		Log.d(LOG_TAG, "CHRISS pduMessageLength  " + pduMessageLength );
- 		
  		pduMessageLength = pduMessageLength * 2 + 2 ;
  		
- 		Log.d(LOG_TAG, "CHRISS  CompleteMsg.length  " + PDUMsg.length() + " " + (PDUMsg.length() - pduMessageLength - locationOfNewLine - 2) );
- 		
- 		if (PDUMsg.length() - pduMessageLength - locationOfNewLine - 2 != 0)
- 		{
- 			Log.d(LOG_TAG, "CHRISS  Invalid Data " );
- 		}
- 		
+
  		PDUSubmitMsg = PDUMsg.substring(locationOfNewLine + 1, pduMessageLength + locationOfNewLine + 1);
- 		Log.d(LOG_TAG, "CHRISS PDUSubmitMsg  [" + PDUSubmitMsg + "]" );		
  		//SMS-SUBMIT PDU - Parsing
  		
  		//byte 1 - Length of SMSC information (Ignored)
@@ -2715,17 +2703,15 @@ public class PhoneUtils {
  		//byte 2 - First octet of the SMS-SUBMIT PDU - Must have bit 0 set to 1 to be an SMS-SUBMIT
  		Integer firstOctet2Byte = Integer.parseInt(PDUSubmitMsg.substring(3, 4), 8);
  		Integer firstOctet1Byte = Integer.parseInt(PDUSubmitMsg.substring(2, 3), 8);
- 		Log.d(LOG_TAG, "CHRISS First octet of the SMS-SUBMIT PDU " +  firstOctet1Byte + " " + firstOctet2Byte);
  		if ( (firstOctet2Byte & 1) == 0 )
  		{
- 			Log.d(LOG_TAG, "CHRISS Not an SMS-SUBMIT PDU !" );
+ 			Log.d(LOG_TAG, "Not an SMS-SUBMIT PDU !" );
  			return;
  		}
  		//byte 3 - Reference (Ignored)
  		
  		//byte 4 - Length of phone number
  		Integer phoneNumberTotalLen = Integer.parseInt(PDUSubmitMsg.substring(6, 8), 16);				
- 		Log.d(LOG_TAG, "CHRISS Length of phone number " + phoneNumberTotalLen );
  		
  		//byte 5 - Type of Address (Ignored)
  		
@@ -2734,12 +2720,10 @@ public class PhoneUtils {
 
  		//Handle even and odd number of bytes 
  		Integer phoneNumberBytes = phoneNumberTotalLen  + ( phoneNumberTotalLen % 2 );
- 		Log.d(LOG_TAG, "CHRISS phoneNumberBytes " + phoneNumberBytes );
  		
  		//Switch the positions of the phone number
  		for (int i = 0 ; i < phoneNumberBytes; i = i + 2)
  		{
- 			Log.d(LOG_TAG, "CHRISS original  " + PDUSubmitMsg.substring(10 + i, 12 + i) );
  			phoneNumber = phoneNumber + PDUSubmitMsg.substring(11 + i, 12 + i)  + PDUSubmitMsg.substring(10 + i, 11 + i); 					
  		}
  		
@@ -2747,17 +2731,14 @@ public class PhoneUtils {
  		if ( (phoneNumberTotalLen % 2 ) == 1)
  			phoneNumber = phoneNumber.substring(0,phoneNumber.length()-1);
  		
- 		Log.d(LOG_TAG, "CHRISS phoneNumber " + phoneNumber );
- 		
  		
  		//byte X - TP-PID. Protocol identifier (Ignored)
  						
  		//byte X + 1  - TP-DCS. Data coding scheme. (Supported only 7-bit)
  		Integer curPosition = phoneNumberBytes + 12;
- 		Log.d(LOG_TAG, "CHRISS TP-DCS " + PDUSubmitMsg.substring(curPosition, curPosition + 2) );
  		if ( PDUSubmitMsg.substring(curPosition, curPosition + 2).equals("00") == false )
  		{
- 			Log.d(LOG_TAG, "CHRISS Only 00 TP-DCS supported ! (" + PDUSubmitMsg.substring(curPosition, curPosition + 2) + ")");
+ 			Log.d(LOG_TAG, "Only 00 TP-DCS supported ! (" + PDUSubmitMsg.substring(curPosition, curPosition + 2) + ")");
  			return;
  		}
  		
@@ -2771,16 +2752,12 @@ public class PhoneUtils {
  		//byte Y - TP-User-Data-Length.
  		curPosition = curPosition + 2;
  		Integer userDataLength = Integer.parseInt(PDUSubmitMsg.substring(curPosition, curPosition + 2), 16);						
- 		Log.d(LOG_TAG, "CHRISS TP-User-Data-Length " + userDataLength );
 
  		//byte Z - User Data
  		curPosition = curPosition + 2;
- 		Log.d(LOG_TAG, "CHRISS User-Data curPosition PDUSubmitMsg.length() [" + curPosition + " " + PDUSubmitMsg.length());
  		String userData = PDUSubmitMsg.substring(curPosition, PDUSubmitMsg.length() );
- 		Log.d(LOG_TAG, "CHRISS User-Data [" + userData + "]" );
  		
  		userData = GsmAlphabet.gsm7BitPackedToString(HexDump.hexStringToByteArray(userData), 0, userDataLength);
- 		Log.d(LOG_TAG, "CHRISS userData [" + userData + "]");
  		
  		//Send the sms - NO verification for now
  		SmsManager sm = SmsManager.getDefault();		
@@ -3076,6 +3053,5 @@ public class PhoneUtils {
  	  return true;  
  	}
  	
- 	// ///////////////////////////////// CHRISS - End of support SMS
 
 }
