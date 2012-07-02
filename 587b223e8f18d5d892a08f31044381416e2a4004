@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAUH//65g\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-07-02T18:48:01Z",
+      "side": 1,
+      "message": "Ik vind de oude vertaling beter dan de nieuwe....",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//65Y\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 739,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-07-02T18:48:01Z",
+      "side": 1,
+      "message": "Kromme zin?",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//67M\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -13,6 +47,41 @@
       "writtenOn": "2012-07-02T16:47:52Z",
       "side": 1,
       "message": "- \\\u0027.\\\u0027 gebruiken als jokerteken en \\\u0027*\\\u0027 voor herhaling. Bijv.: \\\u0027123.*\\\u0027 blokkeert nummers die starten met 123 en \\\u0027.*123.*\\\u0027 blokkeert nummers die 123 bevatten (?)",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//65M\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 750,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-07-02T18:48:01Z",
+      "side": 1,
+      "message": "Is het niet mooier om met \"Gebruik\" te beginnen? Verder heldere vertaling.",
+      "parentUuid": "AAAAUH//67M\u003d",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//648\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 753,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-07-02T18:48:01Z",
+      "side": 1,
+      "message": "Keep-alive interval?",
       "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
