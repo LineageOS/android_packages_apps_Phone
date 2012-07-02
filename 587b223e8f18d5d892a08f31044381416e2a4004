@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//64I\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-02T19:08:27Z",
+      "side": 1,
+      "message": "Past niet op mijn telefoon.",
+      "parentUuid": "AAAAUH//65g\u003d",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//65Y\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2012-07-02T18:48:01Z",
       "side": 1,
       "message": "Kromme zin?",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//64E\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 739,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-02T19:08:27Z",
+      "side": 1,
+      "message": "- De mogelijkheid om zelf wachtgesprekken te beginnen uitschakelen",
+      "parentUuid": "AAAAUH//65Y\u003d",
       "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -71,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//64A\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 750,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-02T19:08:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//65M\u003d",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//648\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -82,6 +136,24 @@
       "writtenOn": "2012-07-02T18:48:01Z",
       "side": 1,
       "message": "Keep-alive interval?",
+      "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//638\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 753,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-02T19:08:27Z",
+      "side": 1,
+      "message": "- Keep-alive-interval (maar dat is zo lelijk met die streepjes)",
+      "parentUuid": "AAAAUH//648\u003d",
       "revId": "587b223e8f18d5d892a08f31044381416e2a4004",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
