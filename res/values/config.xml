@@ -91,6 +91,15 @@
     <!-- Determines if device implements a noise suppression device for in call audio-->
     <bool name="has_in_call_noise_suppression">false</bool>
 
+    <!-- Determines if the device supports HD-Voice (AMR Wideband) -->
+    <bool name="has_amr_wideband_support">false</bool>
+
+    <!-- Set additional audio parameters needed to enable HD-Voice (AMR Wideband)
+         Usage: parameter=onstring=offstring
+         Examples: <item>amr_wb=on=off</item> <item>wideband=true=false</item> <item>hdvoice=yes=no</item> -->
+    <string-array name="amr_wideband_audioparameter" translatable="false">
+    </string-array>
+
     <!-- Determines if the current device should allow emergency numbers
          to be logged in the Call Log.
          (Some carriers require that emergency calls *not* be logged,
@@ -123,4 +132,7 @@
          for the "Phantom Voicemail" issue where notifications that are
          impossible to dismiss on the Sprint network. -->
     <bool name="sprint_mwi_quirk">false</bool>
+
+    <!-- Determines if the device uses samsungs RIL -->
+    <bool name="uses_samsung_ril">false</bool>
 </resources>

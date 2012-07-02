@@ -109,6 +109,9 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
     private static final int EVENT_TTY_MODE_SET = 16;
     private static final int EVENT_START_SIP_SERVICE = 17;
 
+    // Action for HD-Voice support
+    private String mAMRwbAction;
+
     // The MMI codes are also used by the InCallScreen.
     public static final int MMI_INITIATE = 51;
     public static final int MMI_COMPLETE = 52;
@@ -557,6 +560,16 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
                 intentFilter.addAction(TtyIntent.TTY_PREFERRED_MODE_CHANGE_ACTION);
             }
             intentFilter.addAction(AudioManager.RINGER_MODE_CHANGED_ACTION);
+
+            // Intent filter for HD-Voice support
+            if (PhoneUtils.hasAMRwbSupport(this)) {
+
+                if (PhoneUtils.isSamsungRIL(this))
+                    mAMRwbAction = "android.intent.action.WB_AMR";
+
+                intentFilter.addAction(mAMRwbAction);
+            }
+
             registerReceiver(mReceiver, intentFilter);
 
             // Use a separate receiver for ACTION_MEDIA_BUTTON broadcasts,
@@ -1558,6 +1571,10 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
                 if (VDBG) Log.d(LOG_TAG, "mReceiver: ACTION_VIBRATE_45");
                 mAM.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, SystemClock.elapsedRealtime() + 60000, mVibrateIntent);
                 vibrate(70, 70, -1);
+            } else if (action.equals(mAMRwbAction)) {
+                // Set audio parameter needed for HD-Voice (Wideband AMR)
+                Log.i(LOG_TAG, "mReceiver: " + mAMRwbAction);
+                PhoneUtils.setAMRwb(context, intent.getIntExtra(mAMRwbAction, 0));
             }
         }
     }

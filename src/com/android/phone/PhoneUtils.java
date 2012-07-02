@@ -1862,6 +1862,38 @@ public class PhoneUtils {
         }
     }
 
+    // HD-Voice (Wideband AMR) support
+    static boolean hasAMRwbSupport(Context context) {
+        return context.getResources().getBoolean(R.bool.has_amr_wideband_support);
+    }
+
+    // Set audioparameter needed for HD-Voice (Wideband AMR)
+    static void setAMRwb(Context context, int enable) {
+        String[] audioParams = context.getResources().getStringArray(R.array.amr_wideband_audioparameter);
+        String[] aPValues;
+
+        for (String parameter : audioParams) {
+            aPValues = parameter.split("=");
+
+            if(aPValues[1].length() == 0) {
+                aPValues[1] = "on";
+            }
+
+            if(aPValues[2].length() == 0) {
+                aPValues[2] = "off";
+            }
+
+            AudioManager audioManager = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+            if (enable == 1) {
+                Log.i(LOG_TAG, "setAMRwb(): " + aPValues[0] + "=" + aPValues[1]);
+                audioManager.setParameters(aPValues[0] + "=" + aPValues[1]);
+            } else {
+                Log.i(LOG_TAG, "setAMRwb(): " + aPValues[0] + "=" + aPValues[2]);
+                audioManager.setParameters(aPValues[0] + "=" + aPValues[2]);
+            }
+        }
+    }
+
     /**
      *
      * Mute / umute the foreground phone, which has the current foreground call
@@ -2480,6 +2512,10 @@ public class PhoneUtils {
      */
     static boolean isVoipSupported() {
         return sVoipSupported;
+    }
+
+    static boolean isSamsungRIL(Context context) {
+        return context.getResources().getBoolean(R.bool.uses_samsung_ril);
     }
 
     //
