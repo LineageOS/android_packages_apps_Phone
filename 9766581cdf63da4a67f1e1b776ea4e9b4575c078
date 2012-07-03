@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6qY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Als ik even naar Wikipedia ga (https://nl.wikipedia.org/wiki/Simkaart), ziet het ernaar uit dat \u0027sim\u0027 apart met hoofdletters is, en \u0027sim\u0027 in een samenstellingen zonder hoofdletters. \u0027pin\u0027 is altijd met kleine letters (https://nl.wikipedia.org/wiki/Persoonlijk_identificatienummer).\n- Won\u0027t fix\n- pincode",
+      "parentUuid": "AAAAUH//6uM\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6uI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "moet hier SIM dan ook niet worden vervangen door sim?\n\nEn PIN voor pin",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6qU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- Won\u0027t fix\n- pincode",
+      "parentUuid": "AAAAUH//6uI\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6qQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- Won\u0027t fix\n- pincode",
+      "parentUuid": "AAAAUH//6uE\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6uA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -64,6 +118,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "PIN-code, PUK-code?\nof pincode en pukcode?",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6qM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- pincode (altijd)\n- pukcode (https://nl.wikipedia.org/wiki/Persoonlijk_identificatienummer#Mobiele_telefoon) (in zelfstandige vorm (PUK/puk) weet ik het niet)",
+      "parentUuid": "AAAAUH//6uA\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6qI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6t8\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6t4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -98,6 +188,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "tonen",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6qE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6t4\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6qA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6t0\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6tw\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -132,6 +258,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "sim",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6p8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 342,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6tw\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6p4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 343,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6ts\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6to\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -166,6 +328,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "Sim pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6p0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6to\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -189,6 +369,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6pw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6tk\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6tg\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -200,6 +398,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "Sim pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6ps\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6tg\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -223,6 +439,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6pg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6tc\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6tY\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -234,6 +468,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6pk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6tY\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -257,6 +509,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6pc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 350,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6tU\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6tQ\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -268,6 +538,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6pY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6tQ\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -291,6 +579,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6pU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6tM\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6tI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -302,6 +608,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6pQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 353,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6tI\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -325,6 +649,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6pM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6tE\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6tA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -336,6 +678,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "Sim pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6pI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 355,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6tA\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -359,6 +719,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6pE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 357,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6s8\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6s4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -370,6 +748,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "Sim pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6pA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 358,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6s4\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -393,6 +789,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6o8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6s0\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6sw\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -404,6 +818,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "Sim pincode",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6o0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- SIM pincode",
+      "parentUuid": "AAAAUH//6sw\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -427,6 +859,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6o4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6ss\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6so\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -438,6 +888,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "tsja, pin2?",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6ow\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- Pin2 ;)",
+      "parentUuid": "AAAAUH//6so\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -461,6 +929,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6os\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sk\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6sg\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -472,6 +958,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "pin2",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6oo\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sg\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -495,6 +999,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6ok\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sc\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6sY\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -506,6 +1028,109 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "pin2",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6og\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- puk2-code",
+      "parentUuid": "AAAAUH//6sY\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6oY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- pin2-code",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6oU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- pin2-codes",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6oQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- pin2-code",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6oM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- puk2-code",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6oI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 371,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- Pin2-code",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -529,6 +1154,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6oc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sU\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6sQ\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -540,6 +1183,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "simkaart",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6oE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 374,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- simkaart\n- Puk2-code",
+      "parentUuid": "AAAAUH//6sQ\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -563,6 +1224,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6oA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sM\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6sI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -574,6 +1253,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "simkaart",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6n8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 379,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sI\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -597,6 +1294,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6n4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 382,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sE\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6sA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -608,6 +1323,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "simcontacten?",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6n0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6sA\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -631,6 +1364,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6nw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 614,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Elke 45 seconden trillen houdt in dat de andere persoon heeft opgenomen, en dan is het een gesprek.\nTenminste, dat heb ik zelf gereversed-engineered ;)\nIk weet echt niet hoe dat zit, maar het klinkt (voor mij) wel logisch.",
+      "parentUuid": "AAAAUH//6r8\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6r4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -642,6 +1393,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "Trillen bij gesprek in de wacht?",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6ns\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 626,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6r4\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -665,6 +1434,41 @@
     },
     {
       "key": {
+        "uuid": "AAAAUH//6no\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 627,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAUH//6r0\u003d",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6nk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 628,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "- oproepenlijst",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6rw\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -676,6 +1480,24 @@
       "writtenOn": "2012-07-03T04:20:36Z",
       "side": 1,
       "message": "oproep",
+      "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6ng\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-03T12:56:04Z",
+      "side": 1,
+      "message": "Done (het wordt geblokkeerd, dus niet opgenomen)",
+      "parentUuid": "AAAAUH//6rw\u003d",
       "revId": "9766581cdf63da4a67f1e1b776ea4e9b4575c078",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
