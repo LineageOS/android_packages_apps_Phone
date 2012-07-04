@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAUH//6eE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-04T01:45:58Z",
+      "side": 1,
+      "message": "Done",
+      "revId": "0eac448695ee7d6140ba206376f0cb8ab6c77452",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAUH//6hQ\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 5
@@ -30,6 +47,24 @@
       "writtenOn": "2012-07-04T01:09:12Z",
       "side": 1,
       "message": "Maar je geeft het van tevoren aan, dus het kan niet in verleden tijd staan naar mijn idee",
+      "parentUuid": "AAAAUH//6hQ\u003d",
+      "revId": "0eac448695ee7d6140ba206376f0cb8ab6c77452",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//6eA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-07-04T01:45:58Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "AAAAUH//6hQ\u003d",
       "revId": "0eac448695ee7d6140ba206376f0cb8ab6c77452",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
