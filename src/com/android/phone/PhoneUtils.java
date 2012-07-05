@@ -249,6 +249,9 @@ public class PhoneUtils {
         boolean phoneIsCdma = (phone.getPhoneType() == Phone.PHONE_TYPE_CDMA);
         BluetoothHandsfree bthf = null;
 
+        // enable noise suppression
+        turnOnNoiseSuppression(app.getApplicationContext(), true, true);
+
         if (phoneIsCdma) {
             // Stop any signalInfo tone being played when a Call waiting gets answered
             if (ringing.getState() == Call.State.WAITING) {
@@ -1818,13 +1821,30 @@ public class PhoneUtils {
             return;
         }
 
-        if (flag) {
-            audioManager.setParameters("noise_suppression=auto");
-        } else {
-            audioManager.setParameters("noise_suppression=off");
+        String aParam = context.getResources().getString(R.string.in_call_noise_suppression_audioparameter);
+        String[] aPValues = aParam.split("=");
+
+        if(aPValues[0].length() == 0) {
+            aPValues[0] = "noise_suppression";
         }
 
-        // record the speaker-enable value
+        if(aPValues[1].length() == 0) {
+            aPValues[1] = "on";
+        }
+
+        if(aPValues[2].length() == 0) {
+            aPValues[2] = "off";
+        }
+
+        if (flag) {
+            if (DBG) log("turnOnNoiseSuppression: " + aPValues[0] + "=" + aPValues[1]);
+            audioManager.setParameters(aPValues[0] + "=" + aPValues[1]);
+        } else {
+            if (DBG) log("turnOnNoiseSuppression: " + aPValues[0] + "=" + aPValues[2]);
+            audioManager.setParameters(aPValues[0] + "=" + aPValues[2]);
+        }
+
+        // record the noise suppression value
         if (store) {
             sIsNoiseSuppressionEnabled = flag;
         }
