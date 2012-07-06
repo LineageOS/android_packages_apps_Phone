@@ -745,6 +745,12 @@
     <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
     <string name="fake_phone_activity_placeCall_text">Bejövő álhívás</string>
 
+    <!-- 20120706 -->
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Noise suppression</string>
+    <string name="noise_suppression_summary">Enable noise suppression for calls</string>
+    <!-- End Noise suppression -->
+
   <string-array name="voicemail_notification_vibrate_when_entries">
     <item msgid="468237575962916558">"Mindig"</item>
     <item msgid="1595097872875714252">"Csak néma üzemmódban"</item>
