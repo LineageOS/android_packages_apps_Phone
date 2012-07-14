@@ -167,6 +167,9 @@ public class BluetoothHandsfree {
         return null;
     }
 
+    //Sends Notification for the new SMS received
+    public BroadcastReceiver newSMSReceiver = null;
+
     public BluetoothHandsfree(Context context, CallManager cm) {
         mCM = cm;
         mContext = context;
@@ -233,6 +236,11 @@ public class BluetoothHandsfree {
         if (mIncomingSco != null) {
             mIncomingSco.close();
             mIncomingSco = null;
+        }
+        if(newSMSReceiver != null)
+        {
+            mContext.unregisterReceiver(newSMSReceiver);
+            newSMSReceiver = null;
         }
     }
 
@@ -2209,6 +2217,148 @@ public class BluetoothHandsfree {
             }
         });
         mPhonebook.register(parser);
+
+        //Used for sending SMS back to device
+        PhoneUtils.initializeUTF8Translitaration();
+
+         // Message Format
+         parser.register("+CMGF", new AtCommandHandler() {
+             @Override
+             public AtCommandResult handleReadCommand() {
+                 return new AtCommandResult(AtCommandResult.OK);
+             }
+
+             @Override
+             public AtCommandResult handleSetCommand(Object[] args) {
+                 if (Integer.parseInt(args[0].toString()) != 0)
+                 {
+                      Log.i(TAG, "CMGF " + args[0].toString() + " NOT SUPPORTED");
+                     return new AtCommandResult(AtCommandResult.ERROR);
+                 }
+                 return new AtCommandResult(AtCommandResult.OK);
+             }
+
+             @Override
+             public AtCommandResult handleTestCommand() {
+                 return new AtCommandResult(AtCommandResult.OK);
+             }
+         });
+
+         // New Message Indications to TE
+         parser.register("+CNMI", new AtCommandHandler() {
+             @Override
+             public AtCommandResult handleReadCommand() {
+                 return new AtCommandResult(AtCommandResult.OK);
+             }
+
+             @Override
+             public AtCommandResult handleSetCommand(Object[] args) {
+                 //Enable notification for SMS - for now always on
+                if ( newSMSReceiver == null)
+                 {
+                     IntentFilter serviceFilter;
+                     serviceFilter = new IntentFilter("android.provider.Telephony.SMS_RECEIVED");
+
+                     newSMSReceiver = new BroadcastReceiver() {
+                         @Override
+                         public void onReceive(Context context, Intent intent) {
+                             // TODO Auto-generated method stub
+                             if( !"android.provider.Telephony.SMS_RECEIVED".equals(intent.getAction()))
+                                 return;
+                             //Notify that a new SMS arrived at index 1
+                             sendURC("+CMTI: \"MT\",1");
+                         }
+                     };
+
+                     mContext.registerReceiver(newSMSReceiver, serviceFilter);
+                 }
+
+                 return new AtCommandResult(AtCommandResult.OK);
+             }
+
+             @Override
+             public AtCommandResult handleTestCommand() {
+                 return new AtCommandResult(AtCommandResult.OK);
+             }
+         });
+
+         // Message Storage Areas - Assume always that available SMS are 10 out of 100 as a maximum
+         // Only 10 messages are uploaded.
+         parser.register("+CPMS", new AtCommandHandler() {
+             @Override
+             public AtCommandResult handleReadCommand() {
+                 return new AtCommandResult(
+                         "+CPMS: \"MT\",10,100,\"ME\",10,100,\"RM\",10,100");
+             }
+
+             @Override
+             public AtCommandResult handleSetCommand(Object[] args) {
+                 // return the available memory (dummy values)
+                 String availMemory = "10,100";
+
+                 for (int i = 2; i <= args.length; i++) {
+                     availMemory = availMemory + ",10,100";
+                 }
+
+                 return new AtCommandResult("+CPMS: " + availMemory);
+             }
+
+             @Override
+             public AtCommandResult handleTestCommand() {
+                 return new AtCommandResult("+CPMS: (\"MT\"),(\"ME\"),(\"RM\")");
+
+             }
+         });
+
+         // Send SMS
+         parser.register("+CMGS", new AtCommandHandler() {
+             @Override
+             public AtCommandResult handleReadCommand() {
+                 return new AtCommandResult(AtCommandResult.OK);
+             }
+
+             @Override
+             public AtCommandResult handleSetCommand(Object[] args) {
+
+                 PhoneUtils.handleSMSSendRequest(mContext, args[0].toString());
+                 //Assume that the send SMS is at index 1 - No check for success or failure
+                 return new AtCommandResult("+CMGS: 1");
+
+             }
+
+             @Override
+             public AtCommandResult handleTestCommand() {
+                 return new AtCommandResult(AtCommandResult.OK);
+
+             }
+         });
+
+         // Read SMS
+         parser.register("+CMGR", new AtCommandHandler() {
+             @Override
+             public AtCommandResult handleReadCommand() {
+                     return new AtCommandResult(AtCommandResult.OK);
+             }
+
+             @Override
+             public AtCommandResult handleSetCommand(Object[] args) {
+
+                 String newCommandStr = PhoneUtils.getSMSFromInboxAndBuildCommand(mContext, Integer.parseInt(args[0].toString() ) ); 
+
+                 if (newCommandStr != null)
+                     return new AtCommandResult("+CMGR: " + newCommandStr);
+                 else
+                     return new AtCommandResult(AtCommandResult.ERROR);
+
+             }
+
+             @Override
+             public AtCommandResult handleTestCommand() {
+                 return new AtCommandResult(AtCommandResult.OK);
+
+             }
+         });
+
     }
 
     public void sendScoGainUpdate(int gain) {
