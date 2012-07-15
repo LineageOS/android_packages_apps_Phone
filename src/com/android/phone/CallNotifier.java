@@ -1001,8 +1001,7 @@ public class CallNotifier extends Handler
                 // set the ringtone uri to prepare for the ring.
                 if (ci.contactRingtoneUri != null) {
                     if (DBG) log("custom ringtone found, setting up ringer.");
-                    Ringer r = ((CallNotifier) cookie).mRinger;
-                    r.setCustomRingtoneUri(ci.contactRingtoneUri);
+                    mRinger.setCustomRingtoneUri(ci.contactRingtoneUri);
                 }
                 // ring, and other post-ring actions.
                 onCustomRingQueryComplete();
