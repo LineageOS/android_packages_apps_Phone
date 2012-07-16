@@ -245,7 +245,10 @@ public class CallNotifier extends Handler
                     if ((pb.getState() == Phone.State.RINGING)
                             && (mSilentRingerRequested == false)) {
                         if (DBG) log("RINGING... (PHONE_INCOMING_RING event)");
-                        mRinger.ring();
+                        // TODO :
+                        // Why are we ringing here when there are fall backs to ringing in onNewRingingConnection ?
+                        // This is what is specifically breaking custom ringtones.
+                        //mRinger.ring();
                     } else {
                         if (DBG) log("RING before NEW_RING, skipping");
                     }
