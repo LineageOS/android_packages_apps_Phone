@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVX///7I\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 742,
+      "author": {
+        "id": 396
+      },
+      "writtenOn": "2012-07-18T17:03:01Z",
+      "side": 1,
+      "message": "Probably a typo here: \"redukcj?\"",
+      "revId": "f446ef3c9613cb39d040049aca31bf995591c3ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
