@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVX///E0\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 759,
+      "author": {
+        "id": 383
+      },
+      "writtenOn": "2012-07-20T19:46:03Z",
+      "side": 1,
+      "message": "Either put this in the below if statement or indent the internal statements so we don\u0027t have two if statements on the same line. It can be confusing to read.",
+      "revId": "c303672642162dfd350a18bb8fca9b3f23ad133b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVX///Ew\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 834,
+      "author": {
+        "id": 383
+      },
+      "writtenOn": "2012-07-20T19:46:03Z",
+      "side": 1,
+      "message": "See above comment.",
+      "revId": "c303672642162dfd350a18bb8fca9b3f23ad133b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
