@@ -627,4 +627,11 @@
     <!-- Dialer UI Settings -->
     <string name="dialer_ui_settings_title">Настройки кнопок</string>
     <string name="dialer_ui_settings_summary">Настройки номеронабирателя</string>
+
+    <string name="perm_change_mobile_network">Изменение сети (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Данная настройка может в любое время изменить 2G на 3G. 3G быстрее, потребляет больше батареи, а также может потратить ваши деньги.</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Шумоподавление</string>
+    <string name="noise_suppression_summary">Включить шумоподавление в телефонных разговорах</string>
 </resources>
