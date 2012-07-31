@@ -710,21 +710,6 @@
     <string name="description_target_answer" msgid="7205604197797472471">"Antwoord"</string>
     <string name="description_target_send_sms" msgid="2098326025587950144">"Sms verzenden"</string>
     <string name="description_target_decline" msgid="4789834364389731957">"Weigeren"</string>
-
-    <!-- CYANOGENMOD EDITS -->
-
-    <string name="phone_number_label">Mijn telefoonnumeer</string>
-    <string name="phone_number_summary">Stel telefoonnummer van dit apparaat in</string>
-    <string name="national_roaming">Nationale gegevensroaming</string>
-    <string name="national_roaming_enable">Verbind met gegevensdiensten bij nationale roaming</string>
-    <string name="national_roaming_disable">Verbind niet met gegevensdiensten bij nationale roaming</string>
-    <string name="fake_phone_activity_phoneNumber_text">(020) 1234567</string>
-    <string name="fake_phone_activity_infoText_text">Inkomende telefoonnummer</string>
-    <string name="fake_phone_activity_placeCall_text">Valse inkomende oproep</string>
-    <string name="absent_num">AFWEZIGE NUMMER</string>
-    <string name="dialer_ui_settings_title">Toetsenblokinstellingen</string>
-    <string name="dialer_ui_settings_summary">Instellingen voor het numerieke toetsenblok</string>
-
     <string name="voicemail_notification_vibrate_when_title" msgid="8361970092063604886">"Trillen"</string>
     <string name="voicemail_notification_vibarte_when_dialog_title" msgid="5739583146522136440">"Trillen"</string>
   <string-array name="voicemail_notification_vibrate_when_entries">
@@ -732,15 +717,36 @@
     <item msgid="1595097872875714252">"Alleen indien stil"</item>
     <item msgid="1458182414036878616">"Nooit"</item>
   </string-array>
-    <string name="advanced_setting">Geavanceerde instellingen</string>
-    <string name="vibrate_outgoing">Trillen bij vibreren</string>
-    <string name="vibrate_outgoing_sum">Trillen wanneer oproep aangenomen wordt.</string>
-    <string name="vibrate_45">Tril elke 45 seconden</string>
-    <string name="vibrate_45_sum">Tril elke 45 seconden bij uitgaande oproepen.</string>
+
+    <!-- CYANOGENMOD EDITS -->
+
+    <string name="phone_number_label">Mijn telefoonnummer</string>
+    <string name="phone_number_summary">Telefoonnummer van dit apparaat instellen</string>
+    <string name="national_roaming">Nationale gegevensroaming</string>
+    <string name="national_roaming_enable">Verbinding maken met gegevensdiensten bij nationale roaming</string>
+    <string name="national_roaming_disable">Niet verbinding maken met gegevensdiensten bij nationale roaming</string>
+    <string name="fake_phone_activity_phoneNumber_text">(020) 1234567</string>
+    <string name="fake_phone_activity_infoText_text">Inkomende telefoonoproep</string>
+    <string name="fake_phone_activity_placeCall_text">Valse inkomende oproep</string>
+    <string name="absent_num">AFWEZIG NUMMER</string>
+    <string name="dialer_ui_settings_title">Toetsenblokinstellingen</string>
+    <string name="dialer_ui_settings_summary">Instellingen voor het numerieke toetsenblok</string>
+    <string name="advanced_setting">Geavanceerd</string>
+    <string name="vibrate_outgoing">Trillen bij aannemen</string>
+    <string name="vibrate_outgoing_sum">Trillen als oproep wordt aangenomen</string>
+    <string name="vibrate_45">Elke 45 sec. trillen</string>
+    <string name="vibrate_45_sum">Elke 45 sec. trillen bij uitgaande gesprekken</string>
     <string name="vibrate_hangup">Trillen bij ophangen</string>
-    <string name="vibrate_hangup_sum">Trillen bij het beëindigen van een oproep.</string>
-    <string name="vibrate_call_waiting">Trillen wachten gesprek</string>
-    <string name="vibrate_call_waiting_sum">Trillen bij wachten op een gesprek.</string>
-    <string name="perm_change_mobile_network">Verander netwerk (2G/3G)</string>
-    <string name="perm_change_mobile_network_desc">Applicatie met deze toegang kan op elk moment wisselen tussen 2G en 3G. 3G is sneller, verbruikt meer stroom en kan duurder zijn.</string>
+    <string name="vibrate_hangup_sum">Trillen als oproep wordt beëindigt</string>
+    <string name="vibrate_call_waiting">Trillen bij wachtgesprek</string>
+    <string name="vibrate_call_waiting_sum">Trillen bij gesprek in de wacht</string>
+    <string name="perm_change_mobile_network">Netwerk veranderen (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Hiermee kan een applicatie altijd wisselen tussen 2G en 3G. 3G is sneller, maar verbruikt meer stroom en kan duurder zijn.</string>
+    <string name="mwi_notification_title">Voicemailmeldingen</string>
+    <string name="mwi_notification_summary">Meldingen voor nieuwe voicemailberichten</string>
+    <string name="preferred_network_mode_lte_gsm_summary">Voorkeursnetwerkmodus: LTE/WCDMA/GSM</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">Voorkeursnetwerkmodus: LTE/CDMA/EvDo</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Voorkeursnetwerkmodus: LTE/CMDA/EvDo/GSM/WCDMA</string>
+    <string name="noise_suppression_title">Ruisonderdrukking</string>
+    <string name="noise_suppression_summary">Ruisonderdrukking inschakelen tijdens gesprekken</string>
 </resources>
