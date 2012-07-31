@@ -597,7 +597,7 @@
     <string name="no_internet_available_title" msgid="3327109242858406165">"Geen internetverbinding"</string>
     <string name="no_wifi_available_title" msgid="747881033089378758">"Geen Wi-Fi-verbinding"</string>
     <string name="no_internet_available" msgid="1100564991026313234">"Controleer uw internetverbinding voordat u belt via internet"</string>
-    <string name="no_wifi_available" msgid="3389743006886634541">"Voor internetoproepen moet u verbinding hebben met een Wi-Fi-netwerk (gebruik \'Draadloze en netwerkinstellingen\')"</string>
+    <string name="no_wifi_available" msgid="3389743006886634541">"Voor internetoproepen moet u verbinding hebben met een Wi-Fi-netwerk (gebruik \'Draadloos &amp; netwerk\'-instellingen)"</string>
     <string name="no_voip" msgid="8901474054537199865">"Bellen via internet niet ondersteund"</string>
     <string name="slide_to_answer_hint" msgid="4901042355463593903">"Beantwoorden"</string>
     <string name="slide_to_decline_hint" msgid="4484576372463030324">"Weigeren"</string>
@@ -605,40 +605,40 @@
     <!-- CYANOGENMOD EDITS -->
     <string name="mvno_roaming">Nationale gegevensroaming</string>
     <string name="mvno_roaming_summary">Hiermee kunt u een andere netwerkprovider kiezen in uw eigen land.</string>
-    <string name="mvno_roaming_warning">Gegevensroaming inschakelen in hetzelfde land als uw provider? Voor sommige virtuele netwerkproviders is dit vereist. Schakel dit niet in als uw provider geld vraagt voor roaming in uw eigen land. Een herstart of het in- en uitschakelen van vliegtuigmodus is vereist.</string>
+    <string name="mvno_roaming_warning">Gegevensroaming inschakelen in hetzelfde land als uw provider? Voor sommige virtuele netwerkproviders is dit vereist. Schakel dit niet in als uw provider kosten berekent voor roaming in uw eigen land. Een herstart of het in- en uitschakelen van vliegtuigmodus is vereist.</string>
     <string name="notification_ongoing_calling_format">Belt <xliff:g id="duration">%s</xliff:g>)</string>
     <string name="advanced_setting">Geavanceerd</string>
     <string name="vibrate_outgoing">Trillen bij aannemen</string>
     <string name="vibrate_outgoing_sum">Trillen als oproep wordt aangenomen</string>
+    <string name="vibrate_hangup">Trillen bij ophangen</string>
+    <string name="vibrate_hangup_sum">Trillen als oproep wordt beëindigd</string>
     <string name="vibrate_45">Elke 45 sec. trillen</string>
     <string name="vibrate_45_sum">Elke 45 sec. trillen bij uitgaande gesprekken</string>
-    <string name="vibrate_hangup">Trillen bij ophangen</string>
-    <string name="vibrate_hangup_sum">Trillen bij het beëindigen van een gesprek</string>
     <string name="screen_awake">Scherm altijd aan</string>
     <string name="screen_awake_sum">Scherm aan houden tijdens gesprek</string>
-    <string name="always_proximity">Autom. scherm uit</string>
-    <string name="always_proximity_sum">Sensor gebruiken om scherm te laten blokkeren, ook in landschapsmodus</string>
+    <string name="always_proximity">Scherm autom. uit</string>
+    <string name="always_proximity_sum">Sensor gebruiken om scherm te laten blokkeren, ook in liggende modus</string>
     <string name="led_notify_call">LED-meldingen</string>
     <string name="led_notify_call_sum">LED op laten lichten bij gemiste oproepen</string>
     <string name="led_show_organ">Organisatie tonen</string>
-    <string name="led_show_organ_sum">Organisatie op scherm tonen tijdens een gesprek</string>
+    <string name="led_show_organ_sum">Organisatie op scherm tonen tijdens gesprek</string>
     <string name="vibrate_call_waiting">Trillen bij wachtgesprek</string>
     <string name="vibrate_call_waiting_sum">Trillen bij gesprek in de wacht</string>
     <string name="return_home">Altijd terug naar oproepenlijst</string>
     <string name="return_home_sum">Na ophangen oproepenlijst tonen</string>
     <string name="menu_addBlackList">Toevoegen aan zwarte lijst</string>
     <string name="black_list">Zwarte lijst</string>
-    <string name="black_list_sum">Inkomende oproep uit zwarte lijst wordt opgehangen</string>
+    <string name="black_list_sum">Inkomende oproep uit zwarte lijst wordt automatisch beëindigd</string>
     <string name="add_black">Nummer toevoegen</string>
     <string name="remove_black">%s van lijst verwijderen</string>
     <string name="turn_silence">Stil</string>
     <string name="turn_silence_sum">Terug naar stille modus</string>
     <string name="left_hand">Linkshandig</string>
     <string name="left_hand_sum">Toestel als linkshandige gebruiken (herstart vereist)</string>
-    <string name="set_force_touch">Aanraak UI in gesprek</string>
-    <string name="set_force_touch_sum">Aanraak UI in gesprek zonder gebruik te maken van proximity sensor.</string>
+    <string name="set_force_touch">Tijdens gesprek aanraken</string>
+    <string name="set_force_touch_sum">Aanraakbediening tijdens gesprek forceren zonder nabijheidssensor</string>
     <string name="rotate_incall">Autom. scherm draaien</string>
-    <string name="rotate_incall_sum">Tijdens gesprek scherm draaien m.b.v. sensors</string>
+    <string name="rotate_incall_sum">Tijdens gesprek scherm draaien m.b.v. sensor</string>
     <string name="bg_incall">Minder nadruk op oproep</string>
     <string name="bg_incall_sum">Alleen melding tonen en beltoon afspelen als scherm aan is</string>
     <string name="per_change_mobile_network">Netwerk veranderen (2G/3G)</string>
@@ -665,7 +665,7 @@
     <string name="rotate_to_answer">Naar rechts draaien om op te nemen</string>
     <string name="rotate_to_decline">Naar links draaien om af te wijzen</string>
     <string name="black_regex_title">Jokertekens gebruiken</string>
-    <string name="black_regex_summary">Gebruik \'.\' als jokerteken en \'*\' voor herhaling. Bijv.: \'123.*\' blokkeert nummers die starten met 123 en \'.*123.*\' blokkeert nummers die 123 bevatten</string>
+    <string name="black_regex_summary">\'.\' als jokerteken en \'*\' voor herhaling. Bijv.: \'123.*\' blokkeert nummers die starten met 123 en \'.*123.*\' blokkeert nummers met 123</string>
     <string name="sip_system_decide_entry">Automatisch</string>
     <string name="sip_always_send_keepalive_entry">Altijd verzenden</string>
     <string name="keepalive_interval_title">Interval keepalive</string>
