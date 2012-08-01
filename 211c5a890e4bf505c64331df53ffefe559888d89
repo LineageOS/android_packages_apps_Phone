@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn///UM\u003d",
+        "filename": "res/values-nl/arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-01T03:30:39Z",
+      "side": 1,
+      "message": "thuis \u003d thuisnetwerken?",
+      "revId": "211c5a890e4bf505c64331df53ffefe559888d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn///UI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-01T03:30:39Z",
+      "side": 1,
+      "message": "SIM pincode \nlijkt me logischer in deze zin, anders lijkt het net of je een SIM moet invoeren",
+      "revId": "211c5a890e4bf505c64331df53ffefe559888d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn///UE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-01T03:30:39Z",
+      "side": 1,
+      "message": "SIM pincodes",
+      "revId": "211c5a890e4bf505c64331df53ffefe559888d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn///UA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-01T03:30:39Z",
+      "side": 1,
+      "message": "verbergen",
+      "revId": "211c5a890e4bf505c64331df53ffefe559888d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn///T8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-01T03:30:39Z",
+      "side": 1,
+      "message": "tonen",
+      "revId": "211c5a890e4bf505c64331df53ffefe559888d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn///T4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-01T03:30:39Z",
+      "side": 1,
+      "message": "disabled, dus \u003d niet melden",
+      "revId": "211c5a890e4bf505c64331df53ffefe559888d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn///Ts\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 639,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-01T03:30:39Z",
+      "side": 1,
+      "message": "Voorkeur",
+      "revId": "211c5a890e4bf505c64331df53ffefe559888d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
