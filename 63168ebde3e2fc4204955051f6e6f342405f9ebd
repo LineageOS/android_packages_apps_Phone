@@ -33,6 +33,24 @@
       "revId": "63168ebde3e2fc4204955051f6e6f342405f9ebd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+pU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-03T16:53:10Z",
+      "side": 1,
+      "message": "- SIM-pincode?\n\nPS: Er moet een spatie na het streepje, dan krijg je een opsommingsteken.",
+      "parentUuid": "AAAAVn//+rE\u003d",
+      "revId": "63168ebde3e2fc4204955051f6e6f342405f9ebd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
