@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAVn//+mk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T17:39:43Z",
+      "side": 1,
+      "message": "- Voer de nieuwe SIM-pincode nogmaals in ter bevestiging",
+      "parentUuid": "AAAAVn//+rM\u003d",
+      "revId": "63168ebde3e2fc4204955051f6e6f342405f9ebd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAVn//+rE\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 3
@@ -48,6 +66,24 @@
       "side": 1,
       "message": "- SIM-pincode?\n\nPS: Er moet een spatie na het streepje, dan krijg je een opsommingsteken.",
       "parentUuid": "AAAAVn//+rE\u003d",
+      "revId": "63168ebde3e2fc4204955051f6e6f342405f9ebd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+ms\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T17:39:43Z",
+      "side": 1,
+      "message": "Dus dan wordt het\n\n- De SIM-pincodes die u heeft ingevoerd, komen niet overeen. Probeer het opnieuw.",
+      "parentUuid": "AAAAVn//+pU\u003d",
       "revId": "63168ebde3e2fc4204955051f6e6f342405f9ebd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
