@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn//+rM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T16:34:31Z",
+      "side": 1,
+      "message": "-Voer de nieuwe pincode nogmaals in \nter bevestiging\n-Voer de nieuwe pincode voor de SIM nogmaals in \nter bevestiging\n-Voer de nieuwe SIM pincode nogmaals in \nter bevestiging",
+      "revId": "63168ebde3e2fc4204955051f6e6f342405f9ebd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+rE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-03T16:34:31Z",
+      "side": 1,
+      "message": "-De pincodes die u heeft ingevoerd, \nkomen niet overeen. Probeer het opnieuw.\n-De pincodes voor de SIM die u heeft ingevoerd, \nkomen niet overeen. Probeer het opnieuw.\n-De SIM pincodes die u heeft ingevoerd, \nkomen niet overeen. Probeer het opnieuw.",
+      "revId": "63168ebde3e2fc4204955051f6e6f342405f9ebd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
