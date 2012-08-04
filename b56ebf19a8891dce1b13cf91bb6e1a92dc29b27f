@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn//+dQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-04T02:03:04Z",
+      "side": 1,
+      "message": "Het gaat hier om 2 pincodes, meervoud\n\n- De SIM-pincodes die u heeft ingevoerd, komen niet overeen. Probeer het opnieuw.",
+      "revId": "b56ebf19a8891dce1b13cf91bb6e1a92dc29b27f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
