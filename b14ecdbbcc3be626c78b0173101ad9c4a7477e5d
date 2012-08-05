@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn//+Mk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 600,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-08-05T01:12:45Z",
+      "side": 1,
+      "message": "Is (gebruik \u0027draadloos- \u0026 netwerkinstellingen\u0027) niet beter?",
+      "revId": "b14ecdbbcc3be626c78b0173101ad9c4a7477e5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAVn//+Mg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 620,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-08-05T01:12:45Z",
+      "side": 1,
+      "message": "ik vind landschapmodus helderder (ik zou het verwarren met een liggende telefoon)...",
+      "revId": "b14ecdbbcc3be626c78b0173101ad9c4a7477e5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
