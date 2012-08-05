@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAVn//+KE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 600,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-05T02:06:10Z",
+      "side": 1,
+      "message": "Maar met \"draadloos- \u0026 netwerkinstellingen\" suggereer je dat \"draadloosnetwerk\" 1 woord is.\n\nEigenlijk was het origineel gewoon het best.",
+      "parentUuid": "AAAAVn//+LA\u003d",
+      "revId": "b14ecdbbcc3be626c78b0173101ad9c4a7477e5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAVn//+Mg\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
