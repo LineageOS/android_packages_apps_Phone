@@ -539,7 +539,7 @@
   </string-array>
     <string name="network_message" msgid="5673682885938122239">"Správa siete"</string>
     <string name="ota_title_activate" msgid="8616918561356194398">"Aktivujte svoj telefón"</string>
-    <string name="ota_touch_activate" msgid="6553212803262586244">"Telefónnu službu je potrebné aktivovať uskutočnením mimoriadneho hovoru. "\n\n"Stlačte tlačidlo Aktivovať a aktivujte telefón podľa poskytnutých pokynov."</string>
+    <string name="ota_touch_activate" msgid="6553212803262586244">"Telefónnu službu je potrebné aktivovať uskutočnením mimoriadneho hovoru."\n\n"Stlačte tlačidlo Aktivovať a aktivujte telefón podľa poskytnutých pokynov."</string>
     <string name="ota_touch_activate_new" msgid="4508197891732183852">"Dotknite sa tlačidla Aktivovať. Uskutočníte tak mimoriadny hovor, ktorým telefón aktivujete v mobilnej sieti svojho operátora. Budete tak môcť volať a pripájať sa k mobilným dátovým sieťam."</string>
     <string name="ota_skip_activation_dialog_title" msgid="2943366608272261306">"Preskočiť aktiváciu?"</string>
     <string name="ota_skip_activation_dialog_message" msgid="2440770373498870550">"Ak preskočíte aktiváciu, nemôžete volať ani sa pripájať k mobilným dátovým sieťam (môžete sa ale pripojiť k sieťam Wi-Fi). Ak svoj telefón neaktivujete, bude sa pri každom zapnutí zobrazovať výzva na aktiváciu."</string>
@@ -554,7 +554,7 @@
     <string name="ota_progress" msgid="4644512049143969504">"Počkajte, kým sa telefón naprogramuje."</string>
     <string name="ota_failure" msgid="8600027551822478181">"Programovanie nebolo úspešné"</string>
     <string name="ota_successful" msgid="1880780692887077407">"Váš telefón je teraz aktivovaný. Spustenie služby môže trvať až 15 minút."</string>
-    <string name="ota_unsuccessful" msgid="623361244652068739">"Váš telefón nebol aktivovaný."\n"Možno bude treba vyhľadať oblasť s lepším pokrytím (blízko okna alebo vonku). "\n\n"Skúste to znova alebo kontaktujte oddelenie zákazníckych služieb, kde získate informácie o ďalších možnostiach."</string>
+    <string name="ota_unsuccessful" msgid="623361244652068739">"Váš telefón nebol aktivovaný."\n"Možno bude treba vyhľadať oblasť s lepším pokrytím (blízko okna alebo vonku)."\n\n"Skúste to znova alebo kontaktujte oddelenie zákazníckych služieb, kde získate informácie o ďalších možnostiach."</string>
     <string name="ota_spc_failure" msgid="3909983542575030796">"PRÍLIŠ VEĽA ZLYHANÍ CERTIFIKÁTOV SPC"</string>
     <string name="ota_call_end" msgid="4537279738134612388">"Späť"</string>
     <string name="ota_try_again" msgid="7685477206465902290">"Skúsiť znova"</string>
