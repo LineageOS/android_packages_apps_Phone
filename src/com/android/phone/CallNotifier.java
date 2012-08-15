@@ -242,7 +242,11 @@ public class CallNotifier extends Handler
                 if (msg.obj != null && ((AsyncResult) msg.obj).result != null) {
                     PhoneBase pb =  (PhoneBase)((AsyncResult)msg.obj).result;
 
+                    // Call mRinger.ring() only if it has already been called for this incoming
+                    // call.  This ensures that custom ringtone queries have their full alloted
+                    // time to complete before falling back to the default ringtone.
                     if ((pb.getState() == Phone.State.RINGING)
+                            && (mRinger.hasRang())
                             && (mSilentRingerRequested == false)) {
                         if (DBG) log("RINGING... (PHONE_INCOMING_RING event)");
                         mRinger.ring();
