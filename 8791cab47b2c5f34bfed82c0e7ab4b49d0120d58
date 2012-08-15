@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWH///o8\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2012-08-15T20:54:14Z",
+      "side": 1,
+      "message": "\u0026\u0026 !mRinger.isRinging()",
+      "revId": "8791cab47b2c5f34bfed82c0e7ab4b49d0120d58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWH///o4\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2012-08-15T20:54:14Z",
+      "side": 1,
+      "message": "mRinger.ring();",
+      "revId": "8791cab47b2c5f34bfed82c0e7ab4b49d0120d58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
