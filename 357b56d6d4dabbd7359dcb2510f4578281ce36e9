@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWH///zM\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 2831
+      },
+      "writtenOn": "2012-08-15T09:48:21Z",
+      "side": 1,
+      "message": "please use spaces instead of tabs",
+      "revId": "357b56d6d4dabbd7359dcb2510f4578281ce36e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
