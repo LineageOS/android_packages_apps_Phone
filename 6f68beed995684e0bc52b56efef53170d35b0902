@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWH///Qs\u003d",
+        "filename": "res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2012-08-16T23:31:35Z",
+      "side": 1,
+      "message": "Indicatore di messaggio in attesa (see http://en.wikipedia.org/wiki/Message-waiting_indicator)",
+      "revId": "6f68beed995684e0bc52b56efef53170d35b0902",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWH///Qo\u003d",
+        "filename": "res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2012-08-16T23:31:35Z",
+      "side": 1,
+      "message": "Visualizza un indicatore di notifica per un messaggio vocale in attesa (see above)",
+      "revId": "6f68beed995684e0bc52b56efef53170d35b0902",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
