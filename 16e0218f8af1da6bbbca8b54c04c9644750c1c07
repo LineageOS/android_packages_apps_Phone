@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWX//+sI\u003d",
+        "filename": "res/values-nl/arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-08-21T03:07:37Z",
+      "side": 1,
+      "message": "(automatisch) tussen haakjes?",
+      "revId": "16e0218f8af1da6bbbca8b54c04c9644750c1c07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//+r8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-08-21T03:07:37Z",
+      "side": 1,
+      "message": "Er lijkt hier sprake van een overbodige regel (maar misschien is dat probleem van gerrit code review)",
+      "revId": "16e0218f8af1da6bbbca8b54c04c9644750c1c07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
