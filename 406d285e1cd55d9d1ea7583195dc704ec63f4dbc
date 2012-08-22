@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWX//+ck\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-22T03:39:19Z",
+      "side": 1,
+      "message": "Hoofdtelefoon/koptelefoon voor toestel?",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//+cg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-22T03:39:19Z",
+      "side": 1,
+      "message": "Bedrade hoofdtelefoon/koptelefoon",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//+cs\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-22T03:39:19Z",
+      "side": 1,
+      "message": "Pincode voor ontgrendelen netwerk? Ontgrendelen netwerk wordt ook in regel 72 t/m 74 gebruikt.",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//+cY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-22T03:39:19Z",
+      "side": 1,
+      "message": "Sim-pincode, ook op volgende regels",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
