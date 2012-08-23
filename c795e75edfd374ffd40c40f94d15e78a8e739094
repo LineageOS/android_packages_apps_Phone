@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWn///3U\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T14:26:29Z",
+      "side": 1,
+      "message": "Een handset is volgens mij een telefoon: http://en.wikipedia.org/wiki/Handset\nEn een headset is wat hier bedoeld wordt volgens mij: http://nl.wikipedia.org/wiki/Headset (Oortelefoon in de oude vertaling)\nWordt ook gebruikt op de volgende regel",
+      "revId": "c795e75edfd374ffd40c40f94d15e78a8e739094",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
