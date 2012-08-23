@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWX//9+E\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T02:45:41Z",
+      "side": 1,
+      "message": "Dit was goed volgens mij?",
+      "revId": "4a956204a532c48d98d0d787fc1bbfaa4ec7ebad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//9+A\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T02:45:41Z",
+      "side": 1,
+      "message": "Dan moet het wel Headset zijn toch?",
+      "revId": "4a956204a532c48d98d0d787fc1bbfaa4ec7ebad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//998\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T02:45:41Z",
+      "side": 1,
+      "message": "\\u25B7",
+      "revId": "4a956204a532c48d98d0d787fc1bbfaa4ec7ebad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//994\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T02:45:41Z",
+      "side": 1,
+      "message": "\\u25BD",
+      "revId": "4a956204a532c48d98d0d787fc1bbfaa4ec7ebad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//99w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T02:45:41Z",
+      "side": 1,
+      "message": "Kiezerinstellingen zou ik het noemen. Klopt het dat een deel hiervan in de vertaling van de contacten app zit?",
+      "revId": "4a956204a532c48d98d0d787fc1bbfaa4ec7ebad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
