@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWn///i4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T22:48:38Z",
+      "side": 1,
+      "message": "Kiezerinstellingen?",
+      "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
