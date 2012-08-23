@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAWX//9/w\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-23T01:50:45Z",
+      "side": 1,
+      "message": "https://en.wikipedia.org/wiki/Handset\nIk weet het niet, dus ik hou het liever op de AOSP-vertaling.",
+      "parentUuid": "AAAAWX//+TM\u003d",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAWX//+cg\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -48,6 +66,24 @@
       "writtenOn": "2012-08-22T03:39:19Z",
       "side": 1,
       "message": "Bedrade hoofdtelefoon/koptelefoon",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//9/o\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-23T01:50:45Z",
+      "side": 1,
+      "message": "http://vandale.nl/opzoeken?pattern\u003dheadset\u0026lang\u003dnn\nDaarom is ooit gekozen (bij DSPManager) om het te vertalen als een headset.",
+      "parentUuid": "AAAAWX//+cg\u003d",
       "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -71,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAWX//9/k\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-23T01:50:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAWX//+cs\u003d",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAWX//+cY\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -88,6 +142,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAWX//9/g\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-23T01:50:45Z",
+      "side": 1,
+      "message": "Zie Settings",
+      "parentUuid": "AAAAWX//+cY\u003d",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAWX//+AA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -99,6 +171,24 @@
       "writtenOn": "2012-08-23T01:46:50Z",
       "side": 1,
       "message": "Wi-Fi-verbinding",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//9/c\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-23T01:50:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAWX//+AA\u003d",
       "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
