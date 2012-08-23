@@ -52,6 +52,24 @@
       "revId": "c795e75edfd374ffd40c40f94d15e78a8e739094",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///sw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-23T19:59:01Z",
+      "side": 1,
+      "message": "Volgens mij bedoelen ze met \"earpiece\" gewoon de speaker bij je oor.",
+      "parentUuid": "AAAAWn///3A\u003d",
+      "revId": "c795e75edfd374ffd40c40f94d15e78a8e739094",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
