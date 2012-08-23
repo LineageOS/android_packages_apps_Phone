@@ -70,6 +70,24 @@
       "revId": "c795e75edfd374ffd40c40f94d15e78a8e739094",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///qM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-08-23T20:47:47Z",
+      "side": 1,
+      "message": "Ik denk gewoon oortjes (zonder microfoon en headset dan met)\n\nGewoon \u0027koptelefoon(/oortjes)\u0027 vind ik het beste",
+      "parentUuid": "AAAAWn///sw\u003d",
+      "revId": "c795e75edfd374ffd40c40f94d15e78a8e739094",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
