@@ -85,6 +85,23 @@
       "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWX//+AA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-23T01:46:50Z",
+      "side": 1,
+      "message": "Wi-Fi-verbinding",
+      "revId": "406d285e1cd55d9d1ea7583195dc704ec63f4dbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
