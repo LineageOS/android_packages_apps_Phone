@@ -16,6 +16,24 @@
       "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///gU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-23T23:20:50Z",
+      "side": 1,
+      "message": "\u003c!-- Dialer UI Settings --\u003e\n    \u003cstring name\u003d\"dialer_ui_settings_title\"\u003eDialpad settings\u003c/string\u003e\n    \u003cstring name\u003d\"dialer_ui_settings_summary\"\u003eSettings for the dialpad\u003c/string\u003e",
+      "parentUuid": "AAAAWn///i4\u003d",
+      "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
