@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAWn///ac\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-24T01:54:14Z",
+      "side": 1,
+      "message": "Sorry, ik ben het hier niet mee eens. Handset earpiece \u003d het speakertje dat je tegen je oor aandrukt in de telefoon zelf.\n\nKoptelefoon staat hieronder al (bedrade headset)",
+      "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAWn///i4\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 9
@@ -49,6 +66,24 @@
       "side": 1,
       "message": "Ik zou dialpad als kiezer vertalen (of mogelijk telefoonkiezer)",
       "parentUuid": "AAAAWn///gU\u003d",
+      "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///aI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-08-24T01:54:14Z",
+      "side": 1,
+      "message": "Ik niet.\nToetsenblokinstellingen vind ik mooier.\n(dialpad \u003d numerieke toetsenblok)",
+      "parentUuid": "AAAAWn///c8\u003d",
       "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
