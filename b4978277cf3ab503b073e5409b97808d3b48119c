@@ -34,6 +34,24 @@
       "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///c8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 568,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-24T00:36:22Z",
+      "side": 1,
+      "message": "Ik zou dialpad als kiezer vertalen (of mogelijk telefoonkiezer)",
+      "parentUuid": "AAAAWn///gU\u003d",
+      "revId": "b4978277cf3ab503b073e5409b97808d3b48119c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
