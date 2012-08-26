@@ -623,4 +623,13 @@
     <string name="preference_category_ringtone" msgid="9007490591910078324">"Beltoon"</string>
     <string name="perm_change_mobile_network">Verander netwerk (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">Applicatie met deze toegang kan op elk moment wisselen tussen 2G en 3G. 3G is sneller, verbruikt meer stroom en kan duurder zijn.</string>
+    <string name="advanced_setting">Geavanceerde instellingen</string>
+    <string name="vibrate_outgoing">Trillen bij vibreren</string>
+    <string name="vibrate_outgoing_sum">Trillen wanneer oproep aangenomen wordt.</string>
+    <string name="vibrate_45">Tril elke 45 seconden</string>
+    <string name="vibrate_45_sum">Tril elke 45 seconden bij uitgaande oproepen.</string>
+    <string name="vibrate_hangup">Trillen bij ophangen</string>
+    <string name="vibrate_hangup_sum">Trillen bij het beëindigen van een oproep.</string>
+    <string name="vibrate_call_waiting">Trillen wachten gesprek</string>
+    <string name="vibrate_call_waiting_sum">Trillen bij wachten op een gesprek.</string>
 </resources>
