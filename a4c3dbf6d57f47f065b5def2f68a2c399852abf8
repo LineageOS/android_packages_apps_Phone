@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAW3///qI\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 448,
+      "author": {
+        "id": 3495
+      },
+      "writtenOn": "2012-08-27T07:55:01Z",
+      "side": 1,
+      "message": "tabs -\u003e spaces",
+      "revId": "a4c3dbf6d57f47f065b5def2f68a2c399852abf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///qE\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 1085,
+      "author": {
+        "id": 3495
+      },
+      "writtenOn": "2012-08-27T07:55:01Z",
+      "side": 1,
+      "message": "tabs -\u003e spaces",
+      "revId": "a4c3dbf6d57f47f065b5def2f68a2c399852abf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///qM\u003d",
+        "filename": "src/com/android/phone/PhoneApp.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 3495
+      },
+      "writtenOn": "2012-08-27T07:55:01Z",
+      "side": 1,
+      "message": "tabs -\u003e spaces",
+      "revId": "a4c3dbf6d57f47f065b5def2f68a2c399852abf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAW3///qQ\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 3495
+      },
+      "writtenOn": "2012-08-27T07:55:01Z",
+      "side": 1,
+      "message": "tabs -\u003e spaces",
+      "revId": "a4c3dbf6d57f47f065b5def2f68a2c399852abf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
