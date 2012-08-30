@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXH///r4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 574,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Geavanceerd",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///sA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 575,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Trillen bij aannemen\n(actually \u0027trillen\u0027 means \u0027vibreren\u0027...)",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///r8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Trillen indien oproep wordt aangenomen",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///r0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 577,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Elke 45 seconden trillen",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///rw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 578,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Elke 45 seconden trillen bij uitgaande gesprekken",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///rs\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 580,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Trillen bij het beëindigen van een gesprek",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///ro\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 581,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Trillen bij wachten",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH///rk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 582,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-08-30T17:15:04Z",
+      "side": 1,
+      "message": "Trillen indien in een wachtgesprek",
+      "revId": "135a6ebefa44150edf893834397353be54a3ccda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
