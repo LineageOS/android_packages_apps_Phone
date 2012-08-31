@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXH///Xs\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 630,
+      "author": {
+        "id": 3383
+      },
+      "writtenOn": "2012-08-31T17:58:38Z",
+      "side": 1,
+      "message": "I would write \"Vibration à la 45ème seconde de chaque minute quand la communication est établie\".\nThe current sentense means \"vibrate every 45 seconds\"",
+      "revId": "6ed40cf9719d49b3d990a2ed541f39d3eb33cc2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
