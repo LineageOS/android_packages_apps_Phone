@@ -186,7 +186,7 @@
     <string name="data_enable_summary" msgid="5022018967714633874">"Ativar acesso a dados pela rede móvel"</string>
     <string name="roaming" msgid="8871412572928323707">"Roaming de dados"</string>
     <string name="roaming_enable" msgid="7331106985174381987">"Conectar aos serviços de dados quando estiver em roaming"</string>
-    <string name="roaming_disable" msgid="1843417228755568110">"Conectar aos serviços de dados quando estiver em roaming"</string>
+    <string name="roaming_disable">"Não conectar aos serviços de dados quando estiver em roaming"</string>
     <string name="roaming_reenable_message" msgid="8913735676127858115">"Você perdeu a conectividade de dados porque deixou o roaming de dados de sua rede doméstica desativado."</string>
     <string name="roaming_warning" msgid="7820963598559553967">"Permitir roaming de dados? Isso pode causar cobranças significativas de roaming!"</string>
     <string name="gsm_umts_options" msgid="6538311689850981686">"Opções GSM/UMTS"</string>
@@ -643,4 +643,7 @@
     <string name="vibrate_hangup_sum">Vibra quando a chamada é desligada</string>
     <string name="vibrate_call_waiting">Vibrar c/ chamada em espera</string>
     <string name="vibrate_call_waiting_sum">Vibra quando existem chamadas em espera</string>
+    <string name="national_roaming">Roaming de dados nacional</string>
+    <string name="national_roaming_enable">Conectar aos serviços de dados quando estiver em roaming nacional</string>
+    <string name="national_roaming_disable">Não conectar aos serviços de dados quando estiver em roaming nacional</string>
 </resources>
