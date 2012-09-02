@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXH//+uE\u003d",
+        "filename": "res/values-da/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 1465
+      },
+      "writtenOn": "2012-09-02T14:32:40Z",
+      "side": 1,
+      "message": "This one says disable.. But the text suggests to enable.",
+      "revId": "ee687e946681ed7ff143351e737c52685890bc8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
