@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXH//+r8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-09-02T17:18:17Z",
+      "side": 1,
+      "message": "s.u.",
+      "revId": "79af5767cfc85685fa2a1aeaa6099361acbc91fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAXH//+sA\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 70
+      },
+      "writtenOn": "2012-09-02T17:18:17Z",
+      "side": 1,
+      "message": "Vorschlag: Aktiviere Unterdrückung von Nebengeräuschen",
+      "revId": "79af5767cfc85685fa2a1aeaa6099361acbc91fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
