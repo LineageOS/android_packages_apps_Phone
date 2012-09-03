@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXH//+X0\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 3835
+      },
+      "writtenOn": "2012-09-03T18:30:46Z",
+      "side": 1,
+      "message": "190 \u0026 191 - identical values, is it ok?",
+      "revId": "c8bc2ad55a265b246c029f08df9e216fe06021fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
