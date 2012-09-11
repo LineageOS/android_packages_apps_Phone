@@ -1,0 +1,11 @@
+Change-Id: Ic8bc2ad55a265b246c029f08df9e216fe06021fb
+Code-Review+2: Steve Kondik <shade@chemlab.org>
+Verified+1: Steve Kondik <shade@chemlab.org>
+Code-Review+1: AxiS Terentyev <terentyev.axis@gmail.com>
+Code-Review+1: Dmitriy Chermenev <chdiman86@gmail.com>
+Code-Review+1: Alexey Alexeevich <madzerling@gmail.com>
+Submitted-by: Steve Kondik <shade@chemlab.org>
+Submitted-at: Tue, 11 Sep 2012 06:32:41 +0400
+Reviewed-on: http://review.cyanogenmod.com/22583
+Project: CyanogenMod/android_packages_apps_Phone
+Branch: refs/heads/jellybean
