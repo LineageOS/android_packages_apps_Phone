@@ -1505,6 +1505,8 @@
 
     <!-- Advanced Settings -->
     <string name="advanced_setting">Advanced Settings</string>
+    <string name="keep_proximity_sensor_on_title">Keep proximity sensor on</string>
+    <string name="keep_proximity_sensor_on_head">Do not turn off the proximity sensor during calls using a headset.</string>
     <string name="vibrate_outgoing">Vibrate on answer</string>
     <string name="vibrate_outgoing_sum">Vibrate when an outgoing call is answered</string>
     <string name="vibrate_45">Vibrate every 45 seconds</string>
