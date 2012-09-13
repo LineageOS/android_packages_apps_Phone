@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAXX//+XQ\u003d",
+        "filename": "res/xml/call_feature_setting.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 4359
+      },
+      "writtenOn": "2012-09-13T12:32:57Z",
+      "side": 1,
+      "message": "White space mix with tab.",
+      "revId": "cb5781faa74c5de5b1f8a4a612c7a96b3092c701",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
