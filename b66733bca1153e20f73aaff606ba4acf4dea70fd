@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYX//+RQ\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1509,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2012-09-18T03:10:54Z",
+      "side": 1,
+      "message": "No period at the end of descriptions to follow Android conventions",
+      "revId": "b66733bca1153e20f73aaff606ba4acf4dea70fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
