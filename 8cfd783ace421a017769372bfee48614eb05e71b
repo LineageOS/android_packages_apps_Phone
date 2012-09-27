@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAYn///3c\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-27T10:55:18Z",
+      "side": 1,
+      "message": "Ébren tartás",
+      "revId": "8cfd783ace421a017769372bfee48614eb05e71b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAYn///3g\u003d",
+        "filename": "res/values-hu/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 652,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2012-09-27T10:55:18Z",
+      "side": 1,
+      "message": "Hívás közben (ha van csatlakoztatva fejhallgató) nem kapcsol ki a képernyö",
+      "revId": "8cfd783ace421a017769372bfee48614eb05e71b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
