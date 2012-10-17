@@ -38,7 +38,6 @@ import android.net.Uri;
 import android.os.AsyncResult;
 import android.os.Binder;
 import android.os.Handler;
-import android.os.HandlerThread;
 import android.os.IBinder;
 import android.os.IPowerManager;
 import android.os.LocalPowerManager;
@@ -285,8 +284,6 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
     private PendingIntent mVibrateIntent;
     private Vibrator mVibrator;
     private AlarmManager mAM;
-    private HandlerThread mVibrationThread;
-    private Handler mVibrationHandler;
 
     /**
      * Set the restore mute state flag. Used when we are setting the mute state
@@ -2043,21 +2040,6 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
         }
     }
 
-    private final class TriVibRunnable implements Runnable {
-        private int v1, p1, v2;
-
-        TriVibRunnable(int a, int b, int c) {
-            v1 = a; p1 = b; v2 = c;
-        }
-
-        public void run() {
-            if (DBG) Log.d(LOG_TAG, "vibrate " + v1 + ":" + p1 + ":" + v2);
-            if (v1 > 0) mVibrator.vibrate(v1);
-            if (p1 > 0) SystemClock.sleep(p1);
-            if (v2 > 0) mVibrator.vibrate(v2);
-        }
-    }
-
     public void start45SecondVibration(long callDurationMsec) {
         if (VDBG) Log.v(LOG_TAG, "vibrate start @" + callDurationMsec);
 
@@ -2083,21 +2065,10 @@ public class PhoneApp extends Application implements AccelerometerListener.Orien
     }
 
     public void vibrate(int v1, int p1, int v2) {
-        if (mVibrationThread == null) {
-            mVibrationThread = new HandlerThread("Vibrate 45 handler");
-            mVibrationThread.start();
-            mVibrationHandler = new Handler(mVibrationThread.getLooper());
-        }
-        mVibrationHandler.post(new TriVibRunnable(v1, p1, v2));
-    }
+        long[] pattern = new long[] {
+            0, v1, p1, v2
+        };
 
-    public void stopVibrationThread() {
-        stop45SecondVibration();
-
-        mVibrationHandler = null;
-        if (mVibrationThread != null) {
-            mVibrationThread.quit();
-            mVibrationThread = null;
-        }
+        mVibrator.vibrate(pattern, -1);
     }
 }

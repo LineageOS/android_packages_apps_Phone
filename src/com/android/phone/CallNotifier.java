@@ -1084,7 +1084,6 @@ public class CallNotifier extends Handler
             if (vibHangup && c.getDurationMillis() > 0) {
                 mApplication.vibrate(50, 100, 50);
             }
-            mApplication.stopVibrationThread();
         }
 
         // Stop the ringer if it was ringing (for an incoming call that
