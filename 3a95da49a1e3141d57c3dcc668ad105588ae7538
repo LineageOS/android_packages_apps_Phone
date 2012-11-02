@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAaH//8F0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 553,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-11-02T23:59:31Z",
+      "side": 1,
+      "message": "Nationale",
+      "revId": "3a95da49a1e3141d57c3dcc668ad105588ae7538",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH//8Fw\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 587,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-11-02T23:59:31Z",
+      "side": 1,
+      "message": "Deze zin vind ik onduidelijk",
+      "revId": "3a95da49a1e3141d57c3dcc668ad105588ae7538",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
