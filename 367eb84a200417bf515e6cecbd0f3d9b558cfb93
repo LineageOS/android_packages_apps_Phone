@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//+iQ\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 655,
+      "author": {
+        "id": 1558
+      },
+      "writtenOn": "2012-11-07T17:11:48Z",
+      "side": 1,
+      "message": "displej \u003d\u003e obrazovka\n\na doplnit nove elementy \"vibrate_*\"",
+      "revId": "367eb84a200417bf515e6cecbd0f3d9b558cfb93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
