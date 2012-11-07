@@ -651,4 +651,6 @@
       <item>LTE/GSM/WCDMA</item>
       <item>Upřednostňovat GSM/WCDMA</item>
     </string-array>
+    <string name="lockscreen_if_call_ends_with_screenoff">Uzamknout po skončení hovoru</string>
+    <string name="lockscreen_if_call_ends_with_screenoff_sum">Automaticky uzamknout pokud skončí hovor a obrazovka je vypnutá</string>
 </resources>
