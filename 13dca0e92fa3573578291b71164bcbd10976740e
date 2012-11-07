@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//+dw\u003d",
+        "filename": "res/values-cs/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1558
+      },
+      "writtenOn": "2012-11-07T21:28:58Z",
+      "side": 1,
+      "message": "neco mi tu chybi...\n\u003citem\u003eLTE only\u003c/item\u003e\n\u003citem\u003eLTE/CMDA/EvDo/GSM/WCDMA\u003c/item\u003e\n\u003citem\u003eLTE/CDMA/EvDo\u003c/item\u003e\n\u003citem\u003eLTE/CDMA\u003c/item\u003e\n\u003citem\u003eCDMA/EvDo auto\u003c/item\u003e",
+      "revId": "13dca0e92fa3573578291b71164bcbd10976740e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
