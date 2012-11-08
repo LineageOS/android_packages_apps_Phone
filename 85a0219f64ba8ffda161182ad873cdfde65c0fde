@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//+Wc\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2012-11-08T05:34:19Z",
+      "side": 1,
+      "message": "\"Regler\" \u003d\u003e \"Définir\" not?",
+      "revId": "85a0219f64ba8ffda161182ad873cdfde65c0fde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//+WM\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 637,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2012-11-08T05:34:19Z",
+      "side": 1,
+      "message": "\"[...] au cours d\\\u0027un appel si des écouteurs sont connectés\" more understandable. Not?",
+      "revId": "85a0219f64ba8ffda161182ad873cdfde65c0fde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAa3//+WY\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 639,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2012-11-08T05:34:19Z",
+      "side": 1,
+      "message": "\"Verrouiller automatiquement l\u0027\\écran en fin d\\\u0027appel lorsque l\u0027\\écran est éteint\" more understandable.",
+      "revId": "85a0219f64ba8ffda161182ad873cdfde65c0fde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
