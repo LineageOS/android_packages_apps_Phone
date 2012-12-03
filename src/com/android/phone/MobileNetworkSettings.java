@@ -333,6 +333,9 @@ public class MobileNetworkSettings extends PreferenceActivity
             if (buttonNetworkMode != settingsNetworkMode) {
                 int modemNetworkMode;
                 switch(buttonNetworkMode) {
+                    case Phone.NT_MODE_LTE_CDMA_AND_EVDO:
+                        modemNetworkMode = Phone.NT_MODE_LTE_CDMA_AND_EVDO;
+                        break;
                     case Phone.NT_MODE_GLOBAL:
                         modemNetworkMode = Phone.NT_MODE_GLOBAL;
                         break;
@@ -431,7 +434,8 @@ public class MobileNetworkSettings extends PreferenceActivity
                         modemNetworkMode == Phone.NT_MODE_CDMA ||
                         modemNetworkMode == Phone.NT_MODE_CDMA_NO_EVDO ||
                         modemNetworkMode == Phone.NT_MODE_EVDO_NO_CDMA ||
-                        modemNetworkMode == Phone.NT_MODE_GLOBAL ) {
+                        modemNetworkMode == Phone.NT_MODE_GLOBAL ||
+                        modemNetworkMode == Phone.NT_MODE_LTE_CDMA_AND_EVDO ) {
                     if (DBG) {
                         log("handleGetPreferredNetworkTypeResponse: if 1: modemNetworkMode = " +
                                 modemNetworkMode);
@@ -537,6 +541,7 @@ public class MobileNetworkSettings extends PreferenceActivity
                         R.string.preferred_network_mode_evdo_only_summary);
                 break;
             case Phone.NT_MODE_GLOBAL:
+            case Phone.NT_MODE_LTE_CDMA_AND_EVDO:
             default:
                 mButtonPreferredNetworkMode.setSummary(
                         R.string.preferred_network_mode_lte_cdma_summary);
