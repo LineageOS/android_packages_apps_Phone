@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//++0\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 305
+      },
+      "writtenOn": "2012-12-15T14:24:12Z",
+      "side": 1,
+      "message": "pls, remove whitespace here",
+      "revId": "479c111b5a9eb973fea2e6e9b68ac41459e41af6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
