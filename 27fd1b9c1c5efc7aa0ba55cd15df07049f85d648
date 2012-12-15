@@ -34,6 +34,24 @@
       "revId": "27fd1b9c1c5efc7aa0ba55cd15df07049f85d648",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH///Bg\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 638,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-12-15T07:25:17Z",
+      "side": 1,
+      "message": "Naja dann finde ich es nicht so passend zu sagen, dass wir die Telefonnummer des Gerätes einstellen. Um genau zu sein stellen wir nur die Nummer eine, welche als eigene Nummer angezeigt wird.",
+      "parentUuid": "AAAAbH///Bo\u003d",
+      "revId": "27fd1b9c1c5efc7aa0ba55cd15df07049f85d648",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
