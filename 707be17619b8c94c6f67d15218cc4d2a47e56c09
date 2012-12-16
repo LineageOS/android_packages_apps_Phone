@@ -1,0 +1,11 @@
+Change-Id: I479c111b5a9eb973fea2e6e9b68ac41459e41af6
+Code-Review+1: Pavel Volkov <marshmollow@gmail.com>
+Code-Review+2: Steve Kondik <shade@chemlab.org>
+Verified+1: Steve Kondik <shade@chemlab.org>
+Code-Review+1: Dmitriy Chermenev <chdiman86@gmail.com>
+Code-Review+1: Vsevolod Zoubarev <yandexx@gmail.com>
+Submitted-by: Steve Kondik <shade@chemlab.org>
+Submitted-at: Sun, 16 Dec 2012 09:11:11 -0800
+Reviewed-on: http://review.cyanogenmod.org/28254
+Project: CyanogenMod/android_packages_apps_Phone
+Branch: refs/heads/cm-10.1
