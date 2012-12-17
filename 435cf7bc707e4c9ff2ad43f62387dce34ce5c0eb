@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//+MI\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2012-12-17T14:46:03Z",
+      "side": 1,
+      "message": "auch hier Wähltasten :)",
+      "revId": "435cf7bc707e4c9ff2ad43f62387dce34ce5c0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+L4\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 638,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2012-12-17T14:46:03Z",
+      "side": 1,
+      "message": "Bei Annahme vibrieren",
+      "revId": "435cf7bc707e4c9ff2ad43f62387dce34ce5c0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+L8\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2012-12-17T14:46:03Z",
+      "side": 1,
+      "message": "Beim Auflegen vibrieren",
+      "revId": "435cf7bc707e4c9ff2ad43f62387dce34ce5c0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+ME\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2012-12-17T14:46:03Z",
+      "side": 1,
+      "message": "Muss das \"Vibriere\" immer mitgeführt werden? Ist es nicht die Kategorie \"Vibrieren\", so dass die einzelnen Menüpunkte nicht immer so lang sein müssen?\n\nIm englischen ist keine Beschreibung vorhanden (außer 45 Sek), hier kann sie eigentlich auch gespart werden.\n\nIn den adv. Settings sind beim Nexus 4 nur Einstellungen für Vibration vorhanden. Gibt es hier überhaupt andere?",
+      "revId": "435cf7bc707e4c9ff2ad43f62387dce34ce5c0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
