@@ -67,6 +67,24 @@
       "revId": "435cf7bc707e4c9ff2ad43f62387dce34ce5c0eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+EY\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2012-12-18T00:27:42Z",
+      "side": 1,
+      "message": "Im Moment sind es nur die Optionen für die Vibration, aber ich glaube unter CM10 waren hier auch z.B. die Einstellung für die eigene Rufnummer.",
+      "parentUuid": "AAAAbH//+ME\u003d",
+      "revId": "435cf7bc707e4c9ff2ad43f62387dce34ce5c0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
