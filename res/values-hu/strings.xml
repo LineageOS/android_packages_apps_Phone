@@ -622,4 +622,24 @@
     <string name="vibrate_on_ring_title" msgid="9197564612065258960">"Csengetéskor rezegjen"</string>
     <string name="dtmf_tone_enable_title" msgid="827601042915852989">"Tárcsázó érintési hangjai"</string>
     <string name="preference_category_ringtone" msgid="9007490591910078324">"Csengőhang"</string>
+
+    <!-- CYANOGENMOD ADDITIONS START -->
+
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Speciális beállítások</string>
+
+    <string name="vibrate_outgoing">Rezgés válaszkor</string>
+    <string name="vibrate_call_waiting">Hívásvárakoztatáskor rezeg</string>
+    <string name="vibrate_hangup">Bontáskor rezeg</string>
+    <string name="vibrate_45">45 mp-ként rezeg</string>
+    <string name="vibrate_45_sum">Minden 45. másodpercben rezeg a kimenő hívások során</string>
+
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">Nemzeti adatbarangolás</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Csatlakozzon adatszolgáltatásokhoz nemzeti barangolás során</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Ne csatlakozzon adatszolgáltatásokhoz nemzeti barangolássorán</string>
+
+    <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
