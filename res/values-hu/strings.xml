@@ -168,6 +168,11 @@
     <string name="preferred_network_mode_cdma_only_summary" msgid="1309770926198634150">"Preferált hálózati mód: csak CDMA"</string>
     <string name="preferred_network_mode_evdo_only_summary" msgid="8472220691721269155">"Preferált hálózati mód: csak EvDo"</string>
     <string name="preferred_network_mode_lte_cdma_summary" msgid="3722647806454528426">"Preferált hálózati mód: LTE/CDMA"</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferált hálózati mód: LTE / CDMA / EvDo</string>
+    <string name="preferred_network_mode_lte_gsm_summary">Preferált hálózati mód: LTE / GSM/WCDMA</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_gsm_wcdma_summary">Preferált hálózati mód: LTE / CMDA / EvDo / GSM/WCDMA</string>
+    <string name="preferred_network_mode_lte_wcdma_summary">Preferált hálózati mód: LTE / WCDMA</string>
+
   <string-array name="preferred_network_mode_choices">
     <item msgid="5543794538185064048">"LTE/CDMA"</item>
     <item msgid="3273348576277144124">"Csak EvDo"</item>
@@ -504,6 +509,11 @@
     <string name="voicemail_settings" msgid="72448049107749316">"Beállítás"</string>
     <string name="voicemail_number_not_set" msgid="6724904736891087856">"&lt;Nincs megadva&gt;"</string>
     <string name="other_settings" msgid="3672912580359716394">"Egyéb hívásbeállítások"</string>
+
+    <!-- Dialer UI Settings -->
+    <string name="dialer_ui_settings_title">Tárcsázó beállítások</string>
+    <string name="dialer_ui_settings_summary">Tárcsázó beállításai</string>
+
     <string name="calling_via_template" msgid="4839419581866928142">"Hívás a(z) <xliff:g id="PROVIDER_NAME">%s</xliff:g> szolgáltatón keresztül"</string>
     <string name="contactPhoto" msgid="4713193418046639466">"ismerős fotója"</string>
     <string name="goPrivate" msgid="865837794424530980">"magánbeszélgetés"</string>
@@ -622,4 +632,29 @@
     <string name="vibrate_on_ring_title" msgid="9197564612065258960">"Csengetéskor rezegjen"</string>
     <string name="dtmf_tone_enable_title" msgid="827601042915852989">"Tárcsázó érintési hangjai"</string>
     <string name="preference_category_ringtone" msgid="9007490591910078324">"Csengőhang"</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Zajcsökkentés</string>
+    <string name="noise_suppression_summary">Zajcsökkentés engedélyezése telefonhívások esetén</string>
+    <!-- End Noise suppression -->
+
+    <!-- CYANOGENMOD ADDITIONS START -->
+
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Speciális beállítások</string>
+
+    <string name="vibrate_outgoing">Rezgés válaszkor</string>
+    <string name="vibrate_call_waiting">Hívásvárakoztatáskor rezeg</string>
+    <string name="vibrate_hangup">Bontáskor rezeg</string>
+    <string name="vibrate_45">45 mp-ként rezeg</string>
+    <string name="vibrate_45_sum">Minden 45. másodpercben rezeg a kimenő hívások során</string>
+
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">Nemzeti adatbarangolás</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Csatlakozzon adatszolgáltatásokhoz nemzeti barangolás során</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Ne csatlakozzon adatszolgáltatásokhoz nemzeti barangolássorán</string>
+
+    <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
