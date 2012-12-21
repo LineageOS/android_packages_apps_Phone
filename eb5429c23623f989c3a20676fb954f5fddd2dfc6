@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//9Ao\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1530,
+      "author": {
+        "id": 940
+      },
+      "writtenOn": "2012-12-21T02:02:20Z",
+      "side": 1,
+      "message": "Should be PreferenceScreen, not PreferenceCategory",
+      "revId": "eb5429c23623f989c3a20676fb954f5fddd2dfc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
