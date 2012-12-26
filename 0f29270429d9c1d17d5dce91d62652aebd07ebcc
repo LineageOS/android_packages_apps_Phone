@@ -16,6 +16,24 @@
       "revId": "0f29270429d9c1d17d5dce91d62652aebd07ebcc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///2A\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2012-12-26T03:18:52Z",
+      "side": 1,
+      "message": "Entschuldige, habe ich vergessen zu ändern. Wir in nächsten patch Set behoben.",
+      "parentUuid": "AAAAbn///3M\u003d",
+      "revId": "0f29270429d9c1d17d5dce91d62652aebd07ebcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
