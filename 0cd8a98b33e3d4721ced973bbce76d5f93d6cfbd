@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbn///Zs\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 425,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "http://paste.ubuntu.com/1470144/",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///Zo\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "http://paste.ubuntu.com/1470148/",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///Zk\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 433,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "http://paste.ubuntu.com/1470158/",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ZY\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 693,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "http://paste.ubuntu.com/1470172/",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ZU\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 707,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "http://paste.ubuntu.com/1470177/",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ZQ\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 710,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "http://paste.ubuntu.com/1470183/",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ZM\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 712,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "http://paste.ubuntu.com/1470186/",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn///ZI\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 714,
+      "author": {
+        "id": 1642
+      },
+      "writtenOn": "2012-12-27T22:34:38Z",
+      "side": 1,
+      "message": "as above",
+      "revId": "0cd8a98b33e3d4721ced973bbce76d5f93d6cfbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
