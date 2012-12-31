@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbn//+W0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Van netwerk veranderen (2G/3G)",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Ww\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Hiermee kunnen apps op elk moment wisselen tussen 2G en 3G. 3G is sneller, maar verbruikt meer stroom en kan duurder zijn.",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Ws\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Voorkeursnetwerkmodus: LTE/CDMA/EvDo",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Wo\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 652,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Voorkeursnetwerkmodus: LTE/WCDMA/GSM\n\nwat is de gedachte achter een ; of een / ?",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Wk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 653,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Voorkeursnetwerkmodus: LTE/CMDA/EvDo/GSM/WCDMA",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Wg\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Voorkeursnetwerkmodus: LTE/WCDMA",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+Wc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 668,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Elke 45 seconden trillen",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+WY\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 669,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Elke 45 seconden trillen bij uitgaande gesprekken",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+WU\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Verbinding maken met gegevensdiensten bij nationaal roamen",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+WQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-12-31T07:58:48Z",
+      "side": 1,
+      "message": "Verbinding verbreken met gegevensdiensten bij nationaal \nroamen",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
