@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAbn//+SQ\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "Expres gedaan (eerst werkwoord, daarna bijwoordelijke bepalingen)",
+      "parentUuid": "AAAAbn//+W0\u003d",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbn//+Ww\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2012-12-31T07:58:48Z",
       "side": 1,
       "message": "Hiermee kunnen apps op elk moment wisselen tussen 2G en 3G. 3G is sneller, maar verbruikt meer stroom en kan duurder zijn.",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+SM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "Verkeerde formulering: \u0027Hiermee kan de app...\u0027 (dus eigenlijk is mijn vertaling alsnog fout)",
+      "parentUuid": "AAAAbn//+Ww\u003d",
       "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAbn//+SI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "We hadden net -modus veranderd in -stand....",
+      "parentUuid": "AAAAbn//+Ws\u003d",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbn//+Wo\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2012-12-31T07:58:48Z",
       "side": 1,
       "message": "Voorkeursnetwerkmodus: LTE/WCDMA/GSM\n\nwat is de gedachte achter een ; of een / ?",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+SE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 652,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "In het Engels staat er: LTE / GSM/WCDMA. Er wordt dus gekozen tussen LTE of GSM/WCDMA. Omdat ik spaties lelijk vind rondom slashes, heb ik er maar een puntkomma neergezet.",
+      "parentUuid": "AAAAbn//+Wo\u003d",
       "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -121,6 +193,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAbn//+SA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 668,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAbn//+Wc\u003d",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbn//+WY\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -132,6 +222,24 @@
       "writtenOn": "2012-12-31T07:58:48Z",
       "side": 1,
       "message": "Elke 45 seconden trillen bij uitgaande gesprekken",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+R8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 669,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "Dit was een verkeerde vertaling die later in het Engels is bijgewerkt, maar niet in het Nederlands. Het trillen is om aan te geven dat de minuut bijna om is, handig als wordt afgerond op minuten.",
+      "parentUuid": "AAAAbn//+WY\u003d",
       "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -155,6 +263,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAbn//+R4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAbn//+WU\u003d",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbn//+WQ\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 2
@@ -166,6 +292,24 @@
       "writtenOn": "2012-12-31T07:58:48Z",
       "side": 1,
       "message": "Verbinding verbreken met gegevensdiensten bij nationaal \nroamen",
+      "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbn//+R0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2012-12-31T17:01:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAbn//+WQ\u003d",
       "revId": "9c96784f5d1c59091ec2413bb4f70f09c4989cf4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
