@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAcH///94\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 652,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-03T02:36:00Z",
+      "side": 1,
+      "message": "Ik vind een ; geen duidelijk scheidingsteken in dit geval en het ziet er ook raar uit.\n\nSla je wikipedia er op na, dan geeft een puntkomma aan dat informatie aan weerszijden bij elkaar hoort en dat is juist niet geval in deze situatie.\n\nDan zou ik eerder kiezen voor een gewone komma, omdat het een opsomming van opties is.",
+      "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbn//99M\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -13,6 +30,40 @@
       "writtenOn": "2013-01-01T19:22:33Z",
       "side": 1,
       "message": "Moet dit niet naar arrays.xml?",
+      "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///9g\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-03T02:36:00Z",
+      "side": 1,
+      "message": "gegevensdiensten",
+      "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///9Y\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-01-03T02:36:00Z",
+      "side": 1,
+      "message": "gegevensdiensten",
       "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
