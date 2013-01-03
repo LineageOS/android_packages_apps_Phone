@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcH///xA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 652,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-03T04:29:41Z",
+      "side": 1,
+      "message": "Puntkomma\u0027s horen soms bij een opsomming.\n\nhttp://taaladvies.net/taal/advies/vraag/687/\n\nIk maak eerst een patch voor de Engelse vertaling.",
+      "parentUuid": "AAAAcH///94\u003d",
+      "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAbn//99M\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcH///w8\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 659,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-03T04:29:41Z",
+      "side": 1,
+      "message": "Het stond in strings.xml... Het is niet vereist i.i.g.",
+      "parentUuid": "AAAAbn//99M\u003d",
+      "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcH///9g\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 4
@@ -47,6 +83,24 @@
       "writtenOn": "2013-01-03T02:36:00Z",
       "side": 1,
       "message": "gegevensdiensten",
+      "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH///w4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-01-03T04:29:41Z",
+      "side": 1,
+      "message": "Heb ooit -services veranderd naar -diensten, maar ik blijf nu bij AOSP (die gebruikt namelijk ook -services)",
+      "parentUuid": "AAAAcH///9g\u003d",
       "revId": "70d1318e1fcf24ca7258a5d6410092fce7259c78",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
