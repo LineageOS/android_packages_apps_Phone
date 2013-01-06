@@ -16,6 +16,24 @@
       "revId": "e02bc62d2b4af73f1cce58527b05d40469f885b2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcX///98\u003d",
+        "filename": "res/values-zh-rCN/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-01-06T05:16:50Z",
+      "side": 1,
+      "message": "It was commented out in the original strings.xml file: https://github.com/CyanogenMod/android_packages_apps_Phone/blob/cm-10.1/res/values/strings.xml#L404",
+      "parentUuid": "AAAAcX///+Q\u003d",
+      "revId": "e02bc62d2b4af73f1cce58527b05d40469f885b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
