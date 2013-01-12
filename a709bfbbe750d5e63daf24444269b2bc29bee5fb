@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//+Hc\u003d",
+        "filename": "res/values-sv/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 479
+      },
+      "writtenOn": "2013-01-12T23:42:42Z",
+      "side": 1,
+      "message": "På national_roaming_disable ska det väl vara tvärtom, \"Anslut inte\" ?",
+      "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
