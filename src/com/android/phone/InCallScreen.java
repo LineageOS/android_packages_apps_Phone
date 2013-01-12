@@ -33,6 +33,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Typeface;
@@ -74,6 +75,9 @@ import com.android.internal.telephony.gsm.SuppServiceNotification;
 import com.android.phone.Constants.CallStatusCode;
 import com.android.phone.InCallUiState.InCallScreenMode;
 import com.android.phone.OtaUtils.CdmaOtaScreenState;
+
+import android.preference.PreferenceManager;
+import android.content.SharedPreferences;
 
 import java.util.List;
 
@@ -120,6 +124,9 @@ public class InCallScreen extends Activity
     // MMI code '#' don't get confused as URI fragments.
     /* package */ static final String EXTRA_GATEWAY_URI =
             "com.android.phone.extra.GATEWAY_URI";
+
+    private static final String BUTTON_EXIT_TO_HOMESCREEN_KEY = "button_exit_to_home_screen_key";
+    private static final String BUTTON_LANDSCAPE_KEY = "button_landscape_key";
 
     // Amount of time (in msec) that we display the "Call ended" state.
     // The "short" value is for calls ended by the local user, and the
@@ -245,6 +252,9 @@ public class InCallScreen extends Activity
     private boolean mIsForegroundActivity = false;
     private boolean mIsForegroundActivityForProximity = false;
     private PowerManager mPowerManager;
+
+    public boolean mExitToHomeScreen = false;
+    private boolean mEnableLandscapeInCall = false;
 
     // For use with Pause/Wait dialogs
     private String mPostDialStrAfterPause;
@@ -555,6 +565,14 @@ public class InCallScreen extends Activity
     protected void onResume() {
         if (DBG) log("onResume()...");
         super.onResume();
+
+        updateSettings();
+
+        if (mEnableLandscapeInCall) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+        } else {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
+        }
 
         mIsForegroundActivity = true;
         mIsForegroundActivityForProximity = true;
@@ -2220,7 +2238,6 @@ public class InCallScreen extends Activity
 
     private View createWildPromptView() {
         LinearLayout result = new LinearLayout(this);
-        result.setOrientation(LinearLayout.VERTICAL);
         result.setPadding(5, 5, 5, 5);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
@@ -2669,7 +2686,8 @@ public class InCallScreen extends Activity
                         log("- Show Call Log (or Dialtacts) after disconnect. Current intent: "
                                 + intent);
                     }
-                    try {
+                    if (mExitToHomeScreen)
+                      try {
                         startActivity(intent, opts.toBundle());
                     } catch (ActivityNotFoundException e) {
                         // Don't crash if there's somehow no "Call log" at
@@ -2687,8 +2705,8 @@ public class InCallScreen extends Activity
                     // stay in the activity history.
                 }
 
+                endInCallScreenSession();
             }
-            endInCallScreenSession();
 
             // Reset the call origin when the session ends and this in-call UI is being finished.
             mApp.setLatestActiveCallOrigin(null);
@@ -4614,6 +4632,14 @@ public class InCallScreen extends Activity
     private void log(String msg) {
         Log.d(LOG_TAG, msg);
     }
+
+    protected void updateSettings() {
+       SharedPreferences callsettings = PreferenceManager.getDefaultSharedPreferences(this);
+
+       mExitToHomeScreen = (callsettings.getBoolean(BUTTON_EXIT_TO_HOMESCREEN_KEY,false));
+       mEnableLandscapeInCall = callsettings.getBoolean(BUTTON_LANDSCAPE_KEY,false);
+
+      }
 
     /**
      * Requests to remove provider info frame after having
