@@ -17,6 +17,7 @@
 package com.android.phone;
 
 import android.animation.LayoutTransition;
+import android.content.res.Configuration;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
@@ -335,8 +336,11 @@ public class CallCard extends LinearLayout
         int reservedVerticalSpace = mInCallScreen.getInCallTouchUi().getTouchUiHeight();
         ViewGroup.MarginLayoutParams callInfoLp =
                 (ViewGroup.MarginLayoutParams) mCallInfoContainer.getLayoutParams();
-        callInfoLp.bottomMargin = reservedVerticalSpace;  // Equivalent to setting
-                                                          // android:layout_marginBottom in XML
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+            callInfoLp.rightMargin = reservedVerticalSpace; // set margin on right side if in landscape rather than bottom
+        else
+			callInfoLp.bottomMargin = reservedVerticalSpace;  // Equivalent to setting
+                                                      // android:layout_marginBottom in XML
         if (DBG) log("  ==> callInfoLp.bottomMargin: " + reservedVerticalSpace);
         mCallInfoContainer.setLayoutParams(callInfoLp);
     }
