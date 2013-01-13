@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAcn//9+c\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T07:27:20Z",
+      "side": 1,
+      "message": "add \"Phone:\" in the beginning of the line",
+      "revId": "b7db04dd2ba0339fc4154e23ae143cefb71bee7b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9+Y\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T07:27:20Z",
+      "side": 1,
+      "message": "Remove file affected list. Add description what about this patch.",
+      "revId": "b7db04dd2ba0339fc4154e23ae143cefb71bee7b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//9/M\u003d",
         "filename": "src/com/android/phone/CallCard.java",
         "patchSetId": 2
