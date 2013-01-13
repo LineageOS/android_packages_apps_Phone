@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//+Bo\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:52:49Z",
+      "side": 1,
+      "message": "Please, add \"Phone:\" ahead",
+      "revId": "6b03cbf16d419bb5df6cf4798869a4a86b5b6cfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//+Bs\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:52:49Z",
+      "side": 1,
+      "message": "I think it useless. If anyone will need it git log --stat will do his work.",
+      "revId": "6b03cbf16d419bb5df6cf4798869a4a86b5b6cfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//+Bk\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 573,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:52:49Z",
+      "side": 1,
+      "message": "will break build, non exists variable",
+      "revId": "6b03cbf16d419bb5df6cf4798869a4a86b5b6cfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//+Bg\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2693,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:52:49Z",
+      "side": 1,
+      "message": "will break build, non exists variable",
+      "revId": "6b03cbf16d419bb5df6cf4798869a4a86b5b6cfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//+Bc\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 4643,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:52:49Z",
+      "side": 1,
+      "message": "will break build, non exists variable",
+      "revId": "6b03cbf16d419bb5df6cf4798869a4a86b5b6cfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//+BY\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 4644,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:52:49Z",
+      "side": 1,
+      "message": "will break build, non exists variable",
+      "revId": "6b03cbf16d419bb5df6cf4798869a4a86b5b6cfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
