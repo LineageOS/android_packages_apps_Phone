@@ -245,6 +245,24 @@
       "revId": "b7db04dd2ba0339fc4154e23ae143cefb71bee7b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9s8\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2693,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-01-13T22:57:33Z",
+      "side": 1,
+      "message": "Why shouldn\u0027t he?\nIt\u0027s noticed here \"Author: Mike Wilson\" that he is not an author of this path.",
+      "parentUuid": "AAAAcn//9+4\u003d",
+      "revId": "b7db04dd2ba0339fc4154e23ae143cefb71bee7b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
