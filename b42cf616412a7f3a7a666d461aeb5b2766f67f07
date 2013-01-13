@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//+CM\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:10:41Z",
+      "side": 1,
+      "message": "codestyle: class member starts with \"m\", so this should be mExitToHomeScreen",
+      "revId": "b42cf616412a7f3a7a666d461aeb5b2766f67f07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//+CI\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-01-13T04:10:41Z",
+      "side": 1,
+      "message": "codestyle: mEnableLandscapeInCall",
+      "revId": "b42cf616412a7f3a7a666d461aeb5b2766f67f07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
