@@ -16,6 +16,24 @@
       "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9kM\u003d",
+        "filename": "res/values-sv/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 5450
+      },
+      "writtenOn": "2013-01-14T03:10:34Z",
+      "side": 1,
+      "message": "Jag trodde också det men i /res/values/strings.xml (är väl default?) så är det \"Connect to data services when nationally roaming\" på båda. Tyckte det var skumt så kollade på den danske och även där samma samma. Jag hittar det dessutom inte i appen så kan inte kolla vad som verkar mest logiskt, vad tycker ni?",
+      "parentUuid": "AAAAcn//+Hc\u003d",
+      "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
