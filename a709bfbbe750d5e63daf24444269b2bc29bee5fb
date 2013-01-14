@@ -70,6 +70,24 @@
       "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9bY\u003d",
+        "filename": "res/values-sv/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2013-01-14T14:27:52Z",
+      "side": 1,
+      "message": "Jag kollade på strängarna för vanlig roaming som finns även i stock. Den ändras mycket riktigt inte mellan enable och disable, till skillnad från flertalet andra inställningar. Därmed tycker jag att du ska låta strängarna vara som de är i detta patch set.",
+      "parentUuid": "AAAAcn//9bo\u003d",
+      "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
