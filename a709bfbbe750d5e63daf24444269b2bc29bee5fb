@@ -34,6 +34,24 @@
       "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9jA\u003d",
+        "filename": "res/values-sv/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2013-01-14T04:01:39Z",
+      "side": 1,
+      "message": "Ja, /res/values/strings.xml är default (dvs. English US). Det stämmer att det är samma sträng för båda dessa där. Det verkar dock vara ett misstag så lägg till \"inte\" här. Sedan får du gärna fixa den engelska också i en separat change. Tror vi väntar tills de andra godkänt den engelska ändringen innan vi mergar denna.\n\nLägg till mig som reviewer på den engelska ändringen så kan jag ta upp ändringen i vår interna IRC-kanal.",
+      "parentUuid": "AAAAcn//9kM\u003d",
+      "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
