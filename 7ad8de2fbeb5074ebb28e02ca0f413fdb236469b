@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//9NQ\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//9Pc\u003d",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//9PY\u003d",
         "filename": "res/values/strings.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2013-01-14T23:37:39Z",
       "side": 1,
       "message": "This must be presented as a ListPreference (named \u0027Orientation\u0027, options \u0027Automatic\u0027, \u0027Portrait\u0027, \u0027Landscape\u0027).",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9NE\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 664,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "How would I go about doing that? I thought enabling the landscape mode and having it as a check preference made sense since that\u0027s the only thing that would change in the option... just expressing my thoughts",
+      "parentUuid": "AAAAcn//9PY\u003d",
       "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//9M4\u003d",
+        "filename": "src/com/android/phone/CallCard.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 343,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "I believe I did it correctly, going to update changes and see what comments I get back.... thanks for the help!!",
+      "parentUuid": "AAAAcn//9PQ\u003d",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//9PM\u003d",
         "filename": "src/com/android/phone/CallFeaturesSetting.java",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2013-01-14T23:37:39Z",
       "side": 1,
       "message": "Unused, should be removed.",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Ng\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//9PM\u003d",
       "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//9Nc\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//9PI\u003d",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//9PE\u003d",
         "filename": "src/com/android/phone/CallFeaturesSetting.java",
         "patchSetId": 3
@@ -98,6 +188,24 @@
       "writtenOn": "2013-01-14T23:37:39Z",
       "side": 1,
       "message": "Dito.",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9NY\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 1545,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//9PE\u003d",
       "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//9No\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//9PA\u003d",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//9O0\u003d",
         "filename": "src/com/android/phone/InCallScreen.java",
         "patchSetId": 3
@@ -132,6 +258,24 @@
       "writtenOn": "2013-01-14T23:37:39Z",
       "side": 1,
       "message": "Please don\u0027t cache settings. Put getters for them into the PhoneUtils.PhoneSettings class instead.",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Nk\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Where is PhoneUtils.PhoneSettings located? I don\u0027t see it in this file...",
+      "parentUuid": "AAAAcn//9O0\u003d",
       "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//9Nw\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 469,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//9Ow\u003d",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//9Os\u003d",
         "filename": "src/com/android/phone/InCallScreen.java",
         "patchSetId": 3
@@ -166,6 +328,24 @@
       "writtenOn": "2013-01-14T23:37:39Z",
       "side": 1,
       "message": "Just remove those lines instead of commenting code.",
+      "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Ns\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2244,
+      "author": {
+        "id": 5183
+      },
+      "writtenOn": "2013-01-15T00:10:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAcn//9Os\u003d",
       "revId": "7ad8de2fbeb5074ebb28e02ca0f413fdb236469b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
