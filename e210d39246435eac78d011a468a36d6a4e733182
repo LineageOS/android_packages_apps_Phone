@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAcn//9GQ\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2897
+      },
+      "writtenOn": "2013-01-15T04:17:00Z",
+      "side": 1,
+      "message": "Change to \"tablet\" and the next to \"telefon nayad\"",
+      "revId": "e210d39246435eac78d011a468a36d6a4e733182",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Gk\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2897
+      },
+      "writtenOn": "2013-01-15T04:17:00Z",
+      "side": 1,
+      "message": "\"Mispar hasui\"",
+      "revId": "e210d39246435eac78d011a468a36d6a4e733182",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9G8\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 607,
+      "author": {
+        "id": 2897
+      },
+      "writtenOn": "2013-01-15T04:17:00Z",
+      "side": 1,
+      "message": "\"Tsiltsul\" is not better.?",
+      "revId": "e210d39246435eac78d011a468a36d6a4e733182",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//9VE\u003d",
         "filename": "res/values-iw/strings.xml",
         "patchSetId": 1
@@ -13,6 +64,24 @@
       "writtenOn": "2013-01-14T20:34:31Z",
       "side": 1,
       "message": "????? ????-???, ??? ???? ??? ???? ????, ????? ????? ?? ???? ???..",
+      "revId": "e210d39246435eac78d011a468a36d6a4e733182",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9Gw\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 701,
+      "author": {
+        "id": 2897
+      },
+      "writtenOn": "2013-01-15T04:17:00Z",
+      "side": 1,
+      "message": "Noise suppression - \"sinun raashey reka\"",
+      "parentUuid": "AAAAcn//9VE\u003d",
       "revId": "e210d39246435eac78d011a468a36d6a4e733182",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
