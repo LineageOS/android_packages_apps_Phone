@@ -16,6 +16,24 @@
       "revId": "cbeea4a21fa9785021106a3d361847c45c20b831",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8qY\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2897
+      },
+      "writtenOn": "2013-01-16T13:23:28Z",
+      "side": 1,
+      "message": "Ok, didnt know. I have a lot to learn:)",
+      "parentUuid": "AAAAcn//8ug\u003d",
+      "revId": "cbeea4a21fa9785021106a3d361847c45c20b831",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
