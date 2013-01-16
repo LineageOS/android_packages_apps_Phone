@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//8ug\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 5248
+      },
+      "writtenOn": "2013-01-16T05:36:07Z",
+      "side": 1,
+      "message": "I wanted to change it, but after another check. There are several private number types: Private Number, Payphone and Unknown Caller. I left it as unknown for now.",
+      "revId": "cbeea4a21fa9785021106a3d361847c45c20b831",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
