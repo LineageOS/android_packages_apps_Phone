@@ -88,6 +88,24 @@
       "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//9bc\u003d",
+        "filename": "res/values-sv/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 479
+      },
+      "writtenOn": "2013-01-16T03:50:19Z",
+      "side": 1,
+      "message": "Ja, det stämmer. Det finns dock flertalet ställen där gränssnittet beter sig på det viset, så det kan bli ännu mer förvirrande om det bara händer ibland?\n\nOm det är en guideline att inte längre byta text så bör texten heller inte översättas två gånger, tycker jag.",
+      "parentUuid": "AAAAcn//9bo\u003d",
+      "revId": "a709bfbbe750d5e63daf24444269b2bc29bee5fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
