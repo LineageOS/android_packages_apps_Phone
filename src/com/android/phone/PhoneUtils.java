@@ -26,6 +26,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
@@ -437,6 +438,11 @@ public class PhoneUtils {
         static boolean showInCallEvents(Context context) {
             return PreferenceManager.getDefaultSharedPreferences(context)
                       .getBoolean("button_show_ssn_key", false);
+        }
+        static int flipAction(Context context) {
+            String s = PreferenceManager.getDefaultSharedPreferences(context)
+                      .getString("flip_action", "0");
+            return Integer.parseInt(s);
         }
     }
 
