@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdH///zk\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-02-05T20:52:39Z",
+      "side": 1,
+      "message": "Why do you make a break here?",
+      "revId": "986a1d330d757947eccb26330f4bf9a4407889ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///zo\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 635,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-02-05T20:52:39Z",
+      "side": 1,
+      "message": "whitespaces",
+      "revId": "986a1d330d757947eccb26330f4bf9a4407889ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
