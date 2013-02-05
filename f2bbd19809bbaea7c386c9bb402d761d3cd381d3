@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdH///14\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-05T18:50:40Z",
+      "side": 1,
+      "message": "That comment seems unneeded.",
+      "revId": "f2bbd19809bbaea7c386c9bb402d761d3cd381d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///10\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-05T18:50:40Z",
+      "side": 1,
+      "message": "Same here.",
+      "revId": "f2bbd19809bbaea7c386c9bb402d761d3cd381d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///1w\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-05T18:50:40Z",
+      "side": 1,
+      "message": "Space after if.",
+      "revId": "f2bbd19809bbaea7c386c9bb402d761d3cd381d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///1s\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 1630,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-05T18:50:40Z",
+      "side": 1,
+      "message": "Space after if.",
+      "revId": "f2bbd19809bbaea7c386c9bb402d761d3cd381d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///1o\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-05T18:50:40Z",
+      "side": 1,
+      "message": "Please put this as a getter into PhoneUtils.PhoneSettings.",
+      "revId": "f2bbd19809bbaea7c386c9bb402d761d3cd381d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///1k\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 1053,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-05T18:50:40Z",
+      "side": 1,
+      "message": "Space after if.",
+      "revId": "f2bbd19809bbaea7c386c9bb402d761d3cd381d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///1g\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 1067,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-05T18:50:40Z",
+      "side": 1,
+      "message": "Space after if.",
+      "revId": "f2bbd19809bbaea7c386c9bb402d761d3cd381d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
