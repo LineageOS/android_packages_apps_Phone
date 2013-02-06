@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdH///fA\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-06T17:56:48Z",
+      "side": 1,
+      "message": "This import is unused now, right?",
+      "revId": "7881d8f14f70fd0b3887b2e044d092d8aee74f9c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
