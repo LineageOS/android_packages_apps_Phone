@@ -16,6 +16,24 @@
       "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH///JY\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 3597,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2013-02-07T19:06:36Z",
+      "side": 1,
+      "message": "It is called in onPause(), I believe that\u0027s enough",
+      "parentUuid": "AAAAdH///Jk\u003d",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
