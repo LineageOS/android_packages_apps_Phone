@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdH///Kw\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-07T16:35:04Z",
+      "side": 1,
+      "message": "Dani: When this variable become false again? It can explain why the phone muted, when it is turned down. (1. test case in my previous comment)",
+      "revId": "9e6b7fbe2036489cfbd1d39f096b735bbb5cc14c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
