@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdH///KA\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 19
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-02-07T17:31:25Z",
+      "side": 1,
+      "message": "Shouldn\u0027t the detachment better be done in handleAction? I know it doesn\u0027t make a difference at the moment, but avoids a gotcha that surely will be happening if we ever add another action listener.",
+      "revId": "b697aa428086bd6c5284b29d04c8b12b0378a563",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
