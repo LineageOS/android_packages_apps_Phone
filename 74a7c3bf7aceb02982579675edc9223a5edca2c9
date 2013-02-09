@@ -211,6 +211,24 @@
       "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//+ZQ\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 3597,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2013-02-09T19:11:29Z",
+      "side": 1,
+      "message": "Doesn\u0027t really matter. There are places that get called only once but Galaxy S3 doesn\u0027t call them (onIncomingRing, onNewRingingConnection) so I moved the attach from there to a place where it\u0027s guaranteed to be called when the ringing starts. Detach has no effect if a listener isn\u0027t attached so this implementation is a bit redundant at most.",
+      "parentUuid": "AAAAdH//+Zc\u003d",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
