@@ -121,6 +121,24 @@
       "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//+j0\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 3597,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-09T07:51:45Z",
+      "side": 1,
+      "message": "Sorry, the last detachListeners() invocation happened when I hang up the phone.",
+      "parentUuid": "AAAAdH//+kE\u003d",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
