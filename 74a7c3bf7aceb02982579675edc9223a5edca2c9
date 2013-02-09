@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdH//+ZY\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-09T19:00:21Z",
+      "side": 1,
+      "message": "Ok.",
+      "parentUuid": "AAAAdH//+aY\u003d",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdH//+lI\u003d",
         "filename": "src/com/android/phone/InCallScreen.java",
         "patchSetId": 20
@@ -172,6 +190,24 @@
       "side": 1,
       "message": "Those two methods are there to make this thing future-proof. Adding new listeners is easier this way, there\u0027s no need to look for the appropirate places to add them, only in those two methods. Of course, it can be done without them but that would result in duplicated code.",
       "parentUuid": "AAAAdH//+j0\u003d",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//+Zc\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 3597,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-09T19:00:21Z",
+      "side": 1,
+      "message": "My question is the unnecesary method invocations. There are an attachListeners, detachLinsteners, and two attachListeners method calls when the ringing starts.\nBut everything works now, It is not a blocker bug (now).",
+      "parentUuid": "AAAAdH//+aI\u003d",
       "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
