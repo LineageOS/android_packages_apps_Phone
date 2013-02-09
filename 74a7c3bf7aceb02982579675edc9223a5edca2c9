@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAdH//+kQ\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-09T07:48:51Z",
+      "side": 1,
+      "message": "Please do the following test:\n\n1. Turn up your phone.\n2. Call your phone \n3. Hang up your phone. \n4. Turn down your phone (there is no incoming call)\n5. Call the phone again.\n\nThe result: Your phone is turned down, and the ringing will be muted.\n\nIs it possible to set mWasFaceUp variable in attachListeners method?",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//+kk\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-09T07:48:51Z",
+      "side": 1,
+      "message": "The mWasFaceUp will be true here only after 1-2 seconds (on my phone). When I turn down my phone immediatly the ringing will be not muted. (This is only an idea: Would not be simplier/better to use the accelerometer for this task (and drop the mSamples array)?)",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//+lI\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-09T07:48:51Z",
+      "side": 1,
+      "message": "The values of mSamples array is not cleared here as in the \"if (faceUp) {..}\" statement before. Is it intentional? \nfor (int i \u003d 0; i \u003c SENSOR_SAMPLES; i++) {\n    mSamples[i] \u003d false;\n}",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdH///Jk\u003d",
         "filename": "src/com/android/phone/InCallScreen.java",
         "patchSetId": 20
@@ -49,6 +100,24 @@
       "side": 1,
       "message": "Ok, thank you.",
       "parentUuid": "AAAAdH///JY\u003d",
+      "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdH//+kE\u003d",
+        "filename": "src/com/android/phone/InCallScreen.java",
+        "patchSetId": 20
+      },
+      "lineNbr": 3597,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-02-09T07:48:51Z",
+      "side": 1,
+      "message": "The following happens when I call my phone:\n\nI/ActivityManager( 2272): START u0 {act\u003dandroid.intent.action.MAIN flg\u003d0x10840000 cmp\u003dcom.android.phone/.InCallScreen} from pid -1\n\nI/InCallScreen( 2702): attachListeners()\n\nI/InCallScreen( 2702): detachListeners()\n\nD/InCallScreen( 2702): onNewIntent: intent \u003d Intent { act\u003dandroid.intent.action.MAIN flg\u003d0x10c40000 cmp\u003dcom.android.phone/.InCallScreen }, phone state \u003d RINGING\n\nI/InCallScreen( 2702): attachListeners()\n\nI/InCallScreen( 2702): attachListeners()\n\nI/InCallScreen( 2702): detachListeners()\n\n...instead of a single attachListeners method invocation. As I see, the SensorManager.registerListener handle this situation.",
+      "parentUuid": "AAAAdH///JE\u003d",
       "revId": "74a7c3bf7aceb02982579675edc9223a5edca2c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
