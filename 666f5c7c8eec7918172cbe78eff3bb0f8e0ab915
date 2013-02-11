@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdH//98M\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-02-11T16:16:21Z",
+      "side": 1,
+      "message": "Or: \"Mostrar una notificación para los mensajes en espera del buzón de voz\"\n\n@Jorge, can you help me?",
+      "revId": "666f5c7c8eec7918172cbe78eff3bb0f8e0ab915",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
