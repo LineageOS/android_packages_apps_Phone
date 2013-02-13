@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX///mM\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 695,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-02-13T19:05:23Z",
+      "side": 1,
+      "message": "Gutes Auge, Dem Klingeton fehlt das l :)",
+      "parentUuid": "AAAAdX///oc\u003d",
+      "revId": "4b9ce6644328c767b116223a294ac75527ef3f8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX///oY\u003d",
         "filename": "res/values-de/strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-02-13T18:00:59Z",
       "side": 1,
       "message": "\u0027abweisen\u0027 passt IMHO besser.",
+      "revId": "4b9ce6644328c767b116223a294ac75527ef3f8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX///mQ\u003d",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 696,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-02-13T19:05:23Z",
+      "side": 1,
+      "message": "Ist gemeint, dass ein eingehender Anruf abgewiesen wird oder ein aktiver Anruf beendet?",
+      "parentUuid": "AAAAdX///oY\u003d",
       "revId": "4b9ce6644328c767b116223a294ac75527ef3f8c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
