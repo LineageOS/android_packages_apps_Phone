@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX///TE\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 496,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-02-14T16:31:46Z",
+      "side": 1,
+      "message": "Just a note: static fields should have \"s\" prefix instead \"m\". For example mRejectedAsMissed \u003d\u003e sRejectedAsMissed",
+      "revId": "e2067eeae1c8f820407b5bb661c9d49ae3513d84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
