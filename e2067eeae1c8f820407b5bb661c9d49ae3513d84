@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAdX//+94\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1299,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-02-15T09:50:03Z",
+      "side": 1,
+      "message": "Perhaps: \"Reject calls as missed\"",
+      "revId": "e2067eeae1c8f820407b5bb661c9d49ae3513d84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//++A\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1300,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-02-15T09:50:03Z",
+      "side": 1,
+      "message": "Take out the period at the end please.\n\nAlso, perhaps: \"Mark rejected calls as \\\u0027missed\\\u0027 rather than \\\u0027incoming\\\u0027 in the call log\"",
+      "revId": "e2067eeae1c8f820407b5bb661c9d49ae3513d84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX///TE\u003d",
         "filename": "src/com/android/phone/CallFeaturesSetting.java",
         "patchSetId": 3
