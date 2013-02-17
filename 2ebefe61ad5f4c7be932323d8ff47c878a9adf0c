@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//+Fw\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 1749,
+      "author": {
+        "id": 5451
+      },
+      "writtenOn": "2013-02-17T03:54:06Z",
+      "side": 1,
+      "message": "tab whitespace",
+      "revId": "2ebefe61ad5f4c7be932323d8ff47c878a9adf0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
