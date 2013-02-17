@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//+Qo\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-17T00:32:58Z",
+      "side": 1,
+      "message": "Wys \\\u0027n kennisgewing vir oproep hanterings verwande netwerk veranderinge",
+      "revId": "05acf0a168f51ed99474f3ea61b928ef810d08c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//+Qk\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-17T00:32:58Z",
+      "side": 1,
+      "message": "Moet nie aan data dienste koppel wanneer nasionaal swerf nie.",
+      "revId": "05acf0a168f51ed99474f3ea61b928ef810d08c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//+Qc\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-02-17T00:32:58Z",
+      "side": 1,
+      "message": "\u0027n program met hierdie toestemming kan, te enige tyd, tussen 2G en 3G data verander. 3G is vinniger maar gebruik meer battery en kan duurder wees.",
+      "revId": "05acf0a168f51ed99474f3ea61b928ef810d08c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
