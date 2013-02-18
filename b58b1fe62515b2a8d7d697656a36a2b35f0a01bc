@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9jA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-02-18T21:19:19Z",
+      "side": 1,
+      "message": "Lol, alsof ik nu snap wat je zegt :p\n\nMaar je hebt gelijk, is prima zo!",
+      "parentUuid": "AAAAdX//9ks\u003d",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9lI\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
