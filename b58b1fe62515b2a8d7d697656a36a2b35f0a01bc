@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9kM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-02-18T20:54:44Z",
+      "side": 1,
+      "message": "Er wordt in de broncode wel naar verwezen...\n\n(res/values/xml/call_feature_setting.xml)",
+      "parentUuid": "AAAAdX//9lM\u003d",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9lA\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-02-18T20:35:01Z",
       "side": 1,
       "message": "- Apparaat omdraaien zal\\u2026\n\nom de persoonsvorm te vermijden",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9ks\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-02-18T20:54:44Z",
+      "side": 1,
+      "message": "Dit is ook gebruikt in DeskClock. Daar ook veranderen?\n\nBTW, officieel is alleen \u0027zal\u0027 een persoonsvorm, want \u0027omdraaien\u0027 is een gesubstantiveerde infinitief van de tegenwoordige tijd en dus is het niet gekoppeld aan een persoon ;)",
+      "parentUuid": "AAAAdX//9lA\u003d",
       "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//9k4\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 681,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-02-18T20:54:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdX//9lI\u003d",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//9lE\u003d",
         "filename": "res/values-nl/strings.xml",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2013-02-18T20:35:01Z",
       "side": 1,
       "message": "- de beltoon dempen",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9k0\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 686,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-02-18T20:54:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdX//9lE\u003d",
       "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
