@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//9gc\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-02-18T22:39:22Z",
+      "side": 1,
+      "message": "Oeps, hier staat ook nog DTMF\n\n- Aanraaktonen toetsenblok",
+      "revId": "a1afd514ff942316817ae36216e0d79a5dc173c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
