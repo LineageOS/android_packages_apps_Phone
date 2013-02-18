@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//9lM\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-02-18T20:35:01Z",
+      "side": 1,
+      "message": "deze string wordt volgens mij niet getoond....",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9lA\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-02-18T20:35:01Z",
+      "side": 1,
+      "message": "- Apparaat omdraaien zal\\u2026\n\nom de persoonsvorm te vermijden",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9lI\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 681,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-02-18T20:35:01Z",
+      "side": 1,
+      "message": "- Beltoon dempen\n\nom korter te houden",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//9lE\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 686,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-02-18T20:35:01Z",
+      "side": 1,
+      "message": "- de beltoon dempen",
+      "revId": "b58b1fe62515b2a8d7d697656a36a2b35f0a01bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
