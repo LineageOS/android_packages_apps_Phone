@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//85k\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 640,
+      "author": {
+        "id": 3269
+      },
+      "writtenOn": "2013-02-20T02:05:56Z",
+      "side": 1,
+      "message": "Not sure about this one? It just does not sound correct to me...",
+      "parentUuid": "AAAAdX//+Qo\u003d",
+      "revId": "05acf0a168f51ed99474f3ea61b928ef810d08c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//+Qk\u003d",
         "filename": "res/values-af/strings.xml",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAdX//85c\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 3269
+      },
+      "writtenOn": "2013-02-20T02:05:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdX//+Qk\u003d",
+      "revId": "05acf0a168f51ed99474f3ea61b928ef810d08c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAdX//+Qc\u003d",
         "filename": "res/values-af/strings.xml",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2013-02-17T00:32:58Z",
       "side": 1,
       "message": "\u0027n program met hierdie toestemming kan, te enige tyd, tussen 2G en 3G data verander. 3G is vinniger maar gebruik meer battery en kan duurder wees.",
+      "revId": "05acf0a168f51ed99474f3ea61b928ef810d08c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//85g\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 3269
+      },
+      "writtenOn": "2013-02-20T02:05:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAdX//+Qc\u003d",
       "revId": "05acf0a168f51ed99474f3ea61b928ef810d08c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
