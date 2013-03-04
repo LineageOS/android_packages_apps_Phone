@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAd3///5Q\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T01:44:02Z",
+      "side": 1,
+      "message": "Il est nécessaire de mettre un espace insécable \"\\u00A0\" avant le \"?\", pour éviter une coupure de la phrase pas très esthétique.",
+      "revId": "a94249ffb63ccdd6da6cc6798f3e95f96cf81502",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///5M\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 573,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T01:44:02Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "a94249ffb63ccdd6da6cc6798f3e95f96cf81502",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///5I\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 577,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T01:44:02Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "a94249ffb63ccdd6da6cc6798f3e95f96cf81502",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///5E\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 578,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T01:44:02Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "a94249ffb63ccdd6da6cc6798f3e95f96cf81502",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
