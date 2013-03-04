@@ -16,6 +16,24 @@
       "revId": "4567fe98dcfcfd316365d2458dba7d557fdedc2b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAd3///0w\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 5765
+      },
+      "writtenOn": "2013-03-04T05:36:27Z",
+      "side": 1,
+      "message": "Avec plaisir, merci de votre aide, c\u0027est juste que je n\u0027étais pas courant qu\u0027il fallait ajouter ceci.\n\nGrâce à vous les merge vont vite se faire :).\n\nBien que je passe de minuit à quatre heures et demie du matin, à vérifier mes nouveaux fichiers, il y a toujours des coquilles qui subsistent.\n\nEncore merci.",
+      "parentUuid": "AAAAd3///1M\u003d",
+      "revId": "4567fe98dcfcfd316365d2458dba7d557fdedc2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
