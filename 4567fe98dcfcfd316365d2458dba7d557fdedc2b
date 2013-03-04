@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAd3///1M\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-04T05:31:56Z",
+      "side": 1,
+      "message": "Désolé je l\u0027avais pas vu celui là (je suis un peu psychorigide de l\u0027insécable :), le plus simple est de rechercher tout les \" ?\" \" !\" et \" :\" dans tout le fichier et de les corriger si nécessaire.",
+      "revId": "4567fe98dcfcfd316365d2458dba7d557fdedc2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
