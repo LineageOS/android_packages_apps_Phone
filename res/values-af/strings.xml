@@ -508,6 +508,8 @@
     <string name="voicemail_settings" msgid="72448049107749316">"Opstelling"</string>
     <string name="voicemail_number_not_set" msgid="6724904736891087856">"&lt;Nie gestel nie&gt;"</string>
     <string name="other_settings" msgid="3672912580359716394">"Ander oproepinstellings"</string>
+    <string name="dialer_ui_settings_title">Nommerbord instellings</string>
+    <string name="dialer_ui_settings_summary">Instellings vir die nommerbord</string>
     <string name="calling_via_template" msgid="4839419581866928142">"Bel via <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
     <string name="contactPhoto" msgid="4713193418046639466">"kontakfoto"</string>
     <string name="goPrivate" msgid="865837794424530980">"gaan privaat"</string>
@@ -649,6 +651,30 @@
     <!-- Permission for notification-bar network toggle -->
     <string name="perm_change_mobile_network">Verander netwerk (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">\'n program met hierdie toestemming kan, te enige tyd, tussen 2G en 3G data verander. 3G is vinniger maar gebruik meer battery en kan duurder wees.</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Omdraai aksie</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Omdraai toestel na\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Omdraai van telefoon af sal <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Entries listed in the setting for the flip action. -->
+    <string-array name="flip_action_setting_entries">
+        <item>Doen niks nie</item>
+        <item>Maak klank stil</item>
+        <item>Verwerp oproep</item>
+    </string-array>
+
+    <!-- Summary texts for flip action. Must be ordered by numerical
+         value (do nothing = 0, mute = 1, dismiss = 2) -->
+    <string-array name="flip_action_summary_entries">
+        <item>doen niks</item>
+        <item>maak klank stil</item>
+        <item>verwerp oproep</item>
+    </string-array>
 
     <!-- CYANOGENMOD ADDITIONS END -->
 
