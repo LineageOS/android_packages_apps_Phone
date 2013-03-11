@@ -702,6 +702,8 @@
     <string name="vibrate_hangup">Vibrer au raccrochement</string>
     <string name="vibrate_45">Vibrer à la 45ème seconde</string>
     <string name="vibrate_45_sum">Vibrer à la 45ème seconde toutes les minutes pendant un appel sortant</string>
+    <string name="rejected_as_missed">Appels refusés comme manqués</string>
+    <string name="rejected_as_missed_sum">Afficher les appels rejetés comme manqués plutôt qu\'entrants dans l\'historique des appels</string>
     <string name="show_ssn_label">Notification des événements</string>
     <string name="show_ssn_summary">Afficher une notification pour les divers événements du réseau liés au traitement des appels</string>
 
