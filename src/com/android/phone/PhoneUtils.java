@@ -426,6 +426,10 @@ public class PhoneUtils {
         private static SharedPreferences getPrefs(Context context) {
             return PreferenceManager.getDefaultSharedPreferences(context);
         }
+        static boolean markRejectedCallsAsMissed(Context context) {
+            return PreferenceManager.getDefaultSharedPreferences(context)
+                      .getBoolean("button_rejected_as_missed", false);
+        }
     }
 
     static boolean hangupRingingCall(Call ringing) {
