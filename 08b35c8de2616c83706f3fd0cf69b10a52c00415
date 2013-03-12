@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//9K0\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 629,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-12T00:41:20Z",
+      "side": 1,
+      "message": "Sorry there\u0027s a space too much :\n\nAfficher les appels rejetés comme manqués plutôt qu\\\u0027entrants dans l\\\u0027historique des appels",
+      "revId": "08b35c8de2616c83706f3fd0cf69b10a52c00415",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
