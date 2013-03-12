@@ -199,7 +199,7 @@
     <string name="data_enable_summary" msgid="5022018967714633874">"Adathozzáférés engedélyezése mobilhálózatokon"</string>
     <string name="roaming" msgid="8871412572928323707">"Adatbarangolás"</string>
     <string name="roaming_enable" msgid="7331106985174381987">"Csatlakozás adatszolgáltatásokhoz barangolás során"</string>
-    <string name="roaming_disable" msgid="1843417228755568110">"Csatlakozás adatszolgáltatásokhoz barangolás során"</string>
+    <string name="roaming_disable" msgid="1843417228755568110">"Ne csatlakozzon adatszolgáltatásokhoz barangolás során"</string>
     <string name="roaming_reenable_message" msgid="8913735676127858115">"Megszakadt az adatkapcsolat, mert elhagyta az otthoni hálózatot, és az adatbarangolás nincs bekapcsolva."</string>
     <string name="roaming_warning" msgid="7820963598559553967">"Engedélyezi az adatbarangolást? Lehet, hogy jelentős összeget számítanak fel érte!"</string>
     <string name="gsm_umts_options" msgid="6538311689850981686">"GSM/UMTS beállítások"</string>
