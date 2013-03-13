@@ -36,9 +36,12 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.RemoteException;
 import android.os.SystemProperties;
+import android.preference.ListPreference;
+import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.telephony.PhoneNumberUtils;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -47,6 +50,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.telephony.TelephonyManager;
 
 import com.android.internal.telephony.Call;
 import com.android.internal.telephony.CallManager;
@@ -415,6 +419,15 @@ public class PhoneUtils {
                       .getString("flip_action", "0");
             return Integer.parseInt(s);
         }
+        static  String homeDialSetting(Context context) {
+            String s = PreferenceManager.getDefaultSharedPreferences(context)
+                      .getString("home_dial_setting", "");
+            return s;
+        }       
+        static boolean homeDial(Context context) {
+            return PreferenceManager.getDefaultSharedPreferences(context)
+                      .getBoolean("home_dial", false);
+        }         
     }
 
     static boolean hangupRingingCall(Call ringing) {
@@ -682,6 +695,18 @@ public class PhoneUtils {
         final boolean initiallyIdle = app.mCM.getState() == PhoneConstants.State.IDLE;
 
         try {
+        	
+        	if (/*(isRoaming) && */(numberToDial.startsWith("0")) && (!numberToDial.startsWith("00"))){
+        		//Home dial just call Romanian prefix for now
+        		//Later I'll decide where can we set this
+        		if (PhoneSettings.homeDial(context)){
+	        		String myprefix=PhoneSettings.homeDialSetting(context);
+	        		//Log.w("Dungo","MyPrefix: "+numberToDial);
+	        		if (!myprefix.isEmpty()){
+	        			numberToDial=myprefix+numberToDial.substring(1, numberToDial.length());
+	        		}
+        		}
+        	}
             connection = app.mCM.dial(phone, numberToDial);
         } catch (CallStateException ex) {
             // CallStateException means a new outgoing call is not currently

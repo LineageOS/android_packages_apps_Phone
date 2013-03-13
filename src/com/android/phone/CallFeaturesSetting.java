@@ -196,6 +196,10 @@ public class CallFeaturesSetting extends PreferenceActivity
 
     private static final String FLIP_ACTION_KEY = "flip_action";
 
+    private static final String HOME_DIAL_KEY = "home_dial";
+    
+    private static final String HOME_DIAL_SETTING_KEY = "home_dial_setting";
+    
     private Intent mContactListIntent;
 
     /** Event for Async voicemail change call */
@@ -287,6 +291,8 @@ public class CallFeaturesSetting extends PreferenceActivity
     private CheckBoxPreference mVoicemailNotificationVibrate;
     private SipSharedPreferences mSipSharedPreferences;
     private ListPreference mFlipAction;
+    private CheckBoxPreference mHomeDial;
+    private ListPreference mHomeDialSetting;
 
     private class VoiceMailProvider {
         public VoiceMailProvider(String name, Intent intent) {
@@ -617,6 +623,8 @@ public class CallFeaturesSetting extends PreferenceActivity
             handleSipCallOptionsChange(objValue);
         } else if (preference == mFlipAction) {
             updateFlipActionSummary((String) objValue);
+        } else if (preference == mHomeDialSetting) {
+            updateHomeDialSettingSummary((String) objValue);
         }
         // always let the preference setting proceed.
         return true;
@@ -630,6 +638,26 @@ public class CallFeaturesSetting extends PreferenceActivity
         }
     }
 
+    
+    private void updateHomeDialSettingSummary(String action) {
+        int i = 0;//Integer.parseInt(action);
+       // Log.w("dungo", "ACTION: \"" +action+"\"");
+        if (mHomeDialSetting != null) {
+            String[] prefixes = getResources().getStringArray(R.array.home_dial_setting_values);
+            for (String prefix: prefixes){
+            	if (prefix.equals(action)){
+            		break;
+            	}
+            	i++;
+            }
+            String[] summaries = getResources().getStringArray(R.array.home_dial_setting_summary_entries);
+            if ((i<summaries.length) && (i>=0)){
+            	mHomeDialSetting.setSummary(getString(R.string.home_dial_setting_summary, summaries[i]));
+            } else {
+            	mHomeDialSetting.setSummary("Not used" );
+            }
+        }
+    }
     @Override
     public void onDialogClosed(EditPhoneNumberPreference preference, int buttonClicked) {
         if (DBG) log("onPreferenceClick: request preference click on dialog close: " +
@@ -1564,6 +1592,9 @@ public class CallFeaturesSetting extends PreferenceActivity
         mButtonNoiseSuppression = (CheckBoxPreference) findPreference(BUTTON_NOISE_SUPPRESSION_KEY);
         mVoicemailProviders = (ListPreference) findPreference(BUTTON_VOICEMAIL_PROVIDER_KEY);
         mFlipAction = (ListPreference) findPreference(FLIP_ACTION_KEY);
+        mHomeDial= (CheckBoxPreference)  findPreference(HOME_DIAL_KEY);
+        mHomeDialSetting= (ListPreference) findPreference(HOME_DIAL_SETTING_KEY);
+        
         if (mVoicemailProviders != null) {
             mVoicemailProviders.setOnPreferenceChangeListener(this);
             mVoicemailSettings = (PreferenceScreen)findPreference(BUTTON_VOICEMAIL_SETTING_KEY);
@@ -1639,6 +1670,12 @@ public class CallFeaturesSetting extends PreferenceActivity
             mFlipAction.setOnPreferenceChangeListener(this);
         }
 
+        if (mHomeDial != null) {
+            mHomeDial.setOnPreferenceChangeListener(this);
+        }
+        if (mHomeDialSetting != null) {
+            mHomeDialSetting.setOnPreferenceChangeListener(this);
+        }
         if (!getResources().getBoolean(R.bool.world_phone)) {
             Preference options = prefSet.findPreference(BUTTON_CDMA_OPTIONS);
             if (options != null)
@@ -1855,6 +1892,10 @@ public class CallFeaturesSetting extends PreferenceActivity
 
         if (mFlipAction != null) {
             updateFlipActionSummary(mFlipAction.getValue());
+        }
+
+        if (mHomeDialSetting != null) {
+            updateHomeDialSettingSummary(mHomeDialSetting.getValue());
         }
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(
