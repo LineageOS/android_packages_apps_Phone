@@ -1606,5 +1606,12 @@
         <item>dismiss the call</item>
     </string-array>
 
+    <!-- Home dial setting -->
+    <string name="home_dial_title">Home dial</string>
+    <string name="home_dial_setting_title">Country prefix</string>
+    <string name="home_dial_setting_dialog_title">Select country prefix</string>
+    <string name="home_dial_setting_summary">Will prefix your phone numbers with <xliff:g id="action">%s</xliff:g> when roaming</string>
+    <string name="home_dial_setting_disabled">Disabled</string>
+
     <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
