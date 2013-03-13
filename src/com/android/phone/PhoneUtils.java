@@ -36,6 +36,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.RemoteException;
 import android.os.SystemProperties;
+import android.preference.ListPreference;
+import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.telephony.PhoneNumberUtils;
@@ -419,6 +421,15 @@ public class PhoneUtils {
                       .getString("flip_action", "0");
             return Integer.parseInt(s);
         }
+        static String homeDialPrefix(Context context) {
+            if (PreferenceManager.getDefaultSharedPreferences(context)
+                    .getBoolean("home_dial", false)) {
+                return PreferenceManager.getDefaultSharedPreferences(context)
+                        .getString("home_dial_setting", "");
+            } else {
+                return null;
+            }
+        }
     }
 
     static boolean hangupRingingCall(Call ringing) {
@@ -686,6 +697,14 @@ public class PhoneUtils {
         final boolean initiallyIdle = app.mCM.getState() == PhoneConstants.State.IDLE;
 
         try {
+            // All single 0's (not 00 nor +XX)on the beginning of the outgoing numbers
+            // will be replaced by the selected prefix
+            String myPrefix = PhoneSettings.homeDialPrefix(context);
+            if ((numberToDial.startsWith("0")) && (!numberToDial.startsWith("00"))) {
+                if (myPrefix != null) {
+                    numberToDial = myPrefix + numberToDial.substring(1, numberToDial.length());
+                }
+            }
             connection = app.mCM.dial(phone, numberToDial);
         } catch (CallStateException ex) {
             // CallStateException means a new outgoing call is not currently
