@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//8L4\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 1253,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-13T14:48:11Z",
+      "side": 1,
+      "message": "- The indention is off\n- This is hard to understand\n- You\u0027re querying the option even if its value is unneeded.\n\nI would do this:\n\nif (c.isIncoming()) {\n    if (cause \u003d\u003d Connection.DisconnectCause.INCOMING_MISSED) {\n        callLogType \u003d Calls.MISSED_TYPE;\n    } else if (cause \u003d\u003d Connection.DisconnectCause.INCOMING_REJECTED\n            \u0026\u0026 PhoneUtils.PhoneSettings.markRejectedCallsAsMissed(mApplication)) {\n        callLogType \u003d Calls.MISSED_TYPE;\n    } else {\n        callLogType \u003d Calls.INCOMING_TYPE;\n    }\n} else {\n    callLogType \u003d Calls.OUTGOING_TYPE;\n}",
+      "revId": "536c64328c1574b7679db545ac842f061f0a3d16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//8L0\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 418,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-13T14:48:11Z",
+      "side": 1,
+      "message": "I would suggest renaming this to markRejectedCallsAsMissed(). This makes it more obvious what this option is about.",
+      "revId": "536c64328c1574b7679db545ac842f061f0a3d16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
