@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//7vU\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-14T16:44:47Z",
+      "side": 1,
+      "message": "call waiting \u003d\u003e \"??czenie\" ?",
+      "revId": "cafba04bfa094baccfe8ec8efca0ae98879094dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7vY\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 646,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-14T16:44:47Z",
+      "side": 1,
+      "message": "the same summary for both enable and disable strings?",
+      "revId": "cafba04bfa094baccfe8ec8efca0ae98879094dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
