@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//79w\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 636,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-14T00:11:05Z",
+      "side": 1,
+      "message": "doubled \u0027co\u0027",
+      "revId": "e0e651d042bd12cf6f2a6bc5259ece50846bb9ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//79s\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 637,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-14T00:11:05Z",
+      "side": 1,
+      "message": "dot after 45 is not required (is it?)",
+      "revId": "e0e651d042bd12cf6f2a6bc5259ece50846bb9ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//79o\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 639,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-14T00:11:05Z",
+      "side": 1,
+      "message": "\u0027po??cze\u0027 ?",
+      "revId": "e0e651d042bd12cf6f2a6bc5259ece50846bb9ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//79k\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 657,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-14T00:11:05Z",
+      "side": 1,
+      "message": "this whole block shouldn\u0027t be included here, see: \" translatable\u003d\"false\" \"",
+      "revId": "e0e651d042bd12cf6f2a6bc5259ece50846bb9ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
