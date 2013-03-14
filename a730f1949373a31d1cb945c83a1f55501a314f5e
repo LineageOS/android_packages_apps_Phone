@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//780\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 629,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-14T00:57:09Z",
+      "side": 1,
+      "message": "Whitespace error\n\nA tab should consist of 4 spaces",
+      "revId": "a730f1949373a31d1cb945c83a1f55501a314f5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
