@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//7S8\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1564,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-16T18:24:19Z",
+      "side": 1,
+      "message": "How about just \"Show log after call\" and removing the summary text.\n\nAndroid Guidelines suggest that, 1) one should not try to repeat the same words in both title and summary and 2) checkboxes should ideally not have a summary unless absolutely necessary\n\nFor example: Of the other CM items above, only vibrate_45 has a summary because it needed further explanation",
+      "revId": "9b9812f31b14c4624f8aa51d774379310cad8ac3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
