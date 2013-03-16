@@ -34,6 +34,24 @@
       "revId": "9b9812f31b14c4624f8aa51d774379310cad8ac3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7Rg\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1564,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-16T19:06:25Z",
+      "side": 1,
+      "message": "maybe just \"Show log\" as the title then the original summary you had before?",
+      "parentUuid": "AAAAeX//7SI\u003d",
+      "revId": "9b9812f31b14c4624f8aa51d774379310cad8ac3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
