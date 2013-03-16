@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//7Og\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-16T20:00:49Z",
+      "side": 1,
+      "message": "przy odebraniu",
+      "revId": "bf097ba8d430dda6429f195262f0e27268e5d989",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7Oc\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-16T20:00:49Z",
+      "side": 1,
+      "message": "przy oczekujacym polaczeniu",
+      "revId": "bf097ba8d430dda6429f195262f0e27268e5d989",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7OY\u003d",
+        "filename": "res/values-pl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 635,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-03-16T20:00:49Z",
+      "side": 1,
+      "message": "przy rozlaczeniu\n(?)",
+      "revId": "bf097ba8d430dda6429f195262f0e27268e5d989",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
