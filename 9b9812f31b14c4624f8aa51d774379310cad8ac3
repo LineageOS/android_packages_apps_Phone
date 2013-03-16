@@ -16,6 +16,24 @@
       "revId": "9b9812f31b14c4624f8aa51d774379310cad8ac3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//7SI\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1564,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-16T18:57:26Z",
+      "side": 1,
+      "message": "Hmm, I wonder whether this wouldn\u0027t causes strings to not fit in other languages. E.g. in German, \u0027Show log after call\u0027 would translate to something like \u0027Nach Anruf Anrufliste anzeigen\u0027, which might be too long to fit.\n\nI\u0027ll play around with it.",
+      "parentUuid": "AAAAeX//7S8\u003d",
+      "revId": "9b9812f31b14c4624f8aa51d774379310cad8ac3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
