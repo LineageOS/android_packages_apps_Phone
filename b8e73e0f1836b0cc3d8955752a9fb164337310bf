@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//6hw\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-18T16:02:39Z",
+      "side": 1,
+      "message": "Whitespace",
+      "revId": "b8e73e0f1836b0cc3d8955752a9fb164337310bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//6hs\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-18T16:02:39Z",
+      "side": 1,
+      "message": "Several issues here:\n\n- The code is plain broken (i is never assigned)\n- Whitespace\n- Code style (e.g. space missing before opening brace)\n- User-visible string not in resources\n- Unused commented code",
+      "revId": "b8e73e0f1836b0cc3d8955752a9fb164337310bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//6h0\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 431,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-18T16:02:39Z",
+      "side": 1,
+      "message": "- Whitespace\n- You could just do a String homeDialPrefix(Context context) method which returns null if it\u0027s disabled.",
+      "revId": "b8e73e0f1836b0cc3d8955752a9fb164337310bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//6ho\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-03-18T16:02:39Z",
+      "side": 1,
+      "message": "- Whitespace\n- Commented stuff again\n- Weird comments",
+      "revId": "b8e73e0f1836b0cc3d8955752a9fb164337310bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
