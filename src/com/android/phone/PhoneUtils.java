@@ -41,7 +41,6 @@ import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.telephony.PhoneNumberUtils;
-import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -50,7 +49,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
-import android.telephony.TelephonyManager;
 
 import com.android.internal.telephony.Call;
 import com.android.internal.telephony.CallManager;
@@ -423,11 +421,11 @@ public class PhoneUtils {
             String s = PreferenceManager.getDefaultSharedPreferences(context)
                       .getString("home_dial_setting", "");
             return s;
-        }       
+        }
         static boolean homeDial(Context context) {
             return PreferenceManager.getDefaultSharedPreferences(context)
                       .getBoolean("home_dial", false);
-        }         
+        }
     }
 
     static boolean hangupRingingCall(Call ringing) {
@@ -695,18 +693,16 @@ public class PhoneUtils {
         final boolean initiallyIdle = app.mCM.getState() == PhoneConstants.State.IDLE;
 
         try {
-        	
-        	if (/*(isRoaming) && */(numberToDial.startsWith("0")) && (!numberToDial.startsWith("00"))){
-        		//Home dial just call Romanian prefix for now
-        		//Later I'll decide where can we set this
-        		if (PhoneSettings.homeDial(context)){
-	        		String myprefix=PhoneSettings.homeDialSetting(context);
-	        		//Log.w("Dungo","MyPrefix: "+numberToDial);
-	        		if (!myprefix.isEmpty()){
-	        			numberToDial=myprefix+numberToDial.substring(1, numberToDial.length());
-	        		}
-        		}
-        	}
+            // All single 0's (not 00 nor +XX)on the beginning of the outgoing numbers 
+            // will be replaced by the selected prefix
+            if ((numberToDial.startsWith("0")) && (!numberToDial.startsWith("00"))){
+               if (PhoneSettings.homeDial(context)){
+                  String myprefix=PhoneSettings.homeDialSetting(context);
+                  if (!myprefix.isEmpty()){
+                     numberToDial=myprefix+numberToDial.substring(1, numberToDial.length());
+                  }
+               }
+        }
             connection = app.mCM.dial(phone, numberToDial);
         } catch (CallStateException ex) {
             // CallStateException means a new outgoing call is not currently
