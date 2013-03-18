@@ -695,10 +695,10 @@ public class PhoneUtils {
         try {
             // All single 0's (not 00 nor +XX)on the beginning of the outgoing numbers 
             // will be replaced by the selected prefix
-            if ((numberToDial.startsWith("0")) && (!numberToDial.startsWith("00"))){
-               if (PhoneSettings.homeDial(context)){
+            if ((numberToDial.startsWith("0")) && (!numberToDial.startsWith("00"))) {
+               if (PhoneSettings.homeDial(context)) {
                   String myprefix=PhoneSettings.homeDialSetting(context);
-                  if (!myprefix.isEmpty()){
+                  if (!myprefix.isEmpty()) {
                      numberToDial=myprefix+numberToDial.substring(1, numberToDial.length());
                   }
                }
