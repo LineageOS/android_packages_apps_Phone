@@ -52,6 +52,24 @@
       "revId": "9b9812f31b14c4624f8aa51d774379310cad8ac3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//5EE\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1564,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2013-03-22T05:47:03Z",
+      "side": 1,
+      "message": "I prefer \"Show log after call\" tbh. \"Show Log\" could be interpreted as the option to hide the call log altogether.",
+      "parentUuid": "AAAAeX//7Rg\u003d",
+      "revId": "9b9812f31b14c4624f8aa51d774379310cad8ac3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
