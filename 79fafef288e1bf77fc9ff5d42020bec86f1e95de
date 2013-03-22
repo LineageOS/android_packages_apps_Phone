@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//5AA\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1564,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-03-22T15:24:53Z",
+      "side": 1,
+      "message": "I would prefer to have a summary... It\u0027s difficult to find a well describing translations for this feature which fits in one line in other languages.\n\nI like the solution with \u0027Show log\u0027 as title and something like \u0027Show the call log after ending a call\u0027 as summary the most.\n\nThis makes absolutely clear what this feature is about IHMO.",
+      "revId": "79fafef288e1bf77fc9ff5d42020bec86f1e95de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
