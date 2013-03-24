@@ -726,6 +726,9 @@
         <item>elutasítja a hívást</item>
     </string-array>
 
+    <!-- Indicate call wait state in call title -->
+    <string name="card_title_dialing_waiting">Tárcsázás (Várakozás\u2026)</string>
+
     <!-- CYANOGENMOD ADDITIONS END -->
 
 </resources>
