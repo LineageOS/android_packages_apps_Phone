@@ -670,5 +670,8 @@
         <item>odrzuca połączenie</item>
     </string-array>
 
+    <!-- In-call screen: status label for a call in the "dialing" state that's waiting for the busy remote side -->
+    <string name="card_title_dialing_waiting">Łączenie (oczekiwanie\u2026)</string>
+
     <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
