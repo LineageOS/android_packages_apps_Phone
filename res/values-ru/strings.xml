@@ -678,6 +678,8 @@
         <item>сбросить звонок</item>
     </string-array>
 
+    <string name="card_title_dialing_waiting">Набор номера (ожидание\u2026)</string>
+
     <!-- CYANOGENMOD ADDITIONS END -->
 
 </resources>
