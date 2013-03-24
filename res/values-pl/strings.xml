@@ -670,5 +670,8 @@
         <item>odrzuca połączenie</item>
     </string-array>
 
+    <string name="calllog_after_call">Pokaż raport</string>
+    <string name="calllog_after_call_summary">Pokaż raport po zakończeniu połączenia</string>
+
     <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
