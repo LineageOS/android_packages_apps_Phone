@@ -34,6 +34,24 @@
       "revId": "2329c059102c819a948f213a7dfd6bfe11eef141",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//3Mg\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-03-27T06:18:45Z",
+      "side": 1,
+      "message": "Ok. It\u0027s about the current ended call. So i prefer djMesias\u0027s one, but with a minor change:\n\n\"Mostrar el registro de la llamada al colgar\"",
+      "parentUuid": "AAAAeX//3UA\u003d",
+      "revId": "2329c059102c819a948f213a7dfd6bfe11eef141",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
