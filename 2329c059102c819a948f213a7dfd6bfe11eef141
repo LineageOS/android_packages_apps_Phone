@@ -16,6 +16,24 @@
       "revId": "2329c059102c819a948f213a7dfd6bfe11eef141",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//3UA\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 4733
+      },
+      "writtenOn": "2013-03-27T02:19:02Z",
+      "side": 1,
+      "message": "I saw the commit for adding this, I don\u0027t think it\u0027s an option to show the actual call after it. So \"Mostrar el registro al finalizar cada llamada\" would be a better translation:D",
+      "parentUuid": "AAAAeX//3VU\u003d",
+      "revId": "2329c059102c819a948f213a7dfd6bfe11eef141",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
