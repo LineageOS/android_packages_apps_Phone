@@ -1,0 +1,11 @@
+Change-Id: I7c0882f35d7a2f7bc01f4c4fd88b5b74d3dd5faf
+Code-Review+2: Marco Brohet <therbom@gmail.com>
+Code-Review+1: Dmitriy Chermenev <chdiman86@gmail.com>
+Verified+1: Cid
+Code-Review+1: Vladislav Koldobskiy <nevergone.ru@gmail.com>
+Code-Review+1: Vladimir Belkov <belladimir@gmail.com>
+Submitted-by: Marco Brohet <therbom@gmail.com>
+Submitted-at: Fri, 29 Mar 2013 12:14:50 -0700
+Reviewed-on: http://review.cyanogenmod.org/34420
+Project: CyanogenMod/android_packages_apps_Phone
+Branch: refs/heads/cm-10.1
