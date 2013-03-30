@@ -139,4 +139,13 @@
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">Blacklist</string>
 
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Voice quality</string>
+    <string name="voice_quality_summary">Using <xliff:g id="value">%s</xliff:g> profile.</string>
+    <!-- Do not remove those, they're used from overlays. -->
+    <string name="voice_quality_entry_normal">normal</string>
+    <string name="voice_quality_entry_clear">clear</string>
+    <string name="voice_quality_entry_crisp">crisp</string>
+    <string name="voice_quality_entry_bright">bright</string>
+
 </resources>
