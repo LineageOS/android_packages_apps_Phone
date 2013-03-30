@@ -184,6 +184,8 @@ public class CallFeaturesSetting extends PreferenceActivity
     private static final String BUTTON_GSM_UMTS_OPTIONS = "button_gsm_more_expand_key";
     private static final String BUTTON_CDMA_OPTIONS = "button_cdma_more_expand_key";
 
+    private static final String BUTTON_VOICE_QUALITY_KEY = "button_voice_quality_key";
+
     private static final String VM_NUMBERS_SHARED_PREFERENCES_NAME = "vm_numbers";
 
     private static final String BUTTON_SIP_CALL_OPTIONS =
@@ -284,6 +286,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private ListPreference mButtonSipCallOptions;
     private CheckBoxPreference mMwiNotification;
     private ListPreference mVoicemailProviders;
+    private ListPreference mButtonVoiceQuality;
     private PreferenceScreen mVoicemailSettings;
     private Preference mVoicemailNotificationRingtone;
     private CheckBoxPreference mVoicemailNotificationVibrate;
@@ -620,6 +623,10 @@ public class CallFeaturesSetting extends PreferenceActivity
             handleSipCallOptionsChange(objValue);
         } else if (preference == mFlipAction) {
             updateFlipActionSummary((String) objValue);
+        } else if (preference == mButtonVoiceQuality) {
+            if (mButtonVoiceQuality != null) {
+                updateVoiceQualitySummary((String) objValue);
+            }
         }
         // always let the preference setting proceed.
         return true;
@@ -630,6 +637,14 @@ public class CallFeaturesSetting extends PreferenceActivity
         if (mFlipAction != null) {
             String[] summaries = getResources().getStringArray(R.array.flip_action_summary_entries);
             mFlipAction.setSummary(getString(R.string.flip_action_summary, summaries[i]));
+        }
+    }
+
+    private void updateVoiceQualitySummary(String action) {
+        int i = Integer.parseInt(action);
+        if (mButtonVoiceQuality != null) {
+            String[] entries = getResources().getStringArray(R.array.voice_quality_entries);
+            mButtonVoiceQuality.setSummary(getString(R.string.voice_quality_summary, entries[i]));
         }
     }
 
@@ -1569,6 +1584,8 @@ public class CallFeaturesSetting extends PreferenceActivity
         mButtonNoiseSuppression = (CheckBoxPreference) findPreference(BUTTON_NOISE_SUPPRESSION_KEY);
         mVoicemailProviders = (ListPreference) findPreference(BUTTON_VOICEMAIL_PROVIDER_KEY);
         mFlipAction = (ListPreference) findPreference(FLIP_ACTION_KEY);
+        mButtonVoiceQuality = (ListPreference) findPreference(BUTTON_VOICE_QUALITY_KEY);
+
         if (mVoicemailProviders != null) {
             mVoicemailProviders.setOnPreferenceChangeListener(this);
             mVoicemailSettings = (PreferenceScreen)findPreference(BUTTON_VOICEMAIL_SETTING_KEY);
@@ -1644,6 +1661,10 @@ public class CallFeaturesSetting extends PreferenceActivity
             mFlipAction.setOnPreferenceChangeListener(this);
         }
 
+        if (mButtonVoiceQuality != null) {
+            mButtonVoiceQuality.setOnPreferenceChangeListener(this);
+        }
+
         if (!getResources().getBoolean(R.bool.world_phone)) {
             Preference options = prefSet.findPreference(BUTTON_CDMA_OPTIONS);
             if (options != null)
@@ -1665,6 +1686,11 @@ public class CallFeaturesSetting extends PreferenceActivity
             } else {
                 throw new IllegalStateException("Unexpected phone type: " + phoneType);
             }
+        }
+
+        if (TextUtils.isEmpty(getResources().getString(R.string.voice_quality_param))) {
+            prefSet.removePreference(mButtonVoiceQuality);
+            mButtonVoiceQuality = null;
         }
 
         // create intent to bring up contact list
@@ -1863,6 +1889,10 @@ public class CallFeaturesSetting extends PreferenceActivity
 
         if (mFlipAction != null) {
             updateFlipActionSummary(mFlipAction.getValue());
+        }
+
+        if (mButtonVoiceQuality != null) {
+            updateVoiceQualitySummary(mButtonVoiceQuality.getValue());
         }
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(
