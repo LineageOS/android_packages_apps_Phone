@@ -2557,6 +2557,35 @@ public class PhoneUtils {
         return null;
     }
 
+    /* Voice quality filter */
+    public static String getVoiceQualityParameter(Context context) {
+        String param = context.getResources().getString(R.string.voice_quality_param);
+        if (TextUtils.isEmpty(param)) {
+            return null;
+        }
+
+        String value = getVoiceQualityValue(context);
+        if (value == null) {
+            return null;
+        }
+
+        return param + "=" + value;
+    }
+
+    public static String getVoiceQualityValue(Context context) {
+        String value = PreferenceManager.getDefaultSharedPreferences(context).getString(CallFeaturesSetting.BUTTON_VOICE_QUALITY_KEY, null);
+        if (value != null) {
+            return value;
+        }
+
+        /* use first value of entry list */
+        String[] values = context.getResources().getStringArray(R.array.voice_quality_values);
+        if (values.length > 0) {
+            return values[0];
+        }
+        return null;
+    }
+
     /**
      * Returns true when the given call is in INCOMING state and there's no foreground phone call,
      * meaning the call is the first real incoming call the phone is having.
