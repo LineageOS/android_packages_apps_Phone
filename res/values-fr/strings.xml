@@ -626,6 +626,14 @@
 
     <!-- CYANOGENMOD ADDITIONS -->
 
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Qualité d\'écoute</string>
+    <string name="voice_quality_summary">Utiliser un filtre audio pour améliorer la qualité d\'écoute</string>
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Claire</string>
+    <string name="voice_quality_entry_crisp">Nette</string>
+    <string name="voice_quality_entry_bright">Vive</string>
+
     <string name="callUnanswered_forwarded">Appel sans réponse et transmis</string>
     <string name="mwi_notification_title">Indicateur de message en attente</string>
     <string name="mwi_notification_summary">Afficher une notification lorsqu\'un message est en attente dans la messagerie vocale</string>
