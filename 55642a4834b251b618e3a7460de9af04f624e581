@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//19U\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 643,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "Wys die oproep verslag nadat die oproep beëindig is",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//19M\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 656,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "AOSP uses Sleutelbord above.  Also,  no need to use instellings.  It\u0027s already in summary below.",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1+M\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 657,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "See above.  Should be sleutelbord.",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1+A\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "This does not sound right.  Maybe \u0027Draai toestel om...\u0027",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//194\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "Die omdraai van die toestel",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1+I\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 671,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "Demp die klank",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//19o\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 672,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "Verwerp die oproep",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//19k\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "doen niks nie",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//1+E\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 679,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "sal die klank demp",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX//19w\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 680,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-03-30T21:21:24Z",
+      "side": 1,
+      "message": "sal die oproep verwerp",
+      "revId": "55642a4834b251b618e3a7460de9af04f624e581",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
