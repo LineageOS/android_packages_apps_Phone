@@ -649,6 +649,14 @@
 
     <!-- **** CYANOGENMOD ADDITIONS START **** -->
 
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Sprachqualität</string>
+    <string name="voice_quality_summary">Sprachprofil: %s</string>
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Klar</string>
+    <string name="voice_quality_entry_crisp">Sehr klar</string>
+    <string name="voice_quality_entry_bright">Hell</string>
+
     <!-- Dialer UI Settings -->
     <string name="dialer_ui_settings_title">Wähltasten</string>
     <string name="dialer_ui_settings_summary">Einstellungen für die Wähltasten</string>
