@@ -185,6 +185,10 @@ public class CallFeaturesSetting extends PreferenceActivity
     private static final String BUTTON_GSM_UMTS_OPTIONS = "button_gsm_more_expand_key";
     private static final String BUTTON_CDMA_OPTIONS = "button_cdma_more_expand_key";
 
+    private static final String BUTTON_VOICE_QUALITY_KEY = "button_voice_quality_key";
+    private static String mVoiceQuality;
+    private static String mButtonVoiceQualitySum;
+
     private static final String VM_NUMBERS_SHARED_PREFERENCES_NAME = "vm_numbers";
 
     private static final String BUTTON_SIP_CALL_OPTIONS =
@@ -282,6 +286,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private ListPreference mButtonSipCallOptions;
     private CheckBoxPreference mMwiNotification;
     private ListPreference mVoicemailProviders;
+    private ListPreference mButtonVoiceQuality;
     private PreferenceScreen mVoicemailSettings;
     private Preference mVoicemailNotificationRingtone;
     private CheckBoxPreference mVoicemailNotificationVibrate;
@@ -503,6 +508,8 @@ public class CallFeaturesSetting extends PreferenceActivity
             return true;
         } else if (preference == mButtonTTY) {
             return true;
+        } else if (preference == mButtonVoiceQuality) {
+            return true;
         } else if (preference == mButtonNoiseSuppression) {
             int nsp = mButtonNoiseSuppression.isChecked() ? 1 : 0;
             // Update Noise suppression value in Settings database
@@ -576,6 +583,10 @@ public class CallFeaturesSetting extends PreferenceActivity
                     Settings.System.DTMF_TONE_TYPE_WHEN_DIALING, index);
         } else if (preference == mButtonTTY) {
             handleTTYChange(preference, objValue);
+        } else if (preference == mButtonVoiceQuality) {
+            mVoiceQuality = (String) objValue;
+            mButtonVoiceQuality.setValue(mVoiceQuality);
+            mButtonVoiceQuality.setSummary(String.format(mButtonVoiceQualitySum, mButtonVoiceQuality.getEntry()));
         } else if (preference == mMwiNotification) {
             int mwi_notification = mMwiNotification.isChecked() ? 1 : 0;
             Settings.System.putInt(mPhone.getContext().getContentResolver(),
@@ -628,6 +639,10 @@ public class CallFeaturesSetting extends PreferenceActivity
             String[] summaries = getResources().getStringArray(R.array.flip_action_summary_entries);
             mFlipAction.setSummary(getString(R.string.flip_action_summary, summaries[i]));
         }
+    }
+
+    public static String getVoiceQuality() {
+        return mVoiceQuality;
     }
 
     @Override
@@ -1563,6 +1578,7 @@ public class CallFeaturesSetting extends PreferenceActivity
         mButtonTTY = (ListPreference) findPreference(BUTTON_TTY_KEY);
         mButtonNoiseSuppression = (CheckBoxPreference) findPreference(BUTTON_NOISE_SUPPRESSION_KEY);
         mVoicemailProviders = (ListPreference) findPreference(BUTTON_VOICEMAIL_PROVIDER_KEY);
+        mButtonVoiceQuality = (ListPreference) findPreference(BUTTON_VOICE_QUALITY_KEY);
         mFlipAction = (ListPreference) findPreference(FLIP_ACTION_KEY);
         if (mVoicemailProviders != null) {
             mVoicemailProviders.setOnPreferenceChangeListener(this);
@@ -1572,6 +1588,17 @@ public class CallFeaturesSetting extends PreferenceActivity
             mVoicemailNotificationVibrate =
                     (CheckBoxPreference) findPreference(BUTTON_VOICEMAIL_NOTIFICATION_VIBRATE_KEY);
             initVoiceMailProviders();
+        }
+
+        if (mButtonVoiceQuality != null) {
+            if (TextUtils.isEmpty(getResources().getString(R.string.voice_quality_param))) {
+                prefSet.removePreference(mButtonVoiceQuality);
+                mButtonVoiceQuality = null;
+            } else {
+                mButtonVoiceQuality.setOnPreferenceChangeListener(this);
+                mButtonVoiceQualitySum = getResources().getString(R.string.voice_quality_summary);
+                mVoiceQuality = mButtonVoiceQuality.getValue();
+            }
         }
 
         if (mVibrateWhenRinging != null) {
@@ -1906,6 +1933,10 @@ public class CallFeaturesSetting extends PreferenceActivity
      */
     private void lookupRingtoneName() {
         new Thread(mRingtoneLookupRunnable).start();
+
+        if (mButtonVoiceQuality != null) {
+            mButtonVoiceQuality.setSummary(String.format(mButtonVoiceQualitySum, mButtonVoiceQuality.getEntry()));
+        }
     }
 
     private boolean isAirplaneModeOn() {

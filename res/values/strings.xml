@@ -1552,6 +1552,15 @@
 
     <!-- CYANOGENMOD ADDITIONS START -->
 
+    <!-- Voice quality filter -->
+    <string name="voice_quality_preferences_title">Voice quality</string>
+    <string name="voice_quality_summary">Voice profile is currently set to: %s</string>
+    <!-- Do not remove those, they're used from overlays -->
+    <string name="voice_quality_entry_normal">Normal</string>
+    <string name="voice_quality_entry_clear">Clear</string>
+    <string name="voice_quality_entry_crisp">Crisp</string>
+    <string name="voice_quality_entry_bright">Bright</string>
+
     <!-- Advanced Settings -->
     <string name="advanced_setting">Advanced Settings</string>
     <string name="vibrate_outgoing">Vibrate on answer</string>
