@@ -35,7 +35,7 @@
     <string name="callFailed_server_error" msgid="5717915213586193217">"Помилка сервера. Спроб. пізніше."</string>
     <string name="callFailed_noSignal" msgid="1889803273616031933">"Немає сигналу"</string>
     <string name="callFailed_limitExceeded" msgid="4958065157970101491">"Перевищено ліміт ACM"</string>
-    <string name="callFailed_powerOff" msgid="2766035859391549713">"Вимк. радіо"</string>
+    <string name="callFailed_powerOff" msgid="2766035859391549713">"Вимкнути радіо"</string>
     <string name="callFailed_simError" msgid="4476360200030635828">"Помилка SIM-карти або SIM-карта відсутня"</string>
     <string name="callFailed_outOfService" msgid="4825791466557236225">"Поза межами дії служби"</string>
     <string name="callFailed_fdn_only" msgid="2850204579765430641">"Вихідні дзвінки обмежено FDN."</string>
@@ -48,17 +48,17 @@
     <string name="call_lost" msgid="317670617901479594">"Виклик утрачено."</string>
     <string name="ok" msgid="3811371167865772377">"OK"</string>
     <string name="mmiStarted" msgid="6347869857061147003">"Код MMI запущено"</string>
-    <string name="ussdRunning" msgid="485588686340541690">"Запуск. код USSD..."</string>
+    <string name="ussdRunning" msgid="485588686340541690">"Запуск коду USSD..."</string>
     <string name="mmiCancelled" msgid="2771923949751842276">"Код MMI скасовано"</string>
     <string name="cancel" msgid="5044513931633602634">"Скасувати"</string>
     <string name="manageConferenceLabel" msgid="4691922394301969053">"Керувати конференц-викликом"</string>
-    <string name="audio_mode_speaker" msgid="27649582100085266">"Динамік"</string>
-    <string name="audio_mode_earpiece" msgid="4156527186373869107">"Гарнітура Bluetooth"</string>
+    <string name="audio_mode_speaker" msgid="27649582100085266">"Гучномовець"</string>
+    <string name="audio_mode_earpiece" msgid="4156527186373869107">"Динамік"</string>
     <string name="audio_mode_wired_headset" msgid="1465350758489175975">"Дротова гарнітура"</string>
     <string name="audio_mode_bluetooth" msgid="3047641300848211128">"Bluetooth"</string>
     <string name="wait_prompt_str" msgid="7601815427707856238">"Надісл. наступні сигнали?"\n</string>
     <string name="pause_prompt_str" msgid="1789964702154314806">"Надсилання сигналів"\n</string>
-    <string name="send_button" msgid="4106860097497818751">"Надісл."</string>
+    <string name="send_button" msgid="4106860097497818751">"Надіслати"</string>
     <string name="pause_prompt_yes" msgid="3564467212025151797">"Так"</string>
     <string name="pause_prompt_no" msgid="6686238803236884877">"Ні"</string>
     <string name="wild_prompt_str" msgid="5543521676355533577">"Замінити довільний символ на"</string>
@@ -67,7 +67,7 @@
     <string name="add_vm_number_str" msgid="4676479471644687453">"Додати номер"</string>
     <string name="puk_unlocked" msgid="2284912838477558454">"Вашу SIM-карту розблоковано. Ваш телефон розблоковується..."</string>
     <string name="label_ndp" msgid="780479633159517250">"Розбл. PIN-код мережі SIM"</string>
-    <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Розблок."</string>
+    <string name="sim_ndp_unlock_text" msgid="683628237760543009">"Розблокувати"</string>
     <string name="sim_ndp_dismiss_text" msgid="1604823375752456947">"Відхилити"</string>
     <string name="requesting_unlock" msgid="6412629401033249351">"Запитув. розблок. мережі..."</string>
     <string name="unlock_failed" msgid="6490531697031504225">"Не здійсн. запит розблокування мережі"</string>
@@ -477,7 +477,7 @@
     <string name="ota_unsuccessful" msgid="8072141612635635357">"Ваш телефон не активовано. "\n"Можливо, потрібно знайти місце з кращим покриттям (біля вікна чи надворі). "\n\n"Повторіть спробу чи подзвоніть у службу обслуговування, щоб дізнатися про інші варіанти."</string>
     <string name="ota_spc_failure" msgid="3909983542575030796">"ПОМИЛКИ НАДЛИШКУ SPC"</string>
     <string name="ota_call_end" msgid="4537279738134612388">"Назад"</string>
-    <string name="ota_try_again" msgid="7685477206465902290">"Повтор."</string>
+    <string name="ota_try_again" msgid="7685477206465902290">"Повторити"</string>
     <string name="ota_next" msgid="3904945374358235910">"Далі"</string>
     <string name="ecm_exit_dialog" msgid="4448531867763097533">"EcmExitDialog"</string>
     <string name="phone_entered_ecm_text" msgid="6266424252578731203">"Увійд. в реж. авар. зворот. виклику"</string>
@@ -604,7 +604,7 @@
     <string name="description_image_button_zero" msgid="4211255756866893605">"нуль"</string>
     <string name="description_image_button_pound" msgid="1716041284529917866">"решітка"</string>
     <string name="description_dial_button" msgid="7459705245418435351">"дзвонити"</string>
-    <string name="description_delete_button" msgid="4015842181592283903">"backspace"</string>
+    <string name="description_delete_button" msgid="4015842181592283903">"стерти"</string>
     <string name="accessibility_speakerphone_enabled" msgid="1988512040421036359">"Гучний зв’язок увімкнено."</string>
     <string name="accessibility_call_muted" msgid="2776111226185342220">"Звук виклику вимкнено."</string>
     <string name="description_target_answer" msgid="7205604197797472471">"Відповісти"</string>
