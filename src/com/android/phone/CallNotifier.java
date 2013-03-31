@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2006 The Android Open Source Project
+ * Blacklist - Copyright (C) 2013 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,6 +21,7 @@ import com.android.internal.telephony.Call;
 import com.android.internal.telephony.CallManager;
 import com.android.internal.telephony.CallerInfo;
 import com.android.internal.telephony.CallerInfoAsyncQuery;
+import com.android.internal.telephony.CallStateException;
 import com.android.internal.telephony.Connection;
 import com.android.internal.telephony.Phone;
 import com.android.internal.telephony.PhoneConstants;
@@ -30,15 +32,15 @@ import com.android.internal.telephony.cdma.CdmaInformationRecords.CdmaDisplayInf
 import com.android.internal.telephony.cdma.CdmaInformationRecords.CdmaSignalInfoRec;
 import com.android.internal.telephony.cdma.SignalToneUtil;
 import com.android.internal.telephony.gsm.SuppServiceNotification;
-import com.android.internal.telephony.CallManager;
-import com.android.phone.CallFeaturesSetting;
 
 import android.app.ActivityManagerNative;
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothHeadset;
 import android.bluetooth.BluetoothProfile;
 import android.content.Context;
-import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.net.Uri;
@@ -196,6 +198,9 @@ public class CallNotifier extends Handler
     // Cached system services
     private AudioManager mAudioManager;
     private Vibrator mVibrator;
+
+    // Blacklist handling
+    private static final String BLACKLIST = "blacklist";
 
     /**
      * Initialize the singleton CallNotifier instance.
@@ -453,6 +458,29 @@ public class CallNotifier extends Handler
             // event.  There's nothing we can do here, so just bail out
             // without doing anything.  (But presumably we'll log it in
             // the call log when the disconnect event comes in...)
+            return;
+        }
+
+        // Blacklist handling
+        String number = c != null ? c.getAddress() : null;
+        if (TextUtils.isEmpty(number)) {
+            number = "0000";
+        }
+        if (DBG) log("incoming number is: " + number);
+        if (c != null && mApplication.blackList.isListed(number)) {
+            try {
+                // Hang up the call
+                c.setUserData(BLACKLIST);
+                c.hangup();
+
+                // See if we need to display a notification
+                if (PhoneUtils.PhoneSettings.isBlacklistNotifyEnabled(ctx)) {
+                    Context ctx = mApplication.getApplicationContext();
+                    showBlacklistNotification(ctx, number);
+                }
+            } catch (CallStateException e) {
+                // Do nothing
+            }
             return;
         }
 
@@ -1114,6 +1142,12 @@ public class CallNotifier extends Handler
         }
 
         if (c != null) {
+            Object o = c.getUserData();
+            if (BLACKLIST.equals(o)) {
+                if (VDBG) Log.i(LOG_TAG, "in blacklist so skip calllog");
+                return;
+            }
+
             boolean vibHangup = PhoneUtils.PhoneSettings.vibHangup(mApplication);
             if (vibHangup && c.getDurationMillis() > 0) {
                 vibrate(50, 100, 50);
@@ -2343,5 +2377,20 @@ public class CallNotifier extends Handler
 
     private void log(String msg) {
         Log.d(LOG_TAG, msg);
+    }
+
+    private void showBlacklistNotification(Context ctx, String number) {
+        Resources res = ctx.getResources();
+
+        // Build the notification
+        Notification.Builder builder = new Notification.Builder(ctx);
+        builder.setSmallIcon(R.drawable.ic_block_contact_holo_dark);
+        builder.setContentTitle(res.getString(R.string.blacklist_title));
+        String message = res.getString(R.string.blacklist_notification, number);
+        builder.setContentText(message);
+
+        // Post the notification
+        NotificationManager nm = (NotificationManager) ctx.getSystemService(Context.NOTIFICATION_SERVICE);
+        nm.notify(999, builder.build());
     }
 }
