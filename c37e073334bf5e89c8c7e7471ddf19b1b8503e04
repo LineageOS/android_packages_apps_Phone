@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//1pc\u003d",
+        "filename": "res/values-af/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 395,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-31T01:40:48Z",
+      "side": 1,
+      "message": "Please put this below line 632",
+      "revId": "c37e073334bf5e89c8c7e7471ddf19b1b8503e04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
