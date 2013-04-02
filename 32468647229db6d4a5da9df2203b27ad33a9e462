@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen///zo\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-02T14:51:59Z",
+      "side": 1,
+      "message": "Those statics are a (bad) hack.\n\nPlease see https://github.com/maniac103/android_packages_apps_Phone/commit/9173f17684ccf819f38886fa87b894a51f922df7#L10R70 (and the places where those methods are used) for a proper solution.",
+      "revId": "32468647229db6d4a5da9df2203b27ad33a9e462",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
