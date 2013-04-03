@@ -640,22 +640,22 @@ public class CallFeaturesSetting extends PreferenceActivity
 
     
     private void updateHomeDialSettingSummary(String action) {
-        int i = 0;//Integer.parseInt(action);
-       // Log.w("dungo", "ACTION: \"" +action+"\"");
+        
         if (mHomeDialSetting != null) {
+        	int i = 0;
             String[] prefixes = getResources().getStringArray(R.array.home_dial_setting_values);
             for (String prefix: prefixes){
-            	if (prefix.equals(action)){
+            if (prefix.equals(action)){
             		break;
             	}
             	i++;
             }
-            String[] summaries = getResources().getStringArray(R.array.home_dial_setting_summary_entries);
+            /*String[] summaries = getResources().getStringArray(R.array.home_dial_setting_summary_entries);
             if ((i<summaries.length) && (i>=0)){
             	mHomeDialSetting.setSummary(getString(R.string.home_dial_setting_summary, summaries[i]));
             } else {
             	mHomeDialSetting.setSummary("Not used" );
-            }
+            }*/
         }
     }
     @Override

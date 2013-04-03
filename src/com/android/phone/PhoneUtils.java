@@ -417,14 +417,14 @@ public class PhoneUtils {
                       .getString("flip_action", "0");
             return Integer.parseInt(s);
         }
-        static  String homeDialSetting(Context context) {
-            String s = PreferenceManager.getDefaultSharedPreferences(context)
-                      .getString("home_dial_setting", "");
-            return s;
-        }
-        static boolean homeDial(Context context) {
-            return PreferenceManager.getDefaultSharedPreferences(context)
-                      .getBoolean("home_dial", false);
+        static String homeDialPrefix(Context context) {
+            if (PreferenceManager.getDefaultSharedPreferences(context)
+            		.getBoolean("home_dial", false)) {
+            	return PreferenceManager.getDefaultSharedPreferences(context)
+                       .getString("home_dial_setting", "");
+            } else {
+            	return null;
+            }
         }
     }
 
@@ -695,14 +695,12 @@ public class PhoneUtils {
         try {
             // All single 0's (not 00 nor +XX)on the beginning of the outgoing numbers 
             // will be replaced by the selected prefix
+        	String myprefix=PhoneSettings.homeDialPrefix(context);
             if ((numberToDial.startsWith("0")) && (!numberToDial.startsWith("00"))) {
-               if (PhoneSettings.homeDial(context)) {
-                  String myprefix=PhoneSettings.homeDialSetting(context);
-                  if (!myprefix.isEmpty()) {
+               if (myprefix != null) {
                      numberToDial=myprefix+numberToDial.substring(1, numberToDial.length());
-                  }
                }
-        }
+            }
             connection = app.mCM.dial(phone, numberToDial);
         } catch (CallStateException ex) {
             // CallStateException means a new outgoing call is not currently
