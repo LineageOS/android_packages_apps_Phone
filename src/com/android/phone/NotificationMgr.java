@@ -1327,10 +1327,14 @@ public class NotificationMgr implements CallerInfoAsyncQuery.OnQueryCompleteList
             CallFeaturesSetting.migrateVoicemailVibrationSettingsIfNeeded(prefs);
             final boolean vibrate = prefs.getBoolean(
                     CallFeaturesSetting.BUTTON_VOICEMAIL_NOTIFICATION_VIBRATE_KEY, false);
+            final boolean clearable = prefs.getBoolean(
+                    CallFeaturesSetting.BUTTON_VOICEMAIL_NOTIFICATION_CLEARABLE_KEY, false);
             if (vibrate) {
                 notification.defaults |= Notification.DEFAULT_VIBRATE;
             }
-            notification.flags |= Notification.FLAG_NO_CLEAR;
+            if (!clearable) {
+                notification.flags |= Notification.FLAG_NO_CLEAR;
+            }
             configureLedNotification(mContext, VOICEMAIL_NOTIFICATION, notification);
             mNotificationManager.notify(VOICEMAIL_NOTIFICATION, notification);
         } else {

@@ -170,6 +170,8 @@ public class CallFeaturesSetting extends PreferenceActivity
             "button_voicemail_notification_vibrate_when_key";
     /* package */ static final String BUTTON_VOICEMAIL_NOTIFICATION_RINGTONE_KEY =
             "button_voicemail_notification_ringtone_key";
+    static final String BUTTON_VOICEMAIL_NOTIFICATION_CLEARABLE_KEY =
+            "button_voicemail_notification_clearable_key";
     private static final String BUTTON_FDN_KEY   = "button_fdn_key";
     private static final String BUTTON_RESPOND_VIA_SMS_KEY   = "button_respond_via_sms_key";
 
@@ -285,6 +287,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private PreferenceScreen mVoicemailSettings;
     private Preference mVoicemailNotificationRingtone;
     private CheckBoxPreference mVoicemailNotificationVibrate;
+    private CheckBoxPreference mVoicemailNotificationClearable;
     private SipSharedPreferences mSipSharedPreferences;
     private ListPreference mFlipAction;
 
@@ -1571,6 +1574,8 @@ public class CallFeaturesSetting extends PreferenceActivity
                     findPreference(BUTTON_VOICEMAIL_NOTIFICATION_RINGTONE_KEY);
             mVoicemailNotificationVibrate =
                     (CheckBoxPreference) findPreference(BUTTON_VOICEMAIL_NOTIFICATION_VIBRATE_KEY);
+            mVoicemailNotificationClearable =
+                    (CheckBoxPreference) findPreference(BUTTON_VOICEMAIL_NOTIFICATION_CLEARABLE_KEY);
             initVoiceMailProviders();
         }
 
@@ -1992,6 +1997,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             mVoicemailSettings.setIntent(null);
 
             mVoicemailNotificationVibrate.setEnabled(false);
+            mVoicemailNotificationClearable.setEnabled(false);
         } else {
             if (DBG) {
                 log("updateVMPreferenceWidget: provider for the key \"" + key + "\".."
@@ -2004,6 +2010,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             mVoicemailSettings.setIntent(provider.intent);
 
             mVoicemailNotificationVibrate.setEnabled(true);
+            mVoicemailNotificationClearable.setEnabled(true);
         }
     }
 

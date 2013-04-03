@@ -1606,5 +1606,9 @@
         <item>dismiss the call</item>
     </string-array>
 
+    <!-- clear the mwi notification -->
+    <string name="voicemail_notification_clearable_title">Voicemail notification</string>
+    <string name="voicemail_notification_clearable_summary">Allow voicemail notifications to be dismissed</string>
+
     <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
