@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen///Rw\u003d",
+        "filename": "res/xml/call_feature_setting.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-03T19:17:39Z",
+      "side": 1,
+      "message": "As the set of valid values is specified on a per-device basis, I think this value should not be hardcoded. Just set this appropriately in onResume(). Like this:\n\nhttps://github.com/maniac103/android_packages_apps_Phone/blob/gingerbread/src/com/android/phone/CallFeaturesSetting.java#L1678",
+      "revId": "a1c2087b42a8c33d977540696db41f9a46c24223",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen///R0\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 2587,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-03T19:17:39Z",
+      "side": 1,
+      "message": "Those methods should go into the PhoneSettings class, as they deal with preferences.",
+      "revId": "a1c2087b42a8c33d977540696db41f9a46c24223",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
