@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAen///aU\u003d",
+        "filename": "res/xml/call_feature_setting.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 3556
+      },
+      "writtenOn": "2013-04-03T04:02:30Z",
+      "side": 1,
+      "message": "A default value needs to be set here.  Currently it shows Voice profile is currently set to: null at first boot.  Once a profile is set it works: D/AudioHardwareMot(146): Voice quality config received with value \u003d Bright",
+      "revId": "32468647229db6d4a5da9df2203b27ad33a9e462",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen///zo\u003d",
         "filename": "src/com/android/phone/CallFeaturesSetting.java",
         "patchSetId": 1
