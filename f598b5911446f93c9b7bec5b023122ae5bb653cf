@@ -2,6 +2,57 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAen///EM\u003d",
+        "filename": "res/values/home_dial.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-04T13:13:57Z",
+      "side": 1,
+      "message": "Can be moved to strings.xml",
+      "revId": "f598b5911446f93c9b7bec5b023122ae5bb653cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen///EE\u003d",
+        "filename": "res/values/home_dial.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 496,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-04T13:13:57Z",
+      "side": 1,
+      "message": "Isn\u0027t this redundant?",
+      "revId": "f598b5911446f93c9b7bec5b023122ae5bb653cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen///D8\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1617,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-04T13:13:57Z",
+      "side": 1,
+      "message": "So, let\u0027s say I\u0027m using Dutch numbers, the sentence would be:\n\n- Will prefix with +31 your phone numbers when roaming\n\nWhy not:\n\n- Will prefix your phone numbers with +31 when roaming",
+      "revId": "f598b5911446f93c9b7bec5b023122ae5bb653cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen///Eg\u003d",
         "filename": "src/com/android/phone/CallFeaturesSetting.java",
         "patchSetId": 2
