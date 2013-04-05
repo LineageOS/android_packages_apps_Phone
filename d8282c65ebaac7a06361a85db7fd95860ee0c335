@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//+eU\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-05T16:14:03Z",
+      "side": 1,
+      "message": "No need for the extra spacing here.",
+      "revId": "d8282c65ebaac7a06361a85db7fd95860ee0c335",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//+eY\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 841,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-05T16:14:03Z",
+      "side": 1,
+      "message": "Need to revert this to the original code since we don\u0027t have the blacklist stuff here any more.  Also should close the cursor.",
+      "revId": "d8282c65ebaac7a06361a85db7fd95860ee0c335",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
