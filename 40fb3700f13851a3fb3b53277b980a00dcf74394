@@ -16,6 +16,24 @@
       "revId": "40fb3700f13851a3fb3b53277b980a00dcf74394",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//+CQ\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 1873,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-06T15:09:33Z",
+      "side": 1,
+      "message": "You need to set an OnPreferenceChangeListener on mButtonVoiceQuality. Have a look at how mFlipAction is handled.",
+      "parentUuid": "AAAAen//+CY\u003d",
+      "revId": "40fb3700f13851a3fb3b53277b980a00dcf74394",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
