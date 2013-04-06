@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//+CY\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 1873,
+      "author": {
+        "id": 3556
+      },
+      "writtenOn": "2013-04-06T14:56:30Z",
+      "side": 1,
+      "message": "This is not updating the value after the setting is changed.  If a check box is toggled then it updates.  I have tried numerous ways to get it to update to no avail.",
+      "revId": "40fb3700f13851a3fb3b53277b980a00dcf74394",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
