@@ -105,6 +105,24 @@
       "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//9sI\u003d",
+        "filename": "src/com/android/phone/PhoneGlobals.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 1548,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-07T10:47:40Z",
+      "side": 1,
+      "message": "Yes, I think you are ;) I\u0027ll fix this.",
+      "parentUuid": "AAAAen//9xg\u003d",
+      "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
