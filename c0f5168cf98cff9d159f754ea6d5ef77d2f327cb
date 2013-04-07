@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//9zs\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-07T00:36:58Z",
+      "side": 1,
+      "message": "Instead of duplicating constants, the ones defined on PhoneGlobals should be used here.",
+      "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//9zw\u003d",
+        "filename": "src/com/android/phone/PhoneGlobals.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 1548,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-07T00:36:58Z",
+      "side": 1,
+      "message": "I\u0027d suggest splitting this block. It should not handle the notification stuff, but only the actual blacklist removal. The notification stuff and the toast (and the remove broadcast - deleting from the activity would also be fine with me though) IMHO should go into a separate activity with transparent theme that\u0027s called from the notification action. That way, the notification area is automatically closed as well.",
+      "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
