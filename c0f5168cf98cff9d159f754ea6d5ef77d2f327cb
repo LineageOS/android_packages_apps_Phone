@@ -69,6 +69,24 @@
       "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//9zM\u003d",
+        "filename": "src/com/android/phone/PhoneGlobals.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 1548,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-07T01:09:30Z",
+      "side": 1,
+      "message": "The behaviour of the insert and remove broadcasts is asymmetric:\n- insert just inserts\n- remove removes, but also kills notification, messes with system dialogs and shows a toast\n\nIMHO, this cries \u0027bad design\u0027 ;) Hence I suggest to split out the notification specific functionality to a separate (transparent) activity which kills the notification, shows the toast, sends the remove broadcast and finishes itself afterwards. When making the content intent an activity instead of a broadcast, one also doesn\u0027t need to mess around with collapsing the notification area, because that is handled by the system.",
+      "parentUuid": "AAAAen//9zY\u003d",
+      "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
