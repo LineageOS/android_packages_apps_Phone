@@ -87,6 +87,24 @@
       "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//9xg\u003d",
+        "filename": "src/com/android/phone/PhoneGlobals.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 1548,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-07T01:42:01Z",
+      "side": 1,
+      "message": "Isn\u0027t that a bit of an overkill for one use case and 4 lines of code? I would rather just remove the shade collapse and the toast.  Or am I overstating the complexity?",
+      "parentUuid": "AAAAen//9zM\u003d",
+      "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
