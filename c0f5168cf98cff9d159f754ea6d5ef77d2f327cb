@@ -123,6 +123,24 @@
       "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//9oA\u003d",
+        "filename": "src/com/android/phone/PhoneGlobals.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 1548,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-07T16:11:14Z",
+      "side": 1,
+      "message": "Danny,  I\u0027m not actually sure we should have this functionality - hence why I removed it in ps18.\n\nEven though this functions exactly like code further down is this file (voicemail notification dismiss if I recall) What bothered me about it is feature is that the behaviour of the notification is inconsistent with other notifications\n\nI wanted it to give the user feedback that the number has been removed but cannot do that via a Toast while the shade is down, but collapsing the shade automatically will make managing of other notifications inconvenient and leads to an inconsistent UX.  So I asked myself if the toast is really that important?  Other notifications (e.g. Mark read on Mms) does not show confitmations so why should this one?\n\nWe have to programmatically dismiss the notification itself but the rest I decided to drop since I\u0027m not happy with the resulting UX.\n\nWhat I am wondering is if we should not mirror what the new Gmail notification does when you use the delete action - updates the notification itself and then it auto dismisses in 2 or 3 seconds.\n\n??",
+      "parentUuid": "AAAAen//9sI\u003d",
+      "revId": "c0f5168cf98cff9d159f754ea6d5ef77d2f327cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
