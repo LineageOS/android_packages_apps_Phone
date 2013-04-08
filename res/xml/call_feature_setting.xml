@@ -47,7 +47,19 @@
     <PreferenceCategory
         android:key="pref_advanced_settings"
         android:title="@string/advanced_setting">
-
+		<CheckBoxPreference
+            android:key="home_dial"
+            android:title="@string/home_dial_title"
+            android:persistent="true"
+            android:defaultValue="false" />  
+                  
+        <ListPreference
+            android:key="home_dial_setting"
+            android:title="@string/home_dial_setting_title"
+            android:dialogTitle="@string/home_dial_setting_dialog_title"
+            android:entries="@array/home_dial_setting_entries"
+            android:entryValues="@array/home_dial_setting_values"
+            android:defaultValue="" />
         <CheckBoxPreference
             android:key="button_vibrate_outgoing"
             android:title="@string/vibrate_outgoing"
@@ -65,6 +77,12 @@
             android:title="@string/vibrate_45"
             android:persistent="true"
             android:summary="@string/vibrate_45_sum" />
+        <CheckBoxPreference
+            android:key="button_calllog_after_call"
+            android:title="@string/calllog_after_call"
+            android:summary="@string/calllog_after_call_summary"
+            android:persistent="true"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
   <PreferenceCategory
