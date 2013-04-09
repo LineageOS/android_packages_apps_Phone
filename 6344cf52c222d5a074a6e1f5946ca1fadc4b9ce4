@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//9Qc\u003d",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 19
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 3843
+      },
+      "writtenOn": "2013-04-09T00:24:56Z",
+      "side": 1,
+      "message": "David: I\u0027m not sure if object serialization (ObjectOutputStream/ObjectInputStream) is a good idea. It is okay for network communication, caching or something else. There is no transactions, what can the user do if the blacklist.dat binary file is going to be corrupt? Or it can be difficult if we want to modify the data structure. This can be complicated, this is only my suggestion.",
+      "revId": "6344cf52c222d5a074a6e1f5946ca1fadc4b9ce4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
