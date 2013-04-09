@@ -800,6 +800,8 @@
     <string name="card_title_dialing">Dialing</string>
     <!-- In-call screen: status label for a re-dialing call -->
     <string name="card_title_redialing">Retrying</string>
+    <!-- In-call screen: status label for a call in the "dialing" state that's waiting for the busy remote side -->
+    <string name="card_title_dialing_waiting">Dialing (waiting\u2026)</string>
 
     <!-- In-call screen: status label for a conference call -->
     <string name="card_title_conf_call">Conference call</string>
@@ -1561,6 +1563,8 @@
     <string name="vibrate_45_sum">Vibrates at the 45 second mark of every minute during outgoing calls</string>
     <string name="show_ssn_label">Event notification</string>
     <string name="show_ssn_summary">Show a notification for various network events related to call handling</string>
+    <string name="calllog_after_call">Show log</string>
+    <string name="calllog_after_call_summary">Show the call log after ending a call</string>
 
     <!-- Mobile network settings screen, setting check box name -->
     <string name="national_roaming">National data roaming</string>
@@ -1604,5 +1608,18 @@
         <item>dismiss the call</item>
     </string-array>
 
+<!-- Setting title for Home dial setting. -->
+    <string name="home_dial_title">Home dial</string>
+
+    <string name="home_dial_setting_title">Home dial settings</string>
+
+    <!-- Dialog title of the Home dial setting. -->
+    <string name="home_dial_setting_dialog_title">Select country prefix ...</string>
+
+    <!-- Setting summary for the Home dial setting. -->
+    <string name="home_dial_setting_summary">Will prefix with <xliff:g id="action">%s</xliff:g> your phone numbers when roaming</string>
+
+    <!-- Not used . -->
+    <string name="home_dial_setting_notused">Not used</string>
     <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
