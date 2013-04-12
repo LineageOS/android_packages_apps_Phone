@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//738\u003d",
+        "filename": "res/values-ru/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 690,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-04-12T21:17:23Z",
+      "side": 1,
+      "message": "\"zvonki iz chjornogo spiska\" - mistika kakaja-to, mozhet luchshe blizhe k originalu?",
+      "revId": "3d493f1ce948297ce28c89e5fce89546e8902483",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
