@@ -16,6 +16,41 @@
       "revId": "4a002b18d78fc37f3434921e363834209071e087",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7Ik\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-13T22:35:12Z",
+      "side": 1,
+      "message": "Perhaps \"Llamada perdida reenviada\" for difference with \"notification_missedCallTitle\" string. Up to you.",
+      "parentUuid": "AAAAen//7go\u003d",
+      "revId": "4a002b18d78fc37f3434921e363834209071e087",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7Ic\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-13T22:35:12Z",
+      "side": 1,
+      "message": "Bad slash!!! Must be \"\\\"",
+      "revId": "4a002b18d78fc37f3434921e363834209071e087",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
