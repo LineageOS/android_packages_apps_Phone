@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//7VM\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 448,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2013-04-13T18:07:36Z",
+      "side": 1,
+      "message": "Don\u0027t hardcode these, use the arrays you defined in XML.",
+      "revId": "8fa6069e7bb9f92f7baeb99e58862204224fc5bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
