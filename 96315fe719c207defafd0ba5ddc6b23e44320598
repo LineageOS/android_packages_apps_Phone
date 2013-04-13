@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAen//7Ig\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1630,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-13T22:36:37Z",
+      "side": 1,
+      "message": "Blocked a call from a private number",
+      "revId": "96315fe719c207defafd0ba5ddc6b23e44320598",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//7JE\u003d",
         "filename": "src/com/android/phone/CallNotifier.java",
         "patchSetId": 3
@@ -13,6 +30,23 @@
       "writtenOn": "2013-04-13T22:07:06Z",
       "side": 1,
       "message": "I have a doubt: when the number is private is always empty number string?",
+      "revId": "96315fe719c207defafd0ba5ddc6b23e44320598",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7IM\u003d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 2402,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-13T22:36:37Z",
+      "side": 1,
+      "message": "check spacing before and after ( ) and { } please",
       "revId": "96315fe719c207defafd0ba5ddc6b23e44320598",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
