@@ -51,6 +51,24 @@
       "revId": "66ce9c47d2cccbfc17d7f99bce6298f2f64822b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//70s\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 700,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-13T00:03:31Z",
+      "side": 1,
+      "message": "Good catch. My first translations had \"rechazar\" in all strings. When I published this commit, I forgot change this line.\n\nSubmitting new commit in three, two, one...",
+      "parentUuid": "AAAAen//71w\u003d",
+      "revId": "66ce9c47d2cccbfc17d7f99bce6298f2f64822b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
