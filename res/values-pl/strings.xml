@@ -688,5 +688,8 @@
 
     <string name="onscreenBlacklistText">Czarna lista</string>
 
+    <string name="rejected_as_missed">Odrzucone połączenia jako nieodebrane</string>
+    <string name="rejected_as_missed_sum">Oznaczaj w rejestrze odrzucone połączenia jako \'nieodebrane\' zamiast \'przychodzące\'</string>
+
     <!-- CYANOGENMOD ADDITIONS END -->
 </resources>
