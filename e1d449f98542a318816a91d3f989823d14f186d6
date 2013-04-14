@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//6nk\u003d",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 390,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-04-14T23:04:41Z",
+      "side": 1,
+      "message": "While reverting these string-arrays won\u0027t cause compile errors, but won\u0027t it break stuff on certain devices?",
+      "revId": "e1d449f98542a318816a91d3f989823d14f186d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
