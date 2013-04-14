@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//7Eo\u003d",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-14T01:32:26Z",
+      "side": 1,
+      "message": "Copy\u0026Paste from Settings (http://review.cyanogenmod.org/33665)",
+      "revId": "c97eed1217c371518f0e51d538a877655a1ce74c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7Ec\u003d",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-14T01:32:26Z",
+      "side": 1,
+      "message": "Updated translation",
+      "revId": "c97eed1217c371518f0e51d538a877655a1ce74c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7Eg\u003d",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-14T01:32:26Z",
+      "side": 1,
+      "message": "Fixed slash",
+      "revId": "c97eed1217c371518f0e51d538a877655a1ce74c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7EY\u003d",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2013-04-14T01:32:26Z",
+      "side": 1,
+      "message": "New translations (2)",
+      "revId": "c97eed1217c371518f0e51d538a877655a1ce74c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
