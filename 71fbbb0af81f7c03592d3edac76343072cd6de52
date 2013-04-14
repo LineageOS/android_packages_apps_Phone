@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//6+Q\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-14T10:18:59Z",
+      "side": 1,
+      "message": "Value \u003d\u003d null is a condition that can never happen. You need to either\n- throw out the check completely\n- check conf for validity (\u003e\u003d 0 \u0026\u0026 \u003c values.length) before accessing the array\n\nWhich of the two is the right one depends on how certain you are about the validity of conf. I would probably do the latter:\n\nif (conf \u003c 0 || conf \u003e\u003d values.length) {\n    return null;\n}\nreturn values[conf];\n\nMaybe the length check should be done in getVoiceQualityValue to make sure the summary code works as well without possibly throwing ArrayIndexOutOfBoundsException.",
+      "revId": "71fbbb0af81f7c03592d3edac76343072cd6de52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
