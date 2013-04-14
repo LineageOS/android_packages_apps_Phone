@@ -16,6 +16,24 @@
       "revId": "71fbbb0af81f7c03592d3edac76343072cd6de52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6sA\u003d",
+        "filename": "src/com/android/phone/PhoneUtils.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 3556
+      },
+      "writtenOn": "2013-04-14T21:51:44Z",
+      "side": 1,
+      "message": "Done. The value is defaulted to 0 initially and all the checks are against the array so I don\u0027t see where it could possibly get an ArrayIndexOutOfBoundsException, so I am removing the check.",
+      "parentUuid": "AAAAen//6+Q\u003d",
+      "revId": "71fbbb0af81f7c03592d3edac76343072cd6de52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
