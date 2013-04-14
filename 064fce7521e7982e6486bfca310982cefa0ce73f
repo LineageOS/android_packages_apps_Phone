@@ -87,6 +87,23 @@
       "revId": "064fce7521e7982e6486bfca310982cefa0ce73f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7Dw\u003d",
+        "filename": "res/values-fr/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-04-14T01:41:26Z",
+      "side": 1,
+      "message": "Les prochains appels \u003d\u003e ?",
+      "revId": "064fce7521e7982e6486bfca310982cefa0ce73f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
