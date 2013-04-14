@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen//7FQ\u003d",
+        "filename": "res/values-fr/cm_arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-04-14T01:21:03Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "AAAAen//7H0\u003d",
+      "revId": "064fce7521e7982e6486bfca310982cefa0ce73f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//7H4\u003d",
         "filename": "res/values-fr/cm_arrays.xml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2013-04-13T22:56:03Z",
       "side": 1,
       "message": "aucune action / aucune réaction",
+      "revId": "064fce7521e7982e6486bfca310982cefa0ce73f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//7FI\u003d",
+        "filename": "res/values-fr/cm_arrays.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-04-14T01:21:03Z",
+      "side": 1,
+      "message": "ici il faut écrire \"ne produit aucune action\" ce texte vient à la suite du texte dans cm_strings line65. Ce qui donnerait : \"Retourner le téléphone ne produit aucune action\"",
+      "parentUuid": "AAAAen//7H4\u003d",
       "revId": "064fce7521e7982e6486bfca310982cefa0ce73f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
