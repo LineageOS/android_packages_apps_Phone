@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen//6fs\u003d",
+        "filename": "res/values/cm_arrays.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 3556
+      },
+      "writtenOn": "2013-04-15T13:26:15Z",
+      "side": 1,
+      "message": "I can set up a seperate array for the translatable strings but the setting value had to be converted to an int in order to update the button after selection.  I will upload a new patch set.",
+      "parentUuid": "AAAAen//6gQ\u003d",
+      "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//6gE\u003d",
         "filename": "res/values/cm_strings.xml",
         "patchSetId": 13
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen//6fk\u003d",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 3556
+      },
+      "writtenOn": "2013-04-15T13:26:15Z",
+      "side": 1,
+      "message": "id\u003d\"action\" comes from CallFeaturesSettings.java private void updateVoiceQualitySummary(String action).\n\nWith Just %s the settings menu wasn\u0027t updating until it was closed or another item was clicked.",
+      "parentUuid": "AAAAen//6gE\u003d",
+      "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//6gM\u003d",
         "filename": "res/values/cm_strings.xml",
         "patchSetId": 13
@@ -47,6 +83,24 @@
       "writtenOn": "2013-04-15T13:10:44Z",
       "side": 1,
       "message": "The DO NOT TRANSLATE is plain wrong.",
+      "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6fo\u003d",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 3556
+      },
+      "writtenOn": "2013-04-15T13:26:15Z",
+      "side": 1,
+      "message": "Will fix with a seperate overly as in flipaction",
+      "parentUuid": "AAAAen//6gM\u003d",
       "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
