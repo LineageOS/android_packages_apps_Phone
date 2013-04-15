@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//6gQ\u003d",
+        "filename": "res/values/cm_arrays.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-15T13:10:44Z",
+      "side": 1,
+      "message": "I do not understand the route you\u0027re going here. The initial patch set was set up like this:\n- voice_quality_entries were user-visible strings (e.g. in German: \u0027Normal\u0027, \u0027Klar\u0027, etc.)\n- voice quality_values were the corresponding Moto-internal names (Normal, Clear, ...)\n- The assignment of both was left to the device\n\nWith the setup as it\u0027s now, it\u0027s impossible to translate the user-visible strings which is a no-go.",
+      "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6gE\u003d",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-15T13:10:44Z",
+      "side": 1,
+      "message": "id\u003d\"action\"?\n\nAlso, I suggest to use wording like \u0027Using \u0027%s\u0027 profile\u0027.",
+      "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6gM\u003d",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-15T13:10:44Z",
+      "side": 1,
+      "message": "The DO NOT TRANSLATE is plain wrong.",
+      "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6f4\u003d",
+        "filename": "src/com/android/phone/CallFeaturesSetting.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 648,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-15T13:10:44Z",
+      "side": 1,
+      "message": "Suggestion: make this function do this:\n\nprivate void updateVoiceQualitySummary(String value) {\n    String[] entries \u003d getResources().getStringArray(R.array.voice_quality_entries);\n    String[] values \u003d getResources().getStringArray(R.array.voice_quality_values);\n\n    for (int i \u003d 0; i \u003c values.length; i++) {\n        if (values[i].equals(value)) {\n            mButtonVoiceQuality.setSummary(getString(R.string.voice_quality_summary, entries[i]));\n            return;\n        }\n    }\n    mButtonVoiceQuality.setSummary(null);\n}",
+      "revId": "e018e7fe5bff47e1cfebf184690a81ba9c717392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
