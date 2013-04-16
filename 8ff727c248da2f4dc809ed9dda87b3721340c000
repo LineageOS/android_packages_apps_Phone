@@ -51,6 +51,24 @@
       "revId": "8ff727c248da2f4dc809ed9dda87b3721340c000",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6Bk\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-04-16T20:17:35Z",
+      "side": 1,
+      "message": "Micha?, Tomasz: agreed ;)",
+      "parentUuid": "AAAAen//6Hk\u003d",
+      "revId": "8ff727c248da2f4dc809ed9dda87b3721340c000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
