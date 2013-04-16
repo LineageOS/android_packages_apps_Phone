@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//6UA\u003d",
+        "filename": "res/values-fr/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-04-16T01:11:52Z",
+      "side": 1,
+      "message": "\"Numéros privés\" or \"numéros masqués\" ? What is the best ?",
+      "revId": "8e434787c9334022b77b75d24e7ed7a8ba99d51c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6T8\u003d",
+        "filename": "res/values-fr/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-04-16T01:11:52Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "8e434787c9334022b77b75d24e7ed7a8ba99d51c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
