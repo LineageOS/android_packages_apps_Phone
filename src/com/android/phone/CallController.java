@@ -95,9 +95,9 @@ public class CallController extends Handler {
     /**
      * Initialize the singleton CallController instance.
      *
-     * This is only done once, at startup, from PhoneApp.onCreate().
+     * This is only done once, at startup, from PhoneGlobals.onCreate().
      * From then on, the CallController instance is available via the
-     * PhoneApp's public "callController" field, which is why there's no
+     * PhoneGlobals's public "callController" field, which is why there's no
      * getInstance() method here.
      */
     /* package */ static CallController init(PhoneGlobals app) {

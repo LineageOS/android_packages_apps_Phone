@@ -206,7 +206,7 @@ public class CallNotifier extends Handler
 
     /**
      * Initialize the singleton CallNotifier instance.
-     * This is only done once, at startup, from PhoneApp.onCreate().
+     * This is only done once, at startup, from PhoneGlobals.onCreate().
      */
     /* package */ static CallNotifier init(PhoneGlobals app, Phone phone, Ringer ringer,
                                            CallLogAsync callLog) {

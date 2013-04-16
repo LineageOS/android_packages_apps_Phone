@@ -217,7 +217,7 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
 
     /**
      * Initialize the singleton PhoneInterfaceManager instance.
-     * This is only done once, at startup, from PhoneApp.onCreate().
+     * This is only done once, at startup, from PhoneGlobals.onCreate().
      */
     /* package */ static PhoneInterfaceManager init(PhoneGlobals app, Phone phone) {
         synchronized (PhoneInterfaceManager.class) {

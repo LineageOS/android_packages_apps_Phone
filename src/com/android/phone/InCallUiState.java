@@ -63,9 +63,9 @@ public class InCallUiState {
     /**
      * Initialize the singleton InCallUiState instance.
      *
-     * This is only done once, at startup, from PhoneApp.onCreate().
+     * This is only done once, at startup, from PhoneGlobals.onCreate().
      * From then on, the InCallUiState instance is available via the
-     * PhoneApp's public "inCallUiState" field, which is why there's no
+     * PhoneGlobals's public "inCallUiState" field, which is why there's no
      * getInstance() method here.
      */
     /* package */ static InCallUiState init(Context context) {

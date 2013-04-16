@@ -75,7 +75,7 @@ public class Ringer {
 
     /**
      * Initialize the singleton Ringer instance.
-     * This is only done once, at startup, from PhoneApp.onCreate().
+     * This is only done once, at startup, from PhoneGlobals.onCreate().
      */
     /* package */ static Ringer init(Context context) {
         synchronized (Ringer.class) {

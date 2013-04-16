@@ -4505,7 +4505,7 @@ public class InCallScreen extends Activity
         if ((mApp.cdmaOtaScreenState == null) || (mApp.cdmaOtaProvisionData == null)) {
             // Uh oh -- something wrong with our internal OTASP state.
             // (Since this is an OTASP-capable device, these objects
-            // *should* have already been created by PhoneApp.onCreate().)
+            // *should* have already been created by PhoneGlobals.onCreate().)
             throw new IllegalStateException("checkOtaspStateOnResume: "
                                             + "app.cdmaOta* objects(s) not initialized");
         }

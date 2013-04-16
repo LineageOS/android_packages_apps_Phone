@@ -168,9 +168,9 @@ public class NotificationMgr implements CallerInfoAsyncQuery.OnQueryCompleteList
     /**
      * Initialize the singleton NotificationMgr instance.
      *
-     * This is only done once, at startup, from PhoneApp.onCreate().
+     * This is only done once, at startup, from PhoneGlobals.onCreate().
      * From then on, the NotificationMgr instance is available via the
-     * PhoneApp's public "notificationMgr" field, which is why there's no
+     * PhoneGlobals's public "notificationMgr" field, which is why there's no
      * getInstance() method here.
      */
     /* package */ static NotificationMgr init(PhoneGlobals app) {
