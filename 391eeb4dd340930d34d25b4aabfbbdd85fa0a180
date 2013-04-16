@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//6JU\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "Anrufliste anzeigen, nachdem ein Anruf beendet wurde",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6I8\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "verpasst -\u003e entgangen (es sollte konsistent zur Summary sein)",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6JI\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "anziegen -\u003e anzeigen",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6Jw\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "als einen Platzhalter -\u003e als Platzhalter\nSternchen -\u003e Stern\nfür fortlaufen -\u003e für Wiederholungen\n\nIm letzten Satz fehlen IMHO noch ein paar Kommas:\n\nBeispielsweise würde 123.* alle Nummern, die mit 123 beginnen, und .*123.* alle Nummern, die 123 enthalten, blockieren.",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6J0\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "geblockt -\u003e blockiert/gesperrt/abgewiesen",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6J8\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "Ein Anruf von %s wurde blockiert (evtl. gesperrt / abgewiesen?)",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6J4\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "\u0027Sperre aufheben\u0027?",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6KA\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-16T12:26:23Z",
+      "side": 1,
+      "message": "\"Schwarze Liste\" finde ich nicht so schön. In CM7 hatten wir \"Sperrliste\" - Meinungen dazu?",
+      "revId": "391eeb4dd340930d34d25b4aabfbbdd85fa0a180",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
