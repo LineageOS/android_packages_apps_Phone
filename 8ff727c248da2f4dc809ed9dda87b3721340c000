@@ -33,6 +33,24 @@
       "revId": "8ff727c248da2f4dc809ed9dda87b3721340c000",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//6Hk\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 5868
+      },
+      "writtenOn": "2013-04-16T12:53:34Z",
+      "side": 1,
+      "message": "^ +1 It\u0027s not summary but notification about blocked call from one private number",
+      "parentUuid": "AAAAen//6Hw\u003d",
+      "revId": "8ff727c248da2f4dc809ed9dda87b3721340c000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
