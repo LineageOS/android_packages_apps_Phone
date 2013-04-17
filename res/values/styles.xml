@@ -158,6 +158,7 @@
          tablets as well as regular phone devices.) -->
     <style name="Theme.Settings" parent="@android:style/Theme.Holo.DialogWhenLarge">
         <item name="android:windowCloseOnTouchOutside">true</item>
+	<item name="android:windowBackground">@color/settings_bgcolor</item>    
     </style>
 
     <style name="InCallAnimationStyle" parent="@*android:style/Animation.Holo.Activity">

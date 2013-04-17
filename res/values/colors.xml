@@ -33,4 +33,7 @@
 
     <!-- Used with some smaller texts in manage conference screen. -->
     <color name="manage_conference_secondary_text_color">#888888</color>
+
+    <!-- Used for Mobile Networks Settings Background. -->
+    <color name="settings_bgcolor">#FF111111</color>
 </resources>
