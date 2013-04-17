@@ -16,6 +16,24 @@
       "revId": "d6b22de48f1a2b7f66452769dd742ee3e6ff8f76",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5pM\u003d",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-04-17T21:01:14Z",
+      "side": 1,
+      "message": "Libo jarkij, libo jasnyj.",
+      "parentUuid": "AAAAen//5po\u003d",
+      "revId": "d6b22de48f1a2b7f66452769dd742ee3e6ff8f76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
