@@ -34,6 +34,24 @@
       "revId": "93c3ba429d11775cf7f7bedbb73efc27ae5dbce7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5tc\u003d",
+        "filename": "res/values-fr/cm_arrays.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-04-17T16:38:00Z",
+      "side": 1,
+      "message": "Pas de souci. :-)",
+      "parentUuid": "AAAAen//5v8\u003d",
+      "revId": "93c3ba429d11775cf7f7bedbb73efc27ae5dbce7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
