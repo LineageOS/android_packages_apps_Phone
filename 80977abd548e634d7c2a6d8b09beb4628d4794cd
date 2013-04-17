@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen//5qk\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-04-17T19:31:54Z",
+      "side": 1,
+      "message": "Dein Vorschlag klingt gut, aber ich würde bei \"Eingegangen\" bleiben um es konsistent zu den anderen Übersetzung von z.B. der Anrufstatistik zu halten.",
+      "parentUuid": "AAAAen//5rM\u003d",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//5rY\u003d",
         "filename": "res/values-de/cm_strings.xml",
         "patchSetId": 4
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen//5qg\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-04-17T19:31:54Z",
+      "side": 1,
+      "message": "Wird zu lange -\u003e http://review.cyanogenmod.org/#/c/35976/ ;)",
+      "parentUuid": "AAAAen//5rY\u003d",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//5rg\u003d",
         "filename": "res/values-de/cm_strings.xml",
         "patchSetId": 4
@@ -47,6 +83,24 @@
       "writtenOn": "2013-04-17T19:08:49Z",
       "side": 1,
       "message": "Da fehlt noch was: ;)\n    \u003cstring name\u003d\"blacklist_notification_private_number\"\u003eEin Anruf mit unterdrückter Nummer wurde abgewiesen\u003c/string\u003e",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5qc\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-04-17T19:31:54Z",
+      "side": 1,
+      "message": "Oh, den habe ich übersehen...",
+      "parentUuid": "AAAAen//5rg\u003d",
       "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
