@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//5n4\u003d",
+        "filename": "res/values/colors.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 6020
+      },
+      "writtenOn": "2013-04-17T22:13:39Z",
+      "side": 1,
+      "message": "Defining grey color as \"settings_bgcolor\".",
+      "revId": "da0f8a8096847e685365ca9bbb7994eafa0c8d8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5nw\u003d",
+        "filename": "res/values/styles.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 6020
+      },
+      "writtenOn": "2013-04-17T22:13:39Z",
+      "side": 1,
+      "message": "The Mobile Network settings are called from the packages_apps_settings. In packages_apps_settings we found a Grey Backround. Instead of that when we call the Mobile Networks settings it has a Black Background. To match the UX style of AOSP settings I recreate the windowBackround to Grey.",
+      "revId": "da0f8a8096847e685365ca9bbb7994eafa0c8d8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
