@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//5po\u003d",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2013-04-17T20:35:40Z",
+      "side": 1,
+      "message": "Pomogite pravil\u0027no perevesti, please \u003d)",
+      "revId": "d6b22de48f1a2b7f66452769dd742ee3e6ff8f76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
