@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//5rM\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-17T19:08:49Z",
+      "side": 1,
+      "message": "Komischer Satzbau ;) IMHO ist das hier besser:\n\nAbgewiesene Anrufe in der Anrufliste als \"Entgangen\" anstatt \"Eingegangen\" [oder \"Angenommen\"?] anzeigen",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5rY\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-17T19:08:49Z",
+      "side": 1,
+      "message": "\u0027Private Nummern\u0027 ist im Deutschen IMHO nicht gebräuchlich. Vorschlag: \u0027Anrufe mit unterdrückter Nummer abweisen\u0027 - oder ist das zu lang? In diesem Fall bräuchten wir evtl. eine Summary.",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5rg\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-17T19:08:49Z",
+      "side": 1,
+      "message": "Da fehlt noch was: ;)\n    \u003cstring name\u003d\"blacklist_notification_private_number\"\u003eEin Anruf mit unterdrückter Nummer wurde abgewiesen\u003c/string\u003e",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
