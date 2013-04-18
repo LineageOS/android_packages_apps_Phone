@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen//5ZY\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-04-18T10:32:30Z",
+      "side": 1,
+      "message": "Satzbau analog zu Dannys Vorschlag korrigieren.",
+      "parentUuid": "AAAAen//5qk\u003d",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//5rY\u003d",
         "filename": "res/values-de/cm_strings.xml",
         "patchSetId": 4
@@ -66,6 +84,58 @@
       "side": 1,
       "message": "Wird zu lange -\u003e http://review.cyanogenmod.org/#/c/35976/ ;)",
       "parentUuid": "AAAAen//5rY\u003d",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5ZQ\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-04-18T10:32:30Z",
+      "side": 1,
+      "message": "Dann bitte mit einer Summary ergänzen.",
+      "parentUuid": "AAAAen//5qg\u003d",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5ZM\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-04-18T10:32:30Z",
+      "side": 1,
+      "message": "Der zweite Satz, der die Funktion erklärt, sollte in einem neuen Absatz beginnen.",
+      "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//5ZI\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-04-18T10:32:30Z",
+      "side": 1,
+      "message": "Hier könnte man abkürzen und nur Nummer schreiben.",
       "revId": "80977abd548e634d7c2a6d8b09beb4628d4794cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
