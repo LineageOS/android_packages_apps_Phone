@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//4+E\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-04-19T02:19:57Z",
+      "side": 1,
+      "message": "If the strings are not present in this file, it\u0027s better to move them to cm_strings.xml.",
+      "revId": "adb50d286624485df3525b0a6a890df757450858",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//4+M\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-04-19T02:19:57Z",
+      "side": 1,
+      "message": "Máx. y Próx.",
+      "revId": "adb50d286624485df3525b0a6a890df757450858",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//4+I\u003d",
+        "filename": "res/values-es/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 634,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-04-19T02:19:57Z",
+      "side": 1,
+      "message": "Máx.",
+      "revId": "adb50d286624485df3525b0a6a890df757450858",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
