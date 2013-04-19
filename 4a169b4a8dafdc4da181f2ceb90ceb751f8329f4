@@ -16,6 +16,24 @@
       "revId": "4a169b4a8dafdc4da181f2ceb90ceb751f8329f4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//44E\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-04-19T10:36:14Z",
+      "side": 1,
+      "message": "Diese \"summary\" besteht aus zwei Sätzen. Da wir ja zwischen den zwei Sätzen einen Punkt haben muss nach dem zweiten Satz dann auch ein Punkt sein IMHO.\n\nEs gibt auch glaub ich keinen Styling Guide für \"summarys\" mit zwei Sätzen :D",
+      "parentUuid": "AAAAen//5AQ\u003d",
+      "revId": "4a169b4a8dafdc4da181f2ceb90ceb751f8329f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
