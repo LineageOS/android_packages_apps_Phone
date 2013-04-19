@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//5AQ\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-04-19T00:24:09Z",
+      "side": 1,
+      "message": "Ich hatte gedacht bei einer \"summary\" machen wir am Ende keinen Punkt.",
+      "revId": "4a169b4a8dafdc4da181f2ceb90ceb751f8329f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
