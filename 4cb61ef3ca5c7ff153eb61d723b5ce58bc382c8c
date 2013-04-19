@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAen//4xo\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 5174
+      },
+      "writtenOn": "2013-04-19T14:22:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAen//40A\u003d",
+      "revId": "4cb61ef3ca5c7ff153eb61d723b5ce58bc382c8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//41Q\u003d",
         "filename": "res/values-pl/cm_strings.xml",
         "patchSetId": 2
