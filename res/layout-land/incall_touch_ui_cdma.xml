@@ -192,6 +192,18 @@
                     style="@style/InCallButton"
                     android:src="@drawable/ic_merge_holo_dark"
                     android:contentDescription="@string/onscreenMergeCallsText" />
+                <!-- Separator between 3rd and 4th button -->
+                <View
+                    android:layout_width="@dimen/dialpad_button_margin"
+                    android:layout_height="match_parent"
+                    android:background="#66000000" />
+                <!-- This is a "compound button": it has checked and unchecked states. -->
+                <ToggleButton android:id="@+id/recordButton"
+                    style="@style/InCallCompoundButton"
+                    android:background="@drawable/btn_compound_record"
+                    android:contentDescription="@string/onscreenRecordText"
+                    />
+
             </LinearLayout>
 
             <View

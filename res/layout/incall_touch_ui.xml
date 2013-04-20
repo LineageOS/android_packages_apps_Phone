@@ -138,9 +138,29 @@
                     android:contentDescription="@string/onscreenMuteText"
                     />
 
-                <!-- Separator between 3rd and 4th button -->
                 <View style="@style/VerticalSeparator" />
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialpad_background"
+                android:paddingLeft="@dimen/button_cluster_side_padding"
+                android:paddingRight="@dimen/button_cluster_side_padding"
+                >
+                <!-- Separator between 3rd and 4th button -->
+                <View style="@style/VerticalSeparator" />
+                <!-- "Record" -->
+                <!-- This is a "compound button": it has checked and unchecked states. -->
+                <ToggleButton android:id="@+id/recordButton"
+                    style="@style/InCallCompoundButton"
+                    android:background="@drawable/btn_compound_record"
+                    android:contentDescription="@string/onscreenRecordText"
+                    />
+                <!-- Separator between 3rd and 4th button -->
+                <View style="@style/VerticalSeparator" />
                 <!-- This slot is either "Hold" or "Swap", depending on
                      the state of the call.   One or the other of these
                      must always be set to GONE. -->

@@ -1476,4 +1476,5 @@
          related settings.
          [CHAR LIMIT=40] -->
     <string name="preference_category_ringtone">Ringtone &amp; Vibrate</string>
+    <string name="onscreenRecordText">Call record</string>
 </resources>
