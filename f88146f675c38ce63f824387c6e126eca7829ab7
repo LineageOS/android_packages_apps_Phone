@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//4JE\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-04-21T03:16:46Z",
+      "side": 1,
+      "message": "1. typo: \"Polaczenie wychodzace\"\n2. IMO \"zosta?o zablokowane\" or \"zabronione\"",
+      "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//4JA\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-04-21T03:16:46Z",
+      "side": 1,
+      "message": "as above",
+      "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//4I0\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-04-21T03:16:46Z",
+      "side": 1,
+      "message": "??\nMy suggestion: \"Laczenie rozmowy przekazanej z innego numeru\"",
+      "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//4Iw\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 5637
+      },
+      "writtenOn": "2013-04-21T03:16:46Z",
+      "side": 1,
+      "message": "as above",
+      "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
