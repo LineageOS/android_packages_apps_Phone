@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//4QU\u003d",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-04-21T00:14:29Z",
+      "side": 1,
+      "message": "Vibrirovat\u0027 na 45-sekundnoj otmetke kazhdoj minuty ishodjashhego zvonka",
+      "revId": "7d04f89d89bb9fbc75540fe32fd261ab162c24b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
