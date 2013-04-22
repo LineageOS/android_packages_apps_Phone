@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAen//3NM\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-04-22T20:41:20Z",
+      "side": 1,
+      "message": "bezwarunkowe przekazywanie polaczen aktywne ?",
+      "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3NI\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-04-22T20:41:20Z",
+      "side": 1,
+      "message": "^",
+      "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//4JE\u003d",
         "filename": "res/values-pl/cm_strings.xml",
         "patchSetId": 1
@@ -30,6 +64,23 @@
       "writtenOn": "2013-04-21T03:16:46Z",
       "side": 1,
       "message": "as above",
+      "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3NE\u003d",
+        "filename": "res/values-pl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-04-22T20:41:20Z",
+      "side": 1,
+      "message": "przez operatora ?",
       "revId": "f88146f675c38ce63f824387c6e126eca7829ab7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
