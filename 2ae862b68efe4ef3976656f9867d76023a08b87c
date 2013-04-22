@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//3Q8\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-22T18:40:15Z",
+      "side": 1,
+      "message": "- Elke minuut trillen\n\nhttp://review.cyanogenmod.org/#/c/35977/",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3RA\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-22T18:40:15Z",
+      "side": 1,
+      "message": "- Afgewezen oproepen als gemist",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3Q4\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-22T18:40:15Z",
+      "side": 1,
+      "message": "in de zwarte lijst\n\nof\n\nop de zwarte lijst?",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3Q0\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-22T18:40:15Z",
+      "side": 1,
+      "message": "- Melding weergeven",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3Qw\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-22T18:40:15Z",
+      "side": 1,
+      "message": "is Prive-nummer in dit geval duidelijk genoeg?\n\nMss niet zo\u0027n goede bron :P Maar  hier wordt er ook over gepraat http://forum.fok.nl/topic/1613906/1/999\n\n- Oproepen blokkeren van afgeschermde privé-nummers",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3QM\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-22T18:40:15Z",
+      "side": 1,
+      "message": "Ik vind hier het gebruik van aanhalingstekens ERG verwarrend.\nStraks gaan mensen dat proberen in te typen.\n\n- Gebruik . als jokerteken en * voor herhaling. Bijv.: 123.* blokkeert nummers die beginnen met 123 en .*123.* blokkeert nummers die 123 bevatten",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAen//3P8\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-22T18:40:15Z",
+      "side": 1,
+      "message": "uit of van de zwarte lijst?",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
