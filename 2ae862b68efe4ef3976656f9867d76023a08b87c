@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAe3///1s\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-23T20:01:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAen//3Q8\u003d",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//3RA\u003d",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-04-22T18:40:15Z",
       "side": 1,
       "message": "- Afgewezen oproepen als gemist",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAe3///1c\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-23T20:01:52Z",
+      "side": 1,
+      "message": "Hmmm....\n\nDit is een samentrekking. Voluit wordt de zin:\n\n\u0027Afgewezen oproepen als gemiste oproepen\u0027.\n\nGemist is of een bijwoord (maar net zoals \u0027afgewezen\u0027 hoort het een bijv. nmw. te zijn), of een bijvoeglijk naamwoord voor het onzijdig enkelvoud (en oproepen is mannelijk meervoud dus congrueert dit niet).\n\nIk zou hier toch echt \u0027gemiste\u0027 zeggen.",
+      "parentUuid": "AAAAen//3RA\u003d",
       "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAe3///1o\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-23T20:01:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAen//3Q4\u003d",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//3Q0\u003d",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2013-04-22T18:40:15Z",
       "side": 1,
       "message": "- Melding weergeven",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAe3///1k\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-23T20:01:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAen//3Q0\u003d",
       "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAe3///1g\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-23T20:01:52Z",
+      "side": 1,
+      "message": "Of gewoon afgeschermde nummers?",
+      "parentUuid": "AAAAen//3Qw\u003d",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//3QM\u003d",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAe3///1Y\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-23T20:01:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAen//3QM\u003d",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAen//3P8\u003d",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -115,6 +223,24 @@
       "writtenOn": "2013-04-22T18:40:15Z",
       "side": 1,
       "message": "uit of van de zwarte lijst?",
+      "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAe3///1U\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-04-23T20:01:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "AAAAen//3P8\u003d",
       "revId": "2ae862b68efe4ef3976656f9867d76023a08b87c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
