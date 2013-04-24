@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAe3///n0\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-24T04:17:18Z",
+      "side": 1,
+      "message": "Ik zou hier toch ...\" en .*123.* blokkert nummers die 123 bevatten\" houden.\n\nLeest lekkerder vind ik",
+      "revId": "1f32dbbb977d3b295b24422decba93fe70cac423",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAe3///n4\u003d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-04-24T04:17:18Z",
+      "side": 1,
+      "message": "- Oproep geblokkeerd van afgeschermd nummer",
+      "revId": "1f32dbbb977d3b295b24422decba93fe70cac423",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
