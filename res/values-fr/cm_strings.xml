@@ -79,6 +79,7 @@
     <string name="remove_blacklist_number">Voulez-vous supprimer le numéro %s de la liste noire\u00A0?</string>
     <string name="blacklist_notification">Appel bloqué de %s</string>
     <string name="blacklist_notification_private_number">Un appel masqué a été bloqué</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> appels ont été bloqués</string>
     <string name="unblock_number">Débloqué</string>
     <string name="onscreenBlacklistText">Liste noire</string>
     <string name="voice_quality_preferences_title">Qualité audio</string>
