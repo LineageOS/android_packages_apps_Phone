@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfH//++E\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 757,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-28T20:36:04Z",
+      "side": 1,
+      "message": "This assignment is entirely redundant and can be removed.",
+      "revId": "f4357921a3081773082136bec3e710cd46bdbd0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH//++A\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 768,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-28T20:36:04Z",
+      "side": 1,
+      "message": "Why did you change this block? It was more readable before.",
+      "revId": "f4357921a3081773082136bec3e710cd46bdbd0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
