@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfH///Co\u003d",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-28T18:52:24Z",
+      "side": 1,
+      "message": "Tab the start of this line - should be 4 spaces",
+      "revId": "e4cd6ea8f1f4737f27efc7153d82c75bd48f0e80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH///Ck\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 742,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-28T18:52:24Z",
+      "side": 1,
+      "message": "Whitespace error",
+      "revId": "e4cd6ea8f1f4737f27efc7153d82c75bd48f0e80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
