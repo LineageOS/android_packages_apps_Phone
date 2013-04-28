@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfH///Bk\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 747,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-28T19:18:33Z",
+      "side": 1,
+      "message": "White space",
+      "revId": "5d61d27475d9a56e625d2153b902d3137a34417b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH///Bo\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 764,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-04-28T19:18:33Z",
+      "side": 1,
+      "message": "White space",
+      "revId": "5d61d27475d9a56e625d2153b902d3137a34417b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
