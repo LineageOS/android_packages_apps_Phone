@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfH///HA\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-28T16:14:46Z",
+      "side": 1,
+      "message": "Indention should be 8 spaces, not 7 ;)",
+      "revId": "7dd3dda69e6f536065ceac3bd94c0a0b2a7e8f26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH///G8\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 754,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-28T16:14:46Z",
+      "side": 1,
+      "message": "See above (or keep the builder.)",
+      "revId": "7dd3dda69e6f536065ceac3bd94c0a0b2a7e8f26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH///G4\u003d",
+        "filename": "src/com/android/phone/NotificationMgr.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 762,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-28T16:14:46Z",
+      "side": 1,
+      "message": "Indention should be 8 spaces, not 4.",
+      "revId": "7dd3dda69e6f536065ceac3bd94c0a0b2a7e8f26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
