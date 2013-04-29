@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfH//+o4\u003d",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-29T12:21:28Z",
+      "side": 1,
+      "message": "Please note that I resolved the interdependency of \u0027block private\u0027 and \u0027block unknown\u0027 on purpose: While it makes sense to make their UI depend on each other (why would one want to block numbers not in the contact list, but at the same time allow private numbers?), there is no reason to enforce that condition in the backend as well. By making such policy decisions UI-only, it\u0027s easier to revise things later on if needed.",
+      "revId": "c6002c847227284c1c7b24422f0a4d9141ae18e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
