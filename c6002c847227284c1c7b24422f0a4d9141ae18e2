@@ -16,6 +16,24 @@
       "revId": "c6002c847227284c1c7b24422f0a4d9141ae18e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH//+kw\u003d",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2013-04-29T15:35:50Z",
+      "side": 1,
+      "message": "Danny, this is true, but in our tests this structure (it was exactly my original one) introduced one bug, as follows (pn\u003dprivate numbers blacklisting, un\u003dunknown number blacklisting): if one enables pn, then un, then disables pn the desired behavior is that all calls pass (no other blacklist setting being activated, of course); instead, the un flag rules, and when a private number reaches my phone (note that pn is NOT enabled), the CallerInfo block is processed, contactExists returns false (obviously, being the number the constant 0000), and a MATCH_UNKNOWN is fired, displaying the wrong message \"Unknown number: 0000\".\nThis happens on my cm-10 (I\u0027ve ported the changes to it, since I use a cm-10 on my i9100).\nPlease check this out!!!",
+      "parentUuid": "AAAAfH//+o4\u003d",
+      "revId": "c6002c847227284c1c7b24422f0a4d9141ae18e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
