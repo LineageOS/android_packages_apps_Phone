@@ -34,6 +34,24 @@
       "revId": "c6002c847227284c1c7b24422f0a4d9141ae18e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfH//+h4\u003d",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 13
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-04-29T16:24:10Z",
+      "side": 1,
+      "message": "http://review.cyanogenmod.org/#/c/36626/ :)\nNot doing any matching against 0000 except checking whether private numbers are blocked seems the right thing to do to me.",
+      "parentUuid": "AAAAfH//+kw\u003d",
+      "revId": "c6002c847227284c1c7b24422f0a4d9141ae18e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
