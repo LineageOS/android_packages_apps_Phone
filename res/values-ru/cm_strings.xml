@@ -77,8 +77,10 @@
     <string name="blacklist_summary_disabled">Выключен</string>
     <string name="blacklist_summary">Входящие звонки от абонентов из чёрного списка будут отклоняться</string>
     <string name="blacklist_notify">Показывать уведомления</string>
-    <string name="blacklist_private_numbers_title">Неизвестные номера</string>
-    <string name="blacklist_private_numbers_summary">Блокировать входящие номера от неизвестных номеров</string>
+    <string name="blacklist_private_numbers_title">Скрытые номера</string>
+    <string name="blacklist_private_numbers_summary">Блокировать входящие вызовы от скрытых номеров</string>
+    <string name="blacklist_unknown_numbers_title">Неизвестные номера</string>
+    <string name="blacklist_unknown_numbers_summary">Блокировать входящие вызовы от номеров не из списка контактов</string>
     <string name="blacklist_regex_title">Маски</string>
     <string name="blacklist_regex_summary">Используйте . как маску и * для повторения. Например: 123.* блокирует номера, начинающиеся с 123 и .*123.* номера, содержащие 123</string>
 
@@ -92,6 +94,8 @@
     <!-- Blacklist notifications -->
     <string name="blacklist_notification">Вызов от %s отклонён</string>
     <string name="blacklist_notification_private_number">Вызов от неизвестного номера отклонён</string>
+    <string name="blacklist_notification_list_private">Скрытый</string>
+    <string name="blacklist_notification_unknown_number">Заблокирован неизвестный номер %s</string>
     <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> звонка (ов) было отклонено</string>
     <string name="unblock_number">Разблокировать</string>
 
@@ -106,5 +110,7 @@
     <string name="voice_quality_entry_clear">Чистый</string>
     <string name="voice_quality_entry_crisp">Чёткий</string>
     <string name="voice_quality_entry_bright">Ясный</string>
+
+    <string name="enter_input">USSD запрос должен быть от <xliff:g id="min_len" >%d</xliff:g> до <xliff:g id="max_len" >%d</xliff:g> символов. Пожалуйста, попробуйте ещё раз.</string>
 
 </resources>
