@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///v0\u003d",
+        "filename": "res/values-fr/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-05-01T22:43:25Z",
+      "side": 1,
+      "message": "des numéros \u003d\u003e de numéros",
+      "revId": "55cf57c6bbd6bd70706b64743699dd5d0a94acd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///vs\u003d",
+        "filename": "res/values-fr/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 4617
+      },
+      "writtenOn": "2013-05-01T22:43:25Z",
+      "side": 1,
+      "message": "Essayez encore \u003d\u003e Réessayer.",
+      "revId": "55cf57c6bbd6bd70706b64743699dd5d0a94acd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
