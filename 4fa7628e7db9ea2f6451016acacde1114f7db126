@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///pE\u003d",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-05-02T01:37:38Z",
+      "side": 1,
+      "message": "Please move this \"flip_action_setting_entries\" in cm_arrays.xml file, like soucre file (https://github.com/CyanogenMod/android_packages_apps_Phone/blob/cm-10.1/res/values/cm_arrays.xml)",
+      "revId": "4fa7628e7db9ea2f6451016acacde1114f7db126",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///pA\u003d",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-05-02T01:37:38Z",
+      "side": 1,
+      "message": "idem",
+      "revId": "4fa7628e7db9ea2f6451016acacde1114f7db126",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
