@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfX///p0\u003d",
+        "filename": "res/values-fr/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-05-02T01:25:41Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "AAAAfX///v0\u003d",
+      "revId": "55cf57c6bbd6bd70706b64743699dd5d0a94acd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfX///vs\u003d",
         "filename": "res/values-fr/cm_strings.xml",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2013-05-01T22:43:25Z",
       "side": 1,
       "message": "Essayez encore \u003d\u003e Réessayer.",
+      "revId": "55cf57c6bbd6bd70706b64743699dd5d0a94acd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///pw\u003d",
+        "filename": "res/values-fr/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-05-02T01:25:41Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "AAAAfX///vs\u003d",
       "revId": "55cf57c6bbd6bd70706b64743699dd5d0a94acd3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
