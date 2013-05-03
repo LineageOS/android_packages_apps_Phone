@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///SE\u003d",
+        "filename": "res/values-cs/cm_arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-05-03T01:08:04Z",
+      "side": 1,
+      "message": "nic se nestane / nic nenastane\nmozna to zni v kontextu jinak, ale tady je to divne :)",
+      "revId": "196b725a5f9936109907affb84cdd1f413929b46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///R4\u003d",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-05-03T01:08:04Z",
+      "side": 1,
+      "message": "Up?ednost?ovaná sí?",
+      "revId": "196b725a5f9936109907affb84cdd1f413929b46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///R0\u003d",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-05-03T01:08:04Z",
+      "side": 1,
+      "message": "Up?ednost?ovaná sí?",
+      "revId": "196b725a5f9936109907affb84cdd1f413929b46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///R8\u003d",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-05-03T01:08:04Z",
+      "side": 1,
+      "message": "Vibrovat na - spise bych rekl, Vibrovat p?i",
+      "revId": "196b725a5f9936109907affb84cdd1f413929b46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///SA\u003d",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-05-03T01:08:04Z",
+      "side": 1,
+      "message": "Zm?nit - velke Z a ??",
+      "revId": "196b725a5f9936109907affb84cdd1f413929b46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
