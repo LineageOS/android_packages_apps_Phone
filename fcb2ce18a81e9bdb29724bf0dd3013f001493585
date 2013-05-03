@@ -52,6 +52,24 @@
       "revId": "fcb2ce18a81e9bdb29724bf0dd3013f001493585",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///Cg\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-03T20:08:42Z",
+      "side": 1,
+      "message": "Du meinst \u0027Unbekannte Anrufer\u0027 in blacklist_unknown_numbers_title? Das wäre für mich ok; die Summary sollte IMHO schon noch etwas klarer sein und sagen, auf was genau sich \u0027unbekannt\u0027 bezieht.",
+      "parentUuid": "AAAAfX///KU\u003d",
+      "revId": "fcb2ce18a81e9bdb29724bf0dd3013f001493585",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
