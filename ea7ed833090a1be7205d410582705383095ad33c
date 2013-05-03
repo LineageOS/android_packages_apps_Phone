@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///HE\u003d",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-05-03T16:41:55Z",
+      "side": 1,
+      "message": "Thanks. Could you also fix this in the default translations?",
+      "revId": "ea7ed833090a1be7205d410582705383095ad33c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
