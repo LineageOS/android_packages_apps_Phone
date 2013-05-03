@@ -34,6 +34,24 @@
       "revId": "fcb2ce18a81e9bdb29724bf0dd3013f001493585",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///KU\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-03T11:46:54Z",
+      "side": 1,
+      "message": "Wie wäre es dann mit Unbekannter Anrufer / Teilnehmer bzw. wie ich es von anderen Telefonen kenne, einfach \"Unbekannt\"?",
+      "parentUuid": "AAAAfH//+Xo\u003d",
+      "revId": "fcb2ce18a81e9bdb29724bf0dd3013f001493585",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
