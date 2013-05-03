@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfX///PY\u003d",
+        "filename": "res/values-cs/cm_arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1558
+      },
+      "writtenOn": "2013-05-03T03:51:02Z",
+      "side": 1,
+      "message": "Cela veta poskladana jeste z cm_strings.xml zni:\nOtocenim zarizeni displejem dolu se [tady bude text z tohoto seznamu]\nTakze si myslim, ze by to tam mohlo byt. Uvidim az v realu.",
+      "parentUuid": "AAAAfX///SE\u003d",
+      "revId": "196b725a5f9936109907affb84cdd1f413929b46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfX///R4\u003d",
         "filename": "res/values-cs/cm_strings.xml",
         "patchSetId": 2
@@ -81,6 +99,24 @@
       "writtenOn": "2013-05-03T01:08:04Z",
       "side": 1,
       "message": "Zm?nit - velke Z a ??",
+      "revId": "196b725a5f9936109907affb84cdd1f413929b46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///PI\u003d",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1558
+      },
+      "writtenOn": "2013-05-03T03:51:02Z",
+      "side": 1,
+      "message": "Jedna se o nazev permission a ty se pisi na zacatku s malym pismenem. \"e\" opraveno.",
+      "parentUuid": "AAAAfX///SA\u003d",
       "revId": "196b725a5f9936109907affb84cdd1f413929b46",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
