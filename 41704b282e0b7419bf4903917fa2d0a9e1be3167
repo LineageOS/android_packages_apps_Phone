@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfn///2c\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-05-07T15:08:20Z",
+      "side": 1,
+      "message": "In den \"Settings\" haben wir immer Netzmodus geschrieben.",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
