@@ -70,6 +70,41 @@
       "revId": "fcb2ce18a81e9bdb29724bf0dd3013f001493585",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///1w\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-07T15:23:32Z",
+      "side": 1,
+      "message": "Da würde es auch passen. :)",
+      "parentUuid": "AAAAfX///Cg\u003d",
+      "revId": "fcb2ce18a81e9bdb29724bf0dd3013f001493585",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///1s\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-07T15:23:32Z",
+      "side": 1,
+      "message": "crisp \u003d klar; clear \u003d klar; Steigerung von klar \u003d klarer. Redewendung bzgl. Audio \"crisp and clear\" \u003d klar und knackig.\n\nSowohl Englisch als auch Deutsch sollten überarbeitet werden.",
+      "revId": "fcb2ce18a81e9bdb29724bf0dd3013f001493585",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
