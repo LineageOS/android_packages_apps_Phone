@@ -34,6 +34,41 @@
       "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///2A\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-07T15:21:23Z",
+      "side": 1,
+      "message": "Einerseits sollte es möglichst AOSP-konform sein, andererseits ist der String auch so schon extrem lang.\n\nWie lautet der dazugehörige \"title\"? Er scheint sich nicht in der Nähe dieser Zeilen zu befinden...",
+      "parentUuid": "AAAAfn///2Q\u003d",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///14\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-07T15:21:23Z",
+      "side": 1,
+      "message": "\"crisp and clear\" -\u003e klar und knackig; Sowohl das Original als auch die dt. Übersetzung passen nicht, da beide Wörter dasselbe bedeuten und nur in der oben genannten Redewendung eine sich ergänzende Bedeutung haben.\n\nHier sollten beide Sprachen überarbeitet werden. Aber: sehr klar ist daneben ;) Wenn dann wäre es \"Klarer\".",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
