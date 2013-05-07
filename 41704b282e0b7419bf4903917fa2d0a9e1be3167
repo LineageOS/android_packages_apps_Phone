@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfn///1k\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-07T16:00:11Z",
+      "side": 1,
+      "message": "Es ist nicht nur eine Frage von \u0027AOSP-konform\u0027: IMHO geht es gar nicht, das Format der Summaries je nach Netz(werk)modus unterschiedlich zu wählen.\n\nDer Titel dazu ist preferred_network_mode_title (\"Netzwerkmodus\"), wird aber nur bei CDMA/GSM-Kombitelefonen und bei Telefonen mit LTE eingeblendet.",
+      "parentUuid": "AAAAfn///2A\u003d",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfn///14\u003d",
         "filename": "res/values-de/cm_strings.xml",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "writtenOn": "2013-05-07T15:21:23Z",
       "side": 1,
       "message": "\"crisp and clear\" -\u003e klar und knackig; Sowohl das Original als auch die dt. Übersetzung passen nicht, da beide Wörter dasselbe bedeuten und nur in der oben genannten Redewendung eine sich ergänzende Bedeutung haben.\n\nHier sollten beide Sprachen überarbeitet werden. Aber: sehr klar ist daneben ;) Wenn dann wäre es \"Klarer\".",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///1g\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-07T16:00:11Z",
+      "side": 1,
+      "message": "Das muss man im Kontext sehen. Diese Option triggert das \u0027CrystalTalk\u0027-Feature in Motorola-Audio-Blobs. Sowohl die englischen als auch die deutschen Texte entsprechen 1:1 dem, was Motorola im Stock-ROM verwendet.",
+      "parentUuid": "AAAAfn///14\u003d",
       "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
