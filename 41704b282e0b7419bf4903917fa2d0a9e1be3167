@@ -16,6 +16,24 @@
       "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///2Q\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-05-07T15:10:27Z",
+      "side": 1,
+      "message": "Stimmt, aber AOSP hat für die anderen 12 Strings (siehe strings.xml) \u0027Netzwerkmodus\u0027 verwendet :-/",
+      "parentUuid": "AAAAfn///2c\u003d",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
