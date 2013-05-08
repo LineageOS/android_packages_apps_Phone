@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAfn///aQ\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-08T10:21:35Z",
+      "side": 1,
+      "message": "Da Netzwerkmodus bereits im title enthalten ist, könnte es bei den einzelnen summary-Strings genügen \"bevorzugt: xyz / abc\" zu nutzen. So wird der String kürzer, ohne das Inhalt verloren geht.",
+      "parentUuid": "AAAAfn///1k\u003d",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAfn///14\u003d",
         "filename": "res/values-de/cm_strings.xml",
         "patchSetId": 1
@@ -102,6 +120,24 @@
       "side": 1,
       "message": "Das muss man im Kontext sehen. Diese Option triggert das \u0027CrystalTalk\u0027-Feature in Motorola-Audio-Blobs. Sowohl die englischen als auch die deutschen Texte entsprechen 1:1 dem, was Motorola im Stock-ROM verwendet.",
       "parentUuid": "AAAAfn///14\u003d",
+      "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfn///aY\u003d",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 4977
+      },
+      "writtenOn": "2013-05-08T10:21:35Z",
+      "side": 1,
+      "message": "Das überrascht mich, aber dann sollte es lieber so bleiben. :)",
+      "parentUuid": "AAAAfn///1g\u003d",
       "revId": "41704b282e0b7419bf4903917fa2d0a9e1be3167",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
