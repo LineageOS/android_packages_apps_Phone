@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfn//+SE\u003d",
+        "filename": "res/values-zh-rCN/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 4359
+      },
+      "writtenOn": "2013-05-10T18:48:38Z",
+      "side": 1,
+      "message": "Forget to translate the \u0027calls ware blocked\u0027",
+      "revId": "bbabc84ad0c2b6be8cf9bff7a83f7c9f7bd1ee6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
