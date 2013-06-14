@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iDlGDyQ",
+        "filename": "res/values-af/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-14T19:52:21Z",
+      "side": 1,
+      "message": "... karakters wees.",
+      "revId": "d87be6af56e9942df16e57c96f299a036898773f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
