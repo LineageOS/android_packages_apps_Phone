@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "iLkaH20",
+        "filename": "res/values-af/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 3269
+      },
+      "writtenOn": "2013-06-14T18:20:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "iFQYa4Q",
+      "revId": "911df74e9294e88c823beeff2ddbf07e3e0ef51d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "iDQd93M",
         "filename": "res/values-af/cm_strings.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-06-14T06:06:19Z",
       "side": 1,
       "message": "begin in",
+      "revId": "911df74e9294e88c823beeff2ddbf07e3e0ef51d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iJkmO7k",
+        "filename": "res/values-af/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 3269
+      },
+      "writtenOn": "2013-06-14T18:20:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "iDQd93M",
       "revId": "911df74e9294e88c823beeff2ddbf07e3e0ef51d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
