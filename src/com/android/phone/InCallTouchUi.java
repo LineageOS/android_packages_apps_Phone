@@ -554,6 +554,11 @@ public class InCallTouchUi extends FrameLayout
             boolean visible = PhoneUtils.PhoneSettings.isBlacklistEnabled(getContext()) &&
                     inCallControlState.canBlacklistCall;
             mAddBlacklistButton.setVisibility(visible ? View.VISIBLE : View.GONE);
+
+            View blacklistSeparator = (View) mInCallControls.findViewById(R.id.addBlacklistSeparator);
+            if (blacklistSeparator != null) {
+                blacklistSeparator.setVisibility(visible ? View.VISIBLE : View.GONE);
+            }
         }
 
         // "Hold" / "Swap":
