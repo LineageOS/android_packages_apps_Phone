@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "iByx.Y8",
+        "filename": "src/com/android/phone/InCallTouchUi.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-16T23:28:04Z",
+      "side": 1,
+      "message": "Please keep this in a member, in the way mHoldSwapSpacer is handled.\nMight also make sense to remove variable and id to mBlacklistSpacer / blacklistSpacer to keep things consistent.",
+      "revId": "361e8be7a1f643e36c365a4c6ac2b368fc410465",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
