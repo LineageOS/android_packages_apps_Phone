@@ -89,7 +89,6 @@ public class DataUsage extends PreferenceActivity {
                 Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(mHelpUri));
                 startActivity(myIntent);
             } catch (Exception e) {
-                ;
             }
         }
 
