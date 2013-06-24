@@ -71,8 +71,7 @@
 
     <!-- National data roaming -->
     <string name="national_roaming">Nationales Daten-Roaming</string>
-    <string name="national_roaming_enable">Bei nationalem Roaming mit Datendienst verbinden</string>
-    <string name="national_roaming_disable">Bei nationalem Roaming mit Datendienst verbinden</string>
+    <string name="national_roaming_summary">Bei nationalem Roaming mit Datendienst verbinden</string>
 
     <!-- Flip action settings -->
     <string name="flip_action_title">Aktion beim Umdrehen</string>
