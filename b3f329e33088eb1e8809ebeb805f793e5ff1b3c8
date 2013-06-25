@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_f92af7e6",
+        "filename": "src/com/android/phone/DataUsage.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-06-25T05:53:47Z",
+      "side": 1,
+      "message": "Please add a comment like \u0027// Do nothing here\u0027 instead of removing the line with the semicolon.",
+      "revId": "b3f329e33088eb1e8809ebeb805f793e5ff1b3c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
