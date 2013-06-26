@@ -261,7 +261,6 @@ public class PhoneGlobals extends ContextWrapper
     private int mPreferredTtyMode = Phone.TTY_MODE_OFF;
 
     // For adding to Blacklist from call log
-    private static final String INSERT_BLACKLIST = "com.android.phone.INSERT_BLACKLIST";
     private static final String REMOVE_BLACKLIST = "com.android.phone.REMOVE_BLACKLIST";
     private static final String EXTRA_NUMBER = "number";
     private static final String EXTRA_FROM_NOTIFICATION = "fromNotification";
@@ -580,7 +579,6 @@ public class PhoneGlobals extends ContextWrapper
                 intentFilter.addAction(TtyIntent.TTY_PREFERRED_MODE_CHANGE_ACTION);
             }
             intentFilter.addAction(AudioManager.RINGER_MODE_CHANGED_ACTION);
-            intentFilter.addAction(INSERT_BLACKLIST);
             intentFilter.addAction(REMOVE_BLACKLIST);
             registerReceiver(mReceiver, intentFilter);
 
@@ -1547,14 +1545,12 @@ public class PhoneGlobals extends ContextWrapper
                 if (ringerMode == AudioManager.RINGER_MODE_SILENT) {
                     notifier.silenceRinger();
                 }
-            } else if (action.equals(INSERT_BLACKLIST)) {
-                blackList.add(intent.getStringExtra(EXTRA_NUMBER));
             } else if (action.equals(REMOVE_BLACKLIST)) {
                 if (intent.getBooleanExtra(EXTRA_FROM_NOTIFICATION, false)) {
                     // Dismiss the notification that brought us here
                     notificationMgr.cancelBlacklistedCallNotification();
+                    blackList.delete(intent.getStringExtra(EXTRA_NUMBER));
                 }
-                blackList.delete(intent.getStringExtra(EXTRA_NUMBER));
             }
         }
     }
