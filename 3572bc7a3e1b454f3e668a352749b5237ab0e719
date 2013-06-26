@@ -1,0 +1,344 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_ff0417c7",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "License missing here?",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_9f13db0d",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "mTcpListener",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_df0953df",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "TextUtils.isEmpty(alphaTag)",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_bf0e9fe3",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be localized?",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_7ff927c8",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "Comment !\u003d code? (system property vs. shared prefs)",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_5ff663d8",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "Simply calling getSharedPreferences() should do the trick as well, shouldn\u0027t it?",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_ff2bf731",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "} else if (TextUtils.equals(phoneNum, savedNum)) {",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_df3033a1",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "{ } missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_bf257f5d",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "{} missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_9f2abb2b",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "{} missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_5f1d430e",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "What\u0027s the deal with that commented code?",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_7f20074a",
+        "filename": "src/com/android/phone/MSISDNEditPreference.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "{} missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_3f1a8f18",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "License missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_ffd2d733",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "telephonyMgr (the m prefix should only be used for members)",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_1f17cbee",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "SharedPreferences prefs \u003d PreferenceManager.getDefaultSharedPreferences(context);",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_bfdc5f47",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "{} missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_9fe19b01",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "{} missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_7fe7e712",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "Should use a localized value for this, as in MSISDNEditPreference.",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_5fe4230c",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "{} missing",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_3ff16fce",
+        "filename": "src/com/android/phone/MyPhoneNumber.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-26T12:23:27Z",
+      "side": 1,
+      "message": "Indention wrong here",
+      "revId": "3572bc7a3e1b454f3e668a352749b5237ab0e719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
