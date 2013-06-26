@@ -60,19 +60,19 @@
         <item>@drawable/ic_lockscreen_answer</item>
         <item>@drawable/ic_lockscreen_text</item>
         <item>@drawable/ic_lockscreen_decline</item>
-        <item>@null</item>"
+        <item>@drawable/ic_lockscreen_callback</item>
     </array>
     <array name="incoming_call_widget_3way_target_descriptions">
         <item>@string/description_target_answer</item>
         <item>@string/description_target_send_sms</item>
         <item>@string/description_target_decline</item>
-        <item>@null</item>"
+        <item>@string/description_target_callback</item>
     </array>
     <array name="incoming_call_widget_3way_direction_descriptions">
         <item>@*android:string/description_direction_right</item>
         <item>@*android:string/description_direction_up</item>
         <item>@*android:string/description_direction_left</item>
-        <item>@null</item>
+        <item>@*android:string/description_direction_down</item>
     </array>
 
     <!-- But in some cases "Respond via SMS" isn't available, so there are
