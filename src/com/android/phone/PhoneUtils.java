@@ -417,6 +417,9 @@ public class PhoneUtils {
         static boolean showCallLogAfterCall(Context context) {
             return getPrefs(context).getBoolean("button_calllog_after_call", false);
         }
+        static boolean isDirectCallBackEnabled(Context context) {
+            return getPrefs(context).getBoolean("button_callback", false);
+        }
         static boolean markRejectedCallsAsMissed(Context context) {
             return getPrefs(context).getBoolean("button_rejected_as_missed", false);
         }
