@@ -69,6 +69,7 @@ import android.widget.Toast;
 
 import com.android.internal.telephony.Call;
 import com.android.internal.telephony.CallManager;
+import com.android.internal.telephony.CallStateException;
 import com.android.internal.telephony.Connection;
 import com.android.internal.telephony.MmiCode;
 import com.android.internal.telephony.Phone;
@@ -3134,6 +3135,9 @@ public class InCallScreen extends Activity
             case R.id.incomingCallRespondViaSms:
                 internalRespondViaSms();
                 break;
+            case R.id.incomingCallRejectCallback:
+                hangupAndCallBack();
+                break;
 
             // The other regular (single-tap) buttons used while in-call:
             case R.id.holdButton:
@@ -3728,6 +3732,29 @@ public class InCallScreen extends Activity
         // In the rare case when multiple calls are ringing, the UI policy
         // it to always act on the first ringing call.
         PhoneUtils.hangupRingingCall(mCM.getFirstActiveRingingCall());
+    }
+
+    private void hangupAndCallBack() {
+        Call call = mCM.getFirstActiveRingingCall();
+        PhoneUtils.hangupRingingCall(call);
+        Connection c = call.getLatestConnection();
+
+        if (VDBG) {
+            log("- connection: " + c);
+        }
+
+        if (c == null) {
+            return;
+        }
+
+        String phoneNumber = c.getAddress();
+        final Phone phone = call.getPhone();
+
+        try {
+            mCM.dial(phone, phoneNumber);
+        } catch (CallStateException e) {
+            log("Failed to make call ");
+        }
     }
 
     /**

@@ -66,9 +66,10 @@ public class InCallTouchUi extends FrameLayout
     private static final boolean DBG = (PhoneGlobals.DBG_LEVEL >= 2);
 
     // Incoming call widget targets
-    private static final int ANSWER_CALL_ID = 0;  // drag right
-    private static final int SEND_SMS_ID = 1;  // drag up
-    private static final int DECLINE_CALL_ID = 2;  // drag left
+    private static final int ANSWER_CALL_ID = 0;         // drag right
+    private static final int SEND_SMS_ID = 1;            // drag up
+    private static final int DECLINE_CALL_ID = 2;        // drag left
+    private static final int DECLINE_CALL_CALLBACK = 3;  // drag down
 
     /**
      * Reference to the InCallScreen activity that owns us.  This may be
@@ -1096,6 +1097,14 @@ public class InCallTouchUi extends FrameLayout
                 mLastIncomingCallActionTime = SystemClock.uptimeMillis();
                 break;
 
+            case DECLINE_CALL_CALLBACK:
+                if (DBG) log("DECLINE_CALL_CALLBACK!");
+                mInCallScreen.handleOnscreenButtonClick(R.id.incomingCallRejectCallback);
+
+                // Same as "answer" case.
+                mLastIncomingCallActionTime = SystemClock.uptimeMillis();
+                break;
+
             default:
                 Log.wtf(LOG_TAG, "onDialTrigger: unexpected whichHandle value: " + whichHandle);
                 break;
@@ -1191,32 +1200,35 @@ public class InCallTouchUi extends FrameLayout
         // the ringing call.  (Specifically, we need to disable the
         // "respond via SMS" option for certain types of calls, like SIP
         // addresses or numbers with blocked caller-id.)
+        final boolean showdirectcallback= PhoneUtils.PhoneSettings.isDirectCallBackEnabled(getContext());
+        log("Showing directcallback slide " + new Boolean(showdirectcallback).toString());
         final boolean allowRespondViaSms =
                 RespondViaSmsManager.allowRespondViaSmsForCall(mInCallScreen, ringingCall);
-        final int targetResourceId = allowRespondViaSms
-                ? R.array.incoming_call_widget_3way_targets
-                : R.array.incoming_call_widget_2way_targets;
+        final int targetResourceId;
+        final int targetDescription;
+        final int targetDirectionDescription;
+        if (allowRespondViaSms) {
+            if (showdirectcallback) {
+                targetResourceId = R.array.incoming_call_widget_4way_targets;
+                targetDescription = R.array.incoming_call_widget_4way_target_descriptions;
+                targetDirectionDescription = R.array.incoming_call_widget_4way_direction_descriptions;
+            } else {
+                targetResourceId = R.array.incoming_call_widget_3way_targets;
+                targetDescription = R.array.incoming_call_widget_3way_target_descriptions;
+                targetDirectionDescription = R.array.incoming_call_widget_3way_direction_descriptions;
+            }
+        } else {
+            targetResourceId = R.array.incoming_call_widget_2way_targets;
+            targetDescription = R.array.incoming_call_widget_2way_target_descriptions;
+            targetDirectionDescription = R.array.incoming_call_widget_2way_direction_descriptions;
+        }
         // The widget should be updated only when appropriate; if the previous choice can be reused
         // for this incoming call, we'll just keep using it. Otherwise we'll see UI glitch
         // everytime when this method is called during a single incoming call.
         if (targetResourceId != mIncomingCallWidget.getTargetResourceId()) {
-            if (allowRespondViaSms) {
-                // The GlowPadView widget is allowed to have all 3 choices:
-                // Answer, Decline, and Respond via SMS.
-                mIncomingCallWidget.setTargetResources(targetResourceId);
-                mIncomingCallWidget.setTargetDescriptionsResourceId(
-                        R.array.incoming_call_widget_3way_target_descriptions);
-                mIncomingCallWidget.setDirectionDescriptionsResourceId(
-                        R.array.incoming_call_widget_3way_direction_descriptions);
-            } else {
-                // You only get two choices: Answer or Decline.
-                mIncomingCallWidget.setTargetResources(targetResourceId);
-                mIncomingCallWidget.setTargetDescriptionsResourceId(
-                        R.array.incoming_call_widget_2way_target_descriptions);
-                mIncomingCallWidget.setDirectionDescriptionsResourceId(
-                        R.array.incoming_call_widget_2way_direction_descriptions);
-            }
-
+            mIncomingCallWidget.setTargetResources(targetResourceId);
+            mIncomingCallWidget.setTargetDescriptionsResourceId(targetDescription);
+            mIncomingCallWidget.setDirectionDescriptionsResourceId(targetDirectionDescription);
             // This will be used right after this block.
             mIncomingCallWidgetShouldBeReset = true;
         }
