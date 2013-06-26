@@ -21,6 +21,7 @@
     <item type="id" name="incomingCallAnswer" />
     <item type="id" name="incomingCallReject" />
     <item type="id" name="incomingCallRespondViaSms" />
+    <item type="id" name="incomingCallRejectCallback" />
 
     <!-- View tag ID used by AnimationUtils.Fade -->
     <item type="id" name="fadeState" />

@@ -211,18 +211,14 @@
               a bit of the bottom of the contact photo
             - The verticalOffset value gets us a little extra space above
               the topmost "Respond by SMS" icon
-            - The negative layout_marginBottom shifts us slightly downward;
-              we're already aligned with the bottom of the screen, but we
-              don't have an icon in the downward direction so the whole
-              bottom area of this widget is just wasted space.
     -->
     <com.android.internal.widget.multiwaveview.GlowPadView
         android:id="@+id/incomingCallWidget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center|bottom"
-        android:layout_marginTop="20dip"
-        android:layout_marginBottom="-46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
         android:background="@color/incall_call_banner_background"
         android:visibility="gone"
         android:gravity="top"

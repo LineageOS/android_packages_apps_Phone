@@ -66,9 +66,10 @@ public class InCallTouchUi extends FrameLayout
     private static final boolean DBG = (PhoneGlobals.DBG_LEVEL >= 2);
 
     // Incoming call widget targets
-    private static final int ANSWER_CALL_ID = 0;  // drag right
-    private static final int SEND_SMS_ID = 1;  // drag up
-    private static final int DECLINE_CALL_ID = 2;  // drag left
+    private static final int ANSWER_CALL_ID = 0;         // drag right
+    private static final int SEND_SMS_ID = 1;            // drag up
+    private static final int DECLINE_CALL_ID = 2;        // drag left
+    private static final int DECLINE_CALL_CALLBACK = 3;  // drag down
 
     /**
      * Reference to the InCallScreen activity that owns us.  This may be
@@ -1091,6 +1092,14 @@ public class InCallTouchUi extends FrameLayout
             case DECLINE_CALL_ID:
                 if (DBG) log("DECLINE_CALL_ID: reject!");
                 mInCallScreen.handleOnscreenButtonClick(R.id.incomingCallReject);
+
+                // Same as "answer" case.
+                mLastIncomingCallActionTime = SystemClock.uptimeMillis();
+                break;
+
+            case DECLINE_CALL_CALLBACK:
+                if (DBG) log("DECLINE_CALL_CALLBACK!");
+                mInCallScreen.handleOnscreenButtonClick(R.id.incomingCallRejectCallback);
 
                 // Same as "answer" case.
                 mLastIncomingCallActionTime = SystemClock.uptimeMillis();

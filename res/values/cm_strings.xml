@@ -153,4 +153,7 @@
     <string name="voice_quality_entry_clear">Clear</string>
     <string name="voice_quality_entry_crisp">Crisp</string>
     <string name="voice_quality_entry_bright">Bright</string>
+
+    <!-- Hang up and dial back from IncallScreen -->
+    <string name="description_target_callback">Hang up and call back</string>
 </resources>
