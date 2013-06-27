@@ -16,6 +16,24 @@
       "revId": "af43eb01f342841fdf6522417bdbffb9d045e39f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_ad80b547",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-06-27T17:15:56Z",
+      "side": 1,
+      "message": "At the moment I\u0027m using this value as a 0/1 boolean, so I thought it\u0027s not needed for now. I think the question boils down to \u0027are additional modes foreseeable in the future?\u0027 - if not, we can make this a real boolean in the interface and be done with it. At the DB level, it\u0027s always an int anyway.",
+      "parentUuid": "dac4157f_ed86ad64",
+      "revId": "af43eb01f342841fdf6522417bdbffb9d045e39f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
