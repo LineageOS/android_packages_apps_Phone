@@ -34,6 +34,24 @@
       "revId": "af43eb01f342841fdf6522417bdbffb9d045e39f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dac4157f_0de9e11a",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-27T17:29:19Z",
+      "side": 1,
+      "message": "hmm, additional modes?  Good question - Phone and Messaging are the only two native apps I can think of that would benefit from the blacklist.",
+      "parentUuid": "dac4157f_ad80b547",
+      "revId": "af43eb01f342841fdf6522417bdbffb9d045e39f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
