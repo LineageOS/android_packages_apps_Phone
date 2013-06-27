@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_ed86ad64",
+        "filename": "src/com/android/phone/Blacklist.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-06-27T17:06:29Z",
+      "side": 1,
+      "message": "should the 1 nor be made a constant?",
+      "revId": "af43eb01f342841fdf6522417bdbffb9d045e39f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
