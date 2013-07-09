@@ -94,4 +94,6 @@
     <string name="voice_quality_entry_clear">Klar</string>
     <string name="voice_quality_entry_crisp">Sehr klar</string>
     <string name="voice_quality_entry_bright">Hell</string>
+    <string name="phone_number_label">Eigene Nummber</string>
+    <string name="phone_number_summary">Telefonnummer der SIM-Karte einstellen</string>
 </resources>
