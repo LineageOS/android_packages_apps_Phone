@@ -49,6 +49,7 @@ import android.os.PowerManager;
 import android.os.RemoteException;
 import android.os.SystemClock;
 import android.os.SystemProperties;
+import android.provider.Telephony.BlacklistUtils;
 import android.telephony.ServiceState;
 import android.text.TextUtils;
 import android.text.method.DialerKeyListener;
@@ -2845,7 +2846,7 @@ public class InCallScreen extends Activity
                 .setMessage(message)
                 .setPositiveButton(R.string.alert_dialog_yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
-                        PhoneGlobals.getInstance().blackList.add(number);
+                        BlacklistUtils.add(getApplicationContext(), number, BlacklistUtils.BLOCK_CALLS);
                         internalHangup();
                     }
                 })

@@ -55,6 +55,7 @@ import android.os.SystemVibrator;
 import android.os.Vibrator;
 import android.provider.CallLog.Calls;
 import android.provider.Settings;
+import android.provider.Telephony.BlacklistUtils;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
@@ -475,13 +476,13 @@ public class CallNotifier extends Handler
         // Blacklist handling
         String number = c.getAddress();
         if (TextUtils.isEmpty(number)) {
-            number = Blacklist.PRIVATE_NUMBER;
+            number = BlacklistUtils.PRIVATE_NUMBER;
         }
         if (DBG) log("Incoming number is: " + number);
         // See if the number is in the blacklist
         // Result is one of: MATCH_NONE, MATCH_LIST or MATCH_REGEX
-        int listType = mApplication.blackList.isListed(number);
-        if (listType != Blacklist.MATCH_NONE) {
+        int listType = BlacklistUtils.isListed(mApplication, number, BlacklistUtils.BLOCK_CALLS);
+        if (listType != BlacklistUtils.MATCH_NONE) {
             // We have a match, set the user and hang up the call and notify
             if (DBG) log("Incoming call from " + number + " blocked.");
             c.setUserData(BLACKLIST);

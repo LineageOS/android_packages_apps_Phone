@@ -52,6 +52,7 @@ import android.preference.PreferenceScreen;
 import android.provider.ContactsContract.CommonDataKinds;
 import android.provider.MediaStore;
 import android.provider.Settings;
+import android.provider.Telephony.BlacklistUtils;
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 import android.util.Log;
@@ -1911,7 +1912,7 @@ public class CallFeaturesSetting extends PreferenceActivity
 
     private void updateBlacklistSummary() {
         if (mButtonBlacklist != null) {
-            if (PhoneUtils.PhoneSettings.isBlacklistEnabled(this)) {
+            if (BlacklistUtils.isBlacklistEnabled(this)) {
                 mButtonBlacklist.setSummary(R.string.blacklist_summary);
             } else {
                 mButtonBlacklist.setSummary(R.string.blacklist_summary_disabled);
