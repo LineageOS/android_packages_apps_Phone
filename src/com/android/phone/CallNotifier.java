@@ -485,13 +485,9 @@ public class CallNotifier extends Handler
             // We have a match, set the user and hang up the call and notify
             if (DBG) log("Incoming call from " + number + " blocked.");
             c.setUserData(BLACKLIST);
-            try {
-                c.hangup();
-                mApplication.notificationMgr.notifyBlacklistedCall(number,
-                        c.getCreateTime(), listType);
-            } catch (CallStateException e) {
-                e.printStackTrace();
-            }
+            PhoneUtils.hangupRingingCall(ringing);
+            mApplication.notificationMgr.notifyBlacklistedCall(number,
+                    c.getCreateTime(), listType);
             return;
         }
 
