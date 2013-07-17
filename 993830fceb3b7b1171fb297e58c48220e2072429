@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dac4157f_be69e18d",
+        "filename": "src/com/android/phone/CallNotifier.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 489,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-07-17T15:53:19Z",
+      "side": 1,
+      "message": "I\u0027d probably use PhoneUtils.hangupRingingCall(ringing) like in line 461.",
+      "revId": "993830fceb3b7b1171fb297e58c48220e2072429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
