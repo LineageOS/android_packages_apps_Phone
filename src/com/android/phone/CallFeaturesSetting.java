@@ -1622,7 +1622,7 @@ public class CallFeaturesSetting extends PreferenceActivity
 
         if (mDialpadAutocomplete != null) {
             mDialpadAutocomplete.setChecked(Settings.Secure.getInt(contentResolver,
-                    Settings.Secure.DIALPAD_AUTOCOMPLETE, 0) != 0);
+                    Settings.Secure.DIALPAD_AUTOCOMPLETE, 1) != 0);
         }
 
         if (mButtonDTMF != null) {
