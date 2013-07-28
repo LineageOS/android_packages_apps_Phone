@@ -1838,6 +1838,14 @@ public class CallNotifier extends Handler
                 //First stop any ongoing SignalInfo tone
                 mSignalInfoToneGenerator.stopTone();
 
+                // workaround to allow any simultaneous
+                // audio mode IN_CALL -> NORMAL transition
+                // to complete before playing audio
+                try {
+                    Thread.sleep(200);
+                } catch (Exception e) {
+                }
+
                 //Start playing the new tone if its a valid tone
                 mSignalInfoToneGenerator.startTone(mToneId);
             }
