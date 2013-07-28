@@ -1373,6 +1373,7 @@ public class CallNotifier extends Handler
             // the Phone UI at the moment the connection ends.
             if (toneToPlay != InCallTonePlayer.TONE_NONE) {
                 if (VDBG) log("- starting post-disconnect tone (" + toneToPlay + ")...");
+
                 new InCallTonePlayer(toneToPlay).start();
 
                 // TODO: alternatively, we could start an InCallTonePlayer
@@ -1837,6 +1838,13 @@ public class CallNotifier extends Handler
             if (mSignalInfoToneGenerator != null) {
                 //First stop any ongoing SignalInfo tone
                 mSignalInfoToneGenerator.stopTone();
+
+                Log.d(LOG_TAG, "samm: sleeping before playing tone");
+                try {
+                    Thread.sleep(200);
+                } catch (Exception e) {
+                }
+                Log.d(LOG_TAG, "samm: sleep over");
 
                 //Start playing the new tone if its a valid tone
                 mSignalInfoToneGenerator.startTone(mToneId);
