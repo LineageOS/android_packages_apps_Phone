@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1aca2d91_2d1a616f",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-07-31T22:43:30Z",
+      "side": 1,
+      "message": "Telfonnummer -\u003e Telefonnummer\n\nAusserdem ist es die SIM-Rufnummer. Siehe hier: http://review.cyanogenmod.org/#/c/46482/ - ich bin mir nur nicht sicher, ob mir \u0027festlegen\u0027 oder \u0027setzen\u0027 besser gefaellt.",
+      "revId": "8b54fc7afb7a0ea175bf8362eb801ee0f51322fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
