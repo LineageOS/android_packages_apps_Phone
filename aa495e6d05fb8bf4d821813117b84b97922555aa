@@ -16,6 +16,24 @@
       "revId": "aa495e6d05fb8bf4d821813117b84b97922555aa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aca2d91_ebfd6c6f",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2013-08-03T22:54:16Z",
+      "side": 1,
+      "message": "Stimmt, das sollte konsistent sein. Rufnummer gefaellt mir persoenlich besser.",
+      "parentUuid": "1aca2d91_d50b6f7c",
+      "revId": "aa495e6d05fb8bf4d821813117b84b97922555aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
