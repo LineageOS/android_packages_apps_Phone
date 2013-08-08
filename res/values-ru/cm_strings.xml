@@ -71,6 +71,13 @@
     <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> звонка (ов) было отклонено</string>
     <string name="unblock_number">Разблокировать</string>
 
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">Добавить номер телефона</string>
+    <string name="add_to_blacklist">Добавить в чёрный список</string>
+    <string name="add_to_blacklist_message">Будущие вызовы от %s будут отклонены</string>
+    <string name="remove_blacklist_number_title">Удалить номер</string>
+    <string name="remove_blacklist_number">Вы действительно хотите удалить %s из чёрного списка?</string>
+
     <!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">Чёрный список</string>
 
