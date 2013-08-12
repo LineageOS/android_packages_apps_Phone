@@ -2306,16 +2306,11 @@ public class PhoneUtils {
                 || (phoneType == PhoneConstants.PHONE_TYPE_SIP)) {
             // GSM: "Add call" is available only if ALL of the following are true:
             // - There's no incoming ringing call
-            // - There's < 2 lines in use
             // - The foreground call is ACTIVE or IDLE or DISCONNECTED.
             //   (We mainly need to make sure it *isn't* DIALING or ALERTING.)
             final boolean hasRingingCall = cm.hasActiveRingingCall();
-            final boolean hasActiveCall = cm.hasActiveFgCall();
-            final boolean hasHoldingCall = cm.hasActiveBgCall();
-            final boolean allLinesTaken = hasActiveCall && hasHoldingCall;
 
             return !hasRingingCall
-                    && !allLinesTaken
                     && ((fgCallState == Call.State.ACTIVE)
                         || (fgCallState == Call.State.IDLE)
                         || (fgCallState == Call.State.DISCONNECTED));
