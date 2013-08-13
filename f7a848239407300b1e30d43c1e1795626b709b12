@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae975fb_e64ec495",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-08-13T02:52:10Z",
+      "side": 1,
+      "message": "Ya kogda-to eto plusoval, no potom ponyal, chto zvuchit ono otvratitelno. Lucshe pomenyat\u0027 na \"Pri perevorote telefona (ili \"ustroystva\", kak sdelali v DeskClock) ekranom vniz \u003cxliff:blabla/\u003e\".",
+      "revId": "f7a848239407300b1e30d43c1e1795626b709b12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_c643c06b",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2013-08-13T02:52:10Z",
+      "side": 1,
+      "message": "Slova \"dlinoy\" kak-to ne hvataet. \"USSD-zapros dolzhen byt\u0027 dlinoy ot...\"",
+      "revId": "f7a848239407300b1e30d43c1e1795626b709b12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
