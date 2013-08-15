@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae975fb_e943306b",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2013-08-15T21:21:26Z",
+      "side": 1,
+      "message": "Kak po russki pravil\u0027no skazat\u0027?",
+      "revId": "588e6e7b3c0909dfb1496d0a3abbb8378f56ea19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_c9486c8a",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2013-08-15T21:21:26Z",
+      "side": 1,
+      "message": "A eshe tut i nizhe",
+      "revId": "588e6e7b3c0909dfb1496d0a3abbb8378f56ea19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
