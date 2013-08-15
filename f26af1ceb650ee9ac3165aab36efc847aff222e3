@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dae975fb_8e514a65",
+        "filename": "res/values-ru/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5896
+      },
+      "writtenOn": "2013-08-15T10:11:18Z",
+      "side": 1,
+      "message": "Tut togda tozhe \"ustroistva\".",
+      "revId": "f26af1ceb650ee9ac3165aab36efc847aff222e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
