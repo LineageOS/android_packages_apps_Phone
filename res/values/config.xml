@@ -139,4 +139,8 @@
          impossible to dismiss on the Sprint network. -->
     <bool name="sprint_mwi_quirk">false</bool>
 
+    <!-- Write phone app status
+         Writes the phone apps status on answer call or on hangup to the specified sysfs node. -->
+    <string name="phone_app_status_file">"/sys/class/optical_sensors/proximity/PhoneApp_status"</string>
+
 </resources>
