@@ -59,4 +59,13 @@
     <string-array translatable="false" name="voice_quality_values">
         <!-- Overlay appropriately -->
     </string-array>
+
+    <!-- The status the phone app writes to a sysfs node on answer call and hangup.
+         First item: answer call
+         Second item: hangup  -->
+    <string-array name="phone_app_status_values" translatable="false">
+        <item>"2"</item>
+        <item>"1"</item>
+    </string-array>
+
 </resources>
