@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a016987_3bf2ab9b",
+        "filename": "res/values-sk/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 6284
+      },
+      "writtenOn": "2013-09-17T20:57:49Z",
+      "side": 1,
+      "message": "Please change word \"ma?\" to \"obsahova?\"",
+      "revId": "06715d9894c5c50250f5bd240183beb979c6722b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
