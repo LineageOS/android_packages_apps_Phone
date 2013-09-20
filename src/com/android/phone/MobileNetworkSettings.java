@@ -360,7 +360,7 @@ public class MobileNetworkSettings extends PreferenceActivity
                     case Phone.NT_MODE_GLOBAL:
                     case Phone.NT_MODE_LTE_CDMA_AND_EVDO:
                     case Phone.NT_MODE_LTE_GSM_WCDMA:
-                    case Phone.NT_MODE_LTE_CMDA_EVDO_GSM_WCDMA:
+                    case Phone.NT_MODE_LTE_CDMA_EVDO_GSM_WCDMA:
                     case Phone.NT_MODE_LTE_ONLY:
                     case Phone.NT_MODE_LTE_WCDMA:
                         // This is one of the modes we recognize
@@ -444,7 +444,7 @@ public class MobileNetworkSettings extends PreferenceActivity
                             modemNetworkMode == Phone.NT_MODE_GLOBAL) ||
                         modemNetworkMode == Phone.NT_MODE_LTE_CDMA_AND_EVDO ||
                         modemNetworkMode == Phone.NT_MODE_LTE_GSM_WCDMA ||
-                        modemNetworkMode == Phone.NT_MODE_LTE_CMDA_EVDO_GSM_WCDMA ||
+                        modemNetworkMode == Phone.NT_MODE_LTE_CDMA_EVDO_GSM_WCDMA ||
                         modemNetworkMode == Phone.NT_MODE_LTE_ONLY ||
                         modemNetworkMode == Phone.NT_MODE_LTE_WCDMA) {
                     if (DBG) {
@@ -569,7 +569,7 @@ public class MobileNetworkSettings extends PreferenceActivity
                 mButtonPreferredNetworkMode.setSummary(
                         R.string.preferred_network_mode_lte_cdma_evdo_summary);
                 break;
-            case Phone.NT_MODE_LTE_CMDA_EVDO_GSM_WCDMA:
+            case Phone.NT_MODE_LTE_CDMA_EVDO_GSM_WCDMA:
                 mButtonPreferredNetworkMode.setSummary(
                         R.string.preferred_network_mode_global_summary);
                 break;
