@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da37b569_f681c64e",
+        "filename": "res/values-ca/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-09-30T23:48:56Z",
+      "side": 1,
+      "message": "Please move this string to cm_strings.xml",
+      "revId": "d41fc79f8ba8b32f1fd80a1ea7b85cba65a74403",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
