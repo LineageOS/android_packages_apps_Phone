@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a41bdd9_3fa70751",
+        "filename": "res/values-af/cm_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-10-05T02:26:47Z",
+      "side": 1,
+      "message": "Verskaf \\\u0027n telefoon nommer vir hierdie toestel",
+      "revId": "cdd6e553b82d397904f1635bd79235285a83f3a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
