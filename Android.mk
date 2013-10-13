@@ -17,6 +17,9 @@ LOCAL_CERTIFICATE := platform
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
+LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, res res-override)
+LOCAL_AAPT_FLAGS := --auto-add-overlay
+
 include $(BUILD_PACKAGE)
 
 # Build the test package
