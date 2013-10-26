@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_2a4b3f5b",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T10:34:22Z",
+      "side": 1,
+      "message": "Derp 2 :) I have a bad accent day",
+      "parentUuid": "1a4dcd0f_2f583156",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_8fff0534",
         "filename": "res/values-es/cm_strings.xml",
         "patchSetId": 2
