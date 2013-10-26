@@ -1,0 +1,310 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_cfec2d92",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Llamada pérdida",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_8fff0534",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Hrpd",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_cf398d43",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Solicitando",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_6f02b940",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Solicitando",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_4f46ddc0",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Probably your string is better, but original should \"Ajustes de subscripciones\". We translate SUBS as \"suscripciones\" in this and other changes.\n\nAnyway, isn\u0027t better MultiSIM?",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_ef11e9b0",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Preguntar",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_0f1775a4",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Preguntar al usuario",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_cf10adab",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "llamada",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_2ffcb13d",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "I prefer \"Llamada en multiconferencia\" or better just \"Multiconferencia\"",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_6f263918",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Llamada liberada",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_2f77d103",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "en modo CDMA",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_ef5fa973",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "X-Divert?",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_cf5e6d76",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "itinerancia",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_efc6c915",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "In MMS we used \"MMS 1\", \"MMS 2\", \"SUSCRIP 1\". Should we keep the space?",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_cfd50dba",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Eliminar cuenta",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_6fdb99ee",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "Activar o desactivar una subcripción no ..",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_4ff9fd4c",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "teléfono",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_8fd865f1",
+        "filename": "res/values-es/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-10-26T07:53:07Z",
+      "side": 1,
+      "message": "I prefer something more polish, like \"¡Datos incorrectos!\"",
+      "revId": "8ccc22d292769fb858ab34929c33696010a6b68c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
