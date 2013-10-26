@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_6a7ce720",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-26T23:48:20Z",
+      "side": 1,
+      "message": "This is quite dangerous...\n\nIt would mean that Phone is broken for all languages besides English.",
+      "revId": "12039e9a5ed3f95392d414fd213b868f72835e38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
