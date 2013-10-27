@@ -15,6 +15,32 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="preferred_network_mode_choices">
+        <item>TD-SCDMA/LTE/GSM/WCDMA/CDMA/EVDO </item>
+        <item>TD-SCDMA/GSM/WCDMA/CDMA/EVDO </item>
+        <item>TD-SCDMA/GSM/WCDMA/LTE</item>
+        <item>TD-SCDMA/WCDMA/LTE</item>
+        <item>TD-SCDMA/GSM/WCDMA</item>
+        <item>TD-SCDMA/GSM/LTE</item>
+        <item>TD-SCDMA/GSM</item>
+        <item>TD-SCDMA/LTE</item>
+        <item>TD-SCDMA/WCDMA</item>
+        <item>TD-SCDMA pouze</item>
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Globálí</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>EvDo pouze</item>
+        <item>CDMA bez EvDo</item>
+        <item>CDMA/EvDo auto</item>
+        <item>GSM/WCDMA auto</item>
+        <item>WCDMA pouze</item>
+        <item>GSM pouze</item>
+        <item>Upřednostnit GSM/WCDMA</item>
+    </string-array>
+
     <string-array name="preferred_network_mode_choices_lte_gsm">
         <item>LTE/WCDMA</item>
         <item>LTE/GSM/WCDMA</item>
