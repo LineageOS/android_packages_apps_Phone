@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_27793594",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_e4482b8a",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_8425a7c3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -47,6 +65,24 @@
       "writtenOn": "2013-10-29T09:13:04Z",
       "side": 1,
       "message": "alleen-verzenden-videogesprek",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_c76df1cd",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_8425a7c3",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -70,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_e7726dad",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_a42223b8",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_442f9fa1",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -81,6 +135,24 @@
       "writtenOn": "2013-10-29T09:13:04Z",
       "side": 1,
       "message": "\u0027Soort gesprek\u0027",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_876849bc",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_442f9fa1",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -104,6 +176,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_a76545e2",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Ik neem aan van wel. Done",
+      "parentUuid": "1a4dcd0f_642c1bac",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_c4116f5f",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -115,6 +205,24 @@
       "writtenOn": "2013-10-29T09:13:04Z",
       "side": 1,
       "message": "s ontbreekt in ontgrendelings-PIN",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_476241da",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_c4116f5f",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -138,6 +246,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_675f3d0f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_e416eb54",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_840cc743",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -149,6 +275,24 @@
       "writtenOn": "2013-10-29T09:13:04Z",
       "side": 1,
       "message": "\u003c ontbreekt",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_079bd9ca",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_840cc743",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -172,6 +316,75 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_27a055f4",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "- SIM-netwerksubsetontgrendeling aanvragen\\u2026",
+      "parentUuid": "1a4dcd0f_a409c333",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_c7a4110a",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "netwerk*",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_e7a90de1",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "netwerk*",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_87afe9e2",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "netwerk*",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_4406bf21",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -183,6 +396,24 @@
       "writtenOn": "2013-10-29T09:13:04Z",
       "side": 1,
       "message": "\u0027unlock\u0027 nog wegdoen",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_a7ac65ee",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "netwerk*; done.",
+      "parentUuid": "1a4dcd0f_4406bf21",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -206,6 +437,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_47b9e12d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_6403bb10",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_07ff5902",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -217,6 +466,24 @@
       "writtenOn": "2013-10-29T09:13:04Z",
       "side": 1,
       "message": "Beantwoorden met alleen-ontvangen-video",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_67b65d3f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_07ff5902",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -240,6 +507,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_0782f952",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_2704d513",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_c708912b",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -251,6 +536,24 @@
       "writtenOn": "2013-10-29T09:13:04Z",
       "side": 1,
       "message": "Groepsgesprek",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_2787f562",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-10-29T09:48:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dcd0f_c708912b",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
