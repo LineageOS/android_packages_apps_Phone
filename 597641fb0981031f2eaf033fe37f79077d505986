@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_5ac53459",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 2270
+      },
+      "writtenOn": "2013-10-30T05:51:48Z",
+      "side": 1,
+      "message": "Kontakt",
+      "revId": "597641fb0981031f2eaf033fe37f79077d505986",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_faa0c0a7",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 2270
+      },
+      "writtenOn": "2013-10-30T05:51:48Z",
+      "side": 1,
+      "message": "Bu? všude dát ze SIM, nebo na SIM, ale nemíchal bych to...",
+      "revId": "597641fb0981031f2eaf033fe37f79077d505986",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
