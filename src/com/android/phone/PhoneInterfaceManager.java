@@ -320,7 +320,7 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
         } else {
             if (on) {
                 if ((network = mApp.getResources().getInteger(R.integer.toggleLTE_lte_cdma_nt_mode)) == -1)
-                    network = Phone.NT_MODE_GLOBAL;
+                    network = Phone.NT_MODE_LTE_CDMA_EVDO_GSM_WCDMA;
             } else {
                 network = Phone.NT_MODE_CDMA;
             }
