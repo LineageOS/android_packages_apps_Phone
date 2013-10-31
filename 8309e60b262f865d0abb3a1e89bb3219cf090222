@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_5dd8ce1d",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1573
+      },
+      "writtenOn": "2013-10-31T02:24:42Z",
+      "side": 1,
+      "message": "Akkor már \"Sikerült az el?fizetés beállítása.\"",
+      "revId": "8309e60b262f865d0abb3a1e89bb3219cf090222",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
