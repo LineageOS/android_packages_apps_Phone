@@ -1,0 +1,293 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_7da34a9f",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "hálÓzat1",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_9da09692",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "hálÓzat",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_3dadc288",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "HátralÉv?\n\n?",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_3d9f0261",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "hálÓzat",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_5d9c4e69",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "sikerült",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_fd875a10",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "Nem sikerült az el?fizetés beállítása",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_1d8d6631",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "aktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_bd81d2fd",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "deaktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_dd861e13",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "aktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_7d7caa20",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "aktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_9d797632",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "deaktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_3d76223f",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "deaktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_5d73ee4d",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "Aktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_fd8e7a26",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "Deaktiválás",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_1d948635",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "deaktiválása",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_bd98f26b",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "NévjeGy",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_dd9dbe5a",
+        "filename": "res/values-hu/cm_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 5393
+      },
+      "writtenOn": "2013-10-31T01:07:22Z",
+      "side": 1,
+      "message": "Jajj... ez miként hangzik eredetileg angolul?",
+      "revId": "f7698554214c7a88ffa7a97994d378ebb29bd11b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
