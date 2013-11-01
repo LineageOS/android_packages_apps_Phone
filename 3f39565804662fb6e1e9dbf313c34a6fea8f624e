@@ -71,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "1a4dcd0f_b3f6e3d5",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-01T11:16:17Z",
+      "side": 1,
+      "message": "http://review.cyanogenmod.org/#/c/52475/",
+      "parentUuid": "1a4dcd0f_d8d06ccc",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_f8d528b9",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -1611,6 +1629,24 @@
       "writtenOn": "2013-11-01T11:07:29Z",
       "side": 1,
       "message": "- PIN2 ontgrendeld.\n\nIk mis hieronder een heleboel strings:\n\n\u003c!-- In-call screen: status label for Unconditional Call Forwarding enabled  --\u003e\n +    \u003cstring name\u003d\"card_title_unconditionalCF\"\u003eCall Forward Unconditional is enabled\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for Conditional Call Forwarding enabled  --\u003e\n +    \u003cstring name\u003d\"card_title_conditionalCF\"\u003eCall Forward Conditional is enabled\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for a forwarded MO call  --\u003e\n +    \u003cstring name\u003d\"card_title_MOcall_forwarding\"\u003eOutgoing Forwarded Call\u003c/string\u003e\n +    \u003c!-- In-call screen: status label when Call waiting is enabled on remote party  --\u003e\n +    \u003cstring name\u003d\"card_title_calliswaiting\"\u003eCall Waiting\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for MO call, when the caller \u0026 callee both belng to a CUG group --\u003e\n +    \u003cstring name\u003d\"card_title_cugcall\"\u003eCUG Call\u003c/string\u003e\n +    \u003c!-- In-call screen: status label when MO calls are barred --\u003e\n +    \u003cstring name\u003d\"card_title_outgoing_barred\"\u003eOutgoing Calls Barred\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for MO calls, when incoming calls are barred at remote party --\u003e\n +    \u003cstring name\u003d\"card_title_incoming_barred\"\u003eIncoming Calls Barred\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for MO calls when CLIR Suppression is rejected --\u003e\n +    \u003cstring name\u003d\"card_title_clir_suppression_rejected\"\u003eCLIR Suppression Rejected\u003c/string\u003e\n +    \u003c!-- In-call screen: status label when MO call gets deflected to another party --\u003e\n +    \u003cstring name\u003d\"card_title_call_deflected\"\u003eCall Deflected\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call being forwarded to other remote party  --\u003e\n +    \u003cstring name\u003d\"card_title_MTcall_forwarding\"\u003eIncoming Call is Forwarded\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call forwarded from other remote party --\u003e\n +    \u003cstring name\u003d\"card_title_forwarded_MTcall\"\u003eForwarded Incoming Call\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call which is answered \u0026 then put on hold  --\u003e\n +    \u003cstring name\u003d\"card_title_callonhold\"\u003ePut on Hold\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call put on hold \u0026 then retreived back --\u003e\n +    \u003cstring name\u003d\"card_title_callretrieved\"\u003eCall Retreived\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call which is part of MultiParty Call --\u003e\n +    \u003cstring name\u003d\"card_title_multipartycall\"\u003eMultiParty Call\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call which is answered,put on hold \u0026 then released --\u003e\n +    \u003cstring name\u003d\"card_title_callonhold_released\"\u003eCall Released\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call forward check received --\u003e\n +    \u003cstring name\u003d\"card_title_forwardcheckreceived\"\u003eForward Check Received\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call connecting through ECT --\u003e\n +    \u003cstring name\u003d\"card_title_callconnectingect\"\u003eCall Connecting ECT\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call connected through ECT --\u003e\n +    \u003cstring name\u003d\"card_title_callconnectedect\"\u003eCall Connected ECT\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for incoming call is a deflected call --\u003e\n +    \u003cstring name\u003d\"card_title_deflectedcall\"\u003eDeflected Call\u003c/string\u003e\n +    \u003c!-- In-call screen: status label for a call in progress --\u003e\n +    \u003cstring name\u003d\"card_title_in_progress\"\u003eCurrent call\u003c/string\u003e",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_93f967cb",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-01T11:16:17Z",
+      "side": 1,
+      "message": "http://review.cyanogenmod.org/#/c/52475/",
+      "parentUuid": "1a4dcd0f_f3f78bf3",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
