@@ -1304,12 +1304,19 @@ public class CallNotifier extends Handler
 
             final long date = c.getCreateTime();
             final Connection.DisconnectCause cause = c.getDisconnectCause();
-            final boolean missedCall = c.isIncoming() &&
-                    (cause == Connection.DisconnectCause.INCOMING_MISSED);
+
+            // Classify as missed not only the genuinely missed calls, but also the rejected ones
+            // if the respective option has been enabled in the settings.
+            final boolean missedCall = c.isIncoming()
+                    && ((cause == Connection.DisconnectCause.INCOMING_MISSED)
+                    || ((cause == Connection.DisconnectCause.INCOMING_REJECTED)
+                            && PhoneUtils.PhoneSettings.markRejectedCallsAsMissed(mApplication)));
+
             if (missedCall) {
                 // Show the "Missed call" notification.
-                // (Note we *don't* do this if this was an incoming call that
-                // the user deliberately rejected.)
+                // (Note that we *don't* do this if it was an incoming call that the user
+                // deliberately rejected, unless the "Rejected as Missed" option has been
+                // enabled in the settings (see above the missedCall assignment).)
                 showMissedCallNotification(c, date);
             }
 
@@ -1949,8 +1956,11 @@ public class CallNotifier extends Handler
             Connection c = ringingCall.getLatestConnection();
 
             if (c != null) {
-                final int callLogType = mCallWaitingTimeOut ?
-                        Calls.MISSED_TYPE : Calls.INCOMING_TYPE;
+                // Classify as missed not only the genuinely missed calls, but also the rejected ones
+                // if the respective option has been enabled in the settings.
+                final int callLogType = (mCallWaitingTimeOut
+                        || PhoneUtils.PhoneSettings.markRejectedCallsAsMissed(mApplication))
+                                 ? Calls.MISSED_TYPE : Calls.INCOMING_TYPE;
 
                 // TODO: This callLogType override is not ideal. Connection should be astracted away
                 // at a telephony-phone layer that can understand and edit the callTypes within
