@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_aef51a84",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "nezavisle :D",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_4ef2569c",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "Na siti",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_6eef12b1",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "Aktivni",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_0e2beeec",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "aktivace",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_2e302a56",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "nova",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_ce34264c",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "zmenit",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_ee39e242",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "telefonnich",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_8e3ffe24",
+        "filename": "res/values-cs/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 3875
+      },
+      "writtenOn": "2013-11-02T21:19:43Z",
+      "side": 1,
+      "message": "Tady je nekdo kral vykricniku... :D",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
