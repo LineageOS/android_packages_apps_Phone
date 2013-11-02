@@ -1304,8 +1304,14 @@ public class CallNotifier extends Handler
 
             final long date = c.getCreateTime();
             final Connection.DisconnectCause cause = c.getDisconnectCause();
-            final boolean missedCall = c.isIncoming() &&
-                    (cause == Connection.DisconnectCause.INCOMING_MISSED);
+
+            // Classify as missed not only the genuinely missed calls, but also the rejected ones
+            // if the respective option has been enabled in the settings.
+            final boolean missedCall = c.isIncoming()
+                    && ((cause == Connection.DisconnectCause.INCOMING_MISSED)
+                    || ((cause == Connection.DisconnectCause.INCOMING_REJECTED)
+                            && PhoneUtils.PhoneSettings.markRejectedCallsAsMissed(mApplication)));
+
             if (missedCall) {
                 // Show the "Missed call" notification.
                 // (Note we *don't* do this if this was an incoming call that
