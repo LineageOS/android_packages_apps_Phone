@@ -56,7 +56,7 @@
     <string name="audio_mode_earpiece" msgid="4156527186373869107">"Minifone do aparelho"</string>
     <string name="audio_mode_wired_headset" msgid="1465350758489175975">"Fone de ouvido com fio"</string>
     <string name="audio_mode_bluetooth" msgid="3047641300848211128">"Bluetooth"</string>
-    <string name="wait_prompt_str" msgid="7601815427707856238">"Enviar os toques a seguir?"\n</string>
+    <string name="prompt">Prompt</string>
     <string name="pause_prompt_str" msgid="1789964702154314806">"Enviando tons"\n</string>
     <string name="send_button" msgid="4106860097497818751">"Enviar"</string>
     <string name="pause_prompt_yes" msgid="3564467212025151797">"Sim"</string>
@@ -631,5 +631,4 @@
     <string name="dtmf_tone_enable_title" msgid="827601042915852989">"Tons de toque do teclado numérico"</string>
     <string name="dial_pad_autocomplete" msgid="494525952035761075">"Preenchimento automático do teclado"</string>
     <string name="preference_category_ringtone" msgid="5197960752529332721">"Toque e vibração"</string>
-    <string name="enter_input">Mensagem USSD precisa ser entre <xliff:g id="min_len" >%d</xliff:g> e <xliff:g id="max_len" >%d</xliff:g> caracteres. Por favor, tente novamente.</string>
 </resources>
