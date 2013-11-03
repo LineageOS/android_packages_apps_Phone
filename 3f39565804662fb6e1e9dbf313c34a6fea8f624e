@@ -125,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_3a1ac16f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Oja... :)",
+      "parentUuid": "1a4dcd0f_b3f6e3d5",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_f8d528b9",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -335,6 +353,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_fa2a097e",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "1a4dcd0f_2e7eeae4",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_442f9fa1",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -400,6 +436,24 @@
       "side": 1,
       "message": "Het is de titel van een optie. Moet het per se een vraag zijn?",
       "parentUuid": "1a4dcd0f_18eed48b",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_9a1f4d5b",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Tsja misschien niet per se....",
+      "parentUuid": "1a4dcd0f_ce82e6c8",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -786,6 +840,24 @@
       "side": 1,
       "message": "Waarom \u0027netwerk-SIM\u0027 en niet \u0027SIM-netwerk\u0027? Het is toch het netwerk dat bij de SIM hoort?",
       "parentUuid": "1a4dcd0f_389ab015",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_7a3ef9b9",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Volgens mij gaat het om de SIM en RUIM kaarten hier, niet per se om het netwerk",
+      "parentUuid": "1a4dcd0f_2e658a44",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -1818,6 +1890,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_ba2491af",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Wanneer komt dat systeem dan?\nIk ben bang dat we strings zullen gaan vergeten, omdat je deze niet in bijv TTools ziet",
+      "parentUuid": "1a4dcd0f_eeec8291",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_980c2444",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -2413,6 +2503,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_5a3a15cf",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Je kan dit ook lezen als dat de gebruiker gemeld wordt en dat klopt niet",
+      "parentUuid": "1a4dcd0f_8eb05e8d",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_b39343a3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -2518,6 +2626,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_7a37d9e3",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Oke, zit wat in :)",
+      "parentUuid": "1a4dcd0f_0e63ee1b",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_f3f78bf3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -2582,6 +2708,24 @@
       "side": 1,
       "message": "Ik zou dan zeggen:\n- Abonnement wijzigen",
       "parentUuid": "1a4dcd0f_93dde772",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_1a349ddc",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Nee, want je past je abbo niet aan, je wisselt tussen meerdere bestaande",
+      "parentUuid": "1a4dcd0f_2e682af5",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -2833,6 +2977,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_3a3161ed",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Nee, in Telefoon - Oproepinstellingen staat \"Accounts\" en pas als je die kiest wordt de titel \"Accounts voor internetoproepen (SIP)\"\n\nDus dat is niet duidelijk genoeg.",
+      "parentUuid": "1a4dcd0f_0e4a0e84",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_93c40793",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -3008,6 +3170,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_da4ce578",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "Lol, de spatie moest weg\n\n- Kaart 1 / ABON.1",
+      "parentUuid": "1a4dcd0f_ee48028a",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_135eb7e9",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -3025,6 +3205,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_fa51a90f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "- Kaart 2 / ABON.2",
+      "parentUuid": "1a4dcd0f_135eb7e9",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_3363b3b3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -3036,6 +3234,24 @@
       "writtenOn": "2013-11-01T11:07:29Z",
       "side": 1,
       "message": "- Kaart 3 / ABON. 3",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_9a566d05",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-03T04:34:44Z",
+      "side": 1,
+      "message": "- Kaart 3 / ABON.3",
+      "parentUuid": "1a4dcd0f_3363b3b3",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
