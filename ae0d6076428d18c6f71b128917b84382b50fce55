@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "fa1b9901_fa08c993",
+        "filename": "res/values-cs/cm_arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-03T13:02:35Z",
+      "side": 1,
+      "message": "This is an AOSP array. Please remove it.",
+      "revId": "ae0d6076428d18c6f71b128917b84382b50fce55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_aef51a84",
         "filename": "res/values-cs/cm_strings.xml",
         "patchSetId": 2
