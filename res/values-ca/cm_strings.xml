@@ -56,8 +56,12 @@
     <string name="perm_change_mobile_network">Canvia la xarxa (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">Les aplicacions amb aquest permís poden, en qualsevol moment, canviar entre les dades 2G i les dades 3G. El 3G és més ràpid, consumeix més bateria, i podria costar més diners.</string>
     <string name="flip_action_title">Acció girar</string>
-    <string name="flip_action_dialog_title">Gira el dispositiu per\u2026</string>
-    <string name="flip_action_summary">Girant el mòvil farà que <xliff:g id="action">%s</xliff:g></string>
+    <string name="flip_action_dialog_title" product="tablet">Gira la tauleta per\u2026</string>
+    <string name="flip_action_dialog_title" product="default">Gira el telèfon per\u2026</string>
+    <string name="flip_action_summary" product="tablet">Girant la tauleta farà que <xliff:g id="action">%s</xliff:g></string>
+    <string name="flip_action_summary" product="default">Girant el telèfon farà que <xliff:g id="action">%s</xliff:g></string>
+
+
     <string name="blacklist_title">Llista negra</string>
     <string name="blacklist_summary_disabled">Desactiva</string>
     <string name="blacklist_summary">Les trucades entrants dels números de telèfon de la llista negra seran bloquejades</string>
@@ -80,6 +84,7 @@
     <string name="voice_quality_entry_crisp">Clara</string>
     <string name="voice_quality_entry_bright">Brillant</string>
     <string name="phone_number_label">El meu número de telèfon</string>
-    <string name="phone_number_summary">Estableix el número de telèfon d\'aquest dispositiu</string>
+    <string name="phone_number_summary" product="tablet">Estableix el número de telèfon per aquesta tauleta</string>
+    <string name="phone_number_summary" product="default">Estableix el número de telèfon per aquest telèfon</string>
     <string name="enter_input">El missatge USSD ha de tenir entre <xliff:g id="min_len" >%d</xliff:g> i <xliff:g id="max_len" >%d</xliff:g> caràcters. Intenta-ho un altre cop.</string>
 </resources>
