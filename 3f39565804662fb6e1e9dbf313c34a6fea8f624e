@@ -864,6 +864,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_ae0e8fe3",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Done (en de rest hieronder)",
+      "parentUuid": "fa1b9901_7a3ef9b9",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_a409c333",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -1908,6 +1926,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_6ef957c8",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Daar heb ik geen controle over...",
+      "parentUuid": "fa1b9901_ba2491af",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_980c2444",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -2521,6 +2557,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_8ef62bd6",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa1b9901_5a3a15cf",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_b39343a3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -2726,6 +2780,24 @@
       "side": 1,
       "message": "Nee, want je past je abbo niet aan, je wisselt tussen meerdere bestaande",
       "parentUuid": "1a4dcd0f_2e682af5",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_4e0013ab",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Ik bedoelde meer dat wisselen altijd met \u0027van\u0027 gaat, dus dat je dat niet zomaar mag weglaten. Of ligt dat meer aan mij?",
+      "parentUuid": "fa1b9901_1a349ddc",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -2995,6 +3067,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_ee2b2732",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa1b9901_3a3161ed",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_93c40793",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -3188,6 +3278,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_0e31bba2",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa1b9901_da4ce578",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_135eb7e9",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -3223,6 +3331,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_ae252f5d",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa1b9901_fa51a90f",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_3363b3b3",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
@@ -3252,6 +3378,24 @@
       "side": 1,
       "message": "- Kaart 3 / ABON.3",
       "parentUuid": "1a4dcd0f_3363b3b3",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_ce2ae32c",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-06T08:52:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa1b9901_9a566d05",
       "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
