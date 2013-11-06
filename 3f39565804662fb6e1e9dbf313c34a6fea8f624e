@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "fa1b9901_ce166355",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-06T14:13:34Z",
+      "side": 1,
+      "message": "CAF strings onderop plaatsen met serperator ertussen\n\n    \u003c!-- CAF strings --\u003e",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_7874b8fc",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
