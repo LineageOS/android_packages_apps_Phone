@@ -2804,6 +2804,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_aeb52f7f",
+        "filename": "res/values-nl/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-11-06T13:05:51Z",
+      "side": 1,
+      "message": "Dat ligt aan jou :p\n\nNee, lijkt me duidelijk genoeg toch, ook zonder \"van\"?",
+      "parentUuid": "fa1b9901_4e0013ab",
+      "revId": "3f39565804662fb6e1e9dbf313c34a6fea8f624e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a4dcd0f_b3da6377",
         "filename": "res/values-nl/cm_strings.xml",
         "patchSetId": 1
