@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_4f5fad0e",
+        "filename": "src/com/android/phone/CallLogger.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 7814
+      },
+      "writtenOn": "2013-11-07T22:21:13Z",
+      "side": 1,
+      "message": "There seems to be at least one call path (at CallNotifier.java:1958) that directly uses this API, which won\u0027t honor the rejected_as_missed option. I am not familiar enough with that code so I handled the option check in this function.\n\nI wonder if you would have to do the same.",
+      "revId": "37304bd62195d67adc139a66d39c51707678e900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
