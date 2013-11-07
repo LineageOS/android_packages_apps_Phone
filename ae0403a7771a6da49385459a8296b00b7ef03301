@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_492c8dab",
+        "filename": "res/values-it/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2013-11-07T12:27:36Z",
+      "side": 1,
+      "message": "Vedendolo, meglio Abb.",
+      "revId": "ae0403a7771a6da49385459a8296b00b7ef03301",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_091d3573",
+        "filename": "res/values-it/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2013-11-07T12:27:36Z",
+      "side": 1,
+      "message": "X-Divert",
+      "revId": "ae0403a7771a6da49385459a8296b00b7ef03301",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_a911a95f",
+        "filename": "res/values-it/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2013-11-07T12:27:36Z",
+      "side": 1,
+      "message": "Meglio Abb. \nAnche alle righe seguenti",
+      "revId": "ae0403a7771a6da49385459a8296b00b7ef03301",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_690cf142",
+        "filename": "res/values-it/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2013-11-07T12:27:36Z",
+      "side": 1,
+      "message": "Meglio Abb. \nAnche alle righe seguenti",
+      "revId": "ae0403a7771a6da49385459a8296b00b7ef03301",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_89094534",
+        "filename": "res/values-it/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2013-11-07T12:27:36Z",
+      "side": 1,
+      "message": "Meglio Abb. \nAnche alle righe seguenti",
+      "revId": "ae0403a7771a6da49385459a8296b00b7ef03301",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_2906f920",
+        "filename": "res/values-it/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 3916
+      },
+      "writtenOn": "2013-11-07T12:27:36Z",
+      "side": 1,
+      "message": "Non supportati",
+      "revId": "ae0403a7771a6da49385459a8296b00b7ef03301",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
