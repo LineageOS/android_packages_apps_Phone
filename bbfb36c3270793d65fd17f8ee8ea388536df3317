@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_69b0718c",
+        "filename": "res/values-sv/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-07T11:01:09Z",
+      "side": 1,
+      "message": "https://plus.google.com/115466530221473902570/posts/Bem5vsAsRn2",
+      "parentUuid": "fa1b9901_494b2db1",
+      "revId": "bbfb36c3270793d65fd17f8ee8ea388536df3317",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa1b9901_294ef9c1",
         "filename": "res/values-sv/cm_strings.xml",
         "patchSetId": 1
@@ -47,6 +65,24 @@
       "writtenOn": "2013-11-07T08:33:09Z",
       "side": 1,
       "message": "Should this even be in here when translatable\u003d\"false\"?",
+      "revId": "bbfb36c3270793d65fd17f8ee8ea388536df3317",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_89adc533",
+        "filename": "res/values-sv/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-07T11:01:09Z",
+      "side": 1,
+      "message": "That should indeed be removed.",
+      "parentUuid": "fa1b9901_294ef9c1",
       "revId": "bbfb36c3270793d65fd17f8ee8ea388536df3317",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
