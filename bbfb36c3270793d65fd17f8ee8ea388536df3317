@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_292039f7",
+        "filename": "res/values-sv/cm_arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 154
+      },
+      "writtenOn": "2013-11-07T07:59:40Z",
+      "side": 1,
+      "message": "My personal opinion \"Gör ingenting\"",
+      "revId": "bbfb36c3270793d65fd17f8ee8ea388536df3317",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
