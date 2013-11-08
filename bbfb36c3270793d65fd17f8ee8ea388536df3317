@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "fa1b9901_01d0a952",
+        "filename": "res/values-sv/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7113
+      },
+      "writtenOn": "2013-11-08T11:37:48Z",
+      "side": 1,
+      "message": "I really do not know what\u0027s changed here. I started over from the English cm_strings.xml.",
+      "parentUuid": "fa1b9901_69b0718c",
+      "revId": "bbfb36c3270793d65fd17f8ee8ea388536df3317",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa1b9901_294ef9c1",
         "filename": "res/values-sv/cm_strings.xml",
         "patchSetId": 1
