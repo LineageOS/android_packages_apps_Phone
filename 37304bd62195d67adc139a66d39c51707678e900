@@ -16,6 +16,24 @@
       "revId": "37304bd62195d67adc139a66d39c51707678e900",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_a1c1bd82",
+        "filename": "src/com/android/phone/CallLogger.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 7310
+      },
+      "writtenOn": "2013-11-08T11:51:17Z",
+      "side": 1,
+      "message": "Indeed, I\u0027ve also noticed it, but to me the code is unfamiliar as well. In addition, it seemed to deal with CDMA calls, and since I don\u0027t have any reliable way to test, I prefered to not fiddle with it.\n\nHowever, now that I look at it again, it seems reasonable to implement the check in CallNotifier.java. This way, it will also handle correctly the missed call notification in onCdmaCallWaitingReject(), just like in onDisconnect() with the proposed patch.\n\nI\u0027ll prepare a new patch set and upload it.",
+      "parentUuid": "fa1b9901_4f5fad0e",
+      "revId": "37304bd62195d67adc139a66d39c51707678e900",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
