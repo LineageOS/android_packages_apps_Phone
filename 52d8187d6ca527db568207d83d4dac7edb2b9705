@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa1b9901_e86d51cd",
+        "filename": "res/values-da/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2013-11-12T22:21:09Z",
+      "side": 1,
+      "message": "Delete this line as it is defined in strings.xml",
+      "revId": "52d8187d6ca527db568207d83d4dac7edb2b9705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_0873e5b2",
+        "filename": "res/values-da/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2013-11-12T22:21:09Z",
+      "side": 1,
+      "message": "Delete this line as it is defined in strings.xml",
+      "revId": "52d8187d6ca527db568207d83d4dac7edb2b9705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1b9901_a868b9bb",
+        "filename": "res/values-da/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 2809
+      },
+      "writtenOn": "2013-11-12T22:21:09Z",
+      "side": 1,
+      "message": "Delete this line as it is defined in strings.xml",
+      "revId": "52d8187d6ca527db568207d83d4dac7edb2b9705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
