@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da20952f_c8865713",
+        "filename": "res/values-de/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2013-11-17T06:36:43Z",
+      "side": 1,
+      "message": "Should be \u0027Nur TD-SCDMA\u0027",
+      "revId": "e403bab7217b8cfc6140f18e1467b86faadb7abb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
