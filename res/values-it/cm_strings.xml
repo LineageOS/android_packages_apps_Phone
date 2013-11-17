@@ -86,6 +86,8 @@
     <string name="phone_number_summary" product="tablet">Imposta il numero di telefono di questo tablet</string>
     <string name="phone_number_summary" product="default">Imposta il numero di telefono di questo telefono</string>
     <string name="enter_input">Il messaggio USSD deve essere compreso tra <xliff:g id="min_len" >%d</xliff:g> e <xliff:g id="max_len" >%d</xliff:g> caratteri. Per favore riprova.</string>
+
+    <!-- CAF -->
     <string name="callFailed_dialToUssd">Richiesta DIAL modificata in richiesta USSD.</string>
     <string name="callFailed_dialToSs">Richiesta DIAL modificata in richiesta SS.</string>
     <string name="callFailed_dialToDial">Richiesta DIAL modificata in richiesta DIAL con numeri differenti.</string>
