@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a26ad4f_f308f093",
+        "filename": "res/values-lt/cm_strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-24T09:18:50Z",
+      "side": 1,
+      "message": "\"planšetiniui kompiuteriui\"? \"planšetiniam kompiuteriui\". \"mobiluj?\" -\u003e \"mobil?j?\"\n\"Planšetiniam kompiuteriui nustatyti/?vesti (kaip teisingai reikia išdiskutuoti) mobil?j? (nežinau ar šis žodis iš vis reikalingas) telefono numer?\".",
+      "revId": "1f553c710b06679bd6c10d45b69c1257217f8025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a26ad4f_13f24c9b",
+        "filename": "res/values-lt/cm_strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-24T09:18:50Z",
+      "side": 1,
+      "message": "atitinkamai",
+      "revId": "1f553c710b06679bd6c10d45b69c1257217f8025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
