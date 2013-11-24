@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a26ad4f_73daa07a",
+        "filename": "res/values-lt/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-24T00:53:50Z",
+      "side": 1,
+      "message": "tikrai, tikrai \"slopinimas\"?",
+      "revId": "48d7cb0db4567a3bcf181c0643805ec0f8f7fee9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a26ad4f_13e7ac41",
+        "filename": "res/values-lt/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-24T00:53:50Z",
+      "side": 1,
+      "message": "pats supranti k? parašei?",
+      "revId": "48d7cb0db4567a3bcf181c0643805ec0f8f7fee9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a26ad4f_33e4283a",
+        "filename": "res/values-lt/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-24T00:53:50Z",
+      "side": 1,
+      "message": "\"Pranešimo laukimas\" kas ?ia per naujadaras? pats sugalvojai?",
+      "revId": "48d7cb0db4567a3bcf181c0643805ec0f8f7fee9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a26ad4f_d3cff4b1",
+        "filename": "res/values-lt/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-24T00:53:50Z",
+      "side": 1,
+      "message": "k?ryba?",
+      "revId": "48d7cb0db4567a3bcf181c0643805ec0f8f7fee9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a26ad4f_f3d47048",
+        "filename": "res/values-lt/cm_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 7905
+      },
+      "writtenOn": "2013-11-24T00:53:50Z",
+      "side": 1,
+      "message": "\"Skambutis peradresuotas, nes neatsakytas\"",
+      "revId": "48d7cb0db4567a3bcf181c0643805ec0f8f7fee9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
