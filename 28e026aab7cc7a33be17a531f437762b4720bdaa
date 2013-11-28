@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa80f949_a608de29",
+        "filename": "res/values-el/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-11-28T06:18:15Z",
+      "side": 1,
+      "message": "You might want to put a space before the \u0027(\u0027.",
+      "revId": "28e026aab7cc7a33be17a531f437762b4720bdaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
